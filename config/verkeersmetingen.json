@@ -3,7 +3,7 @@
   "name": "Verkeersmetingen-ap",
   "type": "ap",
   "eap": "Verkeersmetingen.eap",
-  "diagram": "OSLO-Verkeersmetingen",
+  "diagram": "Verkeersmetingen",
   "template": "mijn-applicatieprofiel-ap.j2",
   "title": "OSLO Verkeersmetingen (applicatieprofiel)",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
