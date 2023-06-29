@@ -9,8 +9,8 @@
   "beschrijving": "voc-Verkeersmetingen.md",
   "specificatiedocument": [
     {
-      "naam": "Verkeersmetingen Applicatieprofiel",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen"
+      "naam": "Verkeersmetingen Vocabularium",
+      "waarde": "https://data.vlaanderen.be/doc/vocabularium/verkeersmetingen"
     }
   ],
   "documentatie": [
