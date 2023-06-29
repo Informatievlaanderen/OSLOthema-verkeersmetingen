@@ -4,7 +4,7 @@
   "type": "voc",
   "eap": "Verkeersmetingen.eap",
   "diagram": "Verkeersmetingen",
-  "template": "mijn-vocabularium-ap.j2",
+  "template": "mijn-vocabularium-voc.j2",
   "title": "OSLO Verkeersmetingen (vocabularium)",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2023-06-01",
