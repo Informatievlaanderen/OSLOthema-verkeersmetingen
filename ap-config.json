@@ -43,6 +43,10 @@
     {
       "naam": "Verslag thematische werkgroep 3 - OSLO Verkeersmetingen 30 mei 2023",
       "waarde": "Verslag thematische werkgroep 3 - OSLO Verkeersmetingen (1).pdf"
+    },
+    {
+      "naam": "Verslag thematische werkgroep 4 - OSLO Verkeersmetingen 27 juni 2023",
+      "waarde": "Verslag thematische werkgroep 4 - OSLO Verkeersmetingen.pdf"
     }
   ],
   "presentaties": [
@@ -62,9 +66,12 @@
     ,
     {
       "naam": "Presentatie thematische werkgroep 3 - 30 mei 2023",
-      "waarde": "Presentatie derde thematische werkgroep -Verkeersmetingen -  30 mei 2023.pdf"
+      "waarde": "Presentatie derde thematische werkgroep -Verkeersmetingen - 30 mei 2023.pdf"
+    },
+    {
+      "naam": "Presentatie thematische werkgroep 4 - 27 juni 2023",
+      "waarde": "Presentatie vierde thematische werkgroep -Verkeersmetingen - 27 juni 2023 (1).pdf"
     }
-    
   ],
   "functioneel_toepassingsgebied": "Semantische standaard voor informatie over Verkeersmetingen",
   "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
