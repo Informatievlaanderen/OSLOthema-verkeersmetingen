@@ -10,12 +10,12 @@
   "specificatiedocument": [
     {
       "naam": "Verkeersmetingen Vocabularium",
-      "waarde": "https://data.vlaanderen.be/doc/vocabularium/verkeersmetingen"
+      "waarde": "https://data.vlaanderen.be/ns/verkeersmetingen"
     }
   ],
   "documentatie": [
     {
-      "naam": "Verkeersmetingen vocabularium",
+      "naam": "Verkeersmetingen Vocabularium",
       "waarde": "https://data.vlaanderen.be/ns/Verkeersmetingen"
     }
   ],
