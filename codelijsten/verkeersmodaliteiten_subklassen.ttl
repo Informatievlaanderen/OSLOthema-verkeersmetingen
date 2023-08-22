@@ -1,0 +1,25 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten_subklassen>
+    a skos:ConceptScheme ;
+    skos:prefLabel "conceptscheme verkeersmodaliteiten_subklassen" ;
+    skos:definition "Codelijst voor verkeersmodaliteiten_subklassen met de onderverdeling van de subklassen van vervoerstypes." .
+
+<https://data.vlaanderen.be/id/concept/verkeersmodaliteiten_subklassen/voetganger>
+    a skos:Concept ;
+    skos:definition "Een voetganger is een persoon die zich 'te voet' op de openbare weg verplaatst." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/voetganger> .
+    
+    
+<https://data.vlaanderen.be/id/concept/verkeersmodaliteiten_subklassen/fietser>
+    a skos:Concept ;
+    skos:definition "Iets of iemand die zich op de fiets in het verkeer begeeft." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten_subklassen> ;
+    skos:prefLabel "live" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/fietser> .

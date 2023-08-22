@@ -8,7 +8,7 @@
 
 <https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/voetganger>
     a skos:Concept ;
-    skos:definition "Een voetganger is een persoon die zich 'te voet' op de openbare weg verplaatst." ;
+    skos:definition "Verkeersmodaliteit voetganger omvat onder andere de subklasse voetganger." ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
     skos:prefLabel "in ontwikkeling" ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> .
@@ -16,7 +16,7 @@
     
 <https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/fietser>
     a skos:Concept ;
-    skos:definition "Iets of iemand die zich op de fiets in het verkeer begeeft." ;
+    skos:definition "Verkeersmodaliteit fietser omvat onder andere de subklassen fietser, kinderfiets, steps, cargobike/bakfiets, éénwieler, e-bike, kayaks, enz." ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> ;
     skos:prefLabel "live" ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> .

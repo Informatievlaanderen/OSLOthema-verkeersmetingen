@@ -1,0 +1,63 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/meettechnieken>
+    a skos:ConceptScheme ;
+    skos:prefLabel "conceptscheme meettechnieken" ;
+    skos:definition "Codelijst voor meettechnieken die ingezet worden in het domein van verkeersmetingen." .
+
+<https://data.vlaanderen.be/id/concept/meettechnieken/radartellingen>
+    a skos:Concept ;
+    skos:definition "" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/meettechnieken> .
+    
+<https://data.vlaanderen.be/id/concept/meettechnieken/rubberslang>
+    a skos:Concept ;
+    skos:definition "" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/meettechnieken> .
+
+<https://data.vlaanderen.be/id/concept/meettechnieken/piëzotelling>
+    a skos:Concept ;
+    skos:definition "" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/meettechnieken> .
+
+<https://data.vlaanderen.be/id/concept/meettechnieken/glasvezeltelling>
+    a skos:Concept ;
+    skos:definition "" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/meettechnieken> .
+
+<https://data.vlaanderen.be/id/concept/meettechnieken/inductieve_lussen>
+    a skos:Concept ;
+    skos:definition "" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/meettechnieken> .
+
+<https://data.vlaanderen.be/id/concept/meettechnieken/camera>
+    a skos:Concept ;
+    skos:definition "" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/meettechnieken> .
+
+<https://data.vlaanderen.be/id/concept/meettechnieken/manuele_tellingen>
+    a skos:Concept ;
+    skos:definition "" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/meettechnieken> .
+
+<https://data.vlaanderen.be/id/concept/meettechnieken/andere_meettechniek>
+    a skos:Concept ;
+    skos:definition "" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/meettechnieken> .
