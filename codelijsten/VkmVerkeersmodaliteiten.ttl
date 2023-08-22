@@ -1,0 +1,47 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> a skos:ConceptScheme ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:prefLabel "conceptscheme verkeersmodaliteiten" ;
+    skos:definition "Codelijst voor verkeersmodaliteiten met de onderverdeling van de hoofdklassen van vervoerstypes." .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/voetganger> a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "Verkeersmodaliteit voetganger omvat onder andere de subklasse voetganger." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> ;
+    skos:notation "voetganger";
+    skos:prefLabel "voetganger"@nl;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> .
+    
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "Verkeersmodaliteit fietser omvat onder andere de subklassen fietser, kinderfiets, steps, cargobike/bakfiets, éénwieler, e-bike, kayaks, enz." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> ;
+    skos:notation "fietser";
+    skos:prefLabel "fietser"@nl;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> .
+    
+ <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/klein> a skos:Concept ;
+ <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "Verkeersmodaliteit klein verkeer omvat onder andere de subklassen personenwagen, minibus, landbouwvoertuig, enz." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> ;
+    skos:notation "klein";
+    skos:prefLabel "klein"@nl ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> .
+   
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/medium> a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "Verkeersmodaliteit medium verkeer omvat onder andere de subklassen bestelwagens, ongelede vrachtwagens, ambulance & brandweer, enz." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> ;
+    skos:notation "medium";
+    skos:prefLabel "medium"@nl;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/groot> a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "Verkeersmodaliteit groot verkeer omvat onder andere de subklassen vrachtwagens (+3.5 ton), bus, gelede vrachtwagens, bergingsvoertuigen, enz." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> ;
+    skos:notation "groot";
+    skos:prefLabel "groot"@nl ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten> .
