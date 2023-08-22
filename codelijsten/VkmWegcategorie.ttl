@@ -8,7 +8,7 @@
 
 <https://data.vlaanderen.be/id/concept/VkmWegcategorie/hoofdnetwerk> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "hoofdnetwerk"@nl ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> ;
     skos:notation "hoofdnetwerk";
     skos:prefLabel "hoofdnetwerk"@nl ;
@@ -16,7 +16,7 @@
     
 <https://data.vlaanderen.be/id/concept/VkmWegcategorie/dragend_netwerk> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "dragendnetwerk"@nl ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> ;
     skos:notation "dragend-netwerk";
     skos:prefLabel "dragend netwerk"@nl;
@@ -24,7 +24,7 @@
     
 <https://data.vlaanderen.be/id/concept/VkmWegcategorie/lokale_wegnet> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "lokale wegnet"@nl ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> ;
     skos:notation "lokale-wegnet";
     skos:prefLabel "lokale wegnet"@nl ;
@@ -32,7 +32,7 @@
     
 <https://data.vlaanderen.be/id/concept/VkmWegcategorie/fiets_en_wandelwegen> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "fiets en wandelwegen"@nl ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> ;
     skos:notation "fiets-en-wandelwegen";
     skos:prefLabel "fiets en wandelwegen"@nl;
