@@ -2,26 +2,24 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen>
+<https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen>  a skos:ConceptScheme;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
     a skos:ConceptScheme ;
-    skos:prefLabel "conceptscheme verkeersmodaliteiten_subklassen" ;
-    skos:definition "Codelijst voor verkeersmodaliteiten_subklassen met de onderverdeling van de subklassen van vervoerstypes." .
+    skos:prefLabel "conceptscheme verkeersmodaliteiten_subklassen"@nl;
+    skos:definition "Codelijst voor verkeersmodaliteiten_subklassen met de onderverdeling van de subklassen van vervoerstypes."@nl .
 
-<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/voetganger>
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/voetganger>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    a skos:Concept ;
-    skos:definition "Een voetganger is een persoon die zich 'te voet' op de openbare weg verplaatst." ;
+    skos:definition "Een voetganger is een persoon die zich 'te voet' op de openbare weg verplaatst."@nl ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
     skos:notation "voetganger";
     skos:prefLabel "voetganger"@nl;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
     rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/voetganger> .
     
-<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/fietser>
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/fietser>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    a skos:Concept ;
-    skos:definition "Iets of iemand die zich op de fiets in het verkeer begeeft." ;
+    skos:definition "Iets of iemand die zich op de fiets in het verkeer begeeft."@nl ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
     skos:notation "fietser";
     skos:prefLabel "fietser"@nl ;
