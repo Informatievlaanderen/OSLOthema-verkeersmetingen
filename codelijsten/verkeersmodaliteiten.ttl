@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten>
+    a skos:ConceptScheme ;
+    skos:prefLabel "conceptscheme verkeersmodaliteiten" ;
+    skos:definition "Codelijst voor verkeersmodaliteiten met de onderverdeling van de hoofdklassen van vervoerstypes." .
+
+<https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/voetganger>
+    a skos:Concept ;
+    skos:definition "Een voetganger is een persoon die zich 'te voet' op de openbare weg verplaatst." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/gebruiksstatus> ;
+    skos:prefLabel "in ontwikkeling" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> .
+    
+    
+<https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/fietser>
+    a skos:Concept ;
+    skos:definition "Iets of iemand die zich op de fiets in het verkeer begeeft." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> ;
+    skos:prefLabel "live" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> .
+    
+ <https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/klein>
+    a skos:Concept ;
+    skos:definition "Verkeersmodaliteit klein verkeer omvat onder andere de subklassen personenwagen, minibus, landbouwvoertuig, enz." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> ;
+    skos:prefLabel "live" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> .
+   
+<https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/medium>
+    a skos:Concept ;
+    skos:definition "Verkeersmodaliteit medium verkeer omvat onder andere de subklassen bestelwagens, ongelede vrachtwagens, ambulance & brandweer, enz." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> ;
+    skos:prefLabel "live" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> .
+
+<https://data.vlaanderen.be/id/concept/verkeersmodaliteiten/groot>
+    a skos:Concept ;
+    skos:definition "Verkeersmodaliteit groot verkeer omvat onder andere de subklassen vrachtwagens (+3.5 ton), bus, gelede vrachtwagens, bergingsvoertuigen, enz." ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> ;
+    skos:prefLabel "live" ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/verkeersmodaliteiten> .
+    
