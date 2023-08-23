@@ -1,0 +1,40 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> a skos:ConceptScheme ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:prefLabel "conceptscheme wegcategorie"@nl ;
+    skos:definition "Codelijst voor wegcategorie."@nl .
+
+<https://data.vlaanderen.be/id/concept/VkmWegcategorie/hoofdnetwerk> a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "hoofdnetwerk"@nl ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> ;
+    skos:notation "hoofdnetwerk";
+    skos:prefLabel "hoofdnetwerk"@nl ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> .
+    
+<https://data.vlaanderen.be/id/concept/VkmWegcategorie/dragend_netwerk> a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "dragendnetwerk"@nl ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> ;
+    skos:notation "dragend-netwerk";
+    skos:prefLabel "dragend netwerk"@nl;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> .
+    
+<https://data.vlaanderen.be/id/concept/VkmWegcategorie/lokale_wegnet> a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "lokale wegnet"@nl ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> ;
+    skos:notation "lokale-wegnet";
+    skos:prefLabel "lokale wegnet"@nl ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> .
+    
+<https://data.vlaanderen.be/id/concept/VkmWegcategorie/fiets_en_wandelwegen> a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "fiets en wandelwegen"@nl ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> ;
+    skos:notation "fiets-en-wandelwegen";
+    skos:prefLabel "fiets en wandelwegen"@nl;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmWegcategorie> .
+    
