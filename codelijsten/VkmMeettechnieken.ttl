@@ -4,11 +4,14 @@
 <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken>  a skos:ConceptScheme ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
     skos:prefLabel "conceptscheme meettechnieken"@nl ;
-    skos:definition "Codelijst voor meettechnieken die ingezet worden in het domein van verkeersmetingen."@nl .
+    skos:prefLabel "concept scheme measuring techniques"@en ;
+    skos:definition "Codelijst voor meettechnieken die ingezet worden in het domein van verkeersmetingen"@nl;
+    skos:definition "Code list for measurement techniques used in the domain of traffic measurements"@en .
 
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/radartellingen>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "meting uitgevoerd met een radartoestel"@nl ;
+    skos:definition "measurement performed with a radar device"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ;
     skos:notation "radartellingen";
     skos:prefLabel "radartellingen"@nl ;
@@ -16,7 +19,8 @@
     
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/rubberslang>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "meting uitgevoerd met pneumatische rubberslang"@nl ;
+    skos:definition "measurement performed with pneumatic rubber hose"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ;
     skos:notation "rubberslang";
     skos:prefLabel "rubberslang"@nl ; 
@@ -24,7 +28,8 @@
 
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/piëzotelling> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "meting uitgevoerd met piëzo sensor"@nl ;
+    skos:definition "measurement performed with piezo sensor"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ;
     skos:notation "piëzotelling";
     skos:prefLabel "piëzotelling"@nl ;
@@ -32,15 +37,18 @@
 
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/glasvezeltelling> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "meting uitgevoerd met fiber loop"@nl ;
+    skos:definition "measurement performed with fiber loop"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ;
     skos:notation "glasvezeltelling";
-    skos:prefLabel "glasvezeltelling" ;
+    skos:prefLabel "glasvezeltelling"@nl ;
+    skos:prefLabel "fiber count"@en ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/inductieve_lussen> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "meting uitgevoerd met een inductieve lus in het wegoppervlak"@nl ;
+    skos:definition "measurement performed with an inductive loop in the road surface"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ;
     skos:notation "inductieve-lussen";
     skos:prefLabel "inductieve lussen"@nl ;
@@ -48,7 +56,8 @@
 
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/camera> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "meting uitgevoerd met een camera"@nl ;
+    skos:definition "measurement performed with a camera"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ;
     skos:notation "camera";
     skos:prefLabel "camera"@nl;
@@ -56,15 +65,18 @@
 
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/manuele_tellingen> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "manueel uitgevoerde meting"@nl ;
+    skos:definition "manually performed measurement"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ;
     skos:notation "manuele-tellingen";
-    skos:prefLabel "manuele tellingen"@nl;
+    skos:prefLabel "manuele meting"@nl;
+    skos:prefLabel "manual measurement"@en;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/andere_meettechniek> a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition ""@nl ;
+    skos:definition "andere niet nader gedefinieerde meettechniek"@nl ;
+    skos:definition "other undefined measuring technique"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ;
     skos:notation "andere-tellingen";
     skos:prefLabel "andere meettechniek"@nl ;
