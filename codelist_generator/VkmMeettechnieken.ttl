@@ -12,10 +12,10 @@ skos:definition "Meting uitgevoerd met een radartoestel"@nl ;
 skos:inscheme "Meting uitgevoerd met een radartoestel"@nl ; 
 skos:definition "Measurement performed with a radar device"@en ; 
 skos:prefLabel "Radar count"@en ; 
-skos:definition "Mesure rï¿½alisï¿½e avec un appareil radar"@fr ; 
+skos:definition "Mesure réalisée avec un appareil radar"@fr ; 
 skos:prefLabel "Nombre de radars"@fr ; 
-skos:definition "Messung mit einem Radargerï¿½t durchgefï¿½hrt"@de ; 
-skos:prefLabel "Radarzï¿½hlung"@de ; 
+skos:definition "Messung mit einem Radargerät durchgeführt"@de ; 
+skos:prefLabel "Radarzählung"@de ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken>skos:notation "radar" ; 
 skos:prefLabel "Radartelling"@nl ; 
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken> . 
@@ -26,7 +26,7 @@ skos:definition "Meting uitgevoerd met pneumatische rubberslang"@nl ;
 skos:inscheme "Meting uitgevoerd met pneumatische rubberslang"@nl ; 
 skos:definition "Measurement performed with pneumatic rubber hose"@en ; 
 skos:prefLabel "rubberslang"@en ; 
-skos:definition "Mesure effectuï¿½e avec un tuyau pneumatique en caoutchouc"@fr ; 
+skos:definition "Mesure effectuée avec un tuyau pneumatique en caoutchouc"@fr ; 
 skos:prefLabel "argot en caoutchouc"@fr ; 
 skos:definition "Messung erfolgt mit pneumatischem Gummischlauch"@de ; 
 skos:prefLabel "Gummislang"@de ; 
@@ -34,18 +34,18 @@ skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken>skos:n
 skos:prefLabel "rubberslang"@nl ; 
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken> . 
 
-<https://data.vlaanderen.be/id/conceptscheme/Piï¿½zotellingen>  a skos:Concept ; 
+<https://data.vlaanderen.be/id/conceptscheme/Piëzotellingen>  a skos:Concept ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik > ; 
 skos:definition "meting uitgevoerd met piezo sensor"@nl ; 
 skos:inscheme "meting uitgevoerd met piezo sensor"@nl ; 
 skos:definition "measurement performed with piezo sensor"@en ; 
 skos:prefLabel "Piezo counts"@en ; 
-skos:definition "mesure effectuï¿½e avec capteur piï¿½zo"@fr ; 
+skos:definition "mesure effectuée avec capteur piézo"@fr ; 
 skos:prefLabel "Piezo compte"@fr ; 
 skos:definition "Messung erfolgt mit Piezosensor"@de ; 
-skos:prefLabel "Piezo zï¿½hlt"@de ; 
+skos:prefLabel "Piezo zählt"@de ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken>skos:notation "piezo" ; 
-skos:prefLabel "Piï¿½zotellingen"@nl ; 
+skos:prefLabel "Piëzotellingen"@nl ; 
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken> . 
 
 <https://data.vlaanderen.be/id/conceptscheme/Glasvezeltellingen>  a skos:Concept ; 
@@ -54,10 +54,10 @@ skos:definition "meting uitgevoerd met fiber loop"@nl ;
 skos:inscheme "meting uitgevoerd met fiber loop"@nl ; 
 skos:definition "measurement performed with fiber loop"@en ; 
 skos:prefLabel "Fiber counts"@en ; 
-skos:definition "mesure effectuï¿½e avec une boucle de fibre"@fr ; 
+skos:definition "mesure effectuée avec une boucle de fibre"@fr ; 
 skos:prefLabel "Nombre de fibres"@fr ; 
-skos:definition "Messung mit Faserschleife durchgefï¿½hrt"@de ; 
-skos:prefLabel "Ballaststoffe zï¿½hlen"@de ; 
+skos:definition "Messung mit Faserschleife durchgeführt"@de ; 
+skos:prefLabel "Ballaststoffe zählen"@de ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken>skos:notation "fiber" ; 
 skos:prefLabel "Glasvezeltellingen"@nl ; 
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken> . 
@@ -68,9 +68,9 @@ skos:definition "Meting uitgevoerd met een inductieve lus in het wegoppervlak"@n
 skos:inscheme "Meting uitgevoerd met een inductieve lus in het wegoppervlak"@nl ; 
 skos:definition "Measurement performed with an inductive loop in the road surface"@en ; 
 skos:prefLabel "Inductive loop"@en ; 
-skos:definition "Mesure rï¿½alisï¿½e avec une boucle inductive dans le revï¿½tement routier"@fr ; 
+skos:definition "Mesure réalisée avec une boucle inductive dans le revêtement routier"@fr ; 
 skos:prefLabel "Boucle inductive"@fr ; 
-skos:definition "Messung erfolgt mit einer Induktionsschleife in der Straï¿½enoberflï¿½che"@de ; 
+skos:definition "Messung erfolgt mit einer Induktionsschleife in der Straßenoberfläche"@de ; 
 skos:prefLabel "Induktionsschleife"@de ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken>skos:notation "loop" ; 
 skos:prefLabel "Inductieve lus"@nl ; 
@@ -82,8 +82,8 @@ skos:definition "meting uitgevoerd met een camera"@nl ;
 skos:inscheme "meting uitgevoerd met een camera"@nl ; 
 skos:definition "measurement performed with a camera"@en ; 
 skos:prefLabel "Camera"@en ; 
-skos:definition "mesure effectuï¿½e avec une camï¿½ra"@fr ; 
-skos:prefLabel "Camï¿½ra"@fr ; 
+skos:definition "mesure effectuée avec une caméra"@fr ; 
+skos:prefLabel "Caméra"@fr ; 
 skos:definition "Messung mit einer Kamera"@de ; 
 skos:prefLabel "Kamera"@de ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken>skos:notation "Camera" ; 
@@ -110,10 +110,10 @@ skos:definition "meting manueel uitgevoerd"@nl ;
 skos:inscheme "meting manueel uitgevoerd"@nl ; 
 skos:definition "measurement performed manually"@en ; 
 skos:prefLabel "Manual count"@en ; 
-skos:definition "mesure effectuï¿½e manuellement"@fr ; 
+skos:definition "mesure effectuée manuellement"@fr ; 
 skos:prefLabel "Comptage manuel"@fr ; 
-skos:definition "Messung manuell durchgefï¿½hrt"@de ; 
-skos:prefLabel "Manuelle Zï¿½hlung"@de ; 
+skos:definition "Messung manuell durchgeführt"@de ; 
+skos:prefLabel "Manuelle Zählung"@de ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken>skos:notation "manual" ; 
 skos:prefLabel "Manuele telling"@nl ; 
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/Meettechnieken> . 

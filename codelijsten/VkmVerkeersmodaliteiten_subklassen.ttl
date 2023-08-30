@@ -10,18 +10,119 @@
 
 <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/voetganger>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition "Een voetganger is een persoon die zich 'te voet' op de openbare weg verplaatst."@nl ;
+    skos:definition "Een persoon die zich te voet verplaatst"@nl ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
     skos:notation "voetganger";
     skos:prefLabel "voetganger"@nl;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
     rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/voetganger> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/rolstoel>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "Een voertuig zonder motor dat geen bredere dan voor de voetgangers vereiste ruimte nodig heeft, gebruikt voor het transport van personen met verminderde mobiliteit"@nl ;
+    skos:definition "A vehicle without an engine that does not require a wider space than that required for pedestrians, used for the transport of persons with reduced mobility"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "rolstoel";
+    skos:prefLabel "rolstoel"@nl;
+    skos:prefLabel "wheelchair"@en;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/voetganger> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/andere>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "Andere, niet nader gedefinieerde verkeersmodaliteit subklasse van hoofklasse voetganger"@nl ;
+    skos:definition "Other, undefined traffic modality subclass of main class pedestrian"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "andere";
+    skos:prefLabel "andere"@nl;
+    skos:prefLabel "other"@en;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/voetganger> .
     
 <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/fietser>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
-    skos:definition "Iets of iemand die zich op de fiets in het verkeer begeeft."@nl ;
+    skos:definition "een ongemotoriseerd voertuig met trappers"@nl ;
+    skos:definition "a non-motorized vehicle with pedals"@en ;
     skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
     skos:notation "fietser";
     skos:prefLabel "fietser"@nl ;
+    skos:prefLabel "cyclist"@nl ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/e-bike>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "een voertuig met trappers, met electrische trapondersteuning tot max 25 km/u."@nl ;
+    skos:definition "a vehicle with pedals, with electric pedal assistance up to a maximum of 25 km/h"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "e-bike";
+    skos:prefLabel "e-bike"@nl ;
+    skos:prefLabel "e-bike"@en ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/speed-pedelec>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "een voertuig met trappers, met electrische trapondersteuning tot max 45 km/h"@nl ;
+    skos:definition "a vehicle with pedals, with electric pedal assistance up to a maximum of 45 km/h"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "speed-pedelec";
+    skos:prefLabel "speed-pedelec"@nl ;
+    skos:prefLabel "speed-pedelec"@en ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/step>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "een tweewielig voertuig zonder trappers, al dan niet gemotoriseerd"@nl ;
+    skos:definition "a two-wheeled vehicle without pedals, whether or not motorized"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "step";
+    skos:prefLabel "step"@nl ;
+    skos:prefLabel "step"@en ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/step>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "een tweewielig voertuig zonder trappers, al dan niet gemotoriseerd"@nl ;
+    skos:definition "a two-wheeled vehicle without pedals, whether or not motorized"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "step";
+    skos:prefLabel "step"@nl ;
+    skos:prefLabel "step"@en ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/cargobike>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "een voertuig met trappers, twee of drie wielen en een bak vooraan of achteraan voor transport van goederen of (jonge) personen. Kan met electrische trap ondersteuning"@nl ;
+    skos:definition "a vehicle with pedals, two or three wheels and a box at the front or rear for the transport of goods or (young) persons. Can be equipped with electric stair support"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "cargobike";
+    skos:prefLabel "cargobike"@nl ;
+    skos:prefLabel "cargobike"@en ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/paarden>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "personen die zich te paard verplaatsen"@nl ;
+    skos:definition "persons traveling on horseback"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "paarden";
+    skos:prefLabel "paarden"@nl ;
+    skos:prefLabel "horses"@en ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> .
+
+<https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten_subklassen/paarden>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik>;
+    skos:definition "personen die zich te paard verplaatsen"@nl ;
+    skos:definition "persons traveling on horseback"@en ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
+    skos:notation "paarden";
+    skos:prefLabel "paarden"@nl ;
+    skos:prefLabel "horses"@en ;
     skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersmodaliteiten_subklassen> ;
     rdfs:subClassOf <https://data.vlaanderen.be/id/concept/VkmVerkeersmodaliteiten/fietser> .
