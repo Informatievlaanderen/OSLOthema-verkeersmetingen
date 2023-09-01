@@ -9,7 +9,7 @@ translator = Translator()
 
 dataframe = load_workbook('codelists.xlsx')
 
-languages = ["en"]
+languages = []
 
 # Define filepath
 filepath = 'codelists.xlsx'
