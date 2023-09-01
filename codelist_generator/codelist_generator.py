@@ -50,10 +50,10 @@ text = text + "\n"
 #for i in range(len(list_of_sheets)):
 #    print(list_of_sheets[i])
 
-sheet = 0
+sheet = 1
 
 text = text + "<https://data.vlaanderen.be/id/conceptscheme/" + \
-    str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_").lower() + ">  a skos:ConceptScheme ; \n"
+    str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_") + ">  a skos:ConceptScheme ; \n"
 text = text + "<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; \n"
 
 text = text + 'skos:prefLabel "' + str(list_of_dfs[sheet]["Label"][0]) + '"@nl ; \n'
@@ -74,8 +74,8 @@ for i in range(len(list_of_dfs[sheet])):
     
     
     else:
-        text = text + "<https://data.vlaanderen.be/id/concept/" + str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_").lower() + "/" + \
-            str(list_of_dfs[sheet]["Klasse"][i]).replace(' ', '_').lower() + ">  a skos:Concept ; \n"
+        text = text + "<https://data.vlaanderen.be/id/concept/" + str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_") + "/" + \
+            str(list_of_dfs[sheet]["Klasse"][i]).replace(' ', '_') + ">  a skos:Concept ; \n"
         text = text + "<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/" + str(list_of_dfs[sheet]["Status"][i]) + "> ; \n"
         
         text = text + 'skos:definition "' + \
@@ -83,7 +83,8 @@ for i in range(len(list_of_dfs[sheet])):
             
         text = text + 'skos:inscheme ' + \
             "<https://data.vlaanderen.be/id/conceptscheme/" + \
-            str(list_of_sheets[sheet].replace(" ", "_")) + '> ; \n'
+            str(list_of_dfs[sheet]["Klasse"][0]).replace(
+                " ", "_") + '> ; \n'
 
         text = text + 'skos:notation "' + \
             str(list_of_dfs[sheet]["Notation"][i]) + '" ; \n'
@@ -107,7 +108,8 @@ for i in range(len(list_of_dfs[sheet])):
 
         
         text = text + 'skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/' + \
-            str(list_of_sheets[sheet].replace(" ", "_")) + '> . \n'
+            str(list_of_dfs[sheet]["Klasse"][0]).replace(
+                " ", "_") + '> . \n'
 
         text = text + "\n"
     
