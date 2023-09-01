@@ -50,7 +50,7 @@ text = text + "\n"
 #for i in range(len(list_of_sheets)):
 #    print(list_of_sheets[i])
 
-sheet = 1
+sheet = 0
 
 text = text + "<https://data.vlaanderen.be/id/conceptscheme/" + \
     str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_").lower() + ">  a skos:ConceptScheme ; \n"
@@ -74,7 +74,7 @@ for i in range(len(list_of_dfs[sheet])):
     
     
     else:
-        text = text + "<https://data.vlaanderen.be/id/conceptscheme/" + str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_").lower() + "/" + \
+        text = text + "<https://data.vlaanderen.be/id/concept/" + str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_").lower() + "/" + \
             str(list_of_dfs[sheet]["Klasse"][i]).replace(' ', '_').lower() + ">  a skos:Concept ; \n"
         text = text + "<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/" + str(list_of_dfs[sheet]["Status"][i]) + "> ; \n"
         
