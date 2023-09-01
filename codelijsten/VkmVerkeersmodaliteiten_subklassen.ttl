@@ -5,7 +5,7 @@
 <https://data.vlaanderen.be/id/conceptscheme/vkmverkeersmodaliteiten_subklassen>  a skos:ConceptScheme ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
 skos:prefLabel "conceptscheme verkeersmodaliteiten_subklassen"@nl ; 
-skos:definition "Codelijst voor verkeersmodaliteiten_subklassen met de onderverdeling van de subklassen van vervoerstypes"@nl ; 
+skos:definition "Codelijst voor verkeersmodaliteiten_subklassen met de onderverdeling van de subklassen van vervoerstypes"@nl . 
 
 <https://data.vlaanderen.be/id/conceptscheme/vkmverkeersmodaliteiten_subklassen/voetganger>  a skos:Concept ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 

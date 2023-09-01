@@ -50,7 +50,7 @@ text = text + "\n"
 #for i in range(len(list_of_sheets)):
 #    print(list_of_sheets[i])
 
-sheet = 0
+sheet = 1
 
 text = text + "<https://data.vlaanderen.be/id/conceptscheme/" + \
     str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_").lower() + ">  a skos:ConceptScheme ; \n"
@@ -58,7 +58,7 @@ text = text + "<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.
 
 text = text + 'skos:prefLabel "' + str(list_of_dfs[sheet]["Label"][0]) + '"@nl ; \n'
 text = text + 'skos:definition "' + \
-    str(list_of_dfs[sheet]["Definitie"][0]) + '"@nl ; \n'
+    str(list_of_dfs[sheet]["Definitie"][0]) + '"@nl . \n'
 text = text + '\n'
 
 

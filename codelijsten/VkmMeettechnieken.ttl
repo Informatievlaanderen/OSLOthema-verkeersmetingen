@@ -5,7 +5,7 @@
 <https://data.vlaanderen.be/id/conceptscheme/vkmmeettechnieken>  a skos:ConceptScheme ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
 skos:prefLabel "nan"@nl ; 
-skos:definition "Codelijst voor meettechnieken die ingezet worden in het domein van verkeersmetingen"@nl ; 
+skos:definition "Codelijst voor meettechnieken die ingezet worden in het domein van verkeersmetingen"@nl . 
 
 <https://data.vlaanderen.be/id/conceptscheme/vkmmeettechnieken/radartelling>  a skos:Concept ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
