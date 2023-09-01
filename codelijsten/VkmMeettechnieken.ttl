@@ -23,12 +23,12 @@ skos:notation "rubber" ;
 skos:prefLabel "rubberslang"@nl ; 
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> . 
 
-<https://data.vlaanderen.be/id/concept/VkmMeettechnieken/Piëzotellingen>  a skos:Concept ; 
+<https://data.vlaanderen.be/id/concept/VkmMeettechnieken/PiÃ«zotellingen>  a skos:Concept ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
 skos:definition "meting uitgevoerd met piezo sensor"@nl ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> ; 
 skos:notation "piezo" ; 
-skos:prefLabel "Piëzotellingen"@nl ; 
+skos:prefLabel "PiÃ«zotellingen"@nl ; 
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeettechnieken> . 
 
 <https://data.vlaanderen.be/id/concept/VkmMeettechnieken/Glasvezeltellingen>  a skos:Concept ; 
