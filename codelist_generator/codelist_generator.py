@@ -59,7 +59,24 @@ text = text + "<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.
 text = text + 'skos:prefLabel "' + str(list_of_dfs[sheet]["Label"][0]) + '"@nl ; \n'
 text = text + 'skos:definition "' + \
     str(list_of_dfs[sheet]["Definitie"][0]) + '"@nl . \n'
+    
+for language in languages:
+    text = text + 'skos:definition "' + \
+        translator.translate(
+            str(list_of_dfs[sheet]["Definitie"][0]), dest=language).text + '"@' + language + ' ; \n'
+    text = text + 'skos:prefLabel "' + \
+        translator.translate(
+            str(list_of_dfs[sheet]["Label"][0]), dest=language).text + '"@' + language + ' ; \n'
+
+if {'subklassevan'}.issubset(list_of_dfs[sheet].columns):
+    text = text + 'rdfs:subClassOf  <https://data.vlaanderen.be/id/concept/' + \
+        str(list_of_dfs[sheet]["subklassevan"][i]) + '> ; \n'
+
+
+    
+
 text = text + '\n'
+
 
 
 

@@ -5,7 +5,9 @@
 <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType>  a skos:ConceptScheme ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
 skos:prefLabel "MeasureInstrumentType"@nl ; 
-skos:definition "Codelijst van meetinstrumenttype"@nl . 
+skos:definition "Codelijst van meetinstrumenttypes"@nl . 
+skos:definition "Code list of measuring instrument types"@en ; 
+skos:prefLabel "MeasureInstrumentType"@en ; 
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/radar>  a skos:Concept ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
@@ -19,7 +21,7 @@ skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrument
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/rubberslang>  a skos:Concept ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "sensor met één of meerdere rubberen slangen voor meten verkeersvolume door luchtdrukverandering bij overrijden door voertuigen"@nl ; 
+skos:definition "sensor met ��n of meerdere rubberen slangen voor meten verkeersvolume door luchtdrukverandering bij overrijden door voertuigen"@nl ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ; 
 skos:notation "rubber" ; 
 skos:prefLabel "rubberslang"@nl ; 
@@ -31,7 +33,7 @@ skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrument
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
 skos:definition "sensor die de verkeersdruk meet via piëzoelektrische sensoren bij overrijden door voertuigen"@nl ; 
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ; 
-skos:notation "piezo" ; 
+skos:notation "piezzo" ; 
 skos:prefLabel "piezzo"@nl ; 
 skos:definition "sensor that measures the traffic through piezo electric sensors when driving over vehicles"@en ; 
 skos:prefLabel "piezzo"@en ; 

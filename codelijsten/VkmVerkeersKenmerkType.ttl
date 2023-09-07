@@ -4,8 +4,10 @@
 
 <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType>  a skos:ConceptScheme ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:prefLabel "WrongAttributeType"@nl ; 
-skos:definition "codelijst van verkeerskenmerktype"@nl . 
+skos:prefLabel "TrafficAttributeType"@nl ; 
+skos:definition "codelijst van verkeerskenmerktypes"@nl . 
+skos:definition "Code list of traffic characteristic types"@en ; 
+skos:prefLabel "TrafficAttributeType"@en ; 
 
 <https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/V85>  a skos:Concept ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 

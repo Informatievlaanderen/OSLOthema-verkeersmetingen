@@ -5,7 +5,9 @@
 <https://data.vlaanderen.be/id/conceptscheme/VkmRijstrookType>  a skos:ConceptScheme ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
 skos:prefLabel "LaneType"@nl ; 
-skos:definition "codelijst van rijstrooktype"@nl . 
+skos:definition "codelijst van rijstrooktypes"@nl . 
+skos:definition "Code list of lane types"@en ; 
+skos:prefLabel "LaneType"@en ; 
 
 <https://data.vlaanderen.be/id/concept/VkmRijstrookType/volledige_rijbaan>  a skos:Concept ; 
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
