@@ -4,10 +4,10 @@
 
 <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType>  a skos:ConceptScheme ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
-skos:prefLabel "VoertuigType"@nl ;
-skos:definition "Codelijst van voertuigtypes"@nl .
 skos:definition "Code list of vehicle types"@en ;
 skos:prefLabel "Vehicle type"@en ;
+skos:prefLabel "VoertuigType"@nl ;
+skos:definition "Codelijst van voertuigtypes"@nl .
 
 <https://data.vlaanderen.be/id/concept/VkmVoertuigType/voetganger>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;

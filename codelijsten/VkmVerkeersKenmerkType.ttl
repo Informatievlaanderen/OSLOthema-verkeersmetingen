@@ -4,10 +4,10 @@
 
 <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType>  a skos:ConceptScheme ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
-skos:prefLabel "VerkeersKenmerkType"@nl ;
-skos:definition "codelijst van verkeerskenmerktypes"@nl .
 skos:definition "Code list of traffic characteristic types"@en ;
 skos:prefLabel "Traffic -character type"@en ;
+skos:prefLabel "VerkeersKenmerkType"@nl ;
+skos:definition "codelijst van verkeerskenmerktypes"@nl .
 
 <https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/V85>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
@@ -58,3 +58,4 @@ skos:prefLabel "aantal"@nl ;
 skos:definition "total of all vehicles that pass a point for a certain period"@en ;
 skos:prefLabel "number"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> .
+

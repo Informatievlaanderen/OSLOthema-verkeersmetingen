@@ -4,10 +4,10 @@
 
 <https://data.vlaanderen.be/id/conceptscheme/VkmRijstrookType>  a skos:ConceptScheme ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
-skos:prefLabel "RijstrookType"@nl ;
-skos:definition "codelijst van rijstrooktypes"@nl .
 skos:definition "Code list of lane types"@en ;
 skos:prefLabel "Lane type"@en ;
+skos:prefLabel "RijstrookType"@nl ;
+skos:definition "codelijst van rijstrooktypes"@nl .
 
 <https://data.vlaanderen.be/id/concept/VkmRijstrookType/volledige_rijbaan>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
@@ -261,10 +261,11 @@ skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmRijstrookType>
 
 <https://data.vlaanderen.be/id/concept/VkmRijstrookType/berm>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
-skos:definition "gras- of beplantingsstrook naast de rijbaan, tussen weg en eventuele barriï¿½re"@nl ;
+skos:definition "gras- of beplantingsstrook naast de rijbaan, tussen weg en eventuele barrière"@nl ;
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmRijstrookType> ;
 skos:notation "verge" ;
 skos:prefLabel "verge"@nl ;
 skos:definition "grass or planting strip next to the roadway, between road and any barrier"@en ;
 skos:prefLabel "verge"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmRijstrookType> .
+
