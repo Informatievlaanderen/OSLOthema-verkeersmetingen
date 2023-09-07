@@ -7,12 +7,12 @@ from pprint import pprint
 
 translator = Translator()
 
-dataframe = load_workbook('codelists.xlsx')
+dataframe = load_workbook('codelijst.xlsx')
 
 languages = ["en"]
 
 # Define filepath
-filepath = 'codelists.xlsx'
+filepath = 'codelijst.xlsx'
 
 # Load Excel file using Pandas
 f = pd.ExcelFile(filepath)
@@ -50,7 +50,7 @@ text = text + "\n"
 #for i in range(len(list_of_sheets)):
 #    print(list_of_sheets[i])
 
-sheet = 1
+sheet = 3
 
 text = text + "<https://data.vlaanderen.be/id/conceptscheme/" + \
     str(list_of_dfs[sheet]["Klasse"][0]).replace(" ", "_") + ">  a skos:ConceptScheme ; \n"
