@@ -58,4 +58,3 @@ skos:prefLabel "aantal"@nl ;
 skos:definition "total of all vehicles that pass a point for a certain period"@en ;
 skos:prefLabel "number"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> .
-
