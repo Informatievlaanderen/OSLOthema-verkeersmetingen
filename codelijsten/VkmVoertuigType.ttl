@@ -1,111 +1,111 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> . 
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType>  a skos:ConceptScheme ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:prefLabel "VehicleType"@nl ; 
-skos:definition "Codelijst van voertuigtypes"@nl . 
-skos:definition "Code list of vehicle types"@en ; 
-skos:prefLabel "VehicleType"@en ; 
+<https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType>  a skos:ConceptScheme ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:prefLabel "VoertuigType"@nl ;
+skos:definition "Codelijst van voertuigtypes"@nl .
+skos:definition "Code list of vehicle types"@en ;
+skos:prefLabel "Vehicle type"@en ;
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/voetganger>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "Een persoon die zich te voet verplaatst"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "ped" ; 
-skos:prefLabel "Voetganger"@nl ; 
-skos:definition "A person moving on foot"@en ; 
-skos:prefLabel "Pedestrian"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/voetganger>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "Een persoon die zich te voet verplaatst"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "ped" ;
+skos:prefLabel "Voetganger"@nl ;
+skos:definition "A person moving on foot"@en ;
+skos:prefLabel "Pedestrian"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/fietser>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "een ongemotoriseerd voertuig met trappers al dan niet met trapondersteuning"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "bike" ; 
-skos:prefLabel "Fietser"@nl ; 
-skos:definition "An unmotorized vehicle with pedals with or without pedal assistance"@en ; 
-skos:prefLabel "Cyclist"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/fietser>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "een ongemotoriseerd voertuig met trappers al dan niet met trapondersteuning"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "bike" ;
+skos:prefLabel "Fietser"@nl ;
+skos:definition "An unmotorized vehicle with pedals with or without pedal assistance"@en ;
+skos:prefLabel "Cyclist"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/paarden>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "Personen die zich te paard verplaatsen"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "horse" ; 
-skos:prefLabel "Paarden"@nl ; 
-skos:definition "Persons moving on horseback"@en ; 
-skos:prefLabel "Horses"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/paarden>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "Personen die zich te paard verplaatsen"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "horse" ;
+skos:prefLabel "Paarden"@nl ;
+skos:definition "Persons moving on horseback"@en ;
+skos:prefLabel "Horses"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/bromfiets>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "Een tweewielig motorvoertuig met verbrandingsmotor van max 50CC en een snelheid begrensd tot 45 km/u"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "moped" ; 
-skos:prefLabel "Bromfiets"@nl ; 
-skos:definition "A two -wheeled motor vehicle with a combustion engine of max 50cc and a speed limited to 45 km/h"@en ; 
-skos:prefLabel "Moped"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/bromfiets>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "Een tweewielig motorvoertuig met verbrandingsmotor van max 50CC en een snelheid begrensd tot 45 km/u"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "moped" ;
+skos:prefLabel "Bromfiets"@nl ;
+skos:definition "A two -wheeled motor vehicle with a combustion engine of max 50cc and a speed limited to 45 km/h"@en ;
+skos:prefLabel "Moped"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/auto>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "Een vierwielig motorvoertuig dat bestuurd wordt door personen met rijbewijs B"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "auto" ; 
-skos:prefLabel "auto"@nl ; 
-skos:definition "A four -wheeled motor vehicle that is controlled by people with a B driving license"@en ; 
-skos:prefLabel "auto"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/auto>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "Een vierwielig motorvoertuig dat bestuurd wordt door personen met rijbewijs B"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "auto" ;
+skos:prefLabel "auto"@nl ;
+skos:definition "A four -wheeled motor vehicle that is controlled by people with a B driving license"@en ;
+skos:prefLabel "auto"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/motorfiets>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "Een tweewielig motorvoertuig met verbrandingsmotor van minstens 50cc en een onbegrensde snelheid, waarvoor rijbewijs A nodig is"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "mbike" ; 
-skos:prefLabel "motorfiets"@nl ; 
-skos:definition "A two -wheeled motor vehicle with combustion engine of at least 50cc and an unlimited speed, for which driving license A is required"@en ; 
-skos:prefLabel "motorcycle"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/motorfiets>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "Een tweewielig motorvoertuig met verbrandingsmotor van minstens 50cc en een onbegrensde snelheid, waarvoor rijbewijs A nodig is"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "mbike" ;
+skos:prefLabel "motorfiets"@nl ;
+skos:definition "A two -wheeled motor vehicle with combustion engine of at least 50cc and an unlimited speed, for which driving license A is required"@en ;
+skos:prefLabel "motorcycle"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/landbouwvoertuigen>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "elk landbouw- of bosbouwvoertuig op wielen of rupsbanden, dat voornamelijk voor tractiedoeleinden in de land- of bosbouw"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "agri" ; 
-skos:prefLabel "Landbouwvoertuigen"@nl ; 
-skos:definition "any agricultural or forestry vehicle on wheels or tracks, which mainly for traction purposes in the country or forestry"@en ; 
-skos:prefLabel "Agricultural vehicles"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/landbouwvoertuigen>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "elk landbouw- of bosbouwvoertuig op wielen of rupsbanden, dat voornamelijk voor tractiedoeleinden in de land- of bosbouw"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "agri" ;
+skos:prefLabel "Landbouwvoertuigen"@nl ;
+skos:definition "any agricultural or forestry vehicle on wheels or tracks, which mainly for traction purposes in the country or forestry"@en ;
+skos:prefLabel "Agricultural vehicles"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/bestelwagen>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "Een gemotoriseerd voertuig bedoeld voor het vervoer van goederen waarvan de toegelaten massa niet meer is dan 3500 kg, of bedoeld voor het vervoer van personen met niet meer dan 9 zitplaatsen (chauffeur +8)"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "lfreight" ; 
-skos:prefLabel "lichte vracht"@nl ; 
-skos:definition "A motorized vehicle intended for the transport of goods for which the permitted mass is no more than 3500 kg, or intended for the transport of persons with no more than 9 seats (driver +8)"@en ; 
-skos:prefLabel "light load"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/bestelwagen>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "Een gemotoriseerd voertuig bedoeld voor het vervoer van goederen waarvan de toegelaten massa niet meer is dan 3500 kg, of bedoeld voor het vervoer van personen met niet meer dan 9 zitplaatsen (chauffeur +8)"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "lfreight" ;
+skos:prefLabel "lichte vracht"@nl ;
+skos:definition "A motorized vehicle intended for the transport of goods for which the permitted mass is no more than 3500 kg, or intended for the transport of persons with no more than 9 seats (driver +8)"@en ;
+skos:prefLabel "light load"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/vrachtwagen>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "Een combinatie bestaande uit een motorvoertuig met een of meerdere opleggers, bedoeld voor het vervoer van goederen met een toegelaten massa van meer dan 3500 k"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "truck" ; 
-skos:prefLabel "Gelede vrachtwagens"@nl ; 
-skos:definition "A combination consisting of a motor vehicle with one or more trailers, intended for the transport of goods with an permitted mass of more than 3500 k"@en ; 
-skos:prefLabel "Articulated trucks"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/vrachtwagen>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "Een combinatie bestaande uit een motorvoertuig met een of meerdere opleggers, bedoeld voor het vervoer van goederen met een toegelaten massa van meer dan 3500 k"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "truck" ;
+skos:prefLabel "Gelede vrachtwagens"@nl ;
+skos:definition "A combination consisting of a motor vehicle with one or more trailers, intended for the transport of goods with an permitted mass of more than 3500 k"@en ;
+skos:prefLabel "Articulated trucks"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/bus>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "Een motorvoertuig voor het vervoer van personen met meer dan 9 zitplaatsen"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ; 
-skos:notation "Bus" ; 
-skos:prefLabel "Bus"@nl ; 
-skos:definition "A motor vehicle for the transport of people with more than 9 seats"@en ; 
-skos:prefLabel "Bus"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> . 
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/bus>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "Een motorvoertuig voor het vervoer van personen met meer dan 9 zitplaatsen"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
+skos:notation "Bus" ;
+skos:prefLabel "Bus"@nl ;
+skos:definition "A motor vehicle for the transport of people with more than 9 seats"@en ;
+skos:prefLabel "Bus"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 

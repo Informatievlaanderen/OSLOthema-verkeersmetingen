@@ -1,61 +1,61 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> . 
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> . 
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType>  a skos:ConceptScheme ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:prefLabel "TrafficAttributeType"@nl ; 
-skos:definition "codelijst van verkeerskenmerktypes"@nl . 
-skos:definition "Code list of traffic characteristic types"@en ; 
-skos:prefLabel "TrafficAttributeType"@en ; 
+<https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType>  a skos:ConceptScheme ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:prefLabel "VerkeersKenmerkType"@nl ;
+skos:definition "codelijst van verkeerskenmerktypes"@nl .
+skos:definition "Code list of traffic characteristic types"@en ;
+skos:prefLabel "Traffic -character type"@en ;
 
-<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/V85>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "snelheid die door 85% van het verkeer niet wordt overschreden; maat voor wegveiligheid"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ; 
-skos:notation "V85" ; 
-skos:prefLabel "V85"@nl ; 
-skos:definition "speed that is not exceeded by 85% of the traffic;Size for road safety"@en ; 
-skos:prefLabel "Scatter"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> . 
+<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/V85>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "snelheid die door 85% van het verkeer niet wordt overschreden; maat voor wegveiligheid"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ;
+skos:notation "V85" ;
+skos:prefLabel "V85"@nl ;
+skos:definition "speed that is not exceeded by 85% of the traffic;Size for road safety"@en ;
+skos:prefLabel "Scatter"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/tijdsgemiddelde_snelheid>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "gemiddelde snelheid van een voertuig gemeten over een specifiek tijdsinterval"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ; 
-skos:notation "tav" ; 
-skos:prefLabel "tijdsgemiddeld"@nl ; 
-skos:definition "average speed of a vehicle measured over a specific time interval"@en ; 
-skos:prefLabel "time -average"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> . 
+<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/tijdsgemiddelde_snelheid>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "gemiddelde snelheid van een voertuig gemeten over een specifiek tijdsinterval"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ;
+skos:notation "tav" ;
+skos:prefLabel "tijdsgemiddeld"@nl ;
+skos:definition "average speed of a vehicle measured over a specific time interval"@en ;
+skos:prefLabel "time -average"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/plaatsgemiddelde_snelheid>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "gemiddelde snelheid gemeten over een specifieke locatie of segment van een weg (harmonisch gemiddelde). "@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ; 
-skos:notation "pav" ; 
-skos:prefLabel "plaatsgemiddeld"@nl ; 
-skos:definition "Average speed measured over a specific location or segment of a road (harmonious average)."@en ; 
-skos:prefLabel "average"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> . 
+<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/plaatsgemiddelde_snelheid>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "gemiddelde snelheid gemeten over een specifieke locatie of segment van een weg (harmonisch gemiddelde). "@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ;
+skos:notation "pav" ;
+skos:prefLabel "plaatsgemiddeld"@nl ;
+skos:definition "Average speed measured over a specific location or segment of a road (harmonious average)."@en ;
+skos:prefLabel "average"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/mediaan_snelheid>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "de snelheid waarbij de helft van de voertuigen sneller en langzamer rijdt"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ; 
-skos:notation "med" ; 
-skos:prefLabel "mediaan"@nl ; 
-skos:definition "The speed at which half of the vehicles runs faster and slower"@en ; 
-skos:prefLabel "to the media"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> . 
+<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/mediaan_snelheid>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "de snelheid waarbij de helft van de voertuigen sneller en langzamer rijdt"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ;
+skos:notation "med" ;
+skos:prefLabel "mediaan"@nl ;
+skos:definition "The speed at which half of the vehicles runs faster and slower"@en ;
+skos:prefLabel "to the media"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/aantal>  a skos:Concept ; 
-<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ; 
-skos:definition "totaal van alle voertuigen die een punt passeren gedurende een bepaalde periode"@nl ; 
-skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ; 
-skos:notation "count" ; 
-skos:prefLabel "aantal"@nl ; 
-skos:definition "total of all vehicles that pass a point for a certain period"@en ; 
-skos:prefLabel "number"@en ; 
-skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> . 
+<https://data.vlaanderen.be/id/concept/VkmVerkeersKenmerkType/aantal>  a skos:Concept ;
+<https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
+skos:definition "totaal van alle voertuigen die een punt passeren gedurende een bepaalde periode"@nl ;
+skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> ;
+skos:notation "count" ;
+skos:prefLabel "aantal"@nl ;
+skos:definition "total of all vehicles that pass a point for a certain period"@en ;
+skos:prefLabel "number"@en ;
+skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVerkeersKenmerkType> .
 
