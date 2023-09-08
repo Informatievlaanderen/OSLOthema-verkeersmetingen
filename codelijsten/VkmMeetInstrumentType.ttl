@@ -4,8 +4,6 @@
 
 <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType>  a skos:ConceptScheme ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
-skos:definition "Code list of measuring instrument types"@en ;
-skos:prefLabel "Measuring instrument type"@en ;
 skos:prefLabel "MeetInstrumentType"@nl ;
 skos:definition "Codelijst van meetinstrumenttypes"@nl .
 
@@ -15,28 +13,22 @@ skos:definition "sensor dat radiogolven uitzendt en vervolgens de gereflecteerde
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
 skos:notation "radar" ;
 skos:prefLabel "radar"@nl ;
-skos:definition "sensor that broadcasts radio waves and then detects the reflected waves to determine the position, speed and direction of objects"@en ;
-skos:prefLabel "radar"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/rubberslang>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
-skos:definition "sensor met Ã©Ã©n of meerdere rubberen slangen voor meten verkeersvolume door luchtdrukverandering bij overrijden door voertuigen"@nl ;
+skos:definition "sensor met één of meerdere rubberen slangen voor meten verkeersvolume door luchtdrukverandering bij overrijden door voertuigen"@nl ;
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
 skos:notation "rubber" ;
 skos:prefLabel "rubberslang"@nl ;
-skos:definition "sensor with one or more rubber hoses for measuring traffic volume due to air pressure change when driving over vehicles"@en ;
-skos:prefLabel "rubberslang"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 
-<https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/piezo>  a skos:Concept ;
+<https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/piezzo>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
-skos:definition "sensor die de verkeersdruk meet via piÃ«zoelektrische sensoren bij overrijden door voertuigen"@nl ;
+skos:definition "sensor die de verkeersdruk meet via piëzoelektrische sensoren bij overrijden door voertuigen"@nl ;
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
-skos:notation "piÃ«zo" ;
-skos:prefLabel "piÃ«zo"@nl ;
-skos:definition "sensor that measures the traffic through piezo electric sensors when driving over vehicles"@en ;
-skos:prefLabel "piezo"@en ;
+skos:notation "piezo" ;
+skos:prefLabel "piezzo"@nl ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/glasvezel>  a skos:Concept ;
@@ -45,8 +37,6 @@ skos:definition "sensor die veranderingen detecteert via glasvezeltechnologie, v
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
 skos:notation "fiber" ;
 skos:prefLabel "glasvezel"@nl ;
-skos:definition "sensor that detects changes via fiber optic technology, often for light intensity or vibrations"@en ;
-skos:prefLabel "optical fiber"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/inductielus>  a skos:Concept ;
@@ -55,8 +45,6 @@ skos:definition "sensor die voertuigen detecteert via magnetische veldveranderin
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
 skos:notation "loop" ;
 skos:prefLabel "inductielus"@nl ;
-skos:definition "sensor that detects vehicles via magnetic field changes in buried loops"@en ;
-skos:prefLabel "induction"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/standaard_Camera>  a skos:Concept ;
@@ -65,8 +53,6 @@ skos:definition "Camera die voertuigen registreert en analyseert voor verkeersvo
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
 skos:notation "camera" ;
 skos:prefLabel "standaard camera"@nl ;
-skos:definition "Camera that registers and analyzes vehicles for traffic volume and behavior on roads"@en ;
-skos:prefLabel "standard camera"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/ANPR_camera>  a skos:Concept ;
@@ -75,8 +61,6 @@ skos:definition "Camera die kentekens herkent en registreert voor verkeersanalys
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
 skos:notation "anpr" ;
 skos:prefLabel "ANPR camera"@nl ;
-skos:definition "Camera that recognizes and registers license plates for traffic analysis and enforcement"@en ;
-skos:prefLabel "ANPR camera"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/manuele_telling>  a skos:Concept ;
@@ -85,8 +69,6 @@ skos:definition "Handmatige registratie van voertuigen door waarnemers voor verk
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
 skos:notation "manual" ;
 skos:prefLabel "manuele telling"@nl ;
-skos:definition "Manual registration of vehicles by observers for traffic volume and classification"@en ;
-skos:prefLabel "manual count"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 
 <https://data.vlaanderen.be/id/concept/VkmMeetInstrumentType/telraam>  a skos:Concept ;
@@ -95,7 +77,5 @@ skos:definition "door de burger aangedreven oplossing voor het verzamelen van ve
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> ;
 skos:notation "telraam" ;
 skos:prefLabel "telraam"@nl ;
-skos:definition "Citizen -powered solution for collecting traffic data with a lifting window device"@en ;
-skos:prefLabel "abacus"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmMeetInstrumentType> .
 

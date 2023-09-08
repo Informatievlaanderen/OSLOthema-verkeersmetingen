@@ -4,8 +4,6 @@
 
 <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType>  a skos:ConceptScheme ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
-skos:definition "Code list of vehicle types"@en ;
-skos:prefLabel "Vehicle type"@en ;
 skos:prefLabel "VoertuigType"@nl ;
 skos:definition "Codelijst van voertuigtypes"@nl .
 
@@ -15,8 +13,6 @@ skos:definition "een persoon die zich te voet verplaatst"@nl ;
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
 skos:notation "ped" ;
 skos:prefLabel "voetganger"@nl ;
-skos:definition "A person moving on foot"@en ;
-skos:prefLabel "pedestrian"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
 <https://data.vlaanderen.be/id/concept/VkmVoertuigType/fietser>  a skos:Concept ;
@@ -25,8 +21,6 @@ skos:definition "een tweewielig voertuig"@nl ;
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
 skos:notation "bike" ;
 skos:prefLabel "fietser"@nl ;
-skos:definition "A two -wheeled vehicle"@en ;
-skos:prefLabel "cyclist"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
 <https://data.vlaanderen.be/id/concept/VkmVoertuigType/auto>  a skos:Concept ;
@@ -35,8 +29,6 @@ skos:definition "een vierwielig motorvoertuig dat bestuurd wordt door personen m
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
 skos:notation "auto" ;
 skos:prefLabel "auto"@nl ;
-skos:definition "A four -wheeled motor vehicle that is controlled by people with driving license B (including light freight and minibus)"@en ;
-skos:prefLabel "auto"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
 <https://data.vlaanderen.be/id/concept/VkmVoertuigType/vrachtwagen>  a skos:Concept ;
@@ -45,7 +37,5 @@ skos:definition "een combinatie bestaande uit een motorvoertuig met een of meerd
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
 skos:notation "truck" ;
 skos:prefLabel "gelede vrachtwagens"@nl ;
-skos:definition "A combination consisting of a motor vehicle with one or more trailers, intended for the transport of goods with an permitted mass of more than 3500 k"@en ;
-skos:prefLabel "articulated trucks"@en ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
