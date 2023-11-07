@@ -1,5 +1,5 @@
 [
-{
+{·
   "name": "Verkeersmetingen-ap",
   "type": "ap",
   "eap": "Verkeersmetingen.eap",
@@ -29,5 +29,5 @@
       "translationjson":"Verkeersmetingen_nl.json",
       "mergefile":"Verkeersmetingen-ap_nl_merged.json"
     },
-}
+},
 ]
