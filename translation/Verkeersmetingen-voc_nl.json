@@ -1,0 +1,1354 @@
+{
+  "classes": [
+    {
+      "EA-Guid": "{4CBDFE52-E78D-441f-9A89-52C78E4DCC21}",
+      "name": "Fietspad",
+      "label": {
+        "nl": "Fietspad"
+      },
+      "definition": {
+        "nl": "Deel van de wegbaan uitsluitend bedoeld voor fietsverkeer."
+      },
+      "usage": {
+        "nl": "Maakt geen deel uit vd rijbaan (deel van de wegbaan ingericht voor het verkeer van Voertuigen), bvb auto's mogen niet op een Fietspad rijden of stationeren. OPGELET: Niet te verwarren met fietssuggestiestroken (wel deel vd rijbaan) of met de zijstroken ve middenrijbaan (geen deel vd rijbaan maar waarop mag gereden worden door auto's om tegenliggers te ontwijken). Fietspaden kunnen aanliggend zijn aan de rijbaan of vrijliggend of zelfs een eigen wegbaan hebben (in dat laatste geval worden ze door een eigen Wegsegment voorgesteld)."
+      }
+    },
+    {
+      "EA-Guid": "{E25E0426-630B-4434-8504-B2D4022D78B3}",
+      "name": "Rijstrook",
+      "label": {
+        "nl": "Rijstrook"
+      },
+      "definition": {
+        "nl": "In de langsrichting begrensd deel van de rijbaan, bedoeld om een deel van de verkeersstroom te geleiden in een bepaalde richting en met de breedte van maximum één Voertuig."
+      },
+      "usage": {
+        "nl": "Onder rijbaan verstaan we dat deel van de wegbaan ingericht om met een Voertuig over te rijden. Door de rijbaan op te splitsen krijgt men een meer gecontroleerde verkeersstroom, in de eerste plaats omdat de rijrichtingen of bvb doorgaand en afslaand verkeer gescheiden worden en ook door de breedte te beperken zodat er maar één Voertuig tegelijk doorkan. Rijstroken worden typisch afgebakend dmv wegmarkeringen, bvb een witte doorlopende of onderbroken streep. OPMERKING: Voetpaden of Fietspaden zijn geen Rijstroken aangezien ze niet bedoeld zijn om met een auto over te rijden en dus geen deel zijn van de rijbaan.\n"
+      }
+    },
+    {
+      "EA-Guid": "{CFE067A0-8DA9-40db-AF71-DC32C871721F}",
+      "name": "Verkeersbemonsteringsobject",
+      "label": {
+        "nl": "Verkeersbemonsteringsobject"
+      },
+      "definition": {
+        "nl": "Object dat representatief is voor het object waarvan men het Verkeerskenmerk meet."
+      },
+      "usage": {
+        "nl": "Van belang als men dit object niet rechtstreeks kan observeren. Bvb om de snelheid ve Voertuig te bepalen kan men moeilijk dat Voertuig gaan volgen, in plaats daarvan zet men een meetpunt op langs de weg om te zien hoe snel passerende Voertuigen rijden. Gelijkaardig voor bvb verkeersintensiteit: men telt in een meetpunt langs de weg doorkomsten van Voertuigen en gaat ervan uit dat dit cijfer representatief is voor  het Wegsegment (deel van de weg tussen twee opeenvolgende kruispunten). OPGELET: Deze klasse is abstract, ze mag niet geinstantieerd worden. Gebruik in de plaats de subklassen Verkeersmeetpunt of Verkeersmeettraject"
+      }
+    },
+    {
+      "EA-Guid": "{B8947A04-3FE5-472c-8B3F-A2CB7E18B9AD}",
+      "name": "Verkeersdeelnemer",
+      "label": {
+        "nl": "Verkeersdeelnemer"
+      },
+      "definition": {
+        "nl": "Deelnemer aan het verkeer op de  weg, als voetganger of als gebruiker (bestuurder of passagier) van een Voertuig."
+      }
+    },
+    {
+      "EA-Guid": "{2E48BB96-557B-4b70-A841-96C9488ACB0C}",
+      "name": "Verkeersdomeinobject",
+      "label": {
+        "nl": "Verkeersdomeinobject"
+      },
+      "definition": {
+        "nl": "Object uit het verkeersdomein waarvan men een Verkeerskenmerk meet."
+      },
+      "usage": {
+        "nl": "Hieronder verstaan we een real-world object uit het verkeer, ttz een Voertuig of Verkeersdeelnemer of een Wegsegment of gelijkaardig waarover verkeer plaatsvindt. Vallen hier niet onder: Verkeersbemonsteringsobjecten zoals Verkeersmeetpunten of Verkeersmeettrajecten, dat zijn de objecten die het Verkeersdomein bemonsteren. OPGELET: Deze klasse is abstract, ze mag maw niet geinstantieerd worden. Gebruik in de plaats subklassen zoal Wegsegment, Rijstrook, Voertuig etc."
+      }
+    },
+    {
+      "EA-Guid": "{CCF671D1-65E5-4164-80DC-A55676E447D2}",
+      "name": "Verkeerskenmerk",
+      "label": {
+        "nl": "Verkeerskenmerk"
+      },
+      "definition": {
+        "nl": "Kenmerk van het Verkeersdomeinobject of het Verkeersbemonsteringsobject dat gemeten wordt en dat betrekking heeft op het verkeer over of langs dat object of op zijn deelname aan het verkeer."
+      },
+      "usage": {
+        "nl": "Bvb de gemiddelde snelheid van auto's langs een Meetpunt of de verkeersIntensiteit van fietsen op een Wegsegment bvb uitgedrukt in aantal voertuigen of de snelheid van een individueel Voertuig etc."
+      }
+    },
+    {
+      "EA-Guid": "{84DECA56-0848-4297-A791-E0316CDC69CF}",
+      "name": "Verkeersmeetpunt",
+      "label": {
+        "nl": "Verkeersmeetpunt"
+      },
+      "definition": {
+        "nl": "Punt waarlangs men kenmerken van het voorbijkomend verkeer meet."
+      },
+      "usage": {
+        "nl": "Dit is het punt langs de weg waar bvb doorkomsten van Voertuigen worden geteld en/of hun snelheid wordt gemeten of waarvoor enig ander Verkeerskenmerk wordt vastgesteld dat op het bemonsterd Verkeerdomeinobject betrekking heeft."
+      }
+    },
+    {
+      "EA-Guid": "{D845BD1B-1EE8-463e-9ABA-49E625990AD4}",
+      "name": "Verkeersmeettraject",
+      "label": {
+        "nl": "Verkeersmeettraject"
+      },
+      "definition": {
+        "nl": "Traject waarlangs men kenmerken van het voorbijkomend verkeer meet.."
+      },
+      "usage": {
+        "nl": "Dit is een afstand langs de weg waar bvb de snelheid van Voertuigen wordt gemeten (een zgn trajectcontrole) of waarvoor enig ander Verkeerskenmerk wordt vastgesteld dat op het bemonsterd Verkeerdomeinobject betrekking heeft."
+      }
+    },
+    {
+      "EA-Guid": "{629A009C-848B-463b-AA2C-272DB667D354}",
+      "name": "Verkeersmeting",
+      "label": {
+        "nl": "Verkeersmeting"
+      },
+      "definition": {
+        "nl": "Het vaststellen van de waarde van een bepaald kenmerk van het verkeer op een bepaald tijdstip of tussen twee tijdstippen."
+      },
+      "usage": {
+        "nl": "Verkeer wordt gedefinieerd als de verplaatsing van objecten zoals personen, vracht, data etc over media zoals land, water, lucht, kabels. Verkeer kan betrekking hebben op objecten die zichzelf verplaatsen (al dan niet met een vervoermiddel) of objecten die vervoerd worden, maar ook op objecten waarover verkeer plaatsvindt. De meting kan het vaststellen van de waarde van een kenmerk van een individueel object tijdens zijn verplaatsing zijn (bvb zijn snelheid) of van een kenmerk van de infrastructuur waarover het verkeer zich beweegt (bv de verkeersintensiteit). Verkeersmetingen  zijn Observaties, maw op de waarde zit een zekere foutmarge door de gebruikte meettechniek.\n"
+      }
+    },
+    {
+      "EA-Guid": "{09B64C64-8961-4c6c-8901-7EA790A38D80}",
+      "name": "Verkeersmetingverzameling",
+      "label": {
+        "nl": "Verkeersmetingverzameling"
+      },
+      "definition": {
+        "nl": "Collectie van Verkeersmetingen met dezelfde kenmerken."
+      },
+      "usage": {
+        "nl": "Bv metingen die op hetzelfde tijdstip plaatsvonden of hetzelfde Object of kenmerk observeren of door dezelfde Sensor zijn gemaakt. Bvb de metingen in eenzelfde Verkeersmeetpunt of de metingen op dezelfde infrastructuur etc."
+      }
+    },
+    {
+      "EA-Guid": "{5E405CE5-6BD2-4f40-B346-162D1D3D4C85}",
+      "name": "Verkeersobject",
+      "label": {
+        "nl": "Verkeersobject"
+      },
+      "definition": {
+        "nl": "Object waarop of waarlangs zich verkeer voordoet of dat deel uitmaakt vh verkeer."
+      },
+      "usage": {
+        "nl": "OPGELET: Deze klasse is abstract, ze moet gespecialiseerd worden als Verkeersdomeinobject of als Verkeersbemonsteringsobject. Als Verkeersdomeinobject als de meting direct betrekking heeft op het object dat men wil observeren of als Verkeersbemonsteringsobject als de meting onrechtstreeks gebeurt (bvb via een Verkeersmeetpunt)."
+      }
+    },
+    {
+      "EA-Guid": "{85EEEE26-AA3F-426f-9B3C-35DBCDCBA48E}",
+      "name": "Voertuig",
+      "label": {
+        "nl": "Voertuig"
+      },
+      "definition": {
+        "nl": "Middel om personen of goederen te vervoeren."
+      },
+      "usage": {
+        "nl": "Bvb auto, fiets, vrachtwagen, bus, trein, tram, schip, boot, vliegtuig etc."
+      }
+    },
+    {
+      "EA-Guid": "{14E98A46-E7C3-4a82-BDB6-C940901E9CF0}",
+      "name": "Voetpad",
+      "label": {
+        "nl": "Voetpad"
+      },
+      "definition": {
+        "nl": "Deel van de wegbaan bedoeld voor voetgangers."
+      },
+      "usage": {
+        "nl": "Is per defintie afgescheiden van de rijbaan, typisch via een boordsteen en verhoogde ligging."
+      }
+    }
+  ],
+  "properties": [
+    {
+      "EA-Guid": "{A299166B-9BDD-4464-8C39-CA5DDDC842DF}",
+      "name": "waardeverschaffer",
+      "label": {
+        "nl": "waardeverschaffer"
+      },
+      "definition": {
+        "nl": "Verwijzing naar een Verkeersmeting die op het geobserveerdObject plaatsvondt."
+      },
+      "usage": {
+        "nl": "Die meting verschaft ahw een waarde voor het Verkeerskenmerk dat van het Verkeersobject wordt gemeten."
+      }
+    },
+    {
+      "EA-Guid": "{CF9C3D94-2593-4911-AFB0-26E1C2D262AB}",
+      "name": "voertuigType",
+      "label": {
+        "nl": "voertuigType"
+      },
+      "definition": {
+        "nl": "Soort Voertuig waarvan men het Verkeerskenmerk meet."
+      },
+      "usage": {
+        "nl": "Bvb \"Fiets\" als men enkel het aantal fietsen wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Voertuig zijn maar bvb een Wegsegment of Rijstrook etc."
+      }
+    },
+    {
+      "EA-Guid": "{EC4722C1-6C3C-4de7-B2D4-37DAB77A27ED}",
+      "name": "verkeersdeelnemertype",
+      "label": {
+        "nl": "verkeersdeelnemertype"
+      },
+      "definition": {
+        "nl": "Soort Verkeersdeelnemer waarvan men het Verkeerskenmerk meet."
+      },
+      "usage": {
+        "nl": "Bvb \"Voetganger\" als men enkel het aantal Voertgangers wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Verkeersdeelnemer zijn maar bvb een Wegsegment of Rijstrook etc."
+      }
+    },
+    {
+      "EA-Guid": "{D5FA77B3-614C-42e8-A732-5B633B8D3AB7}",
+      "name": "rijstrook",
+      "label": {
+        "nl": "rijstrook"
+      },
+      "definition": {
+        "nl": "Identificator van de Rijstrook."
+      },
+      "usage": {
+        "nl": "De identificator moet getypeerd worden bvb volgens het systeem dat werd gehanteerd om de Rijstroken te nummeren. Bvb het schema van DATEX II waar over de volledige breedte van de weg van links naar rechts wordt genummerd."
+      }
+    },
+    {
+      "EA-Guid": "{34CAD925-9990-4440-8D3B-1C7A2D324E5B}",
+      "name": "ligging",
+      "label": {
+        "nl": "ligging"
+      },
+      "definition": {
+        "nl": "Locatie van de Sensor."
+      },
+      "usage": {
+        "nl": "Bvb de coördinaten of het adres of een verwijzing naar een meetpunt of ander Bemonsteringsobject. Meerdere verschillende types van locaties kunnen worden opgegeven (bvb adres èn coördinaten). Als de Sensor een meetinstallatie is evt de verschillende meetpunten die worden omvat of een omschrijvende polygoon. OPGELET: De locatie van de Sensor is niet noodzakelijk de positie waar de Observatie gebeurt, die wordt in de eerste plaats gegeven door de ligging vh Bemonsteringsobject. Dit attribuut laat vooral toe om posities van Sensoren te beschrijven los vd metingen die er gebeuren."
+      }
+    },
+    {
+      "EA-Guid": "{06972BEC-F3CC-4625-ABF3-3A2512D0203B}",
+      "name": "heeftLid",
+      "label": {
+        "nl": "heeftLid"
+      },
+      "definition": {
+        "nl": "Verkeersmeting die tot de verzameling behoort."
+      }
+    },
+    {
+      "EA-Guid": "{A299166B-9BDD-4464-8C39-CA5DDDC842DF}",
+      "name": "geobserveerdObject",
+      "label": {
+        "nl": "geobserveerdObject"
+      },
+      "definition": {
+        "nl": "Het Verkeersobject dat geobserveerd wordt."
+      },
+      "usage": {
+        "nl": "Dat kan het Verkeersdomeinobject zelf zijn of een proxy ervan, ttz een Verkeersbemonsteringsobject. OPMERKING: In dat laatste geval weet men soms pas na het observeren welk real-world Object men juist geobserveerd heeft. Bvb in een Verkeersmeetpunt weet men niet op voorhand welke de objecten zullen zijn waarvan men de snelheid wil vaststellen."
+      }
+    },
+    {
+      "EA-Guid": "{1A2F7CD8-746E-41b9-B35A-63F270F088B1}",
+      "name": "geobserveerdKenmerk",
+      "label": {
+        "nl": "geobserveerdKenmerk"
+      },
+      "definition": {
+        "nl": "Kenmerk van het Verkeersobject dat geobserveerd wordt."
+      },
+      "usage": {
+        "nl": "CONSTRAINT: Het geobserveerdKenmerk moet werkelijk een kenmerk zijn van het geobserveerdObject of van een (onder)deel ervan. Soms is de procedure waarmee de waarden vh kenmerk worden bekomen indirect, ttz men meet om praktische reden een ander kenmerk dat een proxy is voor het kenmerk dat men werkelijk wil observeren. Bv om de Verkeersintensiteit op een Wegsegment te bepalen telt men individuele doorkomsten van Voertuigen in een Verkeersmeetpunt."
+      }
+    },
+    {
+      "EA-Guid": "{4957D1B2-0700-4cd6-A022-32AF0C0E1760}",
+      "name": "bemonsterdObject",
+      "label": {
+        "nl": "bemonsterdObject"
+      },
+      "definition": {
+        "nl": "Verwijzing naar het Verkeersdomeinobject waarop de meting betrekking heeft en waarvoor het Verkeersbemonsteringsobject representatief is."
+      },
+      "usage": {
+        "nl": "Bvb het Voertuig of het Wegsegment waarvan men een Verkeerskenmerk bepaalt."
+      }
+    },
+    {
+      "EA-Guid": "{74E98745-82CA-4392-83EC-BBF34975A2AC}",
+      "name": "geobserveerdObject",
+      "label": {
+        "nl": "geobserveerdObject"
+      },
+      "definition": {
+        "nl": "Object dat door de Verkeersmetingen wordt geobserveerd."
+      }
+    },
+    {
+      "EA-Guid": "{A545687B-42D5-41d8-9E6B-7B6F0849FB3D}",
+      "name": "geobserveerdKenmerk",
+      "label": {
+        "nl": "geobserveerdKenmerk"
+      },
+      "definition": {
+        "nl": "Kenmerk dat de Verkeersmetingen in de verzameling meten."
+      }
+    },
+    {
+      "EA-Guid": "{7EF14ADA-15B0-4cf8-8D37-A1B41516A89B}",
+      "name": "wegdeel",
+      "label": {
+        "nl": "wegdeel"
+      },
+      "definition": {
+        "nl": "Geeft aan welke langs welk Wegdeel het traject loopt of betrekking heeft."
+      },
+      "usage": {
+        "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven op welk deel van de weg de Voertuigen of Verkeersdeelnemers waarvan men een kenmerk meet zich bevinden, bvb op een bepaalde Rijstrook of op het Fietspad of het Voetpad."
+      }
+    },
+    {
+      "EA-Guid": "{74F05628-C20D-472a-98C2-89239823D5AD}",
+      "name": "rijrichting",
+      "label": {
+        "nl": "rijrichting"
+      },
+      "definition": {
+        "nl": "Geeft aan welke op welke Rijrichting het Verkeersmeettraject ligt."
+      },
+      "usage": {
+        "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie.  Ook noodzakelijk om aan te geven in welke richting de Voertuigen rijden waarvan men bvb de gemiddelde snelheid meet."
+      }
+    },
+    {
+      "EA-Guid": "{FBFE7D6C-FCF0-4cc9-827B-BD1EDE11DB2E}",
+      "name": "netwerkReferentie",
+      "label": {
+        "nl": "netwerkReferentie"
+      },
+      "definition": {
+        "nl": "Referentie naar het Netwerkelement waarlangs het Verkeersmeettraject loopt of dat door dat traject bemonsterd wordt."
+      },
+      "usage": {
+        "nl": "Nuttig als men weet langs welk Wegsegment het traject loopt en aan welke kant van de weg en op welke afstand van het beginpunt. Alternatief voor of aanvulling op coördinaten. Ook noodzakelijk om aan te geven over welk Wegsegment en aan welke kant ervan de Voertuigen rijden waarvan men bvb de snelheid meet.\n"
+      }
+    },
+    {
+      "EA-Guid": "{10462306-BBFF-4c5b-820D-9A28AC37E33C}",
+      "name": "wegdeel",
+      "label": {
+        "nl": "wegdeel"
+      },
+      "definition": {
+        "nl": "Geeft aan welke op welk Wegdeel het Verkeersmeetpunt gelegen is of betrekking heeft."
+      },
+      "usage": {
+        "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven op welk deel van de weg de Voertuigen of Verkeersdeelnemers waarvan men een kenmerk meet zich bevinden, bvb op een bepaalde Rijstrook of op het Fietspad of het Voetpad."
+      }
+    },
+    {
+      "EA-Guid": "{CA4E24BA-A047-4b09-9F1A-2064CEA980D1}",
+      "name": "rijrichting",
+      "label": {
+        "nl": "rijrichting"
+      },
+      "definition": {
+        "nl": "Geeft aan welke op welke Rijrichting het Verkeersmeetpunt gelegen is of betrekking heeft."
+      },
+      "usage": {
+        "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven in welke richting de Voertuigen rijden waarvan men bvb de snelheid meet."
+      }
+    },
+    {
+      "EA-Guid": "{B61FC9A0-0BD3-4e09-8513-CC72AF0D5D56}",
+      "name": "netwerkreferentie",
+      "label": {
+        "nl": "netwerkreferentie"
+      },
+      "definition": {
+        "nl": "Referentie naar het Netwerkelement waarop of waarlangs het Verkeersmeetpunt ligt of dat door dat punt bemonsterd wordt."
+      },
+      "usage": {
+        "nl": "Nuttig als men weet langs welk Wegsegment het punt ligt en aan welke kant van de weg en op welke afstand van het beginpunt. Alternatief voor of aanvulling op coördinaten. Ook noodzakelijk om aan te geven over welk Wegsegment en aan welke kant ervan de Voertuigen rijden waarvan men bvb de snelheid meet.\r\n"
+      }
+    }
+  ],
+  "externals": [
+    {
+      "EA-Guid": "{32477EB9-C446-428f-BCBC-EC0B95A0A53E}",
+      "name": "Any",
+      "label": {
+        "nl": "Any"
+      }
+    },
+    {
+      "EA-Guid": "{117BB863-5BF5-4019-AA23-D591C462BA66}",
+      "name": "Lengte",
+      "label": {
+        "nl": "Lengte"
+      }
+    },
+    {
+      "EA-Guid": "{DA9B66EB-5FC9-4291-A0B1-ADA4492CE3D2}",
+      "name": "Moment",
+      "label": {
+        "nl": "Moment"
+      }
+    },
+    {
+      "EA-Guid": "{F022C314-DEEA-42d8-B925-2483D532D825}",
+      "name": "TemporeleEntiteit",
+      "label": {
+        "nl": "TemporeleEntiteit"
+      }
+    },
+    {
+      "EA-Guid": "{0BB84823-23FC-4650-9ED8-1980E6711C03}",
+      "name": "Kenmerktype",
+      "label": {
+        "nl": "Kenmerktype"
+      }
+    },
+    {
+      "EA-Guid": "{138D5EF9-E10D-4907-A069-731E704F7FA9}",
+      "name": "Kwaliteitselement",
+      "label": {
+        "nl": "Kwaliteitselement"
+      }
+    },
+    {
+      "EA-Guid": "{D9FEDBE8-5979-4762-AB0F-EE5DDC6AE19A}",
+      "name": "metadata",
+      "label": {
+        "nl": "metadata"
+      }
+    },
+    {
+      "EA-Guid": "{BB8A7BBA-E7AF-4881-82CE-723EED46C045}",
+      "name": "Object",
+      "label": {
+        "nl": "Object"
+      }
+    },
+    {
+      "EA-Guid": "{F4E10B03-9767-4b06-BA92-535E21122838}",
+      "name": "BenoemdeWaarde",
+      "label": {
+        "nl": "BenoemdeWaarde"
+      }
+    },
+    {
+      "EA-Guid": "{BDC753B9-A752-4ee4-B381-3E37F6A17266}",
+      "name": "Observatie",
+      "label": {
+        "nl": "Observatie"
+      }
+    },
+    {
+      "EA-Guid": "{6E83163F-BC3B-4df8-B728-961211A38188}",
+      "name": "Bemonsteringscurve",
+      "label": {
+        "nl": "Bemonsteringscurve"
+      }
+    },
+    {
+      "EA-Guid": "{44270BA8-F67E-4f98-A688-EBEC932F9F3A}",
+      "name": "Bemonsteringsobject",
+      "label": {
+        "nl": "Bemonsteringsobject"
+      }
+    },
+    {
+      "EA-Guid": "{FBF513BF-2F4D-4b18-B975-CB503B91AEE8}",
+      "name": "Bemonsteringspunt",
+      "label": {
+        "nl": "Bemonsteringspunt"
+      }
+    },
+    {
+      "EA-Guid": "{F007BE83-E1B0-4bcb-A0F6-C0DCD1211ABF}",
+      "name": "Domeinobject",
+      "label": {
+        "nl": "Domeinobject"
+      }
+    },
+    {
+      "EA-Guid": "{98CAEFA1-623F-4bae-AA47-92B5EFD72359}",
+      "name": "Agent",
+      "label": {
+        "nl": "Agent"
+      }
+    },
+    {
+      "EA-Guid": "{A083E18A-1BB4-4555-8AA0-B27AA892BCE2}",
+      "name": "Bestandsformaat",
+      "label": {
+        "nl": "Bestandsformaat"
+      }
+    },
+    {
+      "EA-Guid": "{C99FA90E-19E3-4abd-94FE-FF4AA66AE6C2}",
+      "name": "Gegevensdrager",
+      "label": {
+        "nl": "Gegevensdrager"
+      }
+    },
+    {
+      "EA-Guid": "{6C2892CB-C18F-4c88-9D6A-F9C7A7A273D4}",
+      "name": "lijnstring",
+      "label": {
+        "nl": "lijnstring"
+      }
+    },
+    {
+      "EA-Guid": "{2319C469-3BB7-4eaf-8C14-F375CAD76501}",
+      "name": "punt",
+      "label": {
+        "nl": "punt"
+      }
+    },
+    {
+      "EA-Guid": "{52365078-A78F-4da4-99AE-8F585BB67611}",
+      "name": "Informatietype",
+      "label": {
+        "nl": "Informatietype"
+      }
+    },
+    {
+      "EA-Guid": "{174A6689-CC80-4d25-A097-8715280E43FA}",
+      "name": "Observatieproceduretype",
+      "label": {
+        "nl": "Observatieproceduretype"
+      }
+    },
+    {
+      "EA-Guid": "{4546C09B-B040-4ca4-9FB5-08D06C3454B9}",
+      "name": "Verkeerskenmerktype",
+      "label": {
+        "nl": "Verkeerskenmerktype"
+      }
+    },
+    {
+      "EA-Guid": "{5BD45119-9309-4e19-95D9-693396B4A88A}",
+      "name": "Taalcode",
+      "label": {
+        "nl": "Taalcode"
+      }
+    },
+    {
+      "EA-Guid": "{911B46A1-1173-4a21-A924-16A980C5802B}",
+      "name": "Teken",
+      "label": {
+        "nl": "Teken"
+      }
+    },
+    {
+      "EA-Guid": "{EC67803A-1019-4ed6-9C7D-2E42246C1D43}",
+      "name": "Toepassingsrichtingtype",
+      "label": {
+        "nl": "Toepassingsrichtingtype"
+      }
+    },
+    {
+      "EA-Guid": "{B132B74A-E38E-447b-A034-9F0D90917230}",
+      "name": "Voertuigtype",
+      "label": {
+        "nl": "Voertuigtype"
+      }
+    },
+    {
+      "EA-Guid": "{61D8E530-32CD-41e8-A1DC-4C2118C9E1AE}",
+      "name": "Rijrichtingtype",
+      "label": {
+        "nl": "Rijrichtingtype"
+      }
+    },
+    {
+      "EA-Guid": "{F151595A-76BA-4645-9FDC-D1B0FA637997}",
+      "name": "Verkeersdeelnemertype",
+      "label": {
+        "nl": "Verkeersdeelnemertype"
+      }
+    },
+    {
+      "EA-Guid": "{8861891B-E1D1-49a6-961F-0B1BA2218EE7}",
+      "name": "Rijstrooktype",
+      "label": {
+        "nl": "Rijstrooktype"
+      }
+    },
+    {
+      "EA-Guid": "{6F5B149A-D5BB-4d04-8DF3-D780AE8124F0}",
+      "name": "Identificator",
+      "label": {
+        "nl": "Identificator"
+      }
+    },
+    {
+      "EA-Guid": "{A677E6B4-6D60-4b7d-8420-95BBBCA4C59C}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      }
+    },
+    {
+      "EA-Guid": "{E214F098-F563-483c-A095-65A105394C36}",
+      "name": "Locatie",
+      "label": {
+        "nl": "Locatie"
+      }
+    },
+    {
+      "EA-Guid": "{A3059FBD-C1E7-4349-8384-8F514B023183}",
+      "name": "Observatieprocedure",
+      "label": {
+        "nl": "Observatieprocedure"
+      }
+    },
+    {
+      "EA-Guid": "{2F7510B1-CBD1-4199-B43C-70BBFF3E3982}",
+      "name": "Procedure",
+      "label": {
+        "nl": "Procedure"
+      }
+    },
+    {
+      "EA-Guid": "{FB83108B-BC83-4522-81BB-F464E8BB14F2}",
+      "name": "Input",
+      "label": {
+        "nl": "Input"
+      }
+    },
+    {
+      "EA-Guid": "{A1B15787-239E-436b-9E40-FEE9C77B7A78}",
+      "name": "Output",
+      "label": {
+        "nl": "Output"
+      }
+    },
+    {
+      "EA-Guid": "{777CAFBE-1B79-4205-998C-2116BB1DCBAB}",
+      "name": "gerichte link",
+      "label": {
+        "nl": "gerichte link"
+      }
+    },
+    {
+      "EA-Guid": "{36BFB504-3638-4c1e-B329-E4BDF1C541F6}",
+      "name": "lineaire referentie",
+      "label": {
+        "nl": "lineaire referentie"
+      }
+    },
+    {
+      "EA-Guid": "{C446C097-AC28-425d-8805-29B819DD805F}",
+      "name": "Link",
+      "label": {
+        "nl": "Link"
+      }
+    },
+    {
+      "EA-Guid": "{924F342D-41BC-47f5-B766-52DA2DBC76F8}",
+      "name": "linkreferentie",
+      "label": {
+        "nl": "linkreferentie"
+      }
+    },
+    {
+      "EA-Guid": "{17E63ED1-C2E3-4062-BDC7-3B2CF40AA9ED}",
+      "name": "Netwerkelement",
+      "label": {
+        "nl": "Netwerkelement"
+      }
+    },
+    {
+      "EA-Guid": "{D77B05FC-5561-4d2e-A613-AFE8679BEFC1}",
+      "name": "netwerkreferentie",
+      "label": {
+        "nl": "netwerkreferentie"
+      }
+    },
+    {
+      "EA-Guid": "{A3BFE246-F22F-427d-8A16-CC9C40EFE22E}",
+      "name": "puntreferentie",
+      "label": {
+        "nl": "puntreferentie"
+      }
+    },
+    {
+      "EA-Guid": "{9003D81E-58D9-4d42-90AA-7B756D38DA57}",
+      "name": "Dekking",
+      "label": {
+        "nl": "Dekking"
+      }
+    },
+    {
+      "EA-Guid": "{EBC5BFE8-7B77-4e32-80C0-5C7356BAE521}",
+      "name": "Dimensie",
+      "label": {
+        "nl": "Dimensie"
+      }
+    },
+    {
+      "EA-Guid": "{40FCAE8B-CB71-4694-94C9-8727C459F15A}",
+      "name": "Formaat",
+      "label": {
+        "nl": "Formaat"
+      }
+    },
+    {
+      "EA-Guid": "{D13343A9-B0AC-4897-BA42-6E62715D2457}",
+      "name": "Transporteigenschap",
+      "label": {
+        "nl": "Transporteigenschap"
+      }
+    },
+    {
+      "EA-Guid": "{3E8C7A20-E02F-41c4-9D1C-4D3E755F45BE}",
+      "name": "Transportknoop",
+      "label": {
+        "nl": "Transportknoop"
+      }
+    },
+    {
+      "EA-Guid": "{6DB2286D-C90C-4878-8716-3D0FD7F5CDD0}",
+      "name": "Transportlink",
+      "label": {
+        "nl": "Transportlink"
+      }
+    },
+    {
+      "EA-Guid": "{1AD0C74E-D337-474c-9246-CC16ED16B749}",
+      "name": "Transportlinksequentie",
+      "label": {
+        "nl": "Transportlinksequentie"
+      }
+    },
+    {
+      "EA-Guid": "{49BDB313-5E07-40eb-A64B-40827FFC648A}",
+      "name": "Wegdeel",
+      "label": {
+        "nl": "Wegdeel"
+      },
+      "definition": {
+        "nl": "Deel van de wegbaan."
+      },
+      "usage": {
+        "nl": "In deze context worden er longitudonale onderverdelingen van de weg mee bedoeld zoals Rijstroken,Fietspaden edm.OPGELET: Deze klasse is abstract,gebruik de subklassen."
+      }
+    },
+    {
+      "EA-Guid": "{F475BC99-8F8C-42fa-8AFC-97D937475E85}",
+      "name": "Rijrichting",
+      "label": {
+        "nl": "Rijrichting"
+      }
+    },
+    {
+      "EA-Guid": "{5E144E63-EF37-4a5f-8156-703E8B996ED9}",
+      "name": "Wegknoop",
+      "label": {
+        "nl": "Wegknoop"
+      }
+    },
+    {
+      "EA-Guid": "{7232738A-0E7A-41ec-917C-CDEF447C195B}",
+      "name": "Weglinksequentie",
+      "label": {
+        "nl": "Weglinksequentie"
+      }
+    },
+    {
+      "EA-Guid": "{76494F4F-E122-4dfb-8EA0-84FF3C4EF761}",
+      "name": "Wegobject",
+      "label": {
+        "nl": "Wegobject"
+      },
+      "definition": {
+        "nl": "Object dat een onderdeel uit een Wegennetwerk vertegenwoordigt."
+      },
+      "usage": {
+        "nl": "Typische voorbeelden zijn Wegsegmenten, Wegknopen, Weglinksequenties etc OPGELET: deze klasse is abstract, enkel de subklassen gebruiken."
+      }
+    },
+    {
+      "EA-Guid": "{A74FEDDC-177C-430a-80BF-5D15C5278C01}",
+      "name": "Wegsegment",
+      "label": {
+        "nl": "Wegsegment"
+      }
+    },
+    {
+      "EA-Guid": "{472968B4-4A56-4f9c-AC18-222684C3B1E1}",
+      "name": "Toestel",
+      "label": {
+        "nl": "Toestel"
+      }
+    },
+    {
+      "EA-Guid": "{FC957B5D-8BF1-4f69-8D8E-6DA16D203ABA}",
+      "name": "Observatieverzameling",
+      "label": {
+        "nl": "Observatieverzameling"
+      }
+    },
+    {
+      "EA-Guid": "{2F6E375A-20D4-4a18-8731-3E36A1B31B0E}",
+      "name": "Systeem",
+      "label": {
+        "nl": "Systeem"
+      }
+    },
+    {
+      "EA-Guid": "{1CD74C8C-C59C-4394-88BC-E7D006727775}",
+      "name": "Platform",
+      "label": {
+        "nl": "Platform"
+      }
+    },
+    {
+      "EA-Guid": "{2A28FF0E-C1B4-4918-B61C-21D7CECE0CED}",
+      "name": "Sensor",
+      "label": {
+        "nl": "Sensor"
+      }
+    }
+  ],
+  "externalproperties": [
+    {
+      "EA-Guid": "{AEA092EB-E8A5-42eb-AF99-47B0309E84FE}",
+      "name": "hostVan",
+      "label": {
+        "nl": "hostVan"
+      }
+    },
+    {
+      "EA-Guid": "{72F6B4EA-197E-492c-921B-40C9BFAF28ED}",
+      "name": "model",
+      "label": {
+        "nl": "model"
+      }
+    },
+    {
+      "EA-Guid": "{CC2BE40E-7788-47f9-A23A-129167594202}",
+      "name": "fabrikant",
+      "label": {
+        "nl": "fabrikant"
+      }
+    },
+    {
+      "EA-Guid": "{56B575C8-69A5-4b76-931C-2007D0F070BA}",
+      "name": "functie",
+      "label": {
+        "nl": "functie"
+      }
+    },
+    {
+      "EA-Guid": "{64902ED5-8988-4b1c-B4CB-E52A33F5EC12}",
+      "name": "taak",
+      "label": {
+        "nl": "taak"
+      }
+    },
+    {
+      "EA-Guid": "{6F78409A-1707-4564-824E-36842F1DC6F5}",
+      "name": "parameter",
+      "label": {
+        "nl": "parameter"
+      }
+    },
+    {
+      "EA-Guid": "{9DDDE0A0-9ED8-495c-93E1-80122D49DFAC}",
+      "name": "fenomeenTijd",
+      "label": {
+        "nl": "fenomeenTijd"
+      }
+    },
+    {
+      "EA-Guid": "{D1EA31DC-25E5-4a83-88C9-24E535CC49F2}",
+      "name": "voertuigtype",
+      "label": {
+        "nl": "voertuigtype"
+      }
+    },
+    {
+      "EA-Guid": "{FCFCB9D9-E66E-4e9f-AB39-7A24DC0C08BF}",
+      "name": "van positie",
+      "label": {
+        "nl": "van positie"
+      }
+    },
+    {
+      "EA-Guid": "{EC76D219-D568-4069-BDD5-1F401AD9FFC9}",
+      "name": "tot positie",
+      "label": {
+        "nl": "tot positie"
+      }
+    },
+    {
+      "EA-Guid": "{DF397868-554C-432f-B8E3-338F37528EB8}",
+      "name": "rijrichting",
+      "label": {
+        "nl": "rijrichting"
+      }
+    },
+    {
+      "EA-Guid": "{B3AA2321-DF66-47f1-B798-8ED3CD35A78C}",
+      "name": "referentie",
+      "label": {
+        "nl": "referentie"
+      }
+    },
+    {
+      "EA-Guid": "{C180CA4C-B422-454f-A0BB-6E0A8FDC2041}",
+      "name": "metadata",
+      "label": {
+        "nl": "metadata"
+      }
+    },
+    {
+      "EA-Guid": "{A961E12C-13B7-48b5-A89E-2D7D1185611C}",
+      "name": "specificatie",
+      "label": {
+        "nl": "specificatie"
+      }
+    },
+    {
+      "EA-Guid": "{FCA9C4E3-C84F-49b7-9B7D-010B41CC8C49}",
+      "name": "referentie",
+      "label": {
+        "nl": "referentie"
+      }
+    },
+    {
+      "EA-Guid": "{F84B875A-2520-4847-8915-8B8DC24C026B}",
+      "name": "uitgevoerd door",
+      "label": {
+        "nl": "uitgevoerd door"
+      }
+    },
+    {
+      "EA-Guid": "{0366713F-C00D-4dd9-A4FA-1E627668457D}",
+      "name": "beginknoop",
+      "label": {
+        "nl": "beginknoop"
+      }
+    },
+    {
+      "EA-Guid": "{29876B35-03E6-4d03-B4F8-5C382AB7C696}",
+      "name": "richting",
+      "label": {
+        "nl": "richting"
+      }
+    },
+    {
+      "EA-Guid": "{2C0C4043-021D-4394-AFEC-27CBEA07A5F0}",
+      "name": "netwerkreferentie",
+      "label": {
+        "nl": "netwerkreferentie"
+      }
+    },
+    {
+      "EA-Guid": "{23D52F6D-9CD2-4e59-8CA1-9F8DE91850A1}",
+      "name": "netwerkreferentie",
+      "label": {
+        "nl": "netwerkreferentie"
+      }
+    },
+    {
+      "EA-Guid": "{C82238A8-5309-448f-A4A6-48919146035A}",
+      "name": "netwerkreferentie",
+      "label": {
+        "nl": "netwerkreferentie"
+      }
+    },
+    {
+      "EA-Guid": "{56510A42-508C-4a56-B93B-663B19F5E282}",
+      "name": "netwerkreferentie",
+      "label": {
+        "nl": "netwerkreferentie"
+      }
+    },
+    {
+      "EA-Guid": "{0F1BF31F-BE6F-4460-9958-B1FAB3A2825A}",
+      "name": "geometriemiddenlijn",
+      "label": {
+        "nl": "geometriemiddenlijn"
+      }
+    },
+    {
+      "EA-Guid": "{3D9FF7EF-D7B9-4638-B170-8C6E2224DF15}",
+      "name": "eindknoop",
+      "label": {
+        "nl": "eindknoop"
+      }
+    },
+    {
+      "EA-Guid": "{1CABF63C-E123-4ef0-9EBA-C418F46DB0E3}",
+      "name": "op positie",
+      "label": {
+        "nl": "op positie"
+      }
+    },
+    {
+      "EA-Guid": "{E3B91855-4C01-4d6d-9EBD-FDB7962FC9EF}",
+      "name": "element",
+      "label": {
+        "nl": "element"
+      }
+    },
+    {
+      "EA-Guid": "{C7D95A66-3B41-4d44-91D7-8E164EF4DFE5}",
+      "name": "link",
+      "label": {
+        "nl": "link"
+      }
+    },
+    {
+      "EA-Guid": "{177F8E42-EFE0-4a68-86DA-149541320602}",
+      "name": "toepassingsrichting",
+      "label": {
+        "nl": "toepassingsrichting"
+      }
+    },
+    {
+      "EA-Guid": "{CBB4403F-2482-4a74-8767-C2372DCFF5C8}",
+      "name": "element",
+      "label": {
+        "nl": "element"
+      }
+    },
+    {
+      "EA-Guid": "{D2F8232A-DDBC-49e9-8776-085C4023B01C}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      }
+    },
+    {
+      "EA-Guid": "{F0F3EC55-C732-4dd2-9FB6-7762CF8C3EBE}",
+      "name": "link",
+      "label": {
+        "nl": "link"
+      }
+    },
+    {
+      "EA-Guid": "{5A65B170-8D73-4426-BE86-B1696B322BF8}",
+      "name": "implementeert",
+      "label": {
+        "nl": "implementeert"
+      }
+    },
+    {
+      "EA-Guid": "{5A65B170-8D73-4426-BE86-B1696B322BF8}",
+      "name": "geïmplementeerdMet",
+      "label": {
+        "nl": "geïmplementeerdMet"
+      }
+    },
+    {
+      "EA-Guid": "{4E0F21DF-0E3B-4613-A7F4-A01A83580F42}",
+      "name": "output",
+      "label": {
+        "nl": "output"
+      }
+    },
+    {
+      "EA-Guid": "{08F08E34-6057-40d6-A4DE-8E404E329937}",
+      "name": "input",
+      "label": {
+        "nl": "input"
+      }
+    },
+    {
+      "EA-Guid": "{60C2A520-2887-4fd3-B919-7D2F1FEBA93D}",
+      "name": "gebruikteProcedure",
+      "label": {
+        "nl": "gebruikteProcedure"
+      }
+    },
+    {
+      "EA-Guid": "{965EC2B5-9ABC-4ed9-8162-C235D8D63860}",
+      "name": "fenomeentijd",
+      "label": {
+        "nl": "fenomeentijd"
+      }
+    },
+    {
+      "EA-Guid": "{69F99DF0-3F3F-4153-983D-0FA0FF116699}",
+      "name": "uitgevoerdMet",
+      "label": {
+        "nl": "uitgevoerdMet"
+      }
+    },
+    {
+      "EA-Guid": "{3353402E-362B-4022-BA26-0B84660E88E9}",
+      "name": "uitgevoerdMet",
+      "label": {
+        "nl": "uitgevoerdMet"
+      }
+    },
+    {
+      "EA-Guid": "{AEA092EB-E8A5-42eb-AF99-47B0309E84FE}",
+      "name": "gehostDoor",
+      "label": {
+        "nl": "gehostDoor"
+      }
+    },
+    {
+      "EA-Guid": "{CF70C934-85F2-4a65-B263-62876CFC8B02}",
+      "name": "schema agentschap",
+      "label": {
+        "nl": "schema agentschap"
+      }
+    },
+    {
+      "EA-Guid": "{192555C5-D6AD-40b3-85E3-C204EC5A539F}",
+      "name": "notatie",
+      "label": {
+        "nl": "notatie"
+      }
+    },
+    {
+      "EA-Guid": "{99D36287-3E7F-4bfb-A75E-CC24E4340B20}",
+      "name": "WKT",
+      "label": {
+        "nl": "WKT"
+      }
+    },
+    {
+      "EA-Guid": "{34C72A59-81A4-41af-9554-0923A2DF183F}",
+      "name": "GML",
+      "label": {
+        "nl": "GML"
+      }
+    },
+    {
+      "EA-Guid": "{8283B31A-433C-4f4b-A972-D0A77D690212}",
+      "name": "uitgegeven",
+      "label": {
+        "nl": "uitgegeven"
+      }
+    },
+    {
+      "EA-Guid": "{9F34F871-88B3-4900-A3DD-37381940B1B7}",
+      "name": "maker",
+      "label": {
+        "nl": "maker"
+      }
+    },
+    {
+      "EA-Guid": "{BCA55DC5-98D7-4c7e-8C3B-E0412B0D1674}",
+      "name": "verkeersdeelnemertype",
+      "label": {
+        "nl": "verkeersdeelnemertype"
+      },
+      "definition": {
+        "nl": "Aard van de Verkeersdeelnemer."
+      }
+    },
+    {
+      "EA-Guid": "{A852CCF8-AFCF-44e7-AE0C-C26E44127C20}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      },
+      "definition": {
+        "nl": "Type vh Verkeerskenmerk."
+      }
+    },
+    {
+      "EA-Guid": "{47D7CB7E-4D8A-4e41-AF2F-168A631CDE03}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      }
+    },
+    {
+      "EA-Guid": "{50AB4E80-C612-40a2-AA46-5707D288E028}",
+      "name": "rijstrooktype",
+      "label": {
+        "nl": "rijstrooktype"
+      },
+      "definition": {
+        "nl": "Aard vd Rijstrook."
+      }
+    },
+    {
+      "EA-Guid": "{2A0AE331-6CF5-4131-87DE-03BCC53909B1}",
+      "name": "titel",
+      "label": {
+        "nl": "titel"
+      }
+    },
+    {
+      "EA-Guid": "{BC4BD284-2180-4fb0-A490-C60F8C22F392}",
+      "name": "onderwerp",
+      "label": {
+        "nl": "onderwerp"
+      }
+    },
+    {
+      "EA-Guid": "{229AB110-56FF-471a-B2A0-E3BC1F877819}",
+      "name": "bron",
+      "label": {
+        "nl": "bron"
+      }
+    },
+    {
+      "EA-Guid": "{57F7A31D-44CC-44b1-A8FF-631A3589A206}",
+      "name": "rechten",
+      "label": {
+        "nl": "rechten"
+      }
+    },
+    {
+      "EA-Guid": "{C612006F-B2BE-4f79-93C8-786779F4B229}",
+      "name": "relatie",
+      "label": {
+        "nl": "relatie"
+      }
+    },
+    {
+      "EA-Guid": "{16B3CF24-705B-4865-90D7-EA1E22254592}",
+      "name": "uitgever",
+      "label": {
+        "nl": "uitgever"
+      }
+    },
+    {
+      "EA-Guid": "{97D1588F-D2C6-4411-85CA-C83AC3BF8FB3}",
+      "name": "taal",
+      "label": {
+        "nl": "taal"
+      }
+    },
+    {
+      "EA-Guid": "{BB992CBE-EB54-4db8-B382-E5C6B9E5D52D}",
+      "name": "formaat",
+      "label": {
+        "nl": "formaat"
+      }
+    },
+    {
+      "EA-Guid": "{48B4AD4A-CDE5-4d8b-A937-85CE5B306898}",
+      "name": "beschrijving",
+      "label": {
+        "nl": "beschrijving"
+      }
+    },
+    {
+      "EA-Guid": "{80D307DC-F834-437f-B15E-9C806D6DAD16}",
+      "name": "datum",
+      "label": {
+        "nl": "datum"
+      }
+    },
+    {
+      "EA-Guid": "{0E8E5DF8-36F9-487e-A4C1-5260B686441A}",
+      "name": "auteur",
+      "label": {
+        "nl": "auteur"
+      }
+    },
+    {
+      "EA-Guid": "{675EC94C-C48C-4736-84A6-2501501E277B}",
+      "name": "dekking",
+      "label": {
+        "nl": "dekking"
+      }
+    },
+    {
+      "EA-Guid": "{4928B8FE-7112-4452-8357-4AA1211223F3}",
+      "name": "mede auteur",
+      "label": {
+        "nl": "mede auteur"
+      }
+    },
+    {
+      "EA-Guid": "{994B998D-C69A-4195-9B7A-EBA5ED5AB4D8}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      }
+    },
+    {
+      "EA-Guid": "{3B5FD4E0-D775-4ae9-BC01-3357CCCBE0FF}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      }
+    },
+    {
+      "EA-Guid": "{8978A887-B4BA-436a-98F6-3B7A898FD8F0}",
+      "name": "type",
+      "label": {
+        "nl": "type"
+      }
+    },
+    {
+      "EA-Guid": "{44E5A859-68B9-4e6c-96E8-6C693604090C}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      }
+    },
+    {
+      "EA-Guid": "{21C2D813-B1BD-44ca-A103-AA5E202D178B}",
+      "name": "geometrie",
+      "label": {
+        "nl": "geometrie"
+      }
+    },
+    {
+      "EA-Guid": "{1E15DCB8-4C60-46fd-9716-0A0191C53229}",
+      "name": "resultaattijd",
+      "label": {
+        "nl": "resultaattijd"
+      }
+    },
+    {
+      "EA-Guid": "{DB665282-46C8-4e08-BFDF-6DF45B91A98A}",
+      "name": "resultaatkwaliteit",
+      "label": {
+        "nl": "resultaatkwaliteit"
+      }
+    },
+    {
+      "EA-Guid": "{A040AB95-DA63-4280-9E03-A70080C60A85}",
+      "name": "resultaat",
+      "label": {
+        "nl": "resultaat"
+      }
+    },
+    {
+      "EA-Guid": "{E63E4148-109E-4a96-9C4B-BB3DCD9426C2}",
+      "name": "metadata",
+      "label": {
+        "nl": "metadata"
+      }
+    },
+    {
+      "EA-Guid": "{B75A69D3-462C-4ae1-A531-A31C08F8C1C5}",
+      "name": "waarde",
+      "label": {
+        "nl": "waarde"
+      }
+    },
+    {
+      "EA-Guid": "{448C2A93-B68C-4eaa-B46D-233E356337FC}",
+      "name": "naam",
+      "label": {
+        "nl": "naam"
+      }
+    }
+  ]
+}
