@@ -13,6 +13,21 @@
   "contributors-column": "MijnKolom",
   "site": "site-skeleton/Verkeersmetingen-ap",
   "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-Verkeersmetingen/issues",
-  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html"
+  "standaardregisterurl": "https://data.vlaanderen.be/standaarden/TODO/CORRECT-URL/index.html",
+  "translation": [
+    {
+      "language":"en",
+      "template":"mijn-applicatieprofiel-ap_en.j2",
+      "title": "OSLO Traffic measurement (application profile)",
+      "translationjson":"Verkeersmetingen_en.json",
+      "mergefile":"Verkeersmetingen-ap_en_merged.json"
+    },
+    {
+      "language":"nl",
+      "template":"mijn-application-ap.j2",
+      "title": "OSLO Verkeersmetingen (applicatieprofiel)",
+      "translationjson":"Verkeersmetingen_nl.json",
+      "mergefile":"Verkeersmetingen-ap_nl_merged.json"
+    },
 }
 ]
