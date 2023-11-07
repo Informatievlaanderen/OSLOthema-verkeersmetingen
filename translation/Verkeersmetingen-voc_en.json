@@ -5,15 +5,15 @@
       "name": "Fietspad",
       "label": {
         "nl": "Fietspad",
-        "en": "Enter your translation here"
+        "en": "BicyclePath"
       },
       "definition": {
         "nl": "Deel van de wegbaan uitsluitend bedoeld voor fietsverkeer.",
-        "en": "Enter your translation here"
+        "en": "Section of roadway intended exclusively for bicycle traffic."
       },
       "usage": {
         "nl": "Maakt geen deel uit vd rijbaan (deel van de wegbaan ingericht voor het verkeer van Voertuigen), bvb auto's mogen niet op een Fietspad rijden of stationeren. OPGELET: Niet te verwarren met fietssuggestiestroken (wel deel vd rijbaan) of met de zijstroken ve middenrijbaan (geen deel vd rijbaan maar waarop mag gereden worden door auto's om tegenliggers te ontwijken). Fietspaden kunnen aanliggend zijn aan de rijbaan of vrijliggend of zelfs een eigen wegbaan hebben (in dat laatste geval worden ze door een eigen Wegsegment voorgesteld).",
-        "en": "Enter your translation here"
+        "en": "Is not part of the carriageway (the carriageway is the part of the roadarea designed for vehicle traffic), e.g. cars are not allowed to drive or station on a BicyclePath. ATTENTION: Not to be confused with bicycle lanes (part of the carriageway) or with the side lanes of the central carriageway (not part of the carriageway but on which cars may drive to avoid oncoming traffic). BicyclePaths can be adjacent to the carriageway or separate or even have their own road Lane (in the latter case they are represented by their own RoadSegment)."
       }
     },
     {
@@ -21,15 +21,15 @@
       "name": "Rijstrook",
       "label": {
         "nl": "Rijstrook",
-        "en": "Enter your translation here"
+        "en": "Lane"
       },
       "definition": {
         "nl": "In de langsrichting begrensd deel van de rijbaan, bedoeld om een deel van de verkeersstroom te geleiden in een bepaalde richting en met de breedte van maximum één Voertuig.",
-        "en": "Enter your translation here"
+        "en": "The carriageway is the part of the roadarea designed for a Vehicle to drive over. By dividing the carriageway you get a more controlled traffic flow, firstly because the driving directions or, for example, through and turning traffic are separated and also by limiting the width so that only one Vehicle can pass through one time. Lanes are typically designated by road markings, for example a white continuous or interrupted line. NOTE: Sidewalks or BicyclePaths are not Lanes as they are not intended for a car to drive on and are therefore not part of the carriageway."
       },
       "usage": {
         "nl": "Onder rijbaan verstaan we dat deel van de wegbaan ingericht om met een Voertuig over te rijden. Door de rijbaan op te splitsen krijgt men een meer gecontroleerde verkeersstroom, in de eerste plaats omdat de rijrichtingen of bvb doorgaand en afslaand verkeer gescheiden worden en ook door de breedte te beperken zodat er maar één Voertuig tegelijk doorkan. Rijstroken worden typisch afgebakend dmv wegmarkeringen, bvb een witte doorlopende of onderbroken streep. OPMERKING: Voetpaden of Fietspaden zijn geen Rijstroken aangezien ze niet bedoeld zijn om met een auto over te rijden en dus geen deel zijn van de rijbaan.\n",
-        "en": "Enter your translation here"
+        "en": "The carriageway is the part of the roadarea designed for a Vehicle to drive over. By dividing the carriageway you get a more controlled traffic flow, firstly because the driving directions or, for example, through and turning traffic are separated and also by limiting the width so that only one Vehicle can pass through one time. Lanes are typically designated by road markings, for example a white continuous or interrupted line. NOTE: Sidewalks or BicyclePaths are not Lanes as they are not intended for a car to drive on and are therefore not part of the carriageway."
       }
     },
     {
@@ -37,15 +37,15 @@
       "name": "Verkeersbemonsteringsobject",
       "label": {
         "nl": "Verkeersbemonsteringsobject",
-        "en": "Enter your translation here"
+        "en": "TrafficSamplingObject"
       },
       "definition": {
         "nl": "Object dat representatief is voor het object waarvan men het Verkeerskenmerk meet.",
-        "en": "Enter your translation here"
+        "en": "Object that is representative of the object for which the TrafficFeature is measured."
       },
       "usage": {
         "nl": "Van belang als men dit object niet rechtstreeks kan observeren. Bvb om de snelheid ve Voertuig te bepalen kan men moeilijk dat Voertuig gaan volgen, in plaats daarvan zet men een meetpunt op langs de weg om te zien hoe snel passerende Voertuigen rijden. Gelijkaardig voor bvb verkeersintensiteit: men telt in een meetpunt langs de weg doorkomsten van Voertuigen en gaat ervan uit dat dit cijfer representatief is voor  het Wegsegment (deel van de weg tussen twee opeenvolgende kruispunten). OPGELET: Deze klasse is abstract, ze mag niet geinstantieerd worden. Gebruik in de plaats de subklassen Verkeersmeetpunt of Verkeersmeettraject",
-        "en": "Enter your translation here"
+        "en": "To be used if one cannot observe this object directly. For example, to determine the speed of a Vehicle, it is impossible to track each vehicle. Instead, one sets up a measuring point along the road to see how fast passing Vehicles are driving. Similar to, for example, traffic intensity: the passages of Vehicles are counted at a measuring point along the road and it is assumed that this figure is representative of at least the part of the road between two consecutive intersections (being the corresponding RoadSegment). ATTENTION: This class is abstract, it may not be instantiated. Use the subclasses TrafficMeasurementPoint or TrafficMeasurementSection instead."
       }
     },
     {
@@ -53,11 +53,11 @@
       "name": "Verkeersdeelnemer",
       "label": {
         "nl": "Verkeersdeelnemer",
-        "en": "Enter your translation here"
+        "en": "TrafficParticipant"
       },
       "definition": {
         "nl": "Deelnemer aan het verkeer op de  weg, als voetganger of als gebruiker (bestuurder of passagier) van een Voertuig.",
-        "en": "Enter your translation here"
+        "en": "Participant in traffic, as driver or passenger of a Vehicle or without a Vehicle, for example as a pedestrian."
       }
     },
     {
@@ -65,15 +65,15 @@
       "name": "Verkeersdomeinobject",
       "label": {
         "nl": "Verkeersdomeinobject",
-        "en": "Enter your translation here"
+        "en": "TrafficDomainObject"
       },
       "definition": {
         "nl": "Object uit het verkeersdomein waarvan men een Verkeerskenmerk meet.",
-        "en": "Enter your translation here"
+        "en": "Object from the traffic domain for which a TrafficFeature is measured."
       },
       "usage": {
         "nl": "Hieronder verstaan we een real-world object uit het verkeer, ttz een Voertuig of Verkeersdeelnemer of een Wegsegment of gelijkaardig waarover verkeer plaatsvindt. Vallen hier niet onder: Verkeersbemonsteringsobjecten zoals Verkeersmeetpunten of Verkeersmeettrajecten, dat zijn de objecten die het Verkeersdomein bemonsteren. OPGELET: Deze klasse is abstract, ze mag maw niet geinstantieerd worden. Gebruik in de plaats subklassen zoal Wegsegment, Rijstrook, Voertuig etc.",
-        "en": "Enter your translation here"
+        "en": "By this is meant a real-world object from traffic, i.e. a Vehicle or TrafficParticipant or a RoadSegment or similar over which traffic takes place. This does not include: TrafficSamplingObjects such as TrafficMeasurementPoints or TrafficMeasurementSections, which are the objects that sample the traffic domain. ATTENTION: This class is abstract, ie it may not be instantiated. Instead, use cubclasses such as RoadSegment, Lane, Vehicle, etc."
       }
     },
     {
@@ -81,15 +81,15 @@
       "name": "Verkeerskenmerk",
       "label": {
         "nl": "Verkeerskenmerk",
-        "en": "Enter your translation here"
+        "en": "TrafficFeature"
       },
       "definition": {
         "nl": "Kenmerk van het Verkeersdomeinobject of het Verkeersbemonsteringsobject dat gemeten wordt en dat betrekking heeft op het verkeer over of langs dat object of op zijn deelname aan het verkeer.",
-        "en": "Enter your translation here"
+        "en": "Feature of the TrafficDomainObject or the TrafficSamplingObject that is measured and that relates to the traffic over or along that object or to its participation in traffic."
       },
       "usage": {
         "nl": "Bvb de gemiddelde snelheid van auto's langs een Meetpunt of de verkeersIntensiteit van fietsen op een Wegsegment bvb uitgedrukt in aantal voertuigen of de snelheid van een individueel Voertuig etc.",
-        "en": "Enter your translation here"
+        "en": "For example, the average speed of cars past a MeasuringPoint or the traffic intensity of bicycles on a RoadSegment, for example expressed in number of vehicles or the speed of an individual Vehicle, etc."
       }
     },
     {
@@ -97,15 +97,15 @@
       "name": "Verkeersmeetpunt",
       "label": {
         "nl": "Verkeersmeetpunt",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurementPoint"
       },
       "definition": {
         "nl": "Punt waarlangs men kenmerken van het voorbijkomend verkeer meet.",
-        "en": "Enter your translation here"
+        "en": "Point at which features of passing traffic are measured."
       },
       "usage": {
         "nl": "Dit is het punt langs de weg waar bvb doorkomsten van Voertuigen worden geteld en/of hun snelheid wordt gemeten of waarvoor enig ander Verkeerskenmerk wordt vastgesteld dat op het bemonsterd Verkeerdomeinobject betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "This is the point along the road where, for example, the passage of Vehicles is counted and/or their speed is measured or for which any other TrafficFeature is determined that relates to the sampled TrafficDomainObject."
       }
     },
     {
@@ -113,15 +113,15 @@
       "name": "Verkeersmeettraject",
       "label": {
         "nl": "Verkeersmeettraject",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurementTrajectory"
       },
       "definition": {
         "nl": "Traject waarlangs men kenmerken van het voorbijkomend verkeer meet..",
-        "en": "Enter your translation here"
+        "en": "Trajectory along the road for which the characteristics of passing traffic are measured."
       },
       "usage": {
         "nl": "Dit is een afstand langs de weg waar bvb de snelheid van Voertuigen wordt gemeten (een zgn trajectcontrole) of waarvoor enig ander Verkeerskenmerk wordt vastgesteld dat op het bemonsterd Verkeerdomeinobject betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "This is a distance along the road where, for example, the average speed of Vehicles is measured (the so called fixed average speed check), or any other TrafficFeature that relates to the sampled TrafficDomainObject."
       }
     },
     {
@@ -129,15 +129,15 @@
       "name": "Verkeersmeting",
       "label": {
         "nl": "Verkeersmeting",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurement"
       },
       "definition": {
         "nl": "Het vaststellen van de waarde van een bepaald kenmerk van het verkeer op een bepaald tijdstip of tussen twee tijdstippen.",
-        "en": "Enter your translation here"
+        "en": "Determining the value of a certain feature of the traffic at a certain point in time or between two points in time."
       },
       "usage": {
         "nl": "Verkeer wordt gedefinieerd als de verplaatsing van objecten zoals personen, vracht, data etc over media zoals land, water, lucht, kabels. Verkeer kan betrekking hebben op objecten die zichzelf verplaatsen (al dan niet met een vervoermiddel) of objecten die vervoerd worden, maar ook op objecten waarover verkeer plaatsvindt. De meting kan het vaststellen van de waarde van een kenmerk van een individueel object tijdens zijn verplaatsing zijn (bvb zijn snelheid) of van een kenmerk van de infrastructuur waarover het verkeer zich beweegt (bv de verkeersintensiteit). Verkeersmetingen  zijn Observaties, maw op de waarde zit een zekere foutmarge door de gebruikte meettechniek.\n",
-        "en": "Enter your translation here"
+        "en": "Traffic is defined as the movement of objects such as people, freight, data, etc. over modes such as land, water, air, cables. In the context of this application profile, by traffic we mean road traffic. Traffic can refer to objects that move themselves (with or without a means of transport) or objects that are transported, but also to objects over which traffic takes place. The measurement can be the determination of the value of a feature of an individual Vehicle or TrafficParticipant during its movement (e.g. its speed or license plate) or of a feature of the infrastructure such as a RoadSegment or a Lane over which the traffic moves (e.g. the traffic intensity ). TrafficMeasurements are Observations, in other words there is a certain margin of error on the value due to the measuring technique used."
       }
     },
     {
@@ -145,15 +145,15 @@
       "name": "Verkeersmetingverzameling",
       "label": {
         "nl": "Verkeersmetingverzameling",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurementCollection"
       },
       "definition": {
         "nl": "Collectie van Verkeersmetingen met dezelfde kenmerken.",
-        "en": "Enter your translation here"
+        "en": "Collection of TrafficMeasurements with the same properties"
       },
       "usage": {
         "nl": "Bv metingen die op hetzelfde tijdstip plaatsvonden of hetzelfde Object of kenmerk observeren of door dezelfde Sensor zijn gemaakt. Bvb de metingen in eenzelfde Verkeersmeetpunt of de metingen op dezelfde infrastructuur etc.",
-        "en": "Enter your translation here"
+        "en": "E.g. measurements that took place at the same time or observed the same object or feature or were made by the same Sensor. For example, the measurements of speed, vehicle type, etc. at the same TrafficMeasurementPoint or the measurements of traffic intensity per hour on the same RoadSegment, etc."
       }
     },
     {
@@ -161,15 +161,15 @@
       "name": "Verkeersobject",
       "label": {
         "nl": "Verkeersobject",
-        "en": "Enter your translation here"
+        "en": "TrafficObject"
       },
       "definition": {
         "nl": "Object waarop of waarlangs zich verkeer voordoet of dat deel uitmaakt vh verkeer.",
-        "en": "Enter your translation here"
+        "en": "Object on which or along which traffic occurs or that is part of traffic."
       },
       "usage": {
         "nl": "OPGELET: Deze klasse is abstract, ze moet gespecialiseerd worden als Verkeersdomeinobject of als Verkeersbemonsteringsobject. Als Verkeersdomeinobject als de meting direct betrekking heeft op het object dat men wil observeren of als Verkeersbemonsteringsobject als de meting onrechtstreeks gebeurt (bvb via een Verkeersmeetpunt).",
-        "en": "Enter your translation here"
+        "en": "ATTENTION: This class is abstract, it must be specialized as a TrafficDomainObject or as a TrafficSamplingObject. As a Traffic DomainObject if the measurement directly relates to the object you want to observe (e.g. a RoadSegment or a Vehicle, etc.) or as a TrafficSamplingObject if the measurement is done indirectly (e.g. via a TrafficMeasuringPoint located along a RoadSegment)."
       }
     },
     {
@@ -177,15 +177,15 @@
       "name": "Voertuig",
       "label": {
         "nl": "Voertuig",
-        "en": "Enter your translation here"
+        "en": "Vehicle"
       },
       "definition": {
         "nl": "Middel om personen of goederen te vervoeren.",
-        "en": "Enter your translation here"
+        "en": "Object designed to transport people or goods."
       },
       "usage": {
         "nl": "Bvb auto, fiets, vrachtwagen, bus, trein, tram, schip, boot, vliegtuig etc.",
-        "en": "Enter your translation here"
+        "en": "Object designed to transport people or goods."
       }
     },
     {
@@ -193,15 +193,15 @@
       "name": "Voetpad",
       "label": {
         "nl": "Voetpad",
-        "en": "Enter your translation here"
+        "en": "Sidewalk"
       },
       "definition": {
         "nl": "Deel van de wegbaan bedoeld voor voetgangers.",
-        "en": "Enter your translation here"
+        "en": "Part of roadarea dedicated to pedestrians."
       },
       "usage": {
         "nl": "Is per defintie afgescheiden van de rijbaan, typisch via een boordsteen en verhoogde ligging.",
-        "en": "Enter your translation here"
+        "en": "By definition seperated from the carriageway, typically by a coping stone and elevated position."
       }
     }
   ],
@@ -211,11 +211,11 @@
       "name": "waardeverschaffer",
       "label": {
         "nl": "waardeverschaffer",
-        "en": "Enter your translation here"
+        "en": "valueProvider"
       },
       "definition": {
         "nl": "Verwijzing naar een Verkeersmeting die op het geobserveerdObject plaatsvondt.",
-        "en": "Enter your translation here"
+        "en": "Reference to a TrafficMeasurement that took place on the observedObject."
       },
       "usage": {
         "nl": "Die meting verschaft ahw een waarde voor het Verkeerskenmerk dat van het Verkeersobject wordt gemeten.",
@@ -227,15 +227,15 @@
       "name": "voertuigType",
       "label": {
         "nl": "voertuigType",
-        "en": "Enter your translation here"
+        "en": "VehicleType"
       },
       "definition": {
         "nl": "Soort Voertuig waarvan men het Verkeerskenmerk meet.",
-        "en": "Enter your translation here"
+        "en": "Type of Vehicle."
       },
       "usage": {
         "nl": "Bvb \"Fiets\" als men enkel het aantal fietsen wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Voertuig zijn maar bvb een Wegsegment of Rijstrook etc.",
-        "en": "Enter your translation here"
+        "en": "E.g. car, bicycle, step etc. or noVehicle (e.g. for Pedestrians) ."
       }
     },
     {
@@ -243,15 +243,15 @@
       "name": "verkeersdeelnemertype",
       "label": {
         "nl": "verkeersdeelnemertype",
-        "en": "Enter your translation here"
+        "en": "trafficParticipantType"
       },
       "definition": {
         "nl": "Soort Verkeersdeelnemer waarvan men het Verkeerskenmerk meet.",
-        "en": "Enter your translation here"
+        "en": "Type of TrafficParticipant whose TrafficFeature is measured."
       },
       "usage": {
         "nl": "Bvb \"Voetganger\" als men enkel het aantal Voertgangers wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Verkeersdeelnemer zijn maar bvb een Wegsegment of Rijstrook etc.",
-        "en": "Enter your translation here"
+        "en": "For example, \"Pedestrian\" if one only wants to count the number of pedestrians in a measuring point. Only necessary for Traffic DomainObjects that are not themselves a TrafficParticipant but, for example, a RoadSegment or Lane, etc."
       }
     },
     {
@@ -259,15 +259,15 @@
       "name": "rijstrook",
       "label": {
         "nl": "rijstrook",
-        "en": "Enter your translation here"
+        "en": "lane"
       },
       "definition": {
         "nl": "Identificator van de Rijstrook.",
-        "en": "Enter your translation here"
+        "en": "Identifier of the Lane."
       },
       "usage": {
         "nl": "De identificator moet getypeerd worden bvb volgens het systeem dat werd gehanteerd om de Rijstroken te nummeren. Bvb het schema van DATEX II waar over de volledige breedte van de weg van links naar rechts wordt genummerd.",
-        "en": "Enter your translation here"
+        "en": "The identifier must be typed, for example, according to the scheme used to number the Lanes. For example, the DATEX II scheme where Lanes are numbered from left to right over the entire width of the road."
       }
     },
     {
@@ -275,15 +275,15 @@
       "name": "ligging",
       "label": {
         "nl": "ligging",
-        "en": "Enter your translation here"
+        "en": "location"
       },
       "definition": {
         "nl": "Locatie van de Sensor.",
-        "en": "Enter your translation here"
+        "en": "Location of the Sensor"
       },
       "usage": {
         "nl": "Bvb de coördinaten of het adres of een verwijzing naar een meetpunt of ander Bemonsteringsobject. Meerdere verschillende types van locaties kunnen worden opgegeven (bvb adres èn coördinaten). Als de Sensor een meetinstallatie is evt de verschillende meetpunten die worden omvat of een omschrijvende polygoon. OPGELET: De locatie van de Sensor is niet noodzakelijk de positie waar de Observatie gebeurt, die wordt in de eerste plaats gegeven door de ligging vh Bemonsteringsobject. Dit attribuut laat vooral toe om posities van Sensoren te beschrijven los vd metingen die er gebeuren.",
-        "en": "Enter your translation here"
+        "en": "For example, the coordinates or the address or a reference to a measuring point or other SamplingObject. Several different types of locations can be specified (e.g. address and coordinates). If the Sensor is a measuring installation, possibly the various measuring points that are included or a descriptive polygon. NOTE: The location of the Sensor is not necessarily the position where the Observation takes place, which is primarily given by the location of the SamplingObject or DomainObject. This attribute mainly allows you to describe the positions of sensors, regardless of the measurements that take place."
       }
     },
     {
@@ -291,11 +291,11 @@
       "name": "heeftLid",
       "label": {
         "nl": "heeftLid",
-        "en": "Enter your translation here"
+        "en": "hasMember"
       },
       "definition": {
         "nl": "Verkeersmeting die tot de verzameling behoort.",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurements that belong to the collection."
       }
     },
     {
@@ -303,15 +303,15 @@
       "name": "geobserveerdObject",
       "label": {
         "nl": "geobserveerdObject",
-        "en": "Enter your translation here"
+        "en": "observedObject"
       },
       "definition": {
         "nl": "Het Verkeersobject dat geobserveerd wordt.",
-        "en": "Enter your translation here"
+        "en": "The TrafficObject being observed."
       },
       "usage": {
         "nl": "Dat kan het Verkeersdomeinobject zelf zijn of een proxy ervan, ttz een Verkeersbemonsteringsobject. OPMERKING: In dat laatste geval weet men soms pas na het observeren welk real-world Object men juist geobserveerd heeft. Bvb in een Verkeersmeetpunt weet men niet op voorhand welke de objecten zullen zijn waarvan men de snelheid wil vaststellen.",
-        "en": "Enter your translation here"
+        "en": "This can be the TrafficDomainObject itself or a proxy of it, i.e. a TrafficSamplingObject. NOTE: In the latter case, one sometimes only knows after observing which real-world Object one has observed. At a Traffic Measurement Point, one does not know in advance of which Vehicles exactly one will determine the speed."
       }
     },
     {
@@ -319,15 +319,15 @@
       "name": "geobserveerdKenmerk",
       "label": {
         "nl": "geobserveerdKenmerk",
-        "en": "Enter your translation here"
+        "en": "observedFeature"
       },
       "definition": {
         "nl": "Kenmerk van het Verkeersobject dat geobserveerd wordt.",
-        "en": "Enter your translation here"
+        "en": "Characteristic of the TrafficObject being observed."
       },
       "usage": {
         "nl": "CONSTRAINT: Het geobserveerdKenmerk moet werkelijk een kenmerk zijn van het geobserveerdObject of van een (onder)deel ervan. Soms is de procedure waarmee de waarden vh kenmerk worden bekomen indirect, ttz men meet om praktische reden een ander kenmerk dat een proxy is voor het kenmerk dat men werkelijk wil observeren. Bv om de Verkeersintensiteit op een Wegsegment te bepalen telt men individuele doorkomsten van Voertuigen in een Verkeersmeetpunt.",
-        "en": "Enter your translation here"
+        "en": "CONSTRAINT: The observedFeature must actually be a feature of the observedObject or of a (sub)part of it. Sometimes the procedure by which the values of the feature are obtained is indirect, i.e. for practical reasons one measures another feature that is a proxy for the feature that one really wants to observe. For example, to determine the TrafficIntensity on a RoadSegment, individual passes by Vehicles at a Traffic MeasuringPoint are counted."
       }
     },
     {
@@ -335,15 +335,15 @@
       "name": "bemonsterdObject",
       "label": {
         "nl": "bemonsterdObject",
-        "en": "Enter your translation here"
+        "en": "sampledObject"
       },
       "definition": {
         "nl": "Verwijzing naar het Verkeersdomeinobject waarop de meting betrekking heeft en waarvoor het Verkeersbemonsteringsobject representatief is.",
-        "en": "Enter your translation here"
+        "en": "Reference to the TrafficDomainObject to which the measurement relates and for which the TrafficSamplingObject is representative."
       },
       "usage": {
         "nl": "Bvb het Voertuig of het Wegsegment waarvan men een Verkeerskenmerk bepaalt.",
-        "en": "Enter your translation here"
+        "en": "E.g. the Vehicle or RoadSegment for which a TrafficFeature is determined."
       }
     },
     {
@@ -351,11 +351,11 @@
       "name": "geobserveerdObject",
       "label": {
         "nl": "geobserveerdObject",
-        "en": "Enter your translation here"
+        "en": "observedObject"
       },
       "definition": {
         "nl": "Object dat door de Verkeersmetingen wordt geobserveerd.",
-        "en": "Enter your translation here"
+        "en": "Object observed by the TrafficMeasurements."
       }
     },
     {
@@ -363,11 +363,11 @@
       "name": "geobserveerdKenmerk",
       "label": {
         "nl": "geobserveerdKenmerk",
-        "en": "Enter your translation here"
+        "en": "observedFeature"
       },
       "definition": {
         "nl": "Kenmerk dat de Verkeersmetingen in de verzameling meten.",
-        "en": "Enter your translation here"
+        "en": "Feature that the TrafficMeasurements in the collection measure."
       }
     },
     {
@@ -375,15 +375,15 @@
       "name": "wegdeel",
       "label": {
         "nl": "wegdeel",
-        "en": "Enter your translation here"
+        "en": "roadSection"
       },
       "definition": {
         "nl": "Geeft aan welke langs welk Wegdeel het traject loopt of betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Indicates which section of the road the trajectory runs along or relates to."
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven op welk deel van de weg de Voertuigen of Verkeersdeelnemers waarvan men een kenmerk meet zich bevinden, bvb op een bepaalde Rijstrook of op het Fietspad of het Voetpad.",
-        "en": "Enter your translation here"
+        "en": "Alternative or supplement to geometry or network reference. Also necessary to indicate on which part of the road the Vehicles or TrafficParticipants, whose characteristic are being measured, are located, for example on a certain Lane or on the Bicyclepath or Sidewalk."
       }
     },
     {
@@ -391,15 +391,15 @@
       "name": "rijrichting",
       "label": {
         "nl": "rijrichting",
-        "en": "Enter your translation here"
+        "en": "trafficDirection"
       },
       "definition": {
         "nl": "Geeft aan welke op welke Rijrichting het Verkeersmeettraject ligt.",
-        "en": "Enter your translation here"
+        "en": "Indicates which TrafficDirection the TrafficMeasuringTrajectory is located on."
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie.  Ook noodzakelijk om aan te geven in welke richting de Voertuigen rijden waarvan men bvb de gemiddelde snelheid meet.",
-        "en": "Enter your translation here"
+        "en": "Alternative or supplement to geometry or network reference. Also necessary to indicate in which direction the Vehicles are driving of which the average speed is being measured, for example."
       }
     },
     {
@@ -407,15 +407,15 @@
       "name": "netwerkReferentie",
       "label": {
         "nl": "netwerkReferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Referentie naar het Netwerkelement waarlangs het Verkeersmeettraject loopt of dat door dat traject bemonsterd wordt.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement on or along which the TrafficMeasurementPoint is located on or that is sampled by that point."
       },
       "usage": {
         "nl": "Nuttig als men weet langs welk Wegsegment het traject loopt en aan welke kant van de weg en op welke afstand van het beginpunt. Alternatief voor of aanvulling op coördinaten. Ook noodzakelijk om aan te geven over welk Wegsegment en aan welke kant ervan de Voertuigen rijden waarvan men bvb de snelheid meet.\n",
-        "en": "Enter your translation here"
+        "en": "Useful if you know along which RoadSegment the point is located and on which side of the road and at what distance from the starting point. Alternative or addition to coordinates. Also necessary to indicate which RoadSegment and on which side the Vehicles are driving whose speed is measured, for example."
       }
     },
     {
@@ -423,15 +423,15 @@
       "name": "wegdeel",
       "label": {
         "nl": "wegdeel",
-        "en": "Enter your translation here"
+        "en": "roadSection"
       },
       "definition": {
         "nl": "Geeft aan welke op welk Wegdeel het Verkeersmeetpunt gelegen is of betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Indicates on which road section the TrafficMeasurementPoint is located on or relates to."
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven op welk deel van de weg de Voertuigen of Verkeersdeelnemers waarvan men een kenmerk meet zich bevinden, bvb op een bepaalde Rijstrook of op het Fietspad of het Voetpad.",
-        "en": "Enter your translation here"
+        "en": "Alternative or supplement to geometry or network reference. Also necessary to indicate on which part of the road the Vehicles or TrafficParticipants, whose characteristic is being measured, are located, for example on a certain Lane or on the BiyclePath or Sidewalk."
       }
     },
     {
@@ -439,15 +439,15 @@
       "name": "rijrichting",
       "label": {
         "nl": "rijrichting",
-        "en": "Enter your translation here"
+        "en": "trafficDirection"
       },
       "definition": {
         "nl": "Geeft aan welke op welke Rijrichting het Verkeersmeetpunt gelegen is of betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Indicates which TrafficDirection the TrafficMeasurementPoint is located on or relates to."
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven in welke richting de Voertuigen rijden waarvan men bvb de snelheid meet.",
-        "en": "Enter your translation here"
+        "en": "Alternative or supplement to geometry or network reference. Also necessary to indicate in which direction the Vehicles are driving of which the speed is being measured, for example."
       }
     },
     {
