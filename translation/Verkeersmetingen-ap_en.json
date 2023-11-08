@@ -6,15 +6,15 @@
       "name": "Fietspad",
       "label": {
         "nl": "Fietspad",
-        "en": "Enter your translation here"
+        "en": "BicyclePath"
       },
       "definition": {
         "nl": "Deel van de wegbaan uitsluitend bedoeld voor fietsverkeer.",
-        "en": "Enter your translation here"
+        "en": "Section of roadway intended exclusively for bicycle traffic."
       },
       "usage": {
         "nl": "Maakt geen deel uit vd rijbaan (de rijbaan is het deel van de wegbaan ingericht voor het verkeer van Voertuigen), bvb auto's mogen niet op een Fietspad rijden of stationeren. OPGELET: Niet te verwarren met fietssuggestiestroken (wel deel vd rijbaan) of met de zijstroken ve middenrijbaan (geen deel vd rijbaan maar waarop mag gereden worden door auto's om tegenliggers te ontwijken). Fietspaden kunnen aanliggend zijn aan de rijbaan of vrijliggend of zelfs een eigen wegbaan hebben (in dat laatste geval worden ze door een eigen Wegsegment voorgesteld).",
-        "en": "Enter your translation here"
+        "en": "Is not part of the carriageway (the carriageway is the part of the roadarea designed for vehicle traffic), e.g. cars are not allowed to drive or station on a BicyclePath. ATTENTION: Not to be confused with bicycle lanes (part of the carriageway) or with the side lanes of the central carriageway (not part of the carriageway but on which cars may drive to avoid oncoming traffic). BicyclePaths can be adjacent to the carriageway or separate or even have their own road Lane (in the latter case they are represented by their own RoadSegment)."
       }
     },
     {
@@ -22,15 +22,15 @@
       "name": "Rijstrook",
       "label": {
         "nl": "Rijstrook",
-        "en": "Enter your translation here"
+        "en": "Lane"
       },
       "definition": {
         "nl": "In de langsrichting begrensd deel van de rijbaan, bedoeld om de verkeersstroom te geleiden in een bepaalde richting en met doorgaans de breedte van één Voertuig.",
-        "en": "Enter your translation here"
+        "en": "The carriageway is the part of the roadarea designed for a Vehicle to drive over. By dividing the carriageway you get a more controlled traffic flow, firstly because the driving directions or, for example, through and turning traffic are separated and also by limiting the width so that only one Vehicle can pass through one time. Lanes are typically designated by road markings, for example a white continuous or interrupted line. NOTE: Sidewalks or BicyclePaths are not Lanes as they are not intended for a car to drive on and are therefore not part of the carriageway."
       },
       "usage": {
         "nl": "Onder rijbaan verstaan we dat deel van de wegbaan ingericht om met een Voertuig over te rijden. Door de rijbaan op te splitsen krijgt men een meer gecontroleerde verkeersstroom, in de eerste plaats omdat de rijrichtingen of bvb doorgaand en afslaand verkeer gescheiden worden en ook door de breedte te beperken zodat er maar één Voertuig tegelijk doorkan. Rijstroken worden typisch afgebakend dmv wegmarkeringen, bvb een witte doorlopende of onderbroken streep. OPMERKING: Voetpaden of Fietspaden zijn geen Rijstroken aangezien ze niet bedoeld zijn om met een auto over te rijden en dus geen deel zijn van de rijbaan.\n",
-        "en": "Enter your translation here"
+        "en": "The carriageway is the part of the roadarea designed for a Vehicle to drive over. By dividing the carriageway you get a more controlled traffic flow, firstly because the driving directions or, for example, through and turning traffic are separated and also by limiting the width so that only one Vehicle can pass through one time. Lanes are typically designated by road markings, for example a white continuous or interrupted line. NOTE: Sidewalks or BicyclePaths are not Lanes as they are not intended for a car to drive on and are therefore not part of the carriageway."
       }
     },
     {
@@ -38,15 +38,15 @@
       "name": "Verkeersbemonsteringsobject",
       "label": {
         "nl": "Verkeersbemonsteringsobject",
-        "en": "Enter your translation here"
+        "en": "TrafficSamplingObject"
       },
       "definition": {
         "nl": "Object dat representatief is voor het object waarvan men het Verkeerskenmerk meet.",
-        "en": "Enter your translation here"
+        "en": "Object that is representative of the object for which the TrafficFeature is measured."
       },
       "usage": {
         "nl": "Van belang als men dit object niet rechtstreeks kan observeren. Bvb om de snelheid ve Voertuig te bepalen kan men moeilijk dat Voertuig gaan volgen, in plaats daarvan zet men een meetpunt op langs de weg om te zien hoe snel passerende Voertuigen rijden. Gelijkaardig voor bvb verkeersintensiteit: men telt in een meetpunt langs de weg doorkomsten van Voertuigen en gaat ervan uit dat dit cijfer representatief is voor  het Wegsegment (deel van de weg tussen twee opeenvolgende kruispunten). OPGELET: Deze klasse is abstract, ze mag niet geinstantieerd worden. Gebruik in de plaats de subklassen Verkeersmeetpunt of Verkeersmeettraject",
-        "en": "Enter your translation here"
+        "en": "To be used if one cannot observe this object directly. For example, to determine the speed of a Vehicle, it is impossible to track each vehicle. Instead, one sets up a measuring point along the road to see how fast passing Vehicles are driving. Similar to, for example, traffic intensity: the passages of Vehicles are counted at a measuring point along the road and it is assumed that this figure is representative of at least the part of the road between two consecutive intersections (being the corresponding RoadSegment). ATTENTION: This class is abstract, it may not be instantiated. Use the subclasses TrafficMeasurementPoint or TrafficMeasurementSection instead."
       }
     },
     {
@@ -54,11 +54,11 @@
       "name": "Verkeersdeelnemer",
       "label": {
         "nl": "Verkeersdeelnemer",
-        "en": "Enter your translation here"
+        "en": "TrafficParticipant"
       },
       "definition": {
         "nl": "Deelnemer aan het verkeer, als bestuurder of passagier van een Voertuig of zonder Voertuig, bvb als voetganger.",
-        "en": "Enter your translation here"
+        "en": "Participant in traffic, as driver or passenger of a Vehicle or without a Vehicle, for example as a pedestrian."
       }
     },
     {
@@ -66,15 +66,15 @@
       "name": "Verkeersdomeinobject",
       "label": {
         "nl": "Verkeersdomeinobject",
-        "en": "Enter your translation here"
+        "en": "TrafficDomainObject"
       },
       "definition": {
         "nl": "Object uit het verkeersdomein waarvan men een Verkeerskenmerk meet.",
-        "en": "Enter your translation here"
+        "en": "Object from the traffic domain for which a TrafficFeature is measured."
       },
       "usage": {
         "nl": "Hieronder verstaan we een real-world object uit het verkeer, ttz een Voertuig of Verkeersdeelnemer of een Wegsegment of gelijkaardig waarover verkeer plaatsvindt. Vallen hier niet onder: Verkeersbemonsteringsobjecten zoals Verkeersmeetpunten of Verkeersmeettrajecten, dat zijn de objecten die het Verkeersdomein bemonsteren. OPGELET: Deze klasse is abstract, ze mag maw niet geinstantieerd worden. Gebruik in de plaats subklassen zoal Wegsegment, Rijstrook, Voertuig etc.",
-        "en": "Enter your translation here"
+        "en": "By this is meant a real-world object from traffic, i.e. a Vehicle or TrafficParticipant or a RoadSegment or similar over which traffic takes place. This does not include: TrafficSamplingObjects such as TrafficMeasurementPoints or TrafficMeasurementSections, which are the objects that sample the traffic domain. ATTENTION: This class is abstract, ie it may not be instantiated. Instead, use cubclasses such as RoadSegment, Lane, Vehicle, etc."
       }
     },
     {
@@ -82,15 +82,15 @@
       "name": "Verkeerskenmerk",
       "label": {
         "nl": "Verkeerskenmerk",
-        "en": "Enter your translation here"
+        "en": "TrafficFeature"
       },
       "definition": {
         "nl": "Kenmerk van het Verkeersdomeinobject of het Verkeersbemonsteringsobject dat gemeten wordt en dat betrekking heeft op het verkeer over of langs dat object of op zijn deelname aan het verkeer.",
-        "en": "Enter your translation here"
+        "en": "Feature of the TrafficDomainObject or the TrafficSamplingObject that is measured and that relates to the traffic over or along that object or to its participation in traffic."
       },
       "usage": {
         "nl": "Bvb de gemiddelde snelheid van auto's langs een Meetpunt of de verkeersIntensiteit van fietsen op een Wegsegment bvb uitgedrukt in aantal voertuigen of de snelheid van een individueel Voertuig etc.",
-        "en": "Enter your translation here"
+        "en": "For example, the average speed of cars past a MeasuringPoint or the traffic intensity of bicycles on a RoadSegment, for example expressed in number of vehicles or the speed of an individual Vehicle, etc."
       }
     },
     {
@@ -98,15 +98,15 @@
       "name": "Verkeersmeetpunt",
       "label": {
         "nl": "Verkeersmeetpunt",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurementPoint"
       },
       "definition": {
         "nl": "Punt waarlangs men kenmerken van het voorbijkomend verkeer meet.",
-        "en": "Enter your translation here"
+        "en": "Point at which features of passing traffic are measured."
       },
       "usage": {
         "nl": "Dit is het punt langs de weg waar bvb doorkomsten van Voertuigen worden geteld en/of hun snelheid wordt gemeten of waarvoor enig ander Verkeerskenmerk wordt vastgesteld dat op het bemonsterd Verkeerdomeinobject betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "This is the point along the road where, for example, the passage of Vehicles is counted and/or their speed is measured or for which any other TrafficFeature is determined that relates to the sampled TrafficDomainObject."
       }
     },
     {
@@ -114,15 +114,15 @@
       "name": "Verkeersmeettraject",
       "label": {
         "nl": "Verkeersmeettraject",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurementTrajectory"
       },
       "definition": {
         "nl": "Traject waarlangs men kenmerken van het voorbijkomend verkeer meet..",
-        "en": "Enter your translation here"
+        "en": "Trajectory along the road for which the characteristics of passing traffic are measured."
       },
       "usage": {
         "nl": "Dit is een afstand langs de weg waarvoor bvb de gemiddelde snelheid van Voertuigen wordt gemeten (de zgn trajectcontrole) of waarvoor enig ander Verkeerskenmerk wordt vastgesteld dat op het bemonsterd Verkeerdomeinobject betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "This is a distance along the road where, for example, the average speed of Vehicles is measured (the so called fixed average speed check), or any other TrafficFeature that relates to the sampled TrafficDomainObject."
       }
     },
     {
@@ -130,15 +130,15 @@
       "name": "Verkeersmeting",
       "label": {
         "nl": "Verkeersmeting",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurement"
       },
       "definition": {
         "nl": "Het vaststellen van de waarde van een bepaald kenmerk van het verkeer op een bepaald tijdstip of tussen twee tijdstippen.",
-        "en": "Enter your translation here"
+        "en": "Determining the value of a certain feature of the traffic at a certain point in time or between two points in time."
       },
       "usage": {
         "nl": "Verkeer wordt gedefinieerd als de verplaatsing van objecten zoals personen, vracht, data etc over media zoals land, water, lucht, kabels. In de context van dit applicatieprofiel bedoelen we met verkeer het wegverkeer. Verkeer kan betrekking hebben op objecten die zichzelf verplaatsen (al dan niet met een vervoermiddel) of objecten die vervoerd worden, maar ook op objecten waarover verkeer plaatsvindt. De meting kan het vaststellen van de waarde van een kenmerk van een individueel Voertuig of Verkeersdeelnemer tijdens zijn verplaatsing zijn (bvb zijn snelheid of nummerplaat) of van een kenmerk van de infrastructuur zoals een Wegsegment of een Rijstrook waarover het verkeer zich beweegt (bv de verkeersintensiteit). Verkeersmetingen  zijn Observaties, maw op de waarde zit een zekere foutmarge door de gebruikte meettechniek.\n",
-        "en": "Enter your translation here"
+        "en": "Traffic is defined as the movement of objects such as people, freight, data, etc. over modes such as land, water, air, cables. In the context of this application profile, by traffic we mean road traffic. Traffic can refer to objects that move themselves (with or without a means of transport) or objects that are transported, but also to objects over which traffic takes place. The measurement can be the determination of the value of a feature of an individual Vehicle or TrafficParticipant during its movement (e.g. its speed or license plate) or of a feature of the infrastructure such as a RoadSegment or a Lane over which the traffic moves (e.g. the traffic intensity ). TrafficMeasurements are Observations, in other words there is a certain margin of error on the value due to the measuring technique used."
       }
     },
     {
@@ -146,15 +146,15 @@
       "name": "Verkeersmetingverzameling",
       "label": {
         "nl": "Verkeersmetingverzameling",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurementCollection"
       },
       "definition": {
         "nl": "Collectie van Verkeersmetingen met dezelfde kenmerken.",
-        "en": "Enter your translation here"
+        "en": "Collection of TrafficMeasurements with the same properties"
       },
       "usage": {
         "nl": "Bv metingen die op hetzelfde tijdstip plaatsvonden of hetzelfde Object of kenmerk observeren of door dezelfde Sensor zijn gemaakt. Bvb de metingen van snelheid, voertuigtype etc in eenzelfde Verkeersmeetpunt of de metingen van verkeersintensiteit per uur op eenzelfde Wegsegment etc.",
-        "en": "Enter your translation here"
+        "en": "E.g. measurements that took place at the same time or observed the same object or feature or were made by the same Sensor. For example, the measurements of speed, vehicle type, etc. at the same TrafficMeasurementPoint or the measurements of traffic intensity per hour on the same RoadSegment, etc."
       }
     },
     {
@@ -162,15 +162,15 @@
       "name": "Verkeersobject",
       "label": {
         "nl": "Verkeersobject",
-        "en": "Enter your translation here"
+        "en": "TrafficObject"
       },
       "definition": {
         "nl": "Object waarop of waarlangs zich verkeer voordoet of dat deel uitmaakt vh verkeer.",
-        "en": "Enter your translation here"
+        "en": "Object on which or along which traffic occurs or that is part of traffic."
       },
       "usage": {
         "nl": "OPGELET: Deze klasse is abstract, ze moet gespecialiseerd worden als Verkeersdomeinobject of als Verkeersbemonsteringsobject. Als Verkeersdomeinobject als de meting direct betrekking heeft op het object dat men wil observeren (bvb een Wegsegment of een Voertuig etc) of als Verkeersbemonsteringsobject als de meting onrechtstreeks gebeurt (bvb via een Verkeersmeetpunt gelegen langs een Wegsegment).",
-        "en": "Enter your translation here"
+        "en": "ATTENTION: This class is abstract, it must be specialized as a TrafficDomainObject or as a TrafficSamplingObject. As a Traffic DomainObject if the measurement directly relates to the object you want to observe (e.g. a RoadSegment or a Vehicle, etc.) or as a TrafficSamplingObject if the measurement is done indirectly (e.g. via a TrafficMeasuringPoint located along a RoadSegment)."
       }
     },
     {
@@ -178,15 +178,15 @@
       "name": "Voertuig",
       "label": {
         "nl": "Voertuig",
-        "en": "Enter your translation here"
+        "en": "Vehicle"
       },
       "definition": {
         "nl": "Voorwerp gemaakt om personen of goederen te vervoeren.",
-        "en": "Enter your translation here"
+        "en": "Object designed to transport people or goods."
       },
       "usage": {
         "nl": "Bvb auto, fiets, vrachtwagen, bus, trein, tram, schip, boot, vliegtuig etc.",
-        "en": "Enter your translation here"
+        "en": "E.g. car, bicycle, truck, bus, train, tram, ship, boat, plane etc."
       }
     },
     {
@@ -194,15 +194,15 @@
       "name": "Voetpad",
       "label": {
         "nl": "Voetpad",
-        "en": "Enter your translation here"
+        "en": "Sidewalk"
       },
       "definition": {
         "nl": "Deel van de wegbaan bedoeld voor voetgangers.",
-        "en": "Enter your translation here"
+        "en": "Part of roadarea dedicated to pedestrians."
       },
       "usage": {
         "nl": "Is per defintie afgescheiden van de rijbaan, typisch via een boordsteen en verhoogde ligging.",
-        "en": "Enter your translation here"
+        "en": "By definition seperated from the carriageway, typically by a coping stone and elevated position."
       }
     }
   ],
@@ -212,11 +212,11 @@
       "name": "waardeverschaffer",
       "label": {
         "nl": "waardeverschaffer",
-        "en": "Enter your translation here"
+        "en": "valueProvider"
       },
       "definition": {
         "nl": "Verwijzing naar een Verkeersmeting die op het geobserveerdObject plaatsvondt.",
-        "en": "Enter your translation here"
+        "en": "Reference to a TrafficMeasurement that took place on the observedObject."
       },
       "usage": {
         "nl": "Die meting verschaft ahw een waarde voor het Verkeerskenmerk dat van het Verkeersobject wordt gemeten.",
@@ -228,15 +228,15 @@
       "name": "voertuigType",
       "label": {
         "nl": "voertuigType",
-        "en": "Enter your translation here"
+        "en": "vehicleType"
       },
       "definition": {
         "nl": "Soort Voertuig waarvan men het Verkeerskenmerk meet.",
-        "en": "Enter your translation here"
+        "en": "Type of Vehicle whose TrafficFeature is measured."
       },
       "usage": {
         "nl": "Bvb \"Fiets\" als men enkel het aantal fietsen wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Voertuig zijn maar bvb een Wegsegment of Rijstrook etc.",
-        "en": "Enter your translation here"
+        "en": "For example, \"Bicycle\" if you only want to count the number of bicycles in a measuring point. Only necessary for TrafficDomainObjects that are not themselves a Vehicle but, for example, a RoadSegment or Lane, etc."
       }
     },
     {
@@ -244,15 +244,15 @@
       "name": "verkeersdeelnemertype",
       "label": {
         "nl": "verkeersdeelnemertype",
-        "en": "Enter your translation here"
+        "en": "trafficParticipantType"
       },
       "definition": {
         "nl": "Soort Verkeersdeelnemer waarvan men het Verkeerskenmerk meet.",
-        "en": "Enter your translation here"
+        "en": "Type of TrafficParticipant whose TrafficFeature is measured."
       },
       "usage": {
         "nl": "Bvb \"Voetganger\" als men enkel het aantal Voertgangers wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Verkeersdeelnemer zijn maar bvb een Wegsegment of Rijstrook etc.",
-        "en": "Enter your translation here"
+        "en": "For example, \"Pedestrian\" if one only wants to count the number of pedestrians in a measuring point. Only necessary for Traffic DomainObjects that are not themselves a TrafficParticipant but, for example, a RoadSegment or Lane, etc."
       }
     },
     {
@@ -260,15 +260,15 @@
       "name": "rijstrook",
       "label": {
         "nl": "rijstrook",
-        "en": "Enter your translation here"
+        "en": "lane"
       },
       "definition": {
         "nl": "Identificator van de Rijstrook.",
-        "en": "Enter your translation here"
+        "en": "Identifier of the Lane."
       },
       "usage": {
         "nl": "De identificator moet getypeerd worden bvb volgens het systeem dat werd gehanteerd om de Rijstroken te nummeren. Bvb het schema van DATEX II waar over de volledige breedte van de weg van links naar rechts wordt genummerd.",
-        "en": "Enter your translation here"
+        "en": "The identifier must be typed, for example, according to the scheme used to number the Lanes. For example, the DATEX II scheme where Lanes are numbered from left to right over the entire width of the road."
       }
     },
     {
@@ -276,15 +276,15 @@
       "name": "ligging",
       "label": {
         "nl": "ligging",
-        "en": "Enter your translation here"
+        "en": "location"
       },
       "definition": {
         "nl": "Locatie van de Sensor.",
-        "en": "Enter your translation here"
+        "en": "Location of the Sensor"
       },
       "usage": {
         "nl": "Bvb de coördinaten of het adres of een verwijzing naar een meetpunt of ander Bemonsteringsobject. Meerdere verschillende types van locaties kunnen worden opgegeven (bvb adres èn coördinaten). Als de Sensor een meetinstallatie is evt de verschillende meetpunten die worden omvat of een omschrijvende polygoon. OPGELET: De locatie van de Sensor is niet noodzakelijk de positie waar de Observatie gebeurt, die wordt in de eerste plaats gegeven door de ligging vh Bemonsteringsobject of het Domeinobject. Dit attribuut laat vooral toe om posities van Sensoren te beschrijven los vd metingen die er gebeuren.",
-        "en": "Enter your translation here"
+        "en": "For example, the coordinates or the address or a reference to a measuring point or other SamplingObject. Several different types of locations can be specified (e.g. address and coordinates). If the Sensor is a measuring installation, possibly the various measuring points that are included or a descriptive polygon. NOTE: The location of the Sensor is not necessarily the position where the Observation takes place, which is primarily given by the location of the SamplingObject or DomainObject. This attribute mainly allows you to describe the positions of sensors, regardless of the measurements that take place."
       }
     },
     {
@@ -292,11 +292,11 @@
       "name": "heeftLid",
       "label": {
         "nl": "heeftLid",
-        "en": "Enter your translation here"
+        "en": "hasMember"
       },
       "definition": {
         "nl": "Verkeersmeting die tot de verzameling behoort.",
-        "en": "Enter your translation here"
+        "en": "TrafficMeasurements that belong to the collection."
       }
     },
     {
@@ -304,15 +304,15 @@
       "name": "geobserveerdObject",
       "label": {
         "nl": "geobserveerdObject",
-        "en": "Enter your translation here"
+        "en": "observedObject"
       },
       "definition": {
         "nl": "Het Verkeersobject dat geobserveerd wordt.",
-        "en": "Enter your translation here"
+        "en": "The TrafficObject being observed."
       },
       "usage": {
         "nl": "Dat kan het Verkeersdomeinobject zelf zijn of een proxy ervan, ttz een Verkeersbemonsteringsobject. OPMERKING: In dat laatste geval weet men soms pas na het observeren welk real-world Object men juist geobserveerd heeft. bvb in een Verkeersmeetpunt weet men niet op voorhand welke de Voertuigen zullen zijn waarvan men de snelheid zal vaststellen.",
-        "en": "Enter your translation here"
+        "en": "This can be the TrafficDomainObject itself or a proxy of it, i.e. a TrafficSamplingObject. NOTE: In the latter case, one sometimes only knows after observing which real-world Object one has observed. At a Traffic Measurement Point, one does not know in advance of which Vehicles exactly one will determine the speed."
       }
     },
     {
@@ -320,15 +320,15 @@
       "name": "geobserveerdKenmerk",
       "label": {
         "nl": "geobserveerdKenmerk",
-        "en": "Enter your translation here"
+        "en": "observedFeature"
       },
       "definition": {
         "nl": "Kenmerk van het Verkeersobject dat geobserveerd wordt.",
-        "en": "Enter your translation here"
+        "en": "Characteristic of the TrafficObject being observed"
       },
       "usage": {
         "nl": "CONSTRAINT: Het geobserveerdKenmerk moet werkelijk een kenmerk zijn van het geobserveerdObject of van een (onder)deel ervan. Soms is de procedure waarmee de waarden vh kenmerk worden bekomen indirect, ttz men meet om praktische reden een ander kenmerk dat een proxy is voor het kenmerk dat men werkelijk wil observeren. Bv om de Verkeersintensiteit op een Wegsegment te bepalen telt men individuele doorkomsten van Voertuigen in een Verkeersmeetpunt.",
-        "en": "Enter your translation here"
+        "en": "CONSTRAINT: The observedFeature must actually be a feature of the observedObject or of a (sub)part of it. Sometimes the procedure by which the values of the feature are obtained is indirect, i.e. for practical reasons one measures another feature that is a proxy for the feature that one really wants to observe. For example, to determine the TrafficIntensity on a RoadSegment, individual passes by Vehicles at a Traffic MeasuringPoint are counted."
       }
     },
     {
@@ -336,15 +336,15 @@
       "name": "bemonsterdObject",
       "label": {
         "nl": "bemonsterdObject",
-        "en": "Enter your translation here"
+        "en": "sampledObject"
       },
       "definition": {
         "nl": "Verwijzing naar het Verkeersdomeinobject waarop de meting betrekking heeft en waarvoor het Verkeersbemonsteringsobject representatief is.",
-        "en": "Enter your translation here"
+        "en": "Reference to the TrafficDomainObject to which the measurement relates and for which the TrafficSamplingObject is representative."
       },
       "usage": {
         "nl": "Bvb het Voertuig of het Wegsegment waarvan men een Verkeerskenmerk bepaalt.",
-        "en": "Enter your translation here"
+        "en": "E.g. the Vehicle or RoadSegment for which a TrafficFeature is determined."
       }
     },
     {
@@ -352,11 +352,11 @@
       "name": "geobserveerdObject",
       "label": {
         "nl": "geobserveerdObject",
-        "en": "Enter your translation here"
+        "en": "observedObject"
       },
       "definition": {
         "nl": "Object dat door de Verkeersmetingen wordt geobserveerd.",
-        "en": "Enter your translation here"
+        "en": "Object observed by the TrafficMeasurements."
       }
     },
     {
@@ -364,11 +364,11 @@
       "name": "geobserveerdKenmerk",
       "label": {
         "nl": "geobserveerdKenmerk",
-        "en": "Enter your translation here"
+        "en": "observedFeature"
       },
       "definition": {
         "nl": "Kenmerk dat de Verkeersmetingen in de verzameling meten.",
-        "en": "Enter your translation here"
+        "en": "Feature that the TrafficMeasurements in the collection measure."
       }
     },
     {
@@ -376,15 +376,15 @@
       "name": "wegdeel",
       "label": {
         "nl": "wegdeel",
-        "en": "Enter your translation here"
+        "en": "roadSection"
       },
       "definition": {
         "nl": "Geeft aan welke langs welk Wegdeel het traject loopt of betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Indicates which section of the road the trajectory runs along or relates to."
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven op welk deel van de weg de Voertuigen of Verkeersdeelnemers waarvan men een kenmerk meet zich bevinden, bvb op een bepaalde Rijstrook of op het Fietspad of het Voetpad.",
-        "en": "Enter your translation here"
+        "en": "Alternative or supplement to geometry or network reference. Also necessary to indicate on which part of the road the Vehicles or TrafficParticipants, whose characteristic are being measured, are located, for example on a certain Lane or on the Bicyclepath or Sidewalk."
       }
     },
     {
@@ -392,15 +392,15 @@
       "name": "rijrichting",
       "label": {
         "nl": "rijrichting",
-        "en": "Enter your translation here"
+        "en": "trafficDirection"
       },
       "definition": {
         "nl": "Geeft aan welke op welke Rijrichting het Verkeersmeettraject ligt.",
-        "en": "Enter your translation here"
+        "en": "Indicates which TrafficDirection the TrafficMeasuringTrajectory is located on."
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie.  Ook noodzakelijk om aan te geven in welke richting de Voertuigen rijden waarvan men bvb de gemiddelde snelheid meet.",
-        "en": "Enter your translation here"
+        "en": "Alternative or supplement to geometry or network reference. Also necessary to indicate in which direction the Vehicles are driving of which the average speed is being measured, for example."
       }
     },
     {
@@ -408,15 +408,15 @@
       "name": "netwerkReferentie",
       "label": {
         "nl": "netwerkReferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Referentie naar het Netwerkelement waarlangs het Verkeersmeettraject loopt of dat door dat traject bemonsterd wordt.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement on or along which the TrafficMeasurementPoint is located on or that is sampled by that point."
       },
       "usage": {
         "nl": "Nuttig als men weet langs welk Wegsegment het traject loopt en aan welke kant van de weg en op welke afstand van het beginpunt. Alternatief voor of aanvulling op coördinaten. Ook noodzakelijk om aan te geven over welk Wegsegment en aan welke kant ervan de Voertuigen rijden waarvan men bvb de snelheid meet.\n",
-        "en": "Enter your translation here"
+        "en": "Useful if you know along which RoadSegment the point is located and on which side of the road and at what distance from the starting point. Alternative or addition to coordinates. Also necessary to indicate which RoadSegment and on which side the Vehicles are driving whose speed is measured, for example."
       }
     },
     {
@@ -424,15 +424,15 @@
       "name": "wegdeel",
       "label": {
         "nl": "wegdeel",
-        "en": "Enter your translation here"
+        "en": "roadSection"
       },
       "definition": {
         "nl": "Geeft aan welke op welk Wegdeel het Verkeersmeetpunt gelegen is of betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Indicates on which road section the TrafficMeasurementPoint is located on or relates to."
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven op welk deel van de weg de Voertuigen of Verkeersdeelnemers waarvan men een kenmerk meet zich bevinden, bvb op een bepaalde Rijstrook of op het Fietspad of het Voetpad.",
-        "en": "Enter your translation here"
+        "en": "Alternative or supplement to geometry or network reference. Also necessary to indicate on which part of the road the Vehicles or TrafficParticipants, whose characteristic is being measured, are located, for example on a certain Lane or on the BiyclePath or Sidewalk."
       }
     },
     {
@@ -440,15 +440,15 @@
       "name": "rijrichting",
       "label": {
         "nl": "rijrichting",
-        "en": "Enter your translation here"
+        "en": "trafficDirection"
       },
       "definition": {
         "nl": "Geeft aan welke op welke Rijrichting het Verkeersmeetpunt gelegen is of betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Indicates which TrafficDirection the TrafficMeasurementPoint is located on or relates to."
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven in welke richting de Voertuigen rijden waarvan men bvb de snelheid meet.",
-        "en": "Enter your translation here"
+        "en": "Alternative or supplement to geometry or network reference. Also necessary to indicate in which direction the Vehicles are driving of which the speed is being measured, for example."
       }
     },
     {
@@ -456,15 +456,15 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Referentie naar het Netwerkelement waarop of waarlangs het Verkeersmeetpunt ligt of dat door dat punt bemonsterd wordt.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement on or along which the TrafficMeasurementPoint is located on or that is sampled by that point."
       },
       "usage": {
         "nl": "Nuttig als men weet langs welk Wegsegment het punt ligt en aan welke kant van de weg en op welke afstand van het beginpunt. Alternatief voor of aanvulling op coördinaten. Ook noodzakelijk om aan te geven over welk Wegsegment en aan welke kant ervan de Voertuigen rijden waarvan men bvb de snelheid meet.\r\n",
-        "en": "Enter your translation here"
+        "en": "Useful if you know along which RoadSegment the point is located and on which side of the road and at what distance from the starting point. Alternative or addition to coordinates. Also necessary to indicate which RoadSegment and on which side the Vehicles are driving whose speed is measured, for example."
       }
     }
   ],
@@ -474,15 +474,15 @@
       "name": "Any",
       "label": {
         "nl": "Any",
-        "en": "Enter your translation here"
+        "en": "Any"
       },
       "definition": {
         "nl": "Instanties van  om het even welk type.",
-        "en": "Enter your translation here"
+        "en": "Instance of any type."
       },
       "usage": {
         "nl": "Te substitueren door een geschikte klasse of datatype of door de klasse Observatie te specialiseren met een resultaat van een opgelegd datatype. Dit kunnen eigen subklassen zijn of standaard specialisaties van de klasse Observatie zoals Meting (waarbij het resultaat een KwantitatieveWaarde is, ttz een waarde en een eenheid), Classificatie (met een kwalitatieve waarde als resultaat),Telling (met een resultaat vh type Integer) of zelfs Observaties met als resultaat een Tijdreeks of RuimtelijkeBereik. OPMERKING: Meer info over deze standaard subklassen van Observatie in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/\">OSLO Observaties en Metingen</a> .",
-        "en": "Enter your translation here"
+        "en": "To be replaced by a suitable class or data type or by specializing the Observation class with a result of an imposed data type. These can be their own subclasses or standard specializations of the Observation class such as Measurement (where the result is a Quantitative Value, i.e. a value and a unit), Classification (with a qualitative value as a result), Count (with a result of type Integer) or even Observations resulting in a Time Series or Spatial Range. ATTENTION: More info about these standard subclasses of Observation in the application profile <a href=\"https://data.vlaanderen.be/doc/applicationprofile/observations-en-measurements/\">OSLO Observations and Measurements</a> ."
       }
     },
     {
@@ -490,11 +490,11 @@
       "name": "Lengte",
       "label": {
         "nl": "Lengte",
-        "en": "Enter your translation here"
+        "en": "Distance"
       },
       "definition": {
         "nl": "Afstand tussen twee punten.",
-        "en": "Enter your translation here"
+        "en": "Distance between two points."
       }
     },
     {
@@ -502,15 +502,15 @@
       "name": "Moment",
       "label": {
         "nl": "Moment",
-        "en": "Enter your translation here"
+        "en": "Instant"
       },
       "definition": {
         "nl": "Een 0-dimensionele geometrische primitieve in de tijd.",
-        "en": "Enter your translation here"
+        "en": "A 0-dimensional geometric primitive in time."
       },
       "usage": {
         "nl": "Vergelijkbaar met een Punt in de ruimte, maar ipv een positie in een ruimtelijk referentiesysteem gaat het hier over een punt op de tijdsas. OPMERKING: Meer info in de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a>.",
-        "en": "Enter your translation here"
+        "en": "Comparable with a Point in space, but instead of a position in a spatial reference system, this is about a point on the time axis. REMARK: More info in the <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a>."
       }
     },
     {
@@ -518,15 +518,15 @@
       "name": "TemporeleEntiteit",
       "label": {
         "nl": "TemporeleEntiteit",
-        "en": "Enter your translation here"
+        "en": "TemporalEntity"
       },
       "definition": {
         "nl": "Abstracte klasse voor temporele objecten.",
-        "en": "Enter your translation here"
+        "en": "Abstract class for temporal objects."
       },
       "usage": {
         "nl": "Die temporele objecten zijn temporele geometrische primitieven zoals Moment of Periode. Of het zijn composieten van temporele primitieven, bv om de geschiedenis van een fenomeen weer te geven (bv de opeenvolgende Periodes dat het fenomeen zich voordeed). Te gebruiken wanneer de uiteindelijke temporele primitieve nog niet gekend is. OPMERKING: Meer info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitutie door een eenvoudiger equivalent bv time:TemporalEntity uit de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is aanbevolen.",
-        "en": "Enter your translation here"
+        "en": "These temporal entities are temporal geometric primitives like Instant or Interval. Or they are composites of temporal primitives, for example to represent the history of a phenomenon (for example the successive periods during which the phenomenon occurred). To be used when the final temporal primitive is not yet known. REMARK: More info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitution by a simpler equivalent like Data/DateTime/Time or subclasses of time:TemporalEntity from  <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is recommended."
       }
     },
     {
@@ -534,15 +534,15 @@
       "name": "Kenmerktype",
       "label": {
         "nl": "Kenmerktype",
-        "en": "Enter your translation here"
+        "en": "FeatureType"
       },
       "definition": {
         "nl": "Klasse die kenmerken van instanties van om het even welk type vertegenwoordigt.",
-        "en": "Enter your translation here"
+        "en": "Class representing features of instances of any type."
       },
       "usage": {
         "nl": "Dit is een kenmerk van het geobseveerdObject (ttz van het DomeinObject of van een proxy daarvan, het Bemonsteringsobject) en in principe van alle instanties van dat type geobserveerdObject. In de context van Verkeersmetingen gaat het om kenmerken zoals Snelheid (van een Voertuig - het geobserveerd Domeinobject) of AantalVoertuigen (dat passeert aan een Meetpunt - het geobserveerd Bemonsteringsobject - langs een Wegsegment - het bemonsterd Domeinobject).",
-        "en": "Enter your translation here"
+        "en": "This is a characteristic of the observedObject (that is, of the DomainObject or of a proxy thereof, the SamplingObject) and in principle of all instances of that type of observedObject. In the context of Traffic Measurements, this concerns characteristics such as Speed (of a Vehicle - the observed Domain Object) or Number of Vehicles (passing a Measuring Point - the observed SamplingObject - along a Road Segment - the sampled Domain Object)."
       }
     },
     {
@@ -550,15 +550,15 @@
       "name": "Kwaliteitselement",
       "label": {
         "nl": "Kwaliteitselement",
-        "en": "Enter your translation here"
+        "en": "QualityElement"
       },
       "definition": {
         "nl": "Component van datakwaliteit.",
-        "en": "Enter your translation here"
+        "en": "Component of data quality"
       },
       "usage": {
         "nl": "Beschrijft een bepaald aspect van de  datakwaliteit, bvb PositioneleNauwkeurigheid, LogischeConsistentie, Volledigheid etc. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit/\">OSLO Datakwaliteit</a>.",
-        "en": "Enter your translation here"
+        "en": "Describes a certain component of the data quality, e.g. PositionalAccuracy, LogicalConsistency, Completeness etc. REMARK: More info about this class in the application profile <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit/\">OSLO Datakwaliteit</a>."
       }
     },
     {
@@ -566,15 +566,15 @@
       "name": "Metadata",
       "label": {
         "nl": "Metadata",
-        "en": "Enter your translation here"
+        "en": "Metadata"
       },
       "definition": {
         "nl": "Data over data.",
-        "en": "Enter your translation here"
+        "en": "Data about data."
       },
       "usage": {
         "nl": "Observaties kunnen beschouwd worden als gegevens en dus zijn data over Observaties wel degelijk metadata. We beperken ons hier tot beschrijvende metadata, ttz informatie zoals titel, samenvatting, auteur en sleutelwoorden. Dergelijke metadata is in hoofdzaak bedoeld voor identificatie en datacatalogen.",
-        "en": "Enter your translation here"
+        "en": "Observations can be regarded as data and therefore data about Observations are indeed metadata. We limit ourselves here to descriptive metadata, i.e. information such as title, summary, author and keywords. Such metadata is primarily intended for identification and data catalogs."
       }
     },
     {
@@ -582,15 +582,15 @@
       "name": "Object",
       "label": {
         "nl": "Object",
-        "en": "Enter your translation here"
+        "en": "Object"
       },
       "definition": {
         "nl": "Klasse die instanties van om het even welk type vertegenwoordigt.",
-        "en": "Enter your translation here"
+        "en": "Class representing instances of any type."
       },
       "usage": {
         "nl": "In de context van Verkeersmetingen is dit het Object waarvan een kenmerk wordt geobserveerd. Dat kan een real-world Domeinobject zijn of een benadering daarvan door een Bemonsteringsobject. OPGELET: deze klasse is abstract, gebruik de subklassen.",
-        "en": "Enter your translation here"
+        "en": "In the context of Traffic Measurements, this is the Object from which a characteristic is observed. This could be a real-world Domain Object or an approximation thereof by a Sampling Object. ATTENTION: this class is abstract, use the subclasses."
       }
     },
     {
@@ -598,15 +598,15 @@
       "name": "BenoemdeWaarde",
       "label": {
         "nl": "BenoemdeWaarde",
-        "en": "Enter your translation here"
+        "en": "NamedValue"
       },
       "definition": {
         "nl": "Generieke, zwak getypeerde waarde.",
-        "en": "Enter your translation here"
+        "en": "A generic weakly-typed parameter value"
       },
       "usage": {
         "nl": "In essentie een waarde en de naam vh type van de waarde. Bv een temperatuur van 21graden Celcius (waarde = 21 graden Celcius, naam = temperatuur).",
-        "en": "Enter your translation here"
+        "en": "In essence, a value and the name of the type of the value. E.g.  temperature of 21 degrees Celcius (value = 21 degrees Celcius, name = temperature)."
       }
     },
     {
@@ -614,15 +614,15 @@
       "name": "Observatie",
       "label": {
         "nl": "Observatie",
-        "en": "Enter your translation here"
+        "en": "Observation"
       },
       "definition": {
         "nl": "Het vaststellen van de waarde van een bepaald kenmerk van een Object op een bepaald tijdstip of tussen twee tijdstippen.",
-        "en": "Enter your translation here"
+        "en": "Determining the value of a certain characteristic of an Object at a certain point in time or between two points in time."
       },
       "usage": {
         "nl": "Het gaat om schattingen van de waarde, maw op de waarde zit een zekere foutmarge. Voorbeelden zijn temperatuur, klasse, kleur. Dit is verschillend van waarden die zijn toegekend en dus geen schattingen zijn zoals naam of prijs. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
-        "en": "Enter your translation here"
+        "en": "These are estimates of the value, in other words there is a certain margin of error on the value. Examples are temperature, class, color. This is different from values that are attributed and therefore not estimates such as name or price. REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensors and Sampling</a>."
       }
     },
     {
@@ -630,15 +630,15 @@
       "name": "Bemonsteringscurve",
       "label": {
         "nl": "Bemonsteringscurve",
-        "en": "Enter your translation here"
+        "en": "SamplingCurve"
       },
       "definition": {
         "nl": "Een RuimtelijkBemonsteringsobject dat de vorm aanneemt van een Curve.",
-        "en": "Enter your translation here"
+        "en": "A Spatial SamplingObject that takes the shape of a Curve."
       },
       "usage": {
         "nl": "Van het Object dat men wil observeren wordt in dat geval een representatief lijnvormig deel beschouwd. Voorbeelden zijn trajecten, boorgaten, profielen, intervallen etc. Dikwijls specialiseert de Curve zich tot Lijnstring. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/\">OSLO Observaties en Metingen</a> .",
-        "en": "Enter your translation here"
+        "en": "In that case, a representative linear part is considered of the Object that one wants to observe. Examples are routes, boreholes, profiles, intervals, etc. The Curve often specializes in a LineString. REMARK: More info about these class in the application profile <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/\">OSLO Observations and Measurements</a> ."
       }
     },
     {
@@ -646,15 +646,15 @@
       "name": "Bemonsteringsobject",
       "label": {
         "nl": "Bemonsteringsobject",
-        "en": "Enter your translation here"
+        "en": "SamplingObject"
       },
       "definition": {
         "nl": "Deel van het Object dat men wil observeren en dat representatief is voor dat Object.",
-        "en": "Enter your translation here"
+        "en": "Part of the Object that one wants to observe and that is representative of that Object."
       },
       "usage": {
         "nl": "Het deel waarvan sprake kan fysiek zijn (een Monster) of ruimtelijk (een RuimtelijkBemonsteringsobject). Men observeert een Bemonsteringsobject ipv het werkelijk Object als dat laatste niet in zijn geheel geobserveerd kan worden (bv omdat exhaustieve observatie onpraktisch zou zijn). Het Bemonsteringsobject vormt samen met het Proces dat voor observatie is gebruikt het zgn observatieprotocol. OPGELET: deze klasse is abstract, ze moet gespecialiseerd worden in functie van het applicatiedomein.",
-        "en": "Enter your translation here"
+        "en": "This part can be physical (a Sample) or spatial (a SpatialSamplingObject). One observes a SamplingObject instead of the actual Object if the latter cannot be observed in its entirety (e.g. because exhaustive observation would be impractical). The SamplingObject, together with the Process used for observation, forms the so-called observation protocol. ATTENTION: this class is abstract, it must be specialized according to the application domain."
       }
     },
     {
@@ -662,15 +662,15 @@
       "name": "Bemonsteringspunt",
       "label": {
         "nl": "Bemonsteringspunt",
-        "en": "Enter your translation here"
+        "en": "SamplingPoint"
       },
       "definition": {
         "nl": "Een RuimtelijkBemonsteringsobject dat de vorm aanneemt van een Punt.",
-        "en": "Enter your translation here"
+        "en": "A SpatialSamplingObject that takes the shape of a Point."
       },
       "usage": {
         "nl": "Van het Object dat men wil observeren wordt in dat geval een representatief puntvormig deel beschouwd. Voorbeeld is een (Meet)Station. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/\">OSLO Observaties en Metingen</a> .",
-        "en": "Enter your translation here"
+        "en": "In that case, a representative point-shaped part of the Object that one wants to observe is considered. An example is a (Measuring)Station. REMARK: More info about this class in the application profile <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/\">OSLO Observations and Measurements</a> ."
       }
     },
     {
@@ -678,15 +678,15 @@
       "name": "Domeinobject",
       "label": {
         "nl": "Domeinobject",
-        "en": "Enter your translation here"
+        "en": "DomainObject"
       },
       "definition": {
         "nl": "Object uit de reële wereld dat geen Bemonsteringsobject is.",
-        "en": "Enter your translation here"
+        "en": "Real world object that is not a SamplingObject."
       },
       "usage": {
         "nl": "Dit is het werkelijk geobserveerdObject. Als rechtstreeks observeren niet kan observeren we een representatief staal, het zgn Bemonsteringsobject. In dat geval is het Domeinobject het bemonsterdObject. OPMERKING: Deze klasse is louter informatief, in praktijk moet ze gesubstitueerd worden door een klasse uit het domein. Bv in het domein Verkeersmetingen zou het domeinobject een instantie van een Wegsegment of een Voertuig kunnen zijn.",
-        "en": "Enter your translation here"
+        "en": "This is the actual observedObject. If direct observation is not possible, we observe a representative sample, the so-called SamplingObject. In that case, the DomainObject is the sampledObject. REMARK: This class is purely informative and needs to be substituted in practice by a class from the domain. E.g. in the domain TraficMeasurements, the DomainObject could be an instance of a RoadSegment or a Vehicle."
       }
     },
     {
@@ -694,15 +694,15 @@
       "name": "Agent",
       "label": {
         "nl": "Agent",
-        "en": "Enter your translation here"
+        "en": "Agent"
       },
       "definition": {
         "nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen.",
-        "en": "Enter your translation here"
+        "en": "Someone or something that can act or produce an effect."
       },
       "usage": {
         "nl": "In het kader van verkeersmetingen is dit bv het bedrijf dat de metingen uitvoert, of de persoon die manuele tellingen doet etc.",
-        "en": "Enter your translation here"
+        "en": "In the context of traffic measurements, this is for example the company that carries out the measurements, or the person who perfoms the counts manually."
       }
     },
     {
@@ -710,11 +710,11 @@
       "name": "Bestandsformaat",
       "label": {
         "nl": "Bestandsformaat",
-        "en": "Enter your translation here"
+        "en": "FileFormat"
       },
       "definition": {
         "nl": "Standaard manier waarop informatie wordt gecodeerd voor opslag in een computerbestand.",
-        "en": "Enter your translation here"
+        "en": "Standard way in which information is encoded for storage in a computer file."
       }
     },
     {
@@ -722,15 +722,15 @@
       "name": "Gegevensdrager",
       "label": {
         "nl": "Gegevensdrager",
-        "en": "Enter your translation here"
+        "en": "Physical Medium"
       },
       "definition": {
         "nl": "Fysiek opslagmedium waarop gegevens staan of waarop deze kunnen worden opgeslagen.",
-        "en": "Enter your translation here"
+        "en": "Physical storage medium on which data is or can be stored"
       },
       "usage": {
         "nl": "Bv papier, canvas, dvd etc.",
-        "en": "Enter your translation here"
+        "en": "Examples include paper, canvas, or DVD."
       }
     },
     {
@@ -738,15 +738,15 @@
       "name": "Lijnstring",
       "label": {
         "nl": "Lijnstring",
-        "en": "Enter your translation here"
+        "en": "LineString"
       },
       "definition": {
         "nl": "Curve met lineaire interpolatie tussen de punten. Elk opeenvolgend paar punten vormt een lijnsegment. De lijnstring heeft ten minste twee punten.",
-        "en": "Enter your translation here"
+        "en": "A Curve with linear interpolation between Points. Each consecutive pair of Points defines a Line segment. A LineString has at least two points."
       },
       "usage": {
         "nl": "Een curve is een 1-dimensioneel geometrisch object gedefinieerd als een sequentie van punten. De interpolatie kan op verschillende manieren gebeuren (bv lineair bij een lijnstring).",
-        "en": "Enter your translation here"
+        "en": "A Curve is a 1-dimensional geometric object, defined as a sequence of points. The interpolation can take different forms (e.g. linear in the case of a Line String)"
       }
     },
     {
@@ -754,11 +754,11 @@
       "name": "Punt",
       "label": {
         "nl": "Punt",
-        "en": "Enter your translation here"
+        "en": "point"
       },
       "definition": {
         "nl": "Een 0-dimensioneel geometrisch object dat een bepaalde locatie in een coördinaatruimte voorstelt. Heeft een x-coördinaat en een y-coördinaat. Kan ook een z-coördinaat (hoogte) en een m-coördinaat (afstand langs een curve) hebben.",
-        "en": "Enter your translation here"
+        "en": "A 0-dimensional geometric object that represents a single location in coordinate space. A Point has an x-coordinate value and a y-coordinate value. Has an x-coordinate and a y-coordinate. Can also have a z-coordinate (height) and an m-coordinate (distance along a curve)."
       }
     },
     {
@@ -766,11 +766,11 @@
       "name": "Informatietype",
       "label": {
         "nl": "Informatietype",
-        "en": "Enter your translation here"
+        "en": "InformationType"
       },
       "definition": {
         "nl": "Type van informatie.",
-        "en": "Enter your translation here"
+        "en": "Type of information."
       }
     },
     {
@@ -778,11 +778,11 @@
       "name": "Observatieproceduretype",
       "label": {
         "nl": "Observatieproceduretype",
-        "en": "Enter your translation here"
+        "en": "Observationproceduretype"
       },
       "definition": {
         "nl": "Type Obeservatieprocedure.",
-        "en": "Enter your translation here"
+        "en": "Type of Observationprocedure"
       }
     },
     {
@@ -790,15 +790,15 @@
       "name": "Verkeerskenmerktype",
       "label": {
         "nl": "Verkeerskenmerktype",
-        "en": "Enter your translation here"
+        "en": "TrafficFeatureType"
       },
       "definition": {
         "nl": "Type van verkeerskenmerk",
-        "en": "Enter your translation here"
+        "en": "Type of TrafficFeature."
       },
       "usage": {
         "nl": "Bv aantal, snelheid,",
-        "en": "Enter your translation here"
+        "en": "E;g; number of vehicles, vehicle speed etc."
       }
     },
     {
@@ -806,11 +806,11 @@
       "name": "Taalcode",
       "label": {
         "nl": "Taalcode",
-        "en": "Enter your translation here"
+        "en": "LanguageCode"
       },
       "definition": {
         "nl": "Taal waarin de data zijn gesteld.",
-        "en": "Enter your translation here"
+        "en": "Language in which the data is set."
       }
     },
     {
@@ -818,11 +818,11 @@
       "name": "Teken",
       "label": {
         "nl": "Teken",
-        "en": "Enter your translation here"
+        "en": "Sign"
       },
       "definition": {
         "nl": "Aanduiding of een waarde negatief of positief is",
-        "en": "Enter your translation here"
+        "en": "Indication if a value is negative or positive."
       }
     },
     {
@@ -830,15 +830,15 @@
       "name": "Linkrichtingtpe",
       "label": {
         "nl": "Linkrichtingtpe",
-        "en": "Enter your translation here"
+        "en": "LinkDirectionValue"
       },
       "definition": {
         "nl": "Type van richting tov de richting van een Link of Linksequentie.",
-        "en": "Enter your translation here"
+        "en": "Type of direction relative to the direction of a Link or Link Sequence."
       },
       "usage": {
         "nl": "d!\n",
-        "en": "Enter your translation here"
+        "en": "d!\n"
       }
     },
     {
@@ -846,15 +846,15 @@
       "name": "Voertuigtype",
       "label": {
         "nl": "Voertuigtype",
-        "en": "Enter your translation here"
+        "en": "VehicleType"
       },
       "definition": {
         "nl": "Type van voertuig",
-        "en": "Enter your translation here"
+        "en": "Type of Vehicle."
       },
       "usage": {
         "nl": "Dit kan een voetganger zijn, een wagen, fiets, step etc. of zonderVoertuig (voor bvb Voetgangers).",
-        "en": "Enter your translation here"
+        "en": "E.g. car, bicycle, step etc. or noVehicle (e.g. for Pedestrians) ."
       }
     },
     {
@@ -862,11 +862,11 @@
       "name": "Verkeersdeelnemertype",
       "label": {
         "nl": "Verkeersdeelnemertype",
-        "en": "Enter your translation here"
+        "en": "TrafficParticipantType"
       },
       "definition": {
         "nl": "Type Verkeersdeelnemer.",
-        "en": "Enter your translation here"
+        "en": "Nature of the TrafficParticipant."
       }
     },
     {
@@ -874,11 +874,11 @@
       "name": "Rijstrooktype",
       "label": {
         "nl": "Rijstrooktype",
-        "en": "Enter your translation here"
+        "en": "LaneType"
       },
       "definition": {
         "nl": "Type Rijstrook.",
-        "en": "Enter your translation here"
+        "en": "Type of Lane."
       }
     },
     {
@@ -886,15 +886,15 @@
       "name": "Identificator",
       "label": {
         "nl": "Identificator",
-        "en": "Enter your translation here"
+        "en": "Identifier"
       },
       "definition": {
         "nl": "Informatie gebruikt om een object uniek te identificeren.",
-        "en": "Enter your translation here"
+        "en": "Information used to uniquely identify an object."
       },
       "usage": {
         "nl": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem.",
-        "en": "Enter your translation here"
+        "en": "Idea is that it is a String assigned by an Organisation according to a well-defined identification system."
       }
     },
     {
@@ -902,15 +902,15 @@
       "name": "Geometrie",
       "label": {
         "nl": "Geometrie",
-        "en": "Enter your translation here"
+        "en": "Geometry"
       },
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
-        "en": "Enter your translation here"
+        "en": "Shape and position characteristics of an object."
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten",
-        "en": "Enter your translation here"
+        "en": "Describes these characteristics by means of points, lines, polygons and coordinates."
       }
     },
     {
@@ -918,15 +918,15 @@
       "name": "Locatie",
       "label": {
         "nl": "Locatie",
-        "en": "Enter your translation here"
+        "en": "Location"
       },
       "definition": {
         "nl": "Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio, een verwijzing naar een adres of een verwijzing naar een geografisch object.",
-        "en": "Enter your translation here"
+        "en": "Indication of a geographical position, by using coordinates, a toponym, an address label, a reference to a place/region, a reference to an address or to a geographical object."
       },
       "usage": {
         "nl": "Locatie gebruiken als de te gebruiken klasse nog niet gekend is. Anders te substitueren door instanties van Plaats, AdminstratieveEenheid, GeografischeNaam, Adres of een geografisch object zoals een Gebouw, KadastraalPerceel of Weg. Of voor te stellen door Geometrie zoals een punt, Lijnstring of Polygoon. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel OSLO Generiek - basis.",
-        "en": "Enter your translation here"
+        "en": "Use location if the applicable Class or datatype is nit yet known. Otherwise t be substituted by an instance of Place, AdministrativeUnit, GeographicalName, Address or other geographical objects like a Building, a Road or a CadastralParcel. Or to be represented by Geometry like Point, LineString, Polygon. REMARK: More info about these classes/datatypes in the application profile <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/\">OSLO-Generics</a>."
       }
     },
     {
@@ -934,15 +934,15 @@
       "name": "Observatieprocedure",
       "label": {
         "nl": "Observatieprocedure",
-        "en": "Enter your translation here"
+        "en": "ObservationProcedure"
       },
       "definition": {
         "nl": "Een workflow, protocol, plan, algoritme of berekeningswijze waarin wordt gespecifieerd hoe een Observatie moet worden uitgevoerd.",
-        "en": "Enter your translation here"
+        "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation."
       },
       "usage": {
         "nl": "De procedure legt uit welke stappen uitgevoerd moeten worden om een reproduceerbaar resultaat te krijgen. Bv de correcte plaatsing van een windmeter (op een welbepaalde hoogte boven het grondoppervlak, bv 10m voor meteorologische waarnemingen). De procedures zijn doorgaans bedoeld om bij meer dan één Bemonstering te worden toegepast.",
-        "en": "Enter your translation here"
+        "en": "The procedure explains which steps must be performed to obtain a reproducible result. E.g. the correct placement of an anemometer (at a specific height above the ground surface, e.g. 10m for meteorological observations). The procedures are generally intended to be applied to more than one Observation."
       }
     },
     {
@@ -950,15 +950,15 @@
       "name": "Procedure",
       "label": {
         "nl": "Procedure",
-        "en": "Enter your translation here"
+        "en": "Procedure"
       },
       "definition": {
         "nl": "Vastgelegde of officiële manier om iets te doen.",
-        "en": "Enter your translation here"
+        "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator)."
       },
       "usage": {
         "nl": "Slaat op de manier waarop Observaties of Bemonstering worden uitgevoerd of Actuators worden bediend. Neemt in praktijk de vorm aan van een workflow, protocol, plan, algoritme,berekeningswijze etc. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
-        "en": "Enter your translation here"
+        "en": "Refers to the manner in which Observations or Sampling are performed or Actuators are operated. In practice, it takes the form of a workflow, protocol, plan, algorithm, calculation method, etc. REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/doc/applicationprofiel/sensoren-en -sampling/\">AP Sensors and Sampling</a>."
       }
     },
     {
@@ -966,11 +966,11 @@
       "name": "Input",
       "label": {
         "nl": "Input",
-        "en": "Enter your translation here"
+        "en": "Input"
       },
       "definition": {
         "nl": "Informatie die door een Procedure wordt gebruikt.",
-        "en": "Enter your translation here"
+        "en": "Any information that is provided to a procedure for its use."
       }
     },
     {
@@ -978,11 +978,11 @@
       "name": "Output",
       "label": {
         "nl": "Output",
-        "en": "Enter your translation here"
+        "en": "Output"
       },
       "definition": {
         "nl": "Informatie die door een Procedure wordt gegenereerd.",
-        "en": "Enter your translation here"
+        "en": "Reference to the Output that the Procedure generates or generated."
       }
     },
     {
@@ -990,15 +990,15 @@
       "name": "GerichteLink",
       "label": {
         "nl": "GerichteLink",
-        "en": "Enter your translation here"
+        "en": "DirectedLink"
       },
       "definition": {
         "nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting.",
-        "en": "Enter your translation here"
+        "en": "A Link either in its positive or negative direction."
       },
       "usage": {
         "nl": "Typisch gebruikt in Linksequenties, de Links waaruit de sequentie bestaat worden hiermee allemaal in dezelfde richting gezet.",
-        "en": "Enter your translation here"
+        "en": "Typically used in LinkSequences, it sets the Links that make up the sequence all in the same direction."
       }
     },
     {
@@ -1006,15 +1006,15 @@
       "name": "LineaireReferentie",
       "label": {
         "nl": "LineaireReferentie",
-        "en": "Enter your translation here"
+        "en": "LinearReference"
       },
       "definition": {
         "nl": "Netwerkreferentie beperkt tot een deel van de Link of Linksequentie waarnaar ze verwijst.",
-        "en": "Enter your translation here"
+        "en": "A NetworkReference that is restricted to a section of the Link or Linksequence it references."
       },
       "usage": {
         "nl": "Het deel waarvan sprake ligt tiussen de vanPositie en de totPositie op de Link of Linksequentie.",
-        "en": "Enter your translation here"
+        "en": "This section lies between the fromPosition and toPosition on the Link or LinkSequence."
       }
     },
     {
@@ -1022,15 +1022,15 @@
       "name": "Link",
       "label": {
         "nl": "Link",
-        "en": "Enter your translation here"
+        "en": "Link"
       },
       "definition": {
         "nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen.",
-        "en": "Enter your translation here"
+        "en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Nodes."
       },
       "usage": {
         "nl": "Onder een homogeen pad verstaan we een route die zich niet vertakt, bvb een weg tussen twee kruispunten (waarbij de kruispunten Knopen in het Netwerk voorstellen).\n",
-        "en": "Enter your translation here"
+        "en": "By a homogeneous path we mean a route that does not branch, for example a road between two intersections (where the intersections represent Nodes in the Network)."
       }
     },
     {
@@ -1042,7 +1042,7 @@
       },
       "definition": {
         "nl": "Netwerkreferentie waarbij het Netwerkelement waar naar verwezen wordt een Link of Linksequentie is.",
-        "en": "Enter your translation here"
+        "en": "A NetworkReference that is restricted to a section of the Link or Linksequence it references."
       }
     },
     {
@@ -1050,11 +1050,11 @@
       "name": "Netwerkelement",
       "label": {
         "nl": "Netwerkelement",
-        "en": "Enter your translation here"
+        "en": "NetworkElement"
       },
       "definition": {
         "nl": "Element in een Netwerk dat daarin een functie van belang vervult.",
-        "en": "Enter your translation here"
+        "en": "Element in a Network that performs an important function therein."
       }
     },
     {
@@ -1062,11 +1062,11 @@
       "name": "Netwerkreferentie",
       "label": {
         "nl": "Netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarvoor de Netwerkeigenschap geldt.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement to which the NetworkProperty applies."
       },
       "usage": {
         "nl": "Bvb het Wegsegment waarlangs er straatverlichting is, de Wegknoop met verkeerslichten etc.",
@@ -1078,11 +1078,11 @@
       "name": "Puntreferentie",
       "label": {
         "nl": "Puntreferentie",
-        "en": "Enter your translation here"
+        "en": "PointReference"
       },
       "definition": {
         "nl": "Netwerkreferentie beperkt tot een punt langs de Link of Linksequentie waarnaar ze verwijst.",
-        "en": "Enter your translation here"
+        "en": "NetworkReference expressed as a point along the Link or Link Sequence to which it refers."
       }
     },
     {
@@ -1090,11 +1090,11 @@
       "name": "Dekking",
       "label": {
         "nl": "Dekking",
-        "en": "Enter your translation here"
+        "en": "Coverage"
       },
       "definition": {
         "nl": "Gebied of periode waarop de data betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "The spatial or temporal extent of the datas."
       },
       "usage": {
         "nl": "Een gebied wordt indirect beschreven door te verwijzen naar een Plaats of AdministratieveEenheid of een GeografischeNaam of een geografisch object zoals een Gebouw of een Weg of een Kadastraalperceel of gelijkaardig en direct dmv Geometrie. Een periode kunnen we aanduiden dmv een Interval of als moment dmv een Datum of DateTime. OPMERKING: Te substitueren door Locatie of TemporeleEntiteit of door een meer specifieke klasse of datatype. Voor ruimtelijke dekking zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/\">OSLO-Generiek</a> ven voor temporele dekking <a href=\"https://www.w3.org/TR/owl-time/\">Time Ontology>. Verwijs naar bestaande datasets bvb voor Plaatsen de <a href=\"https://www.getty.edu/research/tools/vocabularies/tgn/index.html\">Getty Thesaurus of Geographic Names</a>.",
@@ -1106,15 +1106,15 @@
       "name": "Dimensie",
       "label": {
         "nl": "Dimensie",
-        "en": "Enter your translation here"
+        "en": "Dimension"
       },
       "definition": {
         "nl": "Meetbare omvang van iets.",
-        "en": "Enter your translation here"
+        "en": "Measurable extent of something."
       },
       "usage": {
         "nl": "Bv lengte, breedte etc",
-        "en": "Enter your translation here"
+        "en": "E.g. length, width etc."
       }
     },
     {
@@ -1122,15 +1122,15 @@
       "name": "Formaat",
       "label": {
         "nl": "Formaat",
-        "en": "Enter your translation here"
+        "en": "Format"
       },
       "definition": {
         "nl": "Vorm of omvang van iets.",
-        "en": "Enter your translation here"
+        "en": "Shape or size of something."
       },
       "usage": {
         "nl": "Bv de vorm waarin iets wordt aangeboden (bestandsformaat, programmasjabloon etc), de dimensies van een voorwerp (grootte, afmetingen etc).",
-        "en": "Enter your translation here"
+        "en": "E.g. the form in which something is presented (file format, program template etc), the dimensions of an object (size, dimensions etc)."
       }
     },
     {
@@ -1138,15 +1138,15 @@
       "name": "Transporteigenschap",
       "label": {
         "nl": "Transporteigenschap",
-        "en": "Enter your translation here"
+        "en": "TransportCharacteristic"
       },
       "definition": {
         "nl": "Eigenschap van een Transportobject.",
-        "en": "Enter your translation here"
+        "en": "Property of a TransportObject."
       },
       "usage": {
         "nl": "Heeft betrekking op objecten zoals Transportllinks, Transportknopen etc of - via LineaireReferentie - op delen ervan.",
-        "en": "Enter your translation here"
+        "en": "Relates to objects such as Transpor Links, TransportNodes etc or - via LinearReference - to parts of them."
       }
     },
     {
@@ -1154,15 +1154,15 @@
       "name": "Transportknoop",
       "label": {
         "nl": "Transportknoop",
-        "en": "Enter your translation here"
+        "en": "Transport Node"
       },
       "definition": {
         "nl": "Significante positie in het Transportetwerk die steeds samenvalt met het begin of het einde van een Transportlink.",
-        "en": "Enter your translation here"
+        "en": "Significant position in the TransportNetwork that always coincides with the start or end of a TransportLink."
       },
       "usage": {
         "nl": "OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwerk</a>.",
-        "en": "Enter your translation here"
+        "en": "REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwork</a>."
       }
     },
     {
@@ -1170,15 +1170,15 @@
       "name": "Transportlink",
       "label": {
         "nl": "Transportlink",
-        "en": "Enter your translation here"
+        "en": "Transport Link"
       },
       "definition": {
         "nl": "Lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Transportnetwerk.",
-        "en": "Enter your translation here"
+        "en": "Linear spatial object that describes the geometry and connectivity between two points in a TransportNetwork."
       },
       "usage": {
         "nl": "OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwerk</a>.",
-        "en": "Enter your translation here"
+        "en": "REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwork</a>."
       }
     },
     {
@@ -1186,15 +1186,15 @@
       "name": "Transportlinksequentie",
       "label": {
         "nl": "Transportlinksequentie",
-        "en": "Enter your translation here"
+        "en": "TransportLinkSequence"
       },
       "definition": {
         "nl": "Lineair ruimtelijk object, bestaande uit een geordende verzameling van Transportlinks, die een onvertakt doorlopend pad in een Transportnetwerk vertegenwoordigt.",
-        "en": "Enter your translation here"
+        "en": "Linear spatial object, consisting of an ordered collection of TransportLinks, representing a branched continuous path in a TransportNetwork."
       },
       "usage": {
         "nl": "OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwerk</a>.",
-        "en": "Enter your translation here"
+        "en": "REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwork</a>."
       }
     },
     {
@@ -1202,15 +1202,15 @@
       "name": "Wegdeel",
       "label": {
         "nl": "Wegdeel",
-        "en": "Enter your translation here"
+        "en": "RoadSection"
       },
       "definition": {
         "nl": "Deel van de wegbaan.",
-        "en": "Enter your translation here"
+        "en": "Section of the road."
       },
       "usage": {
         "nl": "In deze context worden er longitudonale onderverdelingen van de weg mee bedoeld zoals Rijstroken, Fietspaden edm. OPGELET: Deze klasse is abstract,gebruik de subklassen.",
-        "en": "Enter your translation here"
+        "en": "In this context it refers to longitudinal subdivisions of the road such as Lanes, BicyclePaths, etc. ATTENTION: This class is abstract, use subclasses."
       }
     },
     {
@@ -1218,11 +1218,11 @@
       "name": "Rijrichting",
       "label": {
         "nl": "Rijrichting",
-        "en": "Enter your translation here"
+        "en": "TrafficDirection"
       },
       "definition": {
         "nl": "Richting waarin het verkeer zich over de weg beweegt.",
-        "en": "Enter your translation here"
+        "en": "Direction in which traffic moves on the road."
       }
     },
     {
@@ -1230,15 +1230,15 @@
       "name": "Wegknoop",
       "label": {
         "nl": "Wegknoop",
-        "en": "Enter your translation here"
+        "en": "RoadNode"
       },
       "definition": {
         "nl": "Significante positie in het Tansportnetwerk die steeds samenvalt met het begin of het einde van een Wegsegment.",
-        "en": "Enter your translation here"
+        "en": "Significant position in the TransportNetwork that always coincides with the start or end of a RoadSegment."
       },
       "usage": {
         "nl": "Typisch een kruispunt van wegen of het begin of einde van een weg.",
-        "en": "Enter your translation here"
+        "en": "Typically an intersection of roads or the beginning or end of a road."
       }
     },
     {
@@ -1246,15 +1246,15 @@
       "name": "Weglinksequentie",
       "label": {
         "nl": "Weglinksequentie",
-        "en": "Enter your translation here"
+        "en": "RoadLinkSequence"
       },
       "definition": {
         "nl": "Lineair ruimtelijk object, bestaande uit een geordende verzameling van Wegsegmenten, dat een onvertakt doorlopend pad in een Transportnetwerk vertegenwoordigt.",
-        "en": "Enter your translation here"
+        "en": "Linear spatial object consisting of an ordered collection of RoadSegments, representing an unbranched continuous path in a TransportationNetwork."
       },
       "usage": {
         "nl": "Typisch is een route in een Netwerk, b.v. een genummerde weg of een lijn van het openbaar vervoer in een bepaalde richting.",
-        "en": "Enter your translation here"
+        "en": "Typically a route in a network, e.g. a numbered road or a public transport line in a certain direction."
       }
     },
     {
@@ -1262,15 +1262,15 @@
       "name": "Wegobject",
       "label": {
         "nl": "Wegobject",
-        "en": "Enter your translation here"
+        "en": "RoadObject"
       },
       "definition": {
         "nl": "Object dat een onderdeel uit een Wegennetwerk vertegenwoordigt.",
-        "en": "Enter your translation here"
+        "en": "Object that represents a part of a RoadNetwork."
       },
       "usage": {
         "nl": "Typische voorbeelden zijn Wegsegmenten, Wegknopen, Weglinksequenties etc OPGELET: deze klasse is abstract, enkel de subklassen gebruiken.",
-        "en": "Enter your translation here"
+        "en": "Typical examples are RoadSegments, RoadNodes, RoadLinkSequences etc… REMARK: this class is abstract, only use the subclasses."
       }
     },
     {
@@ -1278,11 +1278,11 @@
       "name": "Wegsegment",
       "label": {
         "nl": "Wegsegment",
-        "en": "Enter your translation here"
+        "en": "RoadSegment"
       },
       "definition": {
         "nl": "Lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Wegennetwerk.",
-        "en": "Enter your translation here"
+        "en": "Linear spatial object that describes the geometry and connectivity between two points in a RoadNetwork."
       }
     },
     {
@@ -1290,11 +1290,11 @@
       "name": "Toestel",
       "label": {
         "nl": "Toestel",
-        "en": "Enter your translation here"
+        "en": "Device"
       },
       "definition": {
         "nl": "Tastbaar Object ontworpen om een specifieke Taak mee uit te voeren.",
-        "en": "Enter your translation here"
+        "en": "A tangible object designed to accomplish a particular task."
       }
     },
     {
@@ -1302,15 +1302,15 @@
       "name": "Observatieverzameling",
       "label": {
         "nl": "Observatieverzameling",
-        "en": "Enter your translation here"
+        "en": "ObservationCollection"
       },
       "definition": {
         "nl": "Collectie van Observaties met dezelfde kenmerken.",
-        "en": "Enter your translation here"
+        "en": "Collection of one or more Observations with the same properties."
       },
       "usage": {
         "nl": "Bv Observaties die op hetzelfde tijdstip plaatsvonden of hetzelfde Object observeren of door dezelfde Sensor zijn gemaakt.\nOPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.\n",
-        "en": "Enter your translation here"
+        "en": "E.g. Observations that took place at the same time or observed the same Object or were made by the same Sensor. REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensors and Sampling</a>."
       }
     },
     {
@@ -1318,15 +1318,15 @@
       "name": "Systeem",
       "label": {
         "nl": "Systeem",
-        "en": "Enter your translation here"
+        "en": "System"
       },
       "definition": {
         "nl": "Samenhangend geheel van componenten die samen één of meer functies vervullen.",
-        "en": "Enter your translation here"
+        "en": "Cohesive set of components that together perform one or more functions"
       },
       "usage": {
         "nl": "Deze componenten kunnen Systemen op zich zijn. Het zijn Systemen die een Observatieprocedure realiseren (typisch een Sensor) of waarmee een Bemonsteringsprocedure wordt uitgevoerd (bv een boorinstallatie) of het zijn Platformen zoals een Toestel waarop de sensor is gemonteerd. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
-        "en": "Enter your translation here"
+        "en": "These components can be Systems in themselves. They are Systems that realize an ObservationProcedure (typically a Sensor) or with which a Sampling procedure is carried out (e.g. a drilling rig) or they are Platforms like the Device on which the Sensor is mounted. REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensors and Sampling</a>."
       }
     },
     {
@@ -1334,15 +1334,15 @@
       "name": "Platform",
       "label": {
         "nl": "Platform",
-        "en": "Enter your translation here"
+        "en": "Platform"
       },
       "definition": {
         "nl": "Entiteit die fungeert als basis voor andere Entiteiten.",
-        "en": "Enter your translation here"
+        "en": "An entity that hosts other entities."
       },
       "usage": {
         "nl": "Deze andere entiteiten zijn typisch Sensoren, Bemonsteraars, Actuators of andere Platformen. In de context van Verkeersmetingen definiëren we de subklasse Toestel als mogelijke basis voor één of meer Sensoren. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
-        "en": "Enter your translation here"
+        "en": "These other entities are typically Sensors, Samplers, Actuators or other Platforms. In the context of TrafficMeasurements, we define the Device subclass as a possible basis for one or more Sensors. REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensors and Sampling</a>."
       }
     },
     {
@@ -1350,15 +1350,15 @@
       "name": "Sensor",
       "label": {
         "nl": "Sensor",
-        "en": "Enter your translation here"
+        "en": "Sensor"
       },
       "definition": {
         "nl": "Toestel of Agent (incl Personen of software) waarmee Observaties gemaakt worden.",
-        "en": "Enter your translation here"
+        "en": "Device or Agent (including Persons or software) with which Observations are made."
       },
       "usage": {
         "nl": "Sensoren genereren een resultaat op basis van een Stimulus, ttz een verandering in de omgeving, of op basis van resultaten van andere Observaties. Ze worden typisch gehost door een Platform. Voorbeelden zijn snelheidsmeters, gyroscopen, barometers, magnetometers gemonteerd op een smart phone. Ook bv het menselijk oog kan beschouwd worden als een sensor.",
-        "en": "Enter your translation here"
+        "en": "Sensors generate a result based on a stimulus, i.e. a change in the environment, or based on results from other Observations. They are typically hosted by a Platform. Examples are speedometers, gyroscopes, barometers, magnetometers mounted on a smart phone. The human eye, for example, can also be regarded as a Sensor."
       }
     }
   ],
@@ -1368,11 +1368,11 @@
       "name": "host van",
       "label": {
         "nl": "host van",
-        "en": "Enter your translation here"
+        "en": "hostOf"
       },
       "definition": {
         "nl": "Sensor door het Toestel gehost.",
-        "en": "Enter your translation here"
+        "en": "Sensor hosted by the Device."
       }
     },
     {
@@ -1380,11 +1380,11 @@
       "name": "model",
       "label": {
         "nl": "model",
-        "en": "Enter your translation here"
+        "en": "model"
       },
       "definition": {
         "nl": "Naam vh model vh Toestel.",
-        "en": "Enter your translation here"
+        "en": "Name of the model of the Device."
       }
     },
     {
@@ -1392,11 +1392,11 @@
       "name": "fabrikant",
       "label": {
         "nl": "fabrikant",
-        "en": "Enter your translation here"
+        "en": "manufacturer"
       },
       "definition": {
         "nl": "Naam van de fabrikant.",
-        "en": "Enter your translation here"
+        "en": "Name of the manufacturer."
       }
     },
     {
@@ -1404,11 +1404,11 @@
       "name": "functie",
       "label": {
         "nl": "functie",
-        "en": "Enter your translation here"
+        "en": "function"
       },
       "definition": {
         "nl": "Functie die het Toestel kan uitvoeren met het oog op het uitvoeren van een taak.",
-        "en": "Enter your translation here"
+        "en": "Function that the Device can perform in order to perform a task."
       }
     },
     {
@@ -1416,11 +1416,11 @@
       "name": "taak",
       "label": {
         "nl": "taak",
-        "en": "Enter your translation here"
+        "en": "task"
       },
       "definition": {
         "nl": "Taak die met het Toestel kan worden uitgevoerd waarvoor het Toestel ontworpen is.",
-        "en": "Enter your translation here"
+        "en": "Task that can be performed with the Device for which the Device was designed."
       }
     },
     {
@@ -1428,15 +1428,15 @@
       "name": "fenomeenTijd",
       "label": {
         "nl": "fenomeenTijd",
-        "en": "Enter your translation here"
+        "en": "phenomenonTime"
       },
       "definition": {
         "nl": "Het moment waarop het resultaat van de Verkeersmeting van toepassing is.",
-        "en": "Enter your translation here"
+        "en": "The moment at which the result of the TrafficMeasurement was applicable."
       },
       "usage": {
         "nl": "Typisch het moment waarop de observatie of bemonstering plaatsvindt. Is het resultaat een voorspelling dan is de fenomeentijd het moment waarop deze voorspelling van toepassing zou moeten zijn.",
-        "en": "Enter your translation here"
+        "en": "Typically the moment at which the observation or sampling takes place. If the result is a prediction, then the phenomenon time is the moment at which this prediction should apply."
       }
     },
     {
@@ -1444,15 +1444,15 @@
       "name": "voertuigtype",
       "label": {
         "nl": "voertuigtype",
-        "en": "Enter your translation here"
+        "en": "typeOfVehicle"
       },
       "definition": {
         "nl": "Soort voertuig.",
-        "en": "Enter your translation here"
+        "en": "Type of the Vehicle."
       },
       "usage": {
         "nl": "Niet te verwarren met Aandrijftype (brandstof, elektrisch, spierkracht etc) of Vervoerwijze (wegvervoer, spoorvervoer, scheepvaart, luchtvaart )..",
-        "en": "Enter your translation here"
+        "en": "Not to be confused with propulsion type (fuel, electric, muscle power, etc.) or transport mode (road transport, rail transport, shipping, aviation, etc.)."
       }
     },
     {
@@ -1460,11 +1460,11 @@
       "name": "vanPositie",
       "label": {
         "nl": "vanPositie",
-        "en": "Enter your translation here"
+        "en": "fromPosition"
       },
       "definition": {
         "nl": "Afstand vanaf het begin van de Link of Linksequentie vanaf waar de Netwerkeigenschap geldt.",
-        "en": "Enter your translation here"
+        "en": "Distance from the start of the Link or Linksequence until the point from where the Networkproperty applies."
       }
     },
     {
@@ -1472,11 +1472,11 @@
       "name": "totPositie",
       "label": {
         "nl": "totPositie",
-        "en": "Enter your translation here"
+        "en": "toPosition"
       },
       "definition": {
         "nl": "Afstand vanaf het begin van de Link of Linksequentie tot waar de Netwerkeigenschap geldt.",
-        "en": "Enter your translation here"
+        "en": "Distance from the start of the Link or Linksequence until the point to where the Networkproperty applies."
       }
     },
     {
@@ -1484,15 +1484,15 @@
       "name": "rijrichting",
       "label": {
         "nl": "rijrichting",
-        "en": "Enter your translation here"
+        "en": "trafficDirection"
       },
       "definition": {
         "nl": "De rijrichting.",
-        "en": "Enter your translation here"
+        "en": "The trafficDirection."
       },
       "usage": {
         "nl": "Deze wordt beschreven tov de richting van de geometrie van de weg: gelijklopend met of tegengesteld aan die richting. De richting van de geometrie wordt bepaald door de volgorde waarin de coördinaten op elkaar volgen.",
-        "en": "Enter your translation here"
+        "en": "This is described in relation to the direction of the geometry of the road: parallel or opposite to that direction. The direction of the geometry is determined by the order in which the coordinates follow each other."
       }
     },
     {
@@ -1500,11 +1500,11 @@
       "name": "referentie",
       "label": {
         "nl": "referentie",
-        "en": "Enter your translation here"
+        "en": "reference"
       },
       "definition": {
         "nl": "Verwijzing naar originele Output.",
-        "en": "Enter your translation here"
+        "en": "Reference to original output."
       }
     },
     {
@@ -1512,11 +1512,11 @@
       "name": "metadata",
       "label": {
         "nl": "metadata",
-        "en": "Enter your translation here"
+        "en": "metadata"
       },
       "definition": {
         "nl": "Verwijzing naar de Metadata van de Verkeersmetingen in de verzameling.",
-        "en": "Enter your translation here"
+        "en": "Reference to Metadata of the TrafficMeasurement."
       }
     },
     {
@@ -1524,11 +1524,11 @@
       "name": "specificatie",
       "label": {
         "nl": "specificatie",
-        "en": "Enter your translation here"
+        "en": "specification"
       },
       "definition": {
         "nl": "Verwijzing naar een document dat de Observatieprocedure beschrijft.",
-        "en": "Enter your translation here"
+        "en": "Reference to a document that describes the ObservationProcedure."
       }
     },
     {
@@ -1536,11 +1536,11 @@
       "name": "referentie",
       "label": {
         "nl": "referentie",
-        "en": "Enter your translation here"
+        "en": "reference"
       },
       "definition": {
         "nl": "Verwijzing naar originele Input.",
-        "en": "Enter your translation here"
+        "en": "Reference to original input."
       }
     },
     {
@@ -1548,11 +1548,11 @@
       "name": "uitgevoerdDoor",
       "label": {
         "nl": "uitgevoerdDoor",
-        "en": "Enter your translation here"
+        "en": "performedBy"
       },
       "definition": {
         "nl": "Agent die de Verkeersmeting heeft uitgevoerd.",
-        "en": "Enter your translation here"
+        "en": "Agent who carried out the TrafficMeasurement"
       }
     },
     {
@@ -1560,11 +1560,11 @@
       "name": "beginknoop",
       "label": {
         "nl": "beginknoop",
-        "en": "Enter your translation here"
+        "en": "startNode"
       },
       "definition": {
         "nl": "Knoop die het begin is van het Wegsegment.",
-        "en": "Enter your translation here"
+        "en": "Node that is the start of the RoadSegment."
       }
     },
     {
@@ -1572,11 +1572,11 @@
       "name": "richting",
       "label": {
         "nl": "richting",
-        "en": "Enter your translation here"
+        "en": "direction"
       },
       "definition": {
         "nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld).",
-        "en": "Enter your translation here"
+        "en": "Indicates if the directed link agrees (positive) or disagrees (negative) with the  direction of the link."
       }
     },
     {
@@ -1584,15 +1584,15 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarop de Rijrichting betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement to which the TrafficDirection relates."
       },
       "usage": {
         "nl": "In de context van dit applicatieprofiel is het Netwerkelement een Wegsegment of een Weglinksequentie. De Netwerkreferentie laat ook toe om Rijrichtingen te specifiëren voor slechts een stuk van de weg of voor één bepaalde wegkant.",
-        "en": "Enter your translation here"
+        "en": "In the context of this application profile, the NetworkElement is a RoadSegment or a RoadLinkSequence. The NetworkReference also enables to specify the TrafficDirection for only a part of the road or one particular road side."
       }
     },
     {
@@ -1600,15 +1600,15 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarop de Rijstrook betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement to which the Lane relates."
       },
       "usage": {
         "nl": "In de context van dit applicatieprofiel is het Netwerkelement een Wegsegment of een Weglinksequentie. De Netwerkreferentie laat ook toe om Rijstroken te specifiëren voor slechts een stuk van de weg of voor één bepaalde wegkant.",
-        "en": "Enter your translation here"
+        "en": "In the context of this application profile, the NetworkElement is a RoadSegment or a RoadLinkSequence. The NetworkReference also allows you to specify Lanes for only a section of the road or for one particular road side."
       }
     },
     {
@@ -1616,15 +1616,15 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarop het Voetpad betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement to which the Sidewalk relates."
       },
       "usage": {
         "nl": "In de context van dit applicatieprofiel is het Netwerkelement een Wegsegment of een Weglinksequentie. De Netwerkreferentie laat ook toe om een Voetpad te specifiëren voor slechts een stuk van de weg of voor één bepaalde wegkant.\r\n",
-        "en": "Enter your translation here"
+        "en": "In the context of this application profile, the NetworkElement is a RoadSegment or a RoadLin Sequence. The NetworkReference also allows you to specify a Sidewalk for only a section of the road or for one particular road side."
       }
     },
     {
@@ -1632,15 +1632,15 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarop het Fietspad betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement to which the BicyclePath relates."
       },
       "usage": {
         "nl": "In de context van dit applicatieprofiel is het Netwerkelement een Wegsegment of een Weglinksequentie. De Netwerkreferentie laat ook toe om een Fietspad te specifiëren voor slechts een stuk van de weg of voor één bepaalde wegkant.",
-        "en": "Enter your translation here"
+        "en": "In the context of this application profile, the NetworkElement is a RoadSegment or a RoadLinkSequence. The NetworkReference also enables to specify a BicyclePath for only a part of the road or for one particular road side."
       }
     },
     {
@@ -1648,11 +1648,11 @@
       "name": "geometriemiddenlijn",
       "label": {
         "nl": "geometriemiddenlijn",
-        "en": "Enter your translation here"
+        "en": "geometryCenterline"
       },
       "definition": {
         "nl": "Geometrie van de midellijn van het Wegsegment.",
-        "en": "Enter your translation here"
+        "en": "Geometry of the centerline of the RoadSegment."
       }
     },
     {
@@ -1660,11 +1660,11 @@
       "name": "eindknoop",
       "label": {
         "nl": "eindknoop",
-        "en": "Enter your translation here"
+        "en": "endNode"
       },
       "definition": {
         "nl": "Knoop die het einde is van het Wegsegment.",
-        "en": "Enter your translation here"
+        "en": "Node that is the end of the RoadSegment."
       }
     },
     {
@@ -1672,11 +1672,11 @@
       "name": "opPositie",
       "label": {
         "nl": "opPositie",
-        "en": "Enter your translation here"
+        "en": "onPosition"
       },
       "definition": {
         "nl": "Afstand vanaf het begin van de Link of Linksequentie tot het punt waar de Netwerkeigenschap geldt.",
-        "en": "Enter your translation here"
+        "en": "Distance from the start of the Link or Linksequence until the point at where the Networkproperty applies."
       }
     },
     {
@@ -1684,11 +1684,11 @@
       "name": "element",
       "label": {
         "nl": "element",
-        "en": "Enter your translation here"
+        "en": "element"
       },
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement."
       }
     },
     {
@@ -1696,15 +1696,15 @@
       "name": "link",
       "label": {
         "nl": "link",
-        "en": "Enter your translation here"
+        "en": "link"
       },
       "definition": {
         "nl": "GerichteLink die deel uitmaakt van de Linksequentie.",
-        "en": "Enter your translation here"
+        "en": "DirectedLink that is part of the LinkSequence."
       },
       "usage": {
         "nl": "d!\n",
-        "en": "Enter your translation here"
+        "en": "d!\n"
       }
     },
     {
@@ -1712,11 +1712,11 @@
       "name": "toepassingsRichting",
       "label": {
         "nl": "toepassingsRichting",
-        "en": "Enter your translation here"
+        "en": "applicableDirection"
       },
       "definition": {
         "nl": "Richting waarvoor de Netwerkeigenschap geldt tov de richting van de geometrie van de Link of Linksequentie.",
-        "en": "Enter your translation here"
+        "en": "Direction to which the Network Property applies relative to the direction of the geometry of the Link or Link Sequence."
       },
       "usage": {
         "nl": "Mogelijke richtingen zijn gelijklopend met de geometrie, tegengesteld aan de geometrie of beide. Indien gelijklopend of tegengesteld wordt verondersteld dat de eigenschap voorkomt aan de rechterkant van de Link volgens die richting. Bvb als de toepassingsrichting van de straatverlichting gelijklopend is wil dat zeggen dat rechts van de Link straatverlichting aanwezig is.",
@@ -1728,11 +1728,11 @@
       "name": "element",
       "label": {
         "nl": "element",
-        "en": "Enter your translation here"
+        "en": "element"
       },
       "definition": {
         "nl": "Verwijzing naar de Link of Linksequentie.",
-        "en": "Enter your translation here"
+        "en": "Reference to the Link or LinkSequence."
       }
     },
     {
@@ -1740,15 +1740,15 @@
       "name": "geometrie",
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       },
       "definition": {
         "nl": "Locatie van de Knoop.",
-        "en": "Enter your translation here"
+        "en": "Location of the node."
       },
       "usage": {
         "nl": "Weergegeven door een Punt.",
-        "en": "Enter your translation here"
+        "en": "Represented by a Point."
       }
     },
     {
@@ -1756,11 +1756,11 @@
       "name": "link",
       "label": {
         "nl": "link",
-        "en": "Enter your translation here"
+        "en": "link"
       },
       "definition": {
         "nl": "Verwijzing naar de oorspronkelijke Link.",
-        "en": "Enter your translation here"
+        "en": "Reference to the original Link."
       }
     },
     {
@@ -1768,11 +1768,11 @@
       "name": "implementeert",
       "label": {
         "nl": "implementeert",
-        "en": "Enter your translation here"
+        "en": "implements"
       },
       "definition": {
         "nl": "Observatieprocedure die door de Sensor wordt toegepast.",
-        "en": "Enter your translation here"
+        "en": "ObservationProcedure applied by the Sensor."
       }
     },
     {
@@ -1780,11 +1780,11 @@
       "name": "geïmplementeerdMet",
       "label": {
         "nl": "geïmplementeerdMet",
-        "en": "Enter your translation here"
+        "en": "implementedWith"
       },
       "definition": {
         "nl": "Sensor waarmee de Observatieprocedure is of moet worden uitgevoerd.",
-        "en": "Enter your translation here"
+        "en": "Sensor with which the ObservationProcedure has been or is to be carried out."
       }
     },
     {
@@ -1792,11 +1792,11 @@
       "name": "output",
       "label": {
         "nl": "output",
-        "en": "Enter your translation here"
+        "en": "output"
       },
       "definition": {
         "nl": "Verwijzing naar de Output die de Procedure genereert.",
-        "en": "Enter your translation here"
+        "en": "Reference to the Output that the Procedure generates or generated."
       }
     },
     {
@@ -1804,11 +1804,11 @@
       "name": "input",
       "label": {
         "nl": "input",
-        "en": "Enter your translation here"
+        "en": "input"
       },
       "definition": {
         "nl": "Verwijzing naar de Input die de procedure vereist.",
-        "en": "Enter your translation here"
+        "en": "Reference to the Input required or used by the procedure."
       }
     },
     {
@@ -1816,11 +1816,11 @@
       "name": "gebruikteProcedure",
       "label": {
         "nl": "gebruikteProcedure",
-        "en": "Enter your translation here"
+        "en": "usedProcedure"
       },
       "definition": {
         "nl": "Procedure gebruikt voor de Verkeersmeting.",
-        "en": "Enter your translation here"
+        "en": "Procedure followed by the TrafficMeasurement"
       }
     },
     {
@@ -1828,11 +1828,11 @@
       "name": "fenomeentijd",
       "label": {
         "nl": "fenomeentijd",
-        "en": "Enter your translation here"
+        "en": "phenomenonTime"
       },
       "definition": {
         "nl": "Het moment waarop het resultaat van de Verkeersmetingen in de verzameling van toepassing was.",
-        "en": "Enter your translation here"
+        "en": "The moment at which the result of the TrafficMeasurements in the collection was applicable."
       }
     },
     {
@@ -1840,7 +1840,7 @@
       "name": "uitgevoerdMet",
       "label": {
         "nl": "uitgevoerdMet",
-        "en": "Enter your translation here"
+        "en": "performedWith"
       },
       "definition": {
         "nl": "De Sensor waarmee de Verkeersmeting werd uitgevoerd.",
@@ -1852,11 +1852,11 @@
       "name": "uitgevoerdMet",
       "label": {
         "nl": "uitgevoerdMet",
-        "en": "Enter your translation here"
+        "en": "performedWith"
       },
       "definition": {
         "nl": "Sensor waarmee de Verkeersmetingen in de verzameling werd bekomen.",
-        "en": "Enter your translation here"
+        "en": "Sensor with which the TrafficMeasurements in the collection were obtained."
       }
     },
     {
@@ -1864,15 +1864,15 @@
       "name": "gehostDoor",
       "label": {
         "nl": "gehostDoor",
-        "en": "Enter your translation here"
+        "en": "hostedBy"
       },
       "definition": {
         "nl": "Toestel waarop de Sensor gehost wordt.",
-        "en": "Enter your translation here"
+        "en": "Device that hosts the Sensor."
       },
       "usage": {
         "nl": "d!\n",
-        "en": "Enter your translation here"
+        "en": "d!\n"
       }
     },
     {
@@ -1880,15 +1880,15 @@
       "name": "toegekend door (String)",
       "label": {
         "nl": "toegekend door (String)",
-        "en": "Enter your translation here"
+        "en": "assignedByString"
       },
       "definition": {
         "nl": "Naam vd agent die de identificator heeft toegekend.",
-        "en": "Enter your translation here"
+        "en": "Name of the agent who assigned the identifier."
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": ""
       }
     },
     {
@@ -1896,15 +1896,15 @@
       "name": "identificator",
       "label": {
         "nl": "identificator",
-        "en": "Enter your translation here"
+        "en": "identifier"
       },
       "definition": {
         "nl": "String gebruikt om het object uniek te identificeren.",
-        "en": "Enter your translation here"
+        "en": "String used to uniquely identify the object."
       },
       "usage": {
         "nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator.",
-        "en": "Enter your translation here"
+        "en": "Type of the string refers to the identifier (incl its version), the string itself to the actual identifier."
       }
     },
     {
@@ -1912,15 +1912,15 @@
       "name": "WKT",
       "label": {
         "nl": "WKT",
-        "en": "Enter your translation here"
+        "en": "WKT"
       },
       "definition": {
         "nl": "Geometrie uitgedrukt in wkt-formaat.",
-        "en": "Enter your translation here"
+        "en": "The WKT serialization of a geometry"
       },
       "usage": {
         "nl": "Gebruik http://www.opengis.net/ont/geosparql#wktLiteral als datatype.",
-        "en": "Enter your translation here"
+        "en": "Use http://www.opengis.net/ont/geosparql#wktLiteral as datatype."
       }
     },
     {
@@ -1928,15 +1928,15 @@
       "name": "GML",
       "label": {
         "nl": "GML",
-        "en": "Enter your translation here"
+        "en": "GML"
       },
       "definition": {
         "nl": "Geometrie uitgedrukt in gml-formaat.",
-        "en": "Enter your translation here"
+        "en": "The GML serialization of a geometry"
       },
       "usage": {
         "nl": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype.",
-        "en": "Enter your translation here"
+        "en": "Use http://www.opengis.net/ont/geosparql#gmlLiteral as datatype."
       }
     },
     {
@@ -1944,15 +1944,15 @@
       "name": "toegekend op",
       "label": {
         "nl": "toegekend op",
-        "en": "Enter your translation here"
+        "en": "assignedOn"
       },
       "definition": {
         "nl": "Tijdstip waarop de identificator werd uitgegeven.",
-        "en": "Enter your translation here"
+        "en": "Instant the identifier was assigned."
       },
       "usage": {
         "nl": " ",
-        "en": "Enter your translation here"
+        "en": ""
       }
     },
     {
@@ -1960,15 +1960,15 @@
       "name": "toegekend door",
       "label": {
         "nl": "toegekend door",
-        "en": "Enter your translation here"
+        "en": "assignedBy"
       },
       "definition": {
         "nl": "Link naar de agent die de identificator heeft uitgegeven.",
-        "en": "Enter your translation here"
+        "en": "Link to the agent who assigned the identifier."
       },
       "usage": {
         "nl": "Te gebruiken als naar de agent kan worden verwezen dmv een uri. Gebruik anders het attribuut \"toegekendDoor(String)\".",
-        "en": "Enter your translation here"
+        "en": "To be used if the agent can be referenced by means of a uri. Use the attribute \"assignedBy(String)\" otherwise."
       }
     },
     {
@@ -1976,11 +1976,11 @@
       "name": "verkeersdeelnemertype",
       "label": {
         "nl": "verkeersdeelnemertype",
-        "en": "Enter your translation here"
+        "en": "trafficParticipantType"
       },
       "definition": {
         "nl": "Aard van de Verkeersdeelnemer.",
-        "en": "Enter your translation here"
+        "en": "Type of TrafficParticipant."
       }
     },
     {
@@ -1988,11 +1988,11 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       },
       "definition": {
         "nl": "Type vh Verkeerskenmerk.",
-        "en": "Enter your translation here"
+        "en": "Type of a TrafficFeature."
       }
     },
     {
@@ -2000,11 +2000,11 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       },
       "definition": {
         "nl": "Aard van de data.",
-        "en": "Enter your translation here"
+        "en": "The nature of the data."
       }
     },
     {
@@ -2012,15 +2012,15 @@
       "name": "rijstrooktype",
       "label": {
         "nl": "rijstrooktype",
-        "en": "Enter your translation here"
+        "en": "laneType"
       },
       "definition": {
         "nl": "Aard vd Rijstrook.",
-        "en": "Enter your translation here"
+        "en": "Nature of the Lane."
       },
       "usage": {
         "nl": "Bvb of het een afslagstrook is, een fietssuggestiestrook, een middenrijbaan etc.",
-        "en": "Enter your translation here"
+        "en": "For example, whether it is a turning lane, a bicycle suggestion lane, a center lane, etc."
       }
     },
     {
@@ -2028,11 +2028,11 @@
       "name": "titel",
       "label": {
         "nl": "titel",
-        "en": "Enter your translation here"
+        "en": "title"
       },
       "definition": {
         "nl": "Naam gegeven aan de data.",
-        "en": "Enter your translation here"
+        "en": "Name given to the data."
       }
     },
     {
@@ -2040,15 +2040,15 @@
       "name": "onderwerp",
       "label": {
         "nl": "onderwerp",
-        "en": "Enter your translation here"
+        "en": "subject"
       },
       "definition": {
         "nl": "Referentie naar het topic van de data.",
-        "en": "Enter your translation here"
+        "en": "Reference to the topic of the data."
       },
       "usage": {
         "nl": "d!\n",
-        "en": "Enter your translation here"
+        "en": "d!\n"
       }
     },
     {
@@ -2056,15 +2056,15 @@
       "name": "bron",
       "label": {
         "nl": "bron",
-        "en": "Enter your translation here"
+        "en": "source"
       },
       "definition": {
         "nl": "Referentie naar andere data waarvan deze data zijn afgeleid.",
-        "en": "Enter your translation here"
+        "en": "Other data from which these data are derived."
       },
       "usage": {
         "nl": "De volledige data of enkel een subset.",
-        "en": "Enter your translation here"
+        "en": "The complete data or just a subset."
       }
     },
     {
@@ -2072,15 +2072,15 @@
       "name": "rechten",
       "label": {
         "nl": "rechten",
-        "en": "Enter your translation here"
+        "en": "rights"
       },
       "definition": {
         "nl": "Referentie naar informatie over de rechten eigen aan of van toepassing op de data.",
-        "en": "Enter your translation here"
+        "en": "Reference to nformation about rights held in and over the data."
       },
       "usage": {
         "nl": "Doorgaans een verklaring over verschillende eigendomsrechten die aan de data zijn gekoppeld, inclusief intellectuele eigendomsrechten.",
-        "en": "Enter your translation here"
+        "en": "Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights."
       }
     },
     {
@@ -2088,15 +2088,15 @@
       "name": "relatie",
       "label": {
         "nl": "relatie",
-        "en": "Enter your translation here"
+        "en": "relation"
       },
       "definition": {
         "nl": "Referentie naar andere data waarmee deze data geassocieerd zijn.",
-        "en": "Enter your translation here"
+        "en": "Reference to other data associated with this data."
       },
       "usage": {
         "nl": "d!\n",
-        "en": "Enter your translation here"
+        "en": "d!\n"
       }
     },
     {
@@ -2104,15 +2104,15 @@
       "name": "uitgever",
       "label": {
         "nl": "uitgever",
-        "en": "Enter your translation here"
+        "en": "publisher"
       },
       "definition": {
         "nl": "Referentie naar de entiteit verantwoordelijk voor het publiek maken van de data.",
-        "en": "Enter your translation here"
+        "en": "Reference to an entity responsible for making the data available."
       },
       "usage": {
         "nl": "Bv een persoon, organisatie of service. Te substitueren door een instantie ve subklasse van Agent, bvb een Persoon of Organisatie zoals resp beschreven door <a href=\"https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-persoon.html\">OSLO-Persoon</a> en <a href=\"https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-organisatie-basis.html\">OSLO-Organisatie</a>.",
-        "en": "Enter your translation here"
+        "en": "Examples of a creator include a person, an organization, or a service. To be substituted by an instance of a subclass of Agent, e.g. a Person or Organization as described by <a href=\"https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-person-vocabulary/release/210\">Semic-Person </a> and <a href=\"https://www.w3.org/TR/vocab-org/\">W3C-Organisation</a>."
       }
     },
     {
@@ -2120,11 +2120,11 @@
       "name": "taal",
       "label": {
         "nl": "taal",
-        "en": "Enter your translation here"
+        "en": "language"
       },
       "definition": {
         "nl": "Taal waarin de data zijn gesteld.",
-        "en": "Enter your translation here"
+        "en": "Language of the data"
       }
     },
     {
@@ -2132,15 +2132,15 @@
       "name": "formaat",
       "label": {
         "nl": "formaat",
-        "en": "Enter your translation here"
+        "en": "format"
       },
       "definition": {
         "nl": "Het bestandsformaat, fysiek medium of de dimensies van de data.",
-        "en": "Enter your translation here"
+        "en": "The file format, physical medium, or dimensions of the data."
       },
       "usage": {
         "nl": "d!\n",
-        "en": "Enter your translation here"
+        "en": "d!\n"
       }
     },
     {
@@ -2148,15 +2148,15 @@
       "name": "beschrijving",
       "label": {
         "nl": "beschrijving",
-        "en": "Enter your translation here"
+        "en": "description"
       },
       "definition": {
         "nl": "Verdere uitleg over de data.",
-        "en": "Enter your translation here"
+        "en": "Further explanation on the data."
       },
       "usage": {
         "nl": "Bv een samenvatting, een inhoudstafel, een grafische voorstelling, vrije tekst.",
-        "en": "Enter your translation here"
+        "en": "May include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account."
       }
     },
     {
@@ -2164,15 +2164,15 @@
       "name": "datum",
       "label": {
         "nl": "datum",
-        "en": "Enter your translation here"
+        "en": "date"
       },
       "definition": {
         "nl": "Moment of periode geassocieerd met een gebeurtenis in de levensloop vd data.",
-        "en": "Enter your translation here"
+        "en": "Moment or period associated with an event in the life cycle of the data."
       },
       "usage": {
         "nl": "Bijvoorbeeld het moment waarop de gegevens zijn aangemaakt. Te vervangen door een instantie van de juiste klasse/datatype, bvb representaties van een moment zoals Date of DateTime of van een periode zoals time::ProperInterval (zie <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> voor meer info ).",
-        "en": "Enter your translation here"
+        "en": "E.g. the moment in time the data was created. To be substituted by an instance of the appropriate class/datatype, e.g. representations of an instant like Date or DateTime or of a period like time::ProperInterval (see  <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> for more info)."
       }
     },
     {
@@ -2180,15 +2180,15 @@
       "name": "auteur",
       "label": {
         "nl": "auteur",
-        "en": "Enter your translation here"
+        "en": "creator"
       },
       "definition": {
         "nl": "Referentie naar de identiteit die in de eerste plaats verantwoordelijk is voor het onstaan van de data.",
-        "en": "Enter your translation here"
+        "en": "An entity primarily responsible for the creation of the data."
       },
       "usage": {
         "nl": "Bv een persoon, organisatie of service. Te substitueren door een verwijzing naar een instantie ve subklasse van Agent, bvb een Persoon of Organisatie zoals resp beschreven door <a href=\"https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-persoon.html\">OSLO-Persoon</a> en <a href=\"https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-organisatie-basis.html\">OSLO-Organisatie</a>.",
-        "en": "Enter your translation here"
+        "en": "Examples of a creator include a person, an organization, or a service. To be substituted by a reference to an instance of a subclass of Agent, e.g. a Person or Organization as described by <a href=\"https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-person-vocabulary/release/210\">Semic-Person </a> and <a href=\"https://www.w3.org/TR/vocab-org/\">W3C-Organisation</a>."
       }
     },
     {
@@ -2196,15 +2196,15 @@
       "name": "dekking",
       "label": {
         "nl": "dekking",
-        "en": "Enter your translation here"
+        "en": "coverage"
       },
       "definition": {
         "nl": "De ruimtelijke of temporele omvang van de gegevens.",
-        "en": "Enter your translation here"
+        "en": "The spatial or temporal extent of the datas."
       },
       "usage": {
         "nl": "Resp. het gebied of de periode waarop de data betrekking heeft.",
-        "en": "Enter your translation here"
+        "en": "Resp. the area or period to which the data relates."
       }
     },
     {
@@ -2212,15 +2212,15 @@
       "name": "medeAuteur",
       "label": {
         "nl": "medeAuteur",
-        "en": "Enter your translation here"
+        "en": "contributor"
       },
       "definition": {
         "nl": "Referentie naar de entiteit die tot de data heeft bijgedragen.",
-        "en": "Enter your translation here"
+        "en": "A reference to an entity responsible for making contributions to the data."
       },
       "usage": {
         "nl": "Bv een persoon, organisatie of service. Te substitueren door een instantie ve subklasse van Agent, bvb een Persoon of Organisatie zoals resp beschreven door <a href=\"https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-persoon.html\">OSLO-Persoon</a> en <a href=\"https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-organisatie-basis.html\">OSLO-Organisatie</a>.",
-        "en": "Enter your translation here"
+        "en": "Examples of a creator include a person, an organization, or a service. To be substituted by an instance of a subclass of Agent, e.g. a Person or Organization as described by <a href=\"https://joinup.ec.europa.eu/collection/semic-support-centre/solution/core-person-vocabulary/release/210\">Semic-Person </a> and <a href=\"https://www.w3.org/TR/vocab-org/\">W3C-Organisation</a>."
       }
     },
     {
@@ -2228,11 +2228,11 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       },
       "definition": {
         "nl": "Aard van de Observatieprocedure.",
-        "en": "Enter your translation here"
+        "en": "Nature of the Observation Procedure."
       }
     },
     {
@@ -2240,11 +2240,11 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       },
       "definition": {
         "nl": "Aard van de input.",
-        "en": "Enter your translation here"
+        "en": "Nature of the input."
       }
     },
     {
@@ -2252,11 +2252,11 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       },
       "definition": {
         "nl": "Aard van de Output.",
-        "en": "Enter your translation here"
+        "en": "Nature of the Output."
       }
     },
     {
@@ -2264,15 +2264,15 @@
       "name": "geometrie",
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       },
       "definition": {
         "nl": "Vorm- en positiekenmerken van het meetpunt.",
-        "en": "Enter your translation here"
+        "en": "Shape and position characteristics of the measuring point."
       },
       "usage": {
         "nl": "Datatype vd geometrie is Punt.",
-        "en": "Enter your translation here"
+        "en": "Datatype of the geometry is Point."
       }
     },
     {
@@ -2280,15 +2280,15 @@
       "name": "geometrie",
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       },
       "definition": {
         "nl": "Vorm- en positiekenmerken van het meettraject.",
-        "en": "Enter your translation here"
+        "en": "Shape and position characteristics of the measurement trajectory."
       },
       "usage": {
         "nl": "Datatype van de geometrie is LijnString.",
-        "en": "Enter your translation here"
+        "en": "Datatype of the geometry is LineString"
       }
     },
     {
@@ -2296,15 +2296,15 @@
       "name": "resultaattijd",
       "label": {
         "nl": "resultaattijd",
-        "en": "Enter your translation here"
+        "en": "resultTime"
       },
       "definition": {
         "nl": "Tijdstip waarop het resultaat van de Verkeersmeting werd bekomen.",
-        "en": "Enter your translation here"
+        "en": "Moment at which the result of the Traffic Measurement was obtained."
       },
       "usage": {
         "nl": "Is voor sommige metingen gelijk aan de fenomeentijd maar kan ook verschillen, bv bij het uitvoeren van een analyse op een meting die eerder (en doorgaans dan ook elders) werd genomen of bij sensormetingen die pas later worden verwerkt.",
-        "en": "Enter your translation here"
+        "en": "Is the same as the phenomenonTime for some measurements, but can also differ, for example when performing an analysis on a measurement that was taken earlier (and usually elsewhere) or on Sensor measurements that are only processed later."
       }
     },
     {
@@ -2312,15 +2312,15 @@
       "name": "resultaatkwaliteit",
       "label": {
         "nl": "resultaatkwaliteit",
-        "en": "Enter your translation here"
+        "en": "resultQuality"
       },
       "definition": {
         "nl": "Mate waarin het resultaat van de Verkeersmeting voldoet aan de vereisten of verwachtingen.",
-        "en": "Enter your translation here"
+        "en": "Extent to which the result of the TrafficMeasurement meets the requirements or expectations."
       },
       "usage": {
         "nl": "Het gaat hier om gegevens die eigen zijn aan de Verkeersmeting en die complementair zijn aan de beschrijving van de procedure die bij de meting is gevolgd (analysemethode, gebruikte Sensor edm, zie klasse Observatieprocedure).",
-        "en": "Enter your translation here"
+        "en": "This concerns data that is specific to the TrafficMeasurement and that is complementary to the description of the procedure followed during the measurement (analysis method, Sensor used, etc., see class ObservationProcedure)."
       }
     },
     {
@@ -2328,15 +2328,15 @@
       "name": "resultaat",
       "label": {
         "nl": "resultaat",
-        "en": "Enter your translation here"
+        "en": "result"
       },
       "definition": {
         "nl": "De waarde van het geobserveerdKenmerk als resultaat van de Verkeersmeting.",
-        "en": "Enter your translation here"
+        "en": "The value of the observed TrafficFeature as a result of the TrafficMeasurement."
       },
       "usage": {
         "nl": "Het resultaat kan van om het even welk type zijn aangezien om het even welk kenmerk van om het even welk type object kan worden geobserveerd. CONSTRAINT: Het type van het resultaat van de Verkeersmeting moet kloppen met het geobserveerd Verkeerskenmerk en de verkregen waarde moet binnen het bereik vallen ervan.",
-        "en": "Enter your translation here"
+        "en": "The result can be of any type as any TrafficFeature of any type of Traffic object can be observed. CONSTRAINT: The type of the TrafficMeasurement result must match the observed feature and the obtained value must fall within the range of it."
       }
     },
     {
@@ -2344,11 +2344,11 @@
       "name": "metadata",
       "label": {
         "nl": "metadata",
-        "en": "Enter your translation here"
+        "en": "metadata"
       },
       "definition": {
         "nl": "Verwijzing naar Metadata van de Verkeersmeting.",
-        "en": "Enter your translation here"
+        "en": "Reference to Metadata of the TrafficMeasurement."
       }
     },
     {
@@ -2356,11 +2356,11 @@
       "name": "waarde",
       "label": {
         "nl": "waarde",
-        "en": "Enter your translation here"
+        "en": "value"
       },
       "definition": {
         "nl": "Kwalitatieve of kwantitatieve invulling van de waarde.",
-        "en": "Enter your translation here"
+        "en": "The quantitative or qualitative value of the NamedValue."
       }
     },
     {
@@ -2368,11 +2368,11 @@
       "name": "naam",
       "label": {
         "nl": "naam",
-        "en": "Enter your translation here"
+        "en": "name"
       },
       "definition": {
         "nl": "Naam vh type van de waarde.",
-        "en": "Enter your translation here"
+        "en": "Name of the type of the value."
       }
     }
   ]
