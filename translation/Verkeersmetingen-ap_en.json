@@ -227,15 +227,15 @@
       "name": "voertuigType",
       "label": {
         "nl": "voertuigType",
-        "en": "VehicleType"
+        "en": "vehicleType"
       },
       "definition": {
         "nl": "Soort Voertuig waarvan men het Verkeerskenmerk meet.",
-        "en": "Type of Vehicle."
+        "en": "Type of Vehicle whose TrafficFeature is measured."
       },
       "usage": {
         "nl": "Bvb \"Fiets\" als men enkel het aantal fietsen wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Voertuig zijn maar bvb een Wegsegment of Rijstrook etc.",
-        "en": "E.g. car, bicycle, step etc. or noVehicle (e.g. for Pedestrians) ."
+        "en": "For example, \"Bicycle\" if you only want to count the number of bicycles in a measuring point. Only necessary for TrafficDomainObjects that are not themselves a Vehicle but, for example, a RoadSegment or Lane, etc."
       }
     },
     {
@@ -455,15 +455,15 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       },
       "definition": {
         "nl": "Referentie naar het Netwerkelement waarop of waarlangs het Verkeersmeetpunt ligt of dat door dat punt bemonsterd wordt.",
-        "en": "Enter your translation here"
+        "en": "Reference to the NetworkElement on or along which the TrafficMeasurementPoint is located on or that is sampled by that point."
       },
       "usage": {
         "nl": "Nuttig als men weet langs welk Wegsegment het punt ligt en aan welke kant van de weg en op welke afstand van het beginpunt. Alternatief voor of aanvulling op coördinaten. Ook noodzakelijk om aan te geven over welk Wegsegment en aan welke kant ervan de Voertuigen rijden waarvan men bvb de snelheid meet.\r\n",
-        "en": "Enter your translation here"
+        "en": "Useful if you know along which RoadSegment the point is located and on which side of the road and at what distance from the starting point. Alternative or addition to coordinates. Also necessary to indicate which RoadSegment and on which side the Vehicles are driving whose speed is measured, for example."
       }
     }
   ],
@@ -473,7 +473,7 @@
       "name": "Any",
       "label": {
         "nl": "Any",
-        "en": "Enter your translation here"
+        "en": "Any"
       }
     },
     {
@@ -481,7 +481,7 @@
       "name": "Lengte",
       "label": {
         "nl": "Lengte",
-        "en": "Enter your translation here"
+        "en": "Distance"
       }
     },
     {
@@ -489,7 +489,7 @@
       "name": "Moment",
       "label": {
         "nl": "Moment",
-        "en": "Enter your translation here"
+        "en": "Instant"
       }
     },
     {
@@ -497,7 +497,7 @@
       "name": "TemporeleEntiteit",
       "label": {
         "nl": "TemporeleEntiteit",
-        "en": "Enter your translation here"
+        "en": "TemporalEntity"
       }
     },
     {
@@ -505,7 +505,7 @@
       "name": "Kenmerktype",
       "label": {
         "nl": "Kenmerktype",
-        "en": "Enter your translation here"
+        "en": "FeatureType"
       }
     },
     {
@@ -513,7 +513,7 @@
       "name": "Kwaliteitselement",
       "label": {
         "nl": "Kwaliteitselement",
-        "en": "Enter your translation here"
+        "en": "QualityElement"
       }
     },
     {
@@ -521,7 +521,7 @@
       "name": "metadata",
       "label": {
         "nl": "metadata",
-        "en": "Enter your translation here"
+        "en": "metadata"
       }
     },
     {
@@ -529,7 +529,7 @@
       "name": "Object",
       "label": {
         "nl": "Object",
-        "en": "Enter your translation here"
+        "en": "Object"
       }
     },
     {
@@ -537,7 +537,7 @@
       "name": "BenoemdeWaarde",
       "label": {
         "nl": "BenoemdeWaarde",
-        "en": "Enter your translation here"
+        "en": "NamedValue"
       }
     },
     {
@@ -545,7 +545,7 @@
       "name": "Observatie",
       "label": {
         "nl": "Observatie",
-        "en": "Enter your translation here"
+        "en": "Observation"
       }
     },
     {
@@ -553,7 +553,7 @@
       "name": "Bemonsteringscurve",
       "label": {
         "nl": "Bemonsteringscurve",
-        "en": "Enter your translation here"
+        "en": "SamplingCurve"
       }
     },
     {
@@ -561,7 +561,7 @@
       "name": "Bemonsteringsobject",
       "label": {
         "nl": "Bemonsteringsobject",
-        "en": "Enter your translation here"
+        "en": "SamplingObject"
       }
     },
     {
@@ -569,7 +569,7 @@
       "name": "Bemonsteringspunt",
       "label": {
         "nl": "Bemonsteringspunt",
-        "en": "Enter your translation here"
+        "en": "SamplingPoint"
       }
     },
     {
@@ -577,7 +577,7 @@
       "name": "Domeinobject",
       "label": {
         "nl": "Domeinobject",
-        "en": "Enter your translation here"
+        "en": "DomainObject"
       }
     },
     {
@@ -585,7 +585,7 @@
       "name": "Agent",
       "label": {
         "nl": "Agent",
-        "en": "Enter your translation here"
+        "en": "Agent"
       }
     },
     {
@@ -593,7 +593,7 @@
       "name": "Bestandsformaat",
       "label": {
         "nl": "Bestandsformaat",
-        "en": "Enter your translation here"
+        "en": "FileFormat"
       }
     },
     {
@@ -601,7 +601,7 @@
       "name": "Gegevensdrager",
       "label": {
         "nl": "Gegevensdrager",
-        "en": "Enter your translation here"
+        "en": "PhysicalMedium"
       }
     },
     {
@@ -609,7 +609,7 @@
       "name": "lijnstring",
       "label": {
         "nl": "lijnstring",
-        "en": "Enter your translation here"
+        "en": "LineString"
       }
     },
     {
@@ -617,7 +617,7 @@
       "name": "punt",
       "label": {
         "nl": "punt",
-        "en": "Enter your translation here"
+        "en": "point"
       }
     },
     {
@@ -625,7 +625,7 @@
       "name": "Informatietype",
       "label": {
         "nl": "Informatietype",
-        "en": "Enter your translation here"
+        "en": "InformationType"
       }
     },
     {
@@ -633,7 +633,7 @@
       "name": "Observatieproceduretype",
       "label": {
         "nl": "Observatieproceduretype",
-        "en": "Enter your translation here"
+        "en": "Observationproceduretype"
       }
     },
     {
@@ -641,7 +641,7 @@
       "name": "Verkeerskenmerktype",
       "label": {
         "nl": "Verkeerskenmerktype",
-        "en": "Enter your translation here"
+        "en": "TrafficFeatureType"
       }
     },
     {
@@ -649,7 +649,7 @@
       "name": "Taalcode",
       "label": {
         "nl": "Taalcode",
-        "en": "Enter your translation here"
+        "en": "LanguageCode"
       }
     },
     {
@@ -657,7 +657,7 @@
       "name": "Teken",
       "label": {
         "nl": "Teken",
-        "en": "Enter your translation here"
+        "en": "Sign"
       }
     },
     {
@@ -665,7 +665,7 @@
       "name": "Toepassingsrichtingtype",
       "label": {
         "nl": "Toepassingsrichtingtype",
-        "en": "Enter your translation here"
+        "en": "LinkDirectionValue"
       }
     },
     {
@@ -673,7 +673,7 @@
       "name": "Voertuigtype",
       "label": {
         "nl": "Voertuigtype",
-        "en": "Enter your translation here"
+        "en": "VehicleType"
       }
     },
     {
@@ -681,7 +681,7 @@
       "name": "Rijrichtingtype",
       "label": {
         "nl": "Rijrichtingtype",
-        "en": "Enter your translation here"
+        "en": "TrafficDirectionType"
       }
     },
     {
@@ -689,7 +689,7 @@
       "name": "Verkeersdeelnemertype",
       "label": {
         "nl": "Verkeersdeelnemertype",
-        "en": "Enter your translation here"
+        "en": "trafficParticipantType"
       }
     },
     {
@@ -697,7 +697,7 @@
       "name": "Rijstrooktype",
       "label": {
         "nl": "Rijstrooktype",
-        "en": "Enter your translation here"
+        "en": "LaneType"
       }
     },
     {
@@ -705,7 +705,7 @@
       "name": "Identificator",
       "label": {
         "nl": "Identificator",
-        "en": "Enter your translation here"
+        "en": "Identifier"
       }
     },
     {
@@ -713,7 +713,7 @@
       "name": "geometrie",
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       }
     },
     {
@@ -721,7 +721,7 @@
       "name": "Locatie",
       "label": {
         "nl": "Locatie",
-        "en": "Enter your translation here"
+        "en": "Location"
       }
     },
     {
@@ -729,7 +729,7 @@
       "name": "Observatieprocedure",
       "label": {
         "nl": "Observatieprocedure",
-        "en": "Enter your translation here"
+        "en": "ObservationProcedure"
       }
     },
     {
@@ -737,7 +737,7 @@
       "name": "Procedure",
       "label": {
         "nl": "Procedure",
-        "en": "Enter your translation here"
+        "en": "Procedure"
       }
     },
     {
@@ -745,7 +745,7 @@
       "name": "Input",
       "label": {
         "nl": "Input",
-        "en": "Enter your translation here"
+        "en": "Input"
       }
     },
     {
@@ -753,7 +753,7 @@
       "name": "Output",
       "label": {
         "nl": "Output",
-        "en": "Enter your translation here"
+        "en": "Output"
       }
     },
     {
@@ -761,7 +761,7 @@
       "name": "gerichte link",
       "label": {
         "nl": "gerichte link",
-        "en": "Enter your translation here"
+        "en": "directedLink"
       }
     },
     {
@@ -769,7 +769,7 @@
       "name": "lineaire referentie",
       "label": {
         "nl": "lineaire referentie",
-        "en": "Enter your translation here"
+        "en": "LinearReference"
       }
     },
     {
@@ -777,7 +777,7 @@
       "name": "Link",
       "label": {
         "nl": "Link",
-        "en": "Enter your translation here"
+        "en": "Link"
       }
     },
     {
@@ -793,7 +793,7 @@
       "name": "Netwerkelement",
       "label": {
         "nl": "Netwerkelement",
-        "en": "Enter your translation here"
+        "en": "NetworkElement"
       }
     },
     {
@@ -801,7 +801,7 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       }
     },
     {
@@ -809,7 +809,7 @@
       "name": "puntreferentie",
       "label": {
         "nl": "puntreferentie",
-        "en": "Enter your translation here"
+        "en": "pointReference"
       }
     },
     {
@@ -817,7 +817,7 @@
       "name": "Dekking",
       "label": {
         "nl": "Dekking",
-        "en": "Enter your translation here"
+        "en": "Coverage"
       }
     },
     {
@@ -825,7 +825,7 @@
       "name": "Dimensie",
       "label": {
         "nl": "Dimensie",
-        "en": "Enter your translation here"
+        "en": "Dimension"
       }
     },
     {
@@ -833,7 +833,7 @@
       "name": "Formaat",
       "label": {
         "nl": "Formaat",
-        "en": "Enter your translation here"
+        "en": "Format"
       }
     },
     {
@@ -841,7 +841,7 @@
       "name": "Transporteigenschap",
       "label": {
         "nl": "Transporteigenschap",
-        "en": "Enter your translation here"
+        "en": "TransportCharacteristic"
       }
     },
     {
@@ -849,7 +849,7 @@
       "name": "Transportknoop",
       "label": {
         "nl": "Transportknoop",
-        "en": "Enter your translation here"
+        "en": "TransportNode"
       }
     },
     {
@@ -857,7 +857,7 @@
       "name": "Transportlink",
       "label": {
         "nl": "Transportlink",
-        "en": "Enter your translation here"
+        "en": "TransportLink"
       }
     },
     {
@@ -865,7 +865,7 @@
       "name": "Transportlinksequentie",
       "label": {
         "nl": "Transportlinksequentie",
-        "en": "Enter your translation here"
+        "en": "TransportLinkSequence"
       }
     },
     {
@@ -873,15 +873,15 @@
       "name": "Wegdeel",
       "label": {
         "nl": "Wegdeel",
-        "en": "Enter your translation here"
+        "en": "RoadSection"
       },
       "definition": {
         "nl": "Deel van de wegbaan.",
-        "en": "Enter your translation here"
+        "en": "Section of the road."
       },
       "usage": {
         "nl": "In deze context worden er longitudonale onderverdelingen van de weg mee bedoeld zoals Rijstroken,Fietspaden edm.OPGELET: Deze klasse is abstract,gebruik de subklassen.",
-        "en": "Enter your translation here"
+        "en": "In this context it refers to longitudinal subdivisions of the road such as Lanes, BicyclePaths, etc. ATTENTION: This class is abstract, use subclasses."
       }
     },
     {
@@ -889,7 +889,7 @@
       "name": "Rijrichting",
       "label": {
         "nl": "Rijrichting",
-        "en": "Enter your translation here"
+        "en": "TrafficDirection"
       }
     },
     {
@@ -897,7 +897,7 @@
       "name": "Wegknoop",
       "label": {
         "nl": "Wegknoop",
-        "en": "Enter your translation here"
+        "en": "RoadNode"
       }
     },
     {
@@ -905,7 +905,7 @@
       "name": "Weglinksequentie",
       "label": {
         "nl": "Weglinksequentie",
-        "en": "Enter your translation here"
+        "en": "RoadLinkSequence"
       }
     },
     {
@@ -913,15 +913,15 @@
       "name": "Wegobject",
       "label": {
         "nl": "Wegobject",
-        "en": "Enter your translation here"
+        "en": "RoadObject"
       },
       "definition": {
         "nl": "Object dat een onderdeel uit een Wegennetwerk vertegenwoordigt.",
-        "en": "Enter your translation here"
+        "en": "Object that represents a part of a RoadNetwork."
       },
       "usage": {
         "nl": "Typische voorbeelden zijn Wegsegmenten, Wegknopen, Weglinksequenties etc OPGELET: deze klasse is abstract, enkel de subklassen gebruiken.",
-        "en": "Enter your translation here"
+        "en": "Typical examples are RoadSegments, RoadNodes, RoadLinkSequences etc… REMARK: this class is abstract, only use the subclasses."
       }
     },
     {
@@ -929,7 +929,7 @@
       "name": "Wegsegment",
       "label": {
         "nl": "Wegsegment",
-        "en": "Enter your translation here"
+        "en": "RoadSegment"
       }
     },
     {
@@ -937,7 +937,7 @@
       "name": "Toestel",
       "label": {
         "nl": "Toestel",
-        "en": "Enter your translation here"
+        "en": "Device"
       }
     },
     {
@@ -945,7 +945,7 @@
       "name": "Observatieverzameling",
       "label": {
         "nl": "Observatieverzameling",
-        "en": "Enter your translation here"
+        "en": "ObservationCollection"
       }
     },
     {
@@ -953,7 +953,7 @@
       "name": "Systeem",
       "label": {
         "nl": "Systeem",
-        "en": "Enter your translation here"
+        "en": "System"
       }
     },
     {
@@ -961,7 +961,7 @@
       "name": "Platform",
       "label": {
         "nl": "Platform",
-        "en": "Enter your translation here"
+        "en": "Platform"
       }
     },
     {
@@ -969,7 +969,7 @@
       "name": "Sensor",
       "label": {
         "nl": "Sensor",
-        "en": "Enter your translation here"
+        "en": "Sensor"
       }
     }
   ],
@@ -979,7 +979,7 @@
       "name": "hostVan",
       "label": {
         "nl": "hostVan",
-        "en": "Enter your translation here"
+        "en": "hostOf"
       }
     },
     {
@@ -987,7 +987,7 @@
       "name": "model",
       "label": {
         "nl": "model",
-        "en": "Enter your translation here"
+        "en": "model"
       }
     },
     {
@@ -995,7 +995,7 @@
       "name": "fabrikant",
       "label": {
         "nl": "fabrikant",
-        "en": "Enter your translation here"
+        "en": "manufacturer"
       }
     },
     {
@@ -1003,7 +1003,7 @@
       "name": "functie",
       "label": {
         "nl": "functie",
-        "en": "Enter your translation here"
+        "en": "function"
       }
     },
     {
@@ -1011,7 +1011,7 @@
       "name": "taak",
       "label": {
         "nl": "taak",
-        "en": "Enter your translation here"
+        "en": "task"
       }
     },
     {
@@ -1027,7 +1027,7 @@
       "name": "fenomeenTijd",
       "label": {
         "nl": "fenomeenTijd",
-        "en": "Enter your translation here"
+        "en": "phenomenonTime"
       }
     },
     {
@@ -1035,7 +1035,7 @@
       "name": "voertuigtype",
       "label": {
         "nl": "voertuigtype",
-        "en": "Enter your translation here"
+        "en": "typeOfVehicle"
       }
     },
     {
@@ -1043,7 +1043,7 @@
       "name": "van positie",
       "label": {
         "nl": "van positie",
-        "en": "Enter your translation here"
+        "en": "fromPosition"
       }
     },
     {
@@ -1051,7 +1051,7 @@
       "name": "tot positie",
       "label": {
         "nl": "tot positie",
-        "en": "Enter your translation here"
+        "en": "toPosition"
       }
     },
     {
@@ -1059,7 +1059,7 @@
       "name": "rijrichting",
       "label": {
         "nl": "rijrichting",
-        "en": "Enter your translation here"
+        "en": "trafficDirection"
       }
     },
     {
@@ -1067,7 +1067,7 @@
       "name": "referentie",
       "label": {
         "nl": "referentie",
-        "en": "Enter your translation here"
+        "en": "reference"
       }
     },
     {
@@ -1075,7 +1075,7 @@
       "name": "metadata",
       "label": {
         "nl": "metadata",
-        "en": "Enter your translation here"
+        "en": "metadata"
       }
     },
     {
@@ -1083,7 +1083,7 @@
       "name": "specificatie",
       "label": {
         "nl": "specificatie",
-        "en": "Enter your translation here"
+        "en": "specification"
       }
     },
     {
@@ -1091,7 +1091,7 @@
       "name": "referentie",
       "label": {
         "nl": "referentie",
-        "en": "Enter your translation here"
+        "en": "reference"
       }
     },
     {
@@ -1099,7 +1099,7 @@
       "name": "uitgevoerd door",
       "label": {
         "nl": "uitgevoerd door",
-        "en": "Enter your translation here"
+        "en": "performedBy"
       }
     },
     {
@@ -1107,7 +1107,7 @@
       "name": "beginknoop",
       "label": {
         "nl": "beginknoop",
-        "en": "Enter your translation here"
+        "en": "startNode"
       }
     },
     {
@@ -1115,7 +1115,7 @@
       "name": "richting",
       "label": {
         "nl": "richting",
-        "en": "Enter your translation here"
+        "en": "direction"
       }
     },
     {
@@ -1123,7 +1123,7 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       }
     },
     {
@@ -1131,7 +1131,7 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       }
     },
     {
@@ -1139,7 +1139,7 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       }
     },
     {
@@ -1147,7 +1147,7 @@
       "name": "netwerkreferentie",
       "label": {
         "nl": "netwerkreferentie",
-        "en": "Enter your translation here"
+        "en": "networkReference"
       }
     },
     {
@@ -1155,7 +1155,7 @@
       "name": "geometriemiddenlijn",
       "label": {
         "nl": "geometriemiddenlijn",
-        "en": "Enter your translation here"
+        "en": "geometryCenterline"
       }
     },
     {
@@ -1163,7 +1163,7 @@
       "name": "eindknoop",
       "label": {
         "nl": "eindknoop",
-        "en": "Enter your translation here"
+        "en": "endNode"
       }
     },
     {
@@ -1171,7 +1171,7 @@
       "name": "op positie",
       "label": {
         "nl": "op positie",
-        "en": "Enter your translation here"
+        "en": "onPosition"
       }
     },
     {
@@ -1179,7 +1179,7 @@
       "name": "element",
       "label": {
         "nl": "element",
-        "en": "Enter your translation here"
+        "en": "element"
       }
     },
     {
@@ -1187,7 +1187,7 @@
       "name": "link",
       "label": {
         "nl": "link",
-        "en": "Enter your translation here"
+        "en": "link"
       }
     },
     {
@@ -1195,7 +1195,7 @@
       "name": "toepassingsrichting",
       "label": {
         "nl": "toepassingsrichting",
-        "en": "Enter your translation here"
+        "en": "applicableDirection"
       }
     },
     {
@@ -1211,7 +1211,7 @@
       "name": "geometrie",
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       }
     },
     {
@@ -1219,7 +1219,7 @@
       "name": "link",
       "label": {
         "nl": "link",
-        "en": "Enter your translation here"
+        "en": "link"
       }
     },
     {
@@ -1227,7 +1227,7 @@
       "name": "implementeert",
       "label": {
         "nl": "implementeert",
-        "en": "Enter your translation here"
+        "en": "implements"
       }
     },
     {
@@ -1235,7 +1235,7 @@
       "name": "geïmplementeerdMet",
       "label": {
         "nl": "geïmplementeerdMet",
-        "en": "Enter your translation here"
+        "en": "implementedWith"
       }
     },
     {
@@ -1243,7 +1243,7 @@
       "name": "output",
       "label": {
         "nl": "output",
-        "en": "Enter your translation here"
+        "en": "output"
       }
     },
     {
@@ -1251,7 +1251,7 @@
       "name": "input",
       "label": {
         "nl": "input",
-        "en": "Enter your translation here"
+        "en": "input"
       }
     },
     {
@@ -1259,7 +1259,7 @@
       "name": "gebruikteProcedure",
       "label": {
         "nl": "gebruikteProcedure",
-        "en": "Enter your translation here"
+        "en": "usedProcedure"
       }
     },
     {
@@ -1267,7 +1267,7 @@
       "name": "fenomeentijd",
       "label": {
         "nl": "fenomeentijd",
-        "en": "Enter your translation here"
+        "en": "phenomenonTime"
       }
     },
     {
@@ -1275,7 +1275,7 @@
       "name": "uitgevoerdMet",
       "label": {
         "nl": "uitgevoerdMet",
-        "en": "Enter your translation here"
+        "en": "performedWith"
       }
     },
     {
@@ -1283,7 +1283,7 @@
       "name": "uitgevoerdMet",
       "label": {
         "nl": "uitgevoerdMet",
-        "en": "Enter your translation here"
+        "en": "performedWith"
       }
     },
     {
@@ -1291,7 +1291,7 @@
       "name": "gehostDoor",
       "label": {
         "nl": "gehostDoor",
-        "en": "Enter your translation here"
+        "en": "hostedBy"
       }
     },
     {
@@ -1307,7 +1307,7 @@
       "name": "notatie",
       "label": {
         "nl": "notatie",
-        "en": "Enter your translation here"
+        "en": "identifier"
       }
     },
     {
@@ -1315,7 +1315,7 @@
       "name": "WKT",
       "label": {
         "nl": "WKT",
-        "en": "Enter your translation here"
+        "en": "WKT"
       }
     },
     {
@@ -1323,7 +1323,7 @@
       "name": "GML",
       "label": {
         "nl": "GML",
-        "en": "Enter your translation here"
+        "en": "GML"
       }
     },
     {
@@ -1331,7 +1331,7 @@
       "name": "uitgegeven",
       "label": {
         "nl": "uitgegeven",
-        "en": "Enter your translation here"
+        "en": "assignedOn"
       }
     },
     {
@@ -1347,11 +1347,11 @@
       "name": "verkeersdeelnemertype",
       "label": {
         "nl": "verkeersdeelnemertype",
-        "en": "Enter your translation here"
+        "en": "trafficParticipantType"
       },
       "definition": {
         "nl": "Aard van de Verkeersdeelnemer.",
-        "en": "Enter your translation here"
+        "en": "Type of TrafficParticipant."
       }
     },
     {
@@ -1359,11 +1359,11 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       },
       "definition": {
         "nl": "Type vh Verkeerskenmerk.",
-        "en": "Enter your translation here"
+        "en": "Type of a TrafficFeature."
       }
     },
     {
@@ -1371,7 +1371,7 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       }
     },
     {
@@ -1379,11 +1379,11 @@
       "name": "rijstrooktype",
       "label": {
         "nl": "rijstrooktype",
-        "en": "Enter your translation here"
+        "en": "laneType"
       },
       "definition": {
         "nl": "Aard vd Rijstrook.",
-        "en": "Enter your translation here"
+        "en": "Nature of the Lane."
       }
     },
     {
@@ -1391,7 +1391,7 @@
       "name": "titel",
       "label": {
         "nl": "titel",
-        "en": "Enter your translation here"
+        "en": "title"
       }
     },
     {
@@ -1399,7 +1399,7 @@
       "name": "onderwerp",
       "label": {
         "nl": "onderwerp",
-        "en": "Enter your translation here"
+        "en": "subject"
       }
     },
     {
@@ -1407,7 +1407,7 @@
       "name": "bron",
       "label": {
         "nl": "bron",
-        "en": "Enter your translation here"
+        "en": "source"
       }
     },
     {
@@ -1415,7 +1415,7 @@
       "name": "rechten",
       "label": {
         "nl": "rechten",
-        "en": "Enter your translation here"
+        "en": "rights"
       }
     },
     {
@@ -1423,7 +1423,7 @@
       "name": "relatie",
       "label": {
         "nl": "relatie",
-        "en": "Enter your translation here"
+        "en": "relation"
       }
     },
     {
@@ -1431,7 +1431,7 @@
       "name": "uitgever",
       "label": {
         "nl": "uitgever",
-        "en": "Enter your translation here"
+        "en": "publisher"
       }
     },
     {
@@ -1439,7 +1439,7 @@
       "name": "taal",
       "label": {
         "nl": "taal",
-        "en": "Enter your translation here"
+        "en": "language"
       }
     },
     {
@@ -1447,7 +1447,7 @@
       "name": "formaat",
       "label": {
         "nl": "formaat",
-        "en": "Enter your translation here"
+        "en": "format"
       }
     },
     {
@@ -1455,7 +1455,7 @@
       "name": "beschrijving",
       "label": {
         "nl": "beschrijving",
-        "en": "Enter your translation here"
+        "en": "description"
       }
     },
     {
@@ -1463,7 +1463,7 @@
       "name": "datum",
       "label": {
         "nl": "datum",
-        "en": "Enter your translation here"
+        "en": "date"
       }
     },
     {
@@ -1471,7 +1471,7 @@
       "name": "auteur",
       "label": {
         "nl": "auteur",
-        "en": "Enter your translation here"
+        "en": "creator"
       }
     },
     {
@@ -1479,7 +1479,7 @@
       "name": "dekking",
       "label": {
         "nl": "dekking",
-        "en": "Enter your translation here"
+        "en": "coverage"
       }
     },
     {
@@ -1487,7 +1487,7 @@
       "name": "mede auteur",
       "label": {
         "nl": "mede auteur",
-        "en": "Enter your translation here"
+        "en": "contributor"
       }
     },
     {
@@ -1495,7 +1495,7 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       }
     },
     {
@@ -1503,7 +1503,7 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       }
     },
     {
@@ -1511,7 +1511,7 @@
       "name": "type",
       "label": {
         "nl": "type",
-        "en": "Enter your translation here"
+        "en": "type"
       }
     },
     {
@@ -1519,7 +1519,7 @@
       "name": "geometrie",
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       }
     },
     {
@@ -1527,7 +1527,7 @@
       "name": "geometrie",
       "label": {
         "nl": "geometrie",
-        "en": "Enter your translation here"
+        "en": "geometry"
       }
     },
     {
@@ -1535,7 +1535,7 @@
       "name": "resultaattijd",
       "label": {
         "nl": "resultaattijd",
-        "en": "Enter your translation here"
+        "en": "resultTime"
       }
     },
     {
@@ -1543,7 +1543,7 @@
       "name": "resultaatkwaliteit",
       "label": {
         "nl": "resultaatkwaliteit",
-        "en": "Enter your translation here"
+        "en": "resultQuality"
       }
     },
     {
@@ -1551,7 +1551,7 @@
       "name": "resultaat",
       "label": {
         "nl": "resultaat",
-        "en": "Enter your translation here"
+        "en": "result"
       }
     },
     {
@@ -1559,7 +1559,7 @@
       "name": "metadata",
       "label": {
         "nl": "metadata",
-        "en": "Enter your translation here"
+        "en": "metadata"
       }
     },
     {
@@ -1567,7 +1567,7 @@
       "name": "waarde",
       "label": {
         "nl": "waarde",
-        "en": "Enter your translation here"
+        "en": "value"
       }
     },
     {
@@ -1575,7 +1575,7 @@
       "name": "naam",
       "label": {
         "nl": "naam",
-        "en": "Enter your translation here"
+        "en": "name"
       }
     }
   ]
