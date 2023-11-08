@@ -756,7 +756,7 @@
         "nl": "Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio, een verwijzing naar een adres of een verwijzing naar een geografisch object."
       },
       "usage": {
-        "nl": "Locatie gebruiken als de te gebruiken klasse nog niet gekend is. Anders te substitueren door instanties van Plaats, AdminstratieveEenheid, GeografischeNaam, Adres of een geografisch object zoals een Gebouw, KadastraalPerceel of Weg. Of voor te stellen door Geometrie zoals een punt, Lijnstring of Polygoon. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel OSLO Generiek - basis."
+        "nl": "Locatie gebruiken als de te gebruiken klasse nog niet gekend is. Anders te substitueren door instanties van Plaats, AdminstratieveEenheid, GeografischeNaam, Adres of een geografisch object zoals een Gebouw, KadastraalPerceel of Weg. Of voor te stellen door Geometrie zoals een punt, Lijnstring of Polygoon. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel OSLO Generiek - basis."
       }
     },
     {
