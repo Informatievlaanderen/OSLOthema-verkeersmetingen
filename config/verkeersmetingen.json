@@ -19,14 +19,14 @@
         "language": "en",
         "template": "mijn-applicatieprofiel-ap_en.j2",
         "title": "OSLO Traffic measurement (application profile)",
-        "translationjson": "Verkeersmetingen_en.json",
+        "translationjson": "Verkeersmetingen-ap_en.json",
         "mergefile": "Verkeersmetingen-ap_en_merged.json"
       },
       {
         "language": "nl",
         "template": "mijn-application-ap.j2",
         "title": "OSLO Verkeersmetingen (applicatieprofiel)",
-        "translationjson": "Verkeersmetingen_nl.json",
+        "translationjson": "Verkeersmetingen-ap_nl.json",
         "mergefile": "Verkeersmetingen-ap_nl_merged.json"
       }
     ]
