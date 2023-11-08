@@ -925,7 +925,7 @@
         "en": "Indication of a geographical position, by using coordinates, a toponym, an address label, a reference to a place/region, a reference to an address or to a geographical object."
       },
       "usage": {
-        "nl": "Locatie gebruiken als de te gebruiken klasse nog niet gekend is. Anders te substitueren door instanties van Plaats, AdminstratieveEenheid, GeografischeNaam, Adres of een geografisch object zoals een Gebouw, KadastraalPerceel of Weg. Of voor te stellen door Geometrie zoals een punt, Lijnstring of Polygoon. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel OSLO Generiek - basis.",
+        "nl": "Locatie gebruiken als de te gebruiken klasse nog niet gekend is. Anders te substitueren door instanties van Plaats, AdminstratieveEenheid, GeografischeNaam, Adres of een geografisch object zoals een Gebouw, KadastraalPerceel of Weg. Of voor te stellen door Geometrie zoals een punt, Lijnstring of Polygoon. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel OSLO Generiek - basis.",
         "en": "Use location if the applicable Class or datatype is nit yet known. Otherwise t be substituted by an instance of Place, AdministrativeUnit, GeographicalName, Address or other geographical objects like a Building, a Road or a CadastralParcel. Or to be represented by Geometry like Point, LineString, Polygon. REMARK: More info about these classes/datatypes in the application profile <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/\">OSLO-Generics</a>."
       }
     },
@@ -938,7 +938,7 @@
       },
       "definition": {
         "nl": "Een workflow, protocol, plan, algoritme of berekeningswijze waarin wordt gespecifieerd hoe een Observatie moet worden uitgevoerd.",
-        "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation."
+        "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation."
       },
       "usage": {
         "nl": "De procedure legt uit welke stappen uitgevoerd moeten worden om een reproduceerbaar resultaat te krijgen. Bv de correcte plaatsing van een windmeter (op een welbepaalde hoogte boven het grondoppervlak, bv 10m voor meteorologische waarnemingen). De procedures zijn doorgaans bedoeld om bij meer dan één Bemonstering te worden toegepast.",
@@ -954,7 +954,7 @@
       },
       "definition": {
         "nl": "Vastgelegde of officiële manier om iets te doen.",
-        "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator)."
+        "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator)."
       },
       "usage": {
         "nl": "Slaat op de manier waarop Observaties of Bemonstering worden uitgevoerd of Actuators worden bediend. Neemt in praktijk de vorm aan van een workflow, protocol, plan, algoritme,berekeningswijze etc. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
@@ -1338,7 +1338,7 @@
       },
       "definition": {
         "nl": "Entiteit die fungeert als basis voor andere Entiteiten.",
-        "en": "An entity that hosts other entities."
+        "en": "An entity that hosts other entities."
       },
       "usage": {
         "nl": "Deze andere entiteiten zijn typisch Sensoren, Bemonsteraars, Actuators of andere Platformen. In de context van Verkeersmetingen definiëren we de subklasse Toestel als mogelijke basis voor één of meer Sensoren. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
