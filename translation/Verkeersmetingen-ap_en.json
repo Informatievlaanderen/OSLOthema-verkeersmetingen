@@ -2,15 +2,15 @@
   "baseURI": "https://data.vlaanderen.be/ns/verkeersmetingen#",
   "classes": [
     {
-      "EA-Guid": "{4CBDFE52-E78D-441f-9A89-52C78E4DCC21}",
       "name": "Fietspad",
-      "label": {
-        "nl": "Fietspad",
-        "en": "BicyclePath"
-      },
+      "EA-Guid": "{4CBDFE52-E78D-441f-9A89-52C78E4DCC21}",
       "definition": {
         "nl": "Deel van de wegbaan uitsluitend bedoeld voor fietsverkeer.",
         "en": "Section of roadway intended exclusively for bicycle traffic."
+      },
+      "label": {
+        "nl": "Fietspad",
+        "en": "BicyclePath"
       },
       "usage": {
         "nl": "Maakt geen deel uit vd rijbaan (de rijbaan is het deel van de wegbaan ingericht voor het verkeer van Voertuigen), bvb auto's mogen niet op een Fietspad rijden of stationeren. OPGELET: Niet te verwarren met fietssuggestiestroken (wel deel vd rijbaan) of met de zijstroken ve middenrijbaan (geen deel vd rijbaan maar waarop mag gereden worden door auto's om tegenliggers te ontwijken). Fietspaden kunnen aanliggend zijn aan de rijbaan of vrijliggend of zelfs een eigen wegbaan hebben (in dat laatste geval worden ze door een eigen Wegsegment voorgesteld).",
@@ -18,15 +18,15 @@
       }
     },
     {
-      "EA-Guid": "{E25E0426-630B-4434-8504-B2D4022D78B3}",
       "name": "Rijstrook",
-      "label": {
-        "nl": "Rijstrook",
-        "en": "Lane"
-      },
+      "EA-Guid": "{E25E0426-630B-4434-8504-B2D4022D78B3}",
       "definition": {
         "nl": "In de langsrichting begrensd deel van de rijbaan, bedoeld om de verkeersstroom te geleiden in een bepaalde richting en met doorgaans de breedte van één Voertuig.",
         "en": "The carriageway is the part of the roadarea designed for a Vehicle to drive over. By dividing the carriageway you get a more controlled traffic flow, firstly because the driving directions or, for example, through and turning traffic are separated and also by limiting the width so that only one Vehicle can pass through one time. Lanes are typically designated by road markings, for example a white continuous or interrupted line. NOTE: Sidewalks or BicyclePaths are not Lanes as they are not intended for a car to drive on and are therefore not part of the carriageway."
+      },
+      "label": {
+        "nl": "Rijstrook",
+        "en": "Lane"
       },
       "usage": {
         "nl": "Onder rijbaan verstaan we dat deel van de wegbaan ingericht om met een Voertuig over te rijden. Door de rijbaan op te splitsen krijgt men een meer gecontroleerde verkeersstroom, in de eerste plaats omdat de rijrichtingen of bvb doorgaand en afslaand verkeer gescheiden worden en ook door de breedte te beperken zodat er maar één Voertuig tegelijk doorkan. Rijstroken worden typisch afgebakend dmv wegmarkeringen, bvb een witte doorlopende of onderbroken streep. OPMERKING: Voetpaden of Fietspaden zijn geen Rijstroken aangezien ze niet bedoeld zijn om met een auto over te rijden en dus geen deel zijn van de rijbaan.\n",
@@ -34,15 +34,15 @@
       }
     },
     {
-      "EA-Guid": "{CFE067A0-8DA9-40db-AF71-DC32C871721F}",
       "name": "Verkeersbemonsteringsobject",
-      "label": {
-        "nl": "Verkeersbemonsteringsobject",
-        "en": "TrafficSamplingObject"
-      },
+      "EA-Guid": "{CFE067A0-8DA9-40db-AF71-DC32C871721F}",
       "definition": {
         "nl": "Object dat representatief is voor het object waarvan men het Verkeerskenmerk meet.",
         "en": "Object that is representative of the object for which the TrafficFeature is measured."
+      },
+      "label": {
+        "nl": "Verkeersbemonsteringsobject",
+        "en": "TrafficSamplingObject"
       },
       "usage": {
         "nl": "Van belang als men dit object niet rechtstreeks kan observeren. Bvb om de snelheid ve Voertuig te bepalen kan men moeilijk dat Voertuig gaan volgen, in plaats daarvan zet men een meetpunt op langs de weg om te zien hoe snel passerende Voertuigen rijden. Gelijkaardig voor bvb verkeersintensiteit: men telt in een meetpunt langs de weg doorkomsten van Voertuigen en gaat ervan uit dat dit cijfer representatief is voor  het Wegsegment (deel van de weg tussen twee opeenvolgende kruispunten). OPGELET: Deze klasse is abstract, ze mag niet geinstantieerd worden. Gebruik in de plaats de subklassen Verkeersmeetpunt of Verkeersmeettraject",
@@ -50,27 +50,27 @@
       }
     },
     {
-      "EA-Guid": "{B8947A04-3FE5-472c-8B3F-A2CB7E18B9AD}",
       "name": "Verkeersdeelnemer",
-      "label": {
-        "nl": "Verkeersdeelnemer",
-        "en": "TrafficParticipant"
-      },
+      "EA-Guid": "{B8947A04-3FE5-472c-8B3F-A2CB7E18B9AD}",
       "definition": {
         "nl": "Deelnemer aan het verkeer, als bestuurder of passagier van een Voertuig of zonder Voertuig, bvb als voetganger.",
         "en": "Participant in traffic, as driver or passenger of a Vehicle or without a Vehicle, for example as a pedestrian."
+      },
+      "label": {
+        "nl": "Verkeersdeelnemer",
+        "en": "TrafficParticipant"
       }
     },
     {
-      "EA-Guid": "{2E48BB96-557B-4b70-A841-96C9488ACB0C}",
       "name": "Verkeersdomeinobject",
-      "label": {
-        "nl": "Verkeersdomeinobject",
-        "en": "TrafficDomainObject"
-      },
+      "EA-Guid": "{2E48BB96-557B-4b70-A841-96C9488ACB0C}",
       "definition": {
         "nl": "Object uit het verkeersdomein waarvan men een Verkeerskenmerk meet.",
         "en": "Object from the traffic domain for which a TrafficFeature is measured."
+      },
+      "label": {
+        "nl": "Verkeersdomeinobject",
+        "en": "TrafficDomainObject"
       },
       "usage": {
         "nl": "Hieronder verstaan we een real-world object uit het verkeer, ttz een Voertuig of Verkeersdeelnemer of een Wegsegment of gelijkaardig waarover verkeer plaatsvindt. Vallen hier niet onder: Verkeersbemonsteringsobjecten zoals Verkeersmeetpunten of Verkeersmeettrajecten, dat zijn de objecten die het Verkeersdomein bemonsteren. OPGELET: Deze klasse is abstract, ze mag maw niet geinstantieerd worden. Gebruik in de plaats subklassen zoal Wegsegment, Rijstrook, Voertuig etc.",
@@ -78,15 +78,15 @@
       }
     },
     {
-      "EA-Guid": "{CCF671D1-65E5-4164-80DC-A55676E447D2}",
       "name": "Verkeerskenmerk",
-      "label": {
-        "nl": "Verkeerskenmerk",
-        "en": "TrafficFeature"
-      },
+      "EA-Guid": "{CCF671D1-65E5-4164-80DC-A55676E447D2}",
       "definition": {
         "nl": "Kenmerk van het Verkeersdomeinobject of het Verkeersbemonsteringsobject dat gemeten wordt en dat betrekking heeft op het verkeer over of langs dat object of op zijn deelname aan het verkeer.",
         "en": "Feature of the TrafficDomainObject or the TrafficSamplingObject that is measured and that relates to the traffic over or along that object or to its participation in traffic."
+      },
+      "label": {
+        "nl": "Verkeerskenmerk",
+        "en": "TrafficFeature"
       },
       "usage": {
         "nl": "Bvb de gemiddelde snelheid van auto's langs een Meetpunt of de verkeersIntensiteit van fietsen op een Wegsegment bvb uitgedrukt in aantal voertuigen of de snelheid van een individueel Voertuig etc.",
@@ -94,15 +94,15 @@
       }
     },
     {
-      "EA-Guid": "{84DECA56-0848-4297-A791-E0316CDC69CF}",
       "name": "Verkeersmeetpunt",
-      "label": {
-        "nl": "Verkeersmeetpunt",
-        "en": "TrafficMeasurementPoint"
-      },
+      "EA-Guid": "{84DECA56-0848-4297-A791-E0316CDC69CF}",
       "definition": {
         "nl": "Punt waarlangs men kenmerken van het voorbijkomend verkeer meet.",
         "en": "Point at which features of passing traffic are measured."
+      },
+      "label": {
+        "nl": "Verkeersmeetpunt",
+        "en": "TrafficMeasurementPoint"
       },
       "usage": {
         "nl": "Dit is het punt langs de weg waar bvb doorkomsten van Voertuigen worden geteld en/of hun snelheid wordt gemeten of waarvoor enig ander Verkeerskenmerk wordt vastgesteld dat op het bemonsterd Verkeerdomeinobject betrekking heeft.",
@@ -110,15 +110,15 @@
       }
     },
     {
-      "EA-Guid": "{D845BD1B-1EE8-463e-9ABA-49E625990AD4}",
       "name": "Verkeersmeettraject",
-      "label": {
-        "nl": "Verkeersmeettraject",
-        "en": "TrafficMeasurementTrajectory"
-      },
+      "EA-Guid": "{D845BD1B-1EE8-463e-9ABA-49E625990AD4}",
       "definition": {
         "nl": "Traject waarlangs men kenmerken van het voorbijkomend verkeer meet..",
         "en": "Trajectory along the road for which the characteristics of passing traffic are measured."
+      },
+      "label": {
+        "nl": "Verkeersmeettraject",
+        "en": "TrafficMeasurementTrajectory"
       },
       "usage": {
         "nl": "Dit is een afstand langs de weg waarvoor bvb de gemiddelde snelheid van Voertuigen wordt gemeten (de zgn trajectcontrole) of waarvoor enig ander Verkeerskenmerk wordt vastgesteld dat op het bemonsterd Verkeerdomeinobject betrekking heeft.",
@@ -126,15 +126,15 @@
       }
     },
     {
-      "EA-Guid": "{629A009C-848B-463b-AA2C-272DB667D354}",
       "name": "Verkeersmeting",
-      "label": {
-        "nl": "Verkeersmeting",
-        "en": "TrafficMeasurement"
-      },
+      "EA-Guid": "{629A009C-848B-463b-AA2C-272DB667D354}",
       "definition": {
         "nl": "Het vaststellen van de waarde van een bepaald kenmerk van het verkeer op een bepaald tijdstip of tussen twee tijdstippen.",
         "en": "Determining the value of a certain feature of the traffic at a certain point in time or between two points in time."
+      },
+      "label": {
+        "nl": "Verkeersmeting",
+        "en": "TrafficMeasurement"
       },
       "usage": {
         "nl": "Verkeer wordt gedefinieerd als de verplaatsing van objecten zoals personen, vracht, data etc over media zoals land, water, lucht, kabels. In de context van dit applicatieprofiel bedoelen we met verkeer het wegverkeer. Verkeer kan betrekking hebben op objecten die zichzelf verplaatsen (al dan niet met een vervoermiddel) of objecten die vervoerd worden, maar ook op objecten waarover verkeer plaatsvindt. De meting kan het vaststellen van de waarde van een kenmerk van een individueel Voertuig of Verkeersdeelnemer tijdens zijn verplaatsing zijn (bvb zijn snelheid of nummerplaat) of van een kenmerk van de infrastructuur zoals een Wegsegment of een Rijstrook waarover het verkeer zich beweegt (bv de verkeersintensiteit). Verkeersmetingen  zijn Observaties, maw op de waarde zit een zekere foutmarge door de gebruikte meettechniek.\n",
@@ -142,15 +142,15 @@
       }
     },
     {
-      "EA-Guid": "{09B64C64-8961-4c6c-8901-7EA790A38D80}",
       "name": "Verkeersmetingverzameling",
-      "label": {
-        "nl": "Verkeersmetingverzameling",
-        "en": "TrafficMeasurementCollection"
-      },
+      "EA-Guid": "{09B64C64-8961-4c6c-8901-7EA790A38D80}",
       "definition": {
         "nl": "Collectie van Verkeersmetingen met dezelfde kenmerken.",
         "en": "Collection of TrafficMeasurements with the same properties"
+      },
+      "label": {
+        "nl": "Verkeersmetingverzameling",
+        "en": "TrafficMeasurementCollection"
       },
       "usage": {
         "nl": "Bv metingen die op hetzelfde tijdstip plaatsvonden of hetzelfde Object of kenmerk observeren of door dezelfde Sensor zijn gemaakt. Bvb de metingen van snelheid, voertuigtype etc in eenzelfde Verkeersmeetpunt of de metingen van verkeersintensiteit per uur op eenzelfde Wegsegment etc.",
@@ -158,15 +158,15 @@
       }
     },
     {
-      "EA-Guid": "{5E405CE5-6BD2-4f40-B346-162D1D3D4C85}",
       "name": "Verkeersobject",
-      "label": {
-        "nl": "Verkeersobject",
-        "en": "TrafficObject"
-      },
+      "EA-Guid": "{5E405CE5-6BD2-4f40-B346-162D1D3D4C85}",
       "definition": {
         "nl": "Object waarop of waarlangs zich verkeer voordoet of dat deel uitmaakt vh verkeer.",
         "en": "Object on which or along which traffic occurs or that is part of traffic."
+      },
+      "label": {
+        "nl": "Verkeersobject",
+        "en": "TrafficObject"
       },
       "usage": {
         "nl": "OPGELET: Deze klasse is abstract, ze moet gespecialiseerd worden als Verkeersdomeinobject of als Verkeersbemonsteringsobject. Als Verkeersdomeinobject als de meting direct betrekking heeft op het object dat men wil observeren (bvb een Wegsegment of een Voertuig etc) of als Verkeersbemonsteringsobject als de meting onrechtstreeks gebeurt (bvb via een Verkeersmeetpunt gelegen langs een Wegsegment).",
@@ -174,15 +174,15 @@
       }
     },
     {
-      "EA-Guid": "{85EEEE26-AA3F-426f-9B3C-35DBCDCBA48E}",
       "name": "Voertuig",
-      "label": {
-        "nl": "Voertuig",
-        "en": "Vehicle"
-      },
+      "EA-Guid": "{85EEEE26-AA3F-426f-9B3C-35DBCDCBA48E}",
       "definition": {
         "nl": "Voorwerp gemaakt om personen of goederen te vervoeren.",
         "en": "Object designed to transport people or goods."
+      },
+      "label": {
+        "nl": "Voertuig",
+        "en": "Vehicle"
       },
       "usage": {
         "nl": "Bvb auto, fiets, vrachtwagen, bus, trein, tram, schip, boot, vliegtuig etc.",
@@ -190,15 +190,15 @@
       }
     },
     {
-      "EA-Guid": "{14E98A46-E7C3-4a82-BDB6-C940901E9CF0}",
       "name": "Voetpad",
-      "label": {
-        "nl": "Voetpad",
-        "en": "Sidewalk"
-      },
+      "EA-Guid": "{14E98A46-E7C3-4a82-BDB6-C940901E9CF0}",
       "definition": {
         "nl": "Deel van de wegbaan bedoeld voor voetgangers.",
         "en": "Part of roadarea dedicated to pedestrians."
+      },
+      "label": {
+        "nl": "Voetpad",
+        "en": "Sidewalk"
       },
       "usage": {
         "nl": "Is per defintie afgescheiden van de rijbaan, typisch via een boordsteen en verhoogde ligging.",
@@ -208,15 +208,15 @@
   ],
   "properties": [
     {
-      "EA-Guid": "{A299166B-9BDD-4464-8C39-CA5DDDC842DF}",
       "name": "waardeverschaffer",
-      "label": {
-        "nl": "waardeverschaffer",
-        "en": "valueProvider"
-      },
+      "EA-Guid": "{A299166B-9BDD-4464-8C39-CA5DDDC842DF}",
       "definition": {
         "nl": "Verwijzing naar een Verkeersmeting die op het geobserveerdObject plaatsvondt.",
         "en": "Reference to a TrafficMeasurement that took place on the observedObject."
+      },
+      "label": {
+        "nl": "waardeverschaffer",
+        "en": "valueProvider"
       },
       "usage": {
         "nl": "Die meting verschaft ahw een waarde voor het Verkeerskenmerk dat van het Verkeersobject wordt gemeten.",
@@ -224,15 +224,15 @@
       }
     },
     {
-      "EA-Guid": "{CF9C3D94-2593-4911-AFB0-26E1C2D262AB}",
       "name": "voertuigType",
-      "label": {
-        "nl": "voertuigType",
-        "en": "vehicleType"
-      },
+      "EA-Guid": "{CF9C3D94-2593-4911-AFB0-26E1C2D262AB}",
       "definition": {
         "nl": "Soort Voertuig waarvan men het Verkeerskenmerk meet.",
         "en": "Type of Vehicle whose TrafficFeature is measured."
+      },
+      "label": {
+        "nl": "voertuigType",
+        "en": "vehicleType"
       },
       "usage": {
         "nl": "Bvb \"Fiets\" als men enkel het aantal fietsen wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Voertuig zijn maar bvb een Wegsegment of Rijstrook etc.",
@@ -240,15 +240,15 @@
       }
     },
     {
-      "EA-Guid": "{EC4722C1-6C3C-4de7-B2D4-37DAB77A27ED}",
       "name": "verkeersdeelnemertype",
-      "label": {
-        "nl": "verkeersdeelnemertype",
-        "en": "trafficParticipantType"
-      },
+      "EA-Guid": "{EC4722C1-6C3C-4de7-B2D4-37DAB77A27ED}",
       "definition": {
         "nl": "Soort Verkeersdeelnemer waarvan men het Verkeerskenmerk meet.",
         "en": "Type of TrafficParticipant whose TrafficFeature is measured."
+      },
+      "label": {
+        "nl": "verkeersdeelnemertype",
+        "en": "trafficParticipantType"
       },
       "usage": {
         "nl": "Bvb \"Voetganger\" als men enkel het aantal Voertgangers wil tellen in een Meetpunt. Enkel noodzakelijk voor Verkeersdomeinobjecten die zelf geen Verkeersdeelnemer zijn maar bvb een Wegsegment of Rijstrook etc.",
@@ -256,15 +256,15 @@
       }
     },
     {
-      "EA-Guid": "{D5FA77B3-614C-42e8-A732-5B633B8D3AB7}",
       "name": "rijstrook",
-      "label": {
-        "nl": "rijstrook",
-        "en": "lane"
-      },
+      "EA-Guid": "{D5FA77B3-614C-42e8-A732-5B633B8D3AB7}",
       "definition": {
         "nl": "Identificator van de Rijstrook.",
         "en": "Identifier of the Lane."
+      },
+      "label": {
+        "nl": "rijstrook",
+        "en": "lane"
       },
       "usage": {
         "nl": "De identificator moet getypeerd worden bvb volgens het systeem dat werd gehanteerd om de Rijstroken te nummeren. Bvb het schema van DATEX II waar over de volledige breedte van de weg van links naar rechts wordt genummerd.",
@@ -272,15 +272,15 @@
       }
     },
     {
-      "EA-Guid": "{34CAD925-9990-4440-8D3B-1C7A2D324E5B}",
       "name": "ligging",
-      "label": {
-        "nl": "ligging",
-        "en": "location"
-      },
+      "EA-Guid": "{34CAD925-9990-4440-8D3B-1C7A2D324E5B}",
       "definition": {
         "nl": "Locatie van de Sensor.",
         "en": "Location of the Sensor"
+      },
+      "label": {
+        "nl": "ligging",
+        "en": "location"
       },
       "usage": {
         "nl": "Bvb de coördinaten of het adres of een verwijzing naar een meetpunt of ander Bemonsteringsobject. Meerdere verschillende types van locaties kunnen worden opgegeven (bvb adres èn coördinaten). Als de Sensor een meetinstallatie is evt de verschillende meetpunten die worden omvat of een omschrijvende polygoon. OPGELET: De locatie van de Sensor is niet noodzakelijk de positie waar de Observatie gebeurt, die wordt in de eerste plaats gegeven door de ligging vh Bemonsteringsobject of het Domeinobject. Dit attribuut laat vooral toe om posities van Sensoren te beschrijven los vd metingen die er gebeuren.",
@@ -288,43 +288,43 @@
       }
     },
     {
-      "EA-Guid": "{06972BEC-F3CC-4625-ABF3-3A2512D0203B}",
       "name": "heeftLid",
-      "label": {
-        "nl": "heeftLid",
-        "en": "hasMember"
-      },
+      "EA-Guid": "{06972BEC-F3CC-4625-ABF3-3A2512D0203B}",
       "definition": {
         "nl": "Verkeersmeting die tot de verzameling behoort.",
         "en": "TrafficMeasurements that belong to the collection."
+      },
+      "label": {
+        "nl": "heeftLid",
+        "en": "hasMember"
       }
     },
     {
-      "EA-Guid": "{A299166B-9BDD-4464-8C39-CA5DDDC842DF}",
       "name": "geobserveerdObject",
-      "label": {
-        "nl": "geobserveerdObject",
-        "en": "observedObject"
-      },
+      "EA-Guid": "{A299166B-9BDD-4464-8C39-CA5DDDC842DF}",
       "definition": {
         "nl": "Het Verkeersobject dat geobserveerd wordt.",
-        "en": "The TrafficObject being observed."
+        "en": "[UPDATED] Reference to a TrafficMeasurement that took place on the observedObject."
+      },
+      "label": {
+        "nl": "geobserveerdObject",
+        "en": "[UPDATED] valueProvider"
       },
       "usage": {
         "nl": "Dat kan het Verkeersdomeinobject zelf zijn of een proxy ervan, ttz een Verkeersbemonsteringsobject. OPMERKING: In dat laatste geval weet men soms pas na het observeren welk real-world Object men juist geobserveerd heeft. bvb in een Verkeersmeetpunt weet men niet op voorhand welke de Voertuigen zullen zijn waarvan men de snelheid zal vaststellen.",
-        "en": "This can be the TrafficDomainObject itself or a proxy of it, i.e. a TrafficSamplingObject. NOTE: In the latter case, one sometimes only knows after observing which real-world Object one has observed. At a Traffic Measurement Point, one does not know in advance of which Vehicles exactly one will determine the speed."
+        "en": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{1A2F7CD8-746E-41b9-B35A-63F270F088B1}",
       "name": "geobserveerdKenmerk",
-      "label": {
-        "nl": "geobserveerdKenmerk",
-        "en": "observedFeature"
-      },
+      "EA-Guid": "{1A2F7CD8-746E-41b9-B35A-63F270F088B1}",
       "definition": {
         "nl": "Kenmerk van het Verkeersobject dat geobserveerd wordt.",
         "en": "Characteristic of the TrafficObject being observed"
+      },
+      "label": {
+        "nl": "geobserveerdKenmerk",
+        "en": "observedFeature"
       },
       "usage": {
         "nl": "CONSTRAINT: Het geobserveerdKenmerk moet werkelijk een kenmerk zijn van het geobserveerdObject of van een (onder)deel ervan. Soms is de procedure waarmee de waarden vh kenmerk worden bekomen indirect, ttz men meet om praktische reden een ander kenmerk dat een proxy is voor het kenmerk dat men werkelijk wil observeren. Bv om de Verkeersintensiteit op een Wegsegment te bepalen telt men individuele doorkomsten van Voertuigen in een Verkeersmeetpunt.",
@@ -332,15 +332,15 @@
       }
     },
     {
-      "EA-Guid": "{4957D1B2-0700-4cd6-A022-32AF0C0E1760}",
       "name": "bemonsterdObject",
-      "label": {
-        "nl": "bemonsterdObject",
-        "en": "sampledObject"
-      },
+      "EA-Guid": "{4957D1B2-0700-4cd6-A022-32AF0C0E1760}",
       "definition": {
         "nl": "Verwijzing naar het Verkeersdomeinobject waarop de meting betrekking heeft en waarvoor het Verkeersbemonsteringsobject representatief is.",
         "en": "Reference to the TrafficDomainObject to which the measurement relates and for which the TrafficSamplingObject is representative."
+      },
+      "label": {
+        "nl": "bemonsterdObject",
+        "en": "sampledObject"
       },
       "usage": {
         "nl": "Bvb het Voertuig of het Wegsegment waarvan men een Verkeerskenmerk bepaalt.",
@@ -348,39 +348,39 @@
       }
     },
     {
-      "EA-Guid": "{74E98745-82CA-4392-83EC-BBF34975A2AC}",
       "name": "geobserveerdObject",
-      "label": {
-        "nl": "geobserveerdObject",
-        "en": "observedObject"
-      },
+      "EA-Guid": "{74E98745-82CA-4392-83EC-BBF34975A2AC}",
       "definition": {
         "nl": "Object dat door de Verkeersmetingen wordt geobserveerd.",
         "en": "Object observed by the TrafficMeasurements."
+      },
+      "label": {
+        "nl": "geobserveerdObject",
+        "en": "observedObject"
       }
     },
     {
-      "EA-Guid": "{A545687B-42D5-41d8-9E6B-7B6F0849FB3D}",
       "name": "geobserveerdKenmerk",
-      "label": {
-        "nl": "geobserveerdKenmerk",
-        "en": "observedFeature"
-      },
+      "EA-Guid": "{A545687B-42D5-41d8-9E6B-7B6F0849FB3D}",
       "definition": {
         "nl": "Kenmerk dat de Verkeersmetingen in de verzameling meten.",
         "en": "Feature that the TrafficMeasurements in the collection measure."
+      },
+      "label": {
+        "nl": "geobserveerdKenmerk",
+        "en": "observedFeature"
       }
     },
     {
-      "EA-Guid": "{7EF14ADA-15B0-4cf8-8D37-A1B41516A89B}",
       "name": "wegdeel",
-      "label": {
-        "nl": "wegdeel",
-        "en": "roadSection"
-      },
+      "EA-Guid": "{7EF14ADA-15B0-4cf8-8D37-A1B41516A89B}",
       "definition": {
         "nl": "Geeft aan welke langs welk Wegdeel het traject loopt of betrekking heeft.",
         "en": "Indicates which section of the road the trajectory runs along or relates to."
+      },
+      "label": {
+        "nl": "wegdeel",
+        "en": "roadSection"
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven op welk deel van de weg de Voertuigen of Verkeersdeelnemers waarvan men een kenmerk meet zich bevinden, bvb op een bepaalde Rijstrook of op het Fietspad of het Voetpad.",
@@ -388,15 +388,15 @@
       }
     },
     {
-      "EA-Guid": "{74F05628-C20D-472a-98C2-89239823D5AD}",
       "name": "rijrichting",
-      "label": {
-        "nl": "rijrichting",
-        "en": "trafficDirection"
-      },
+      "EA-Guid": "{74F05628-C20D-472a-98C2-89239823D5AD}",
       "definition": {
         "nl": "Geeft aan welke op welke Rijrichting het Verkeersmeettraject ligt.",
         "en": "Indicates which TrafficDirection the TrafficMeasuringTrajectory is located on."
+      },
+      "label": {
+        "nl": "rijrichting",
+        "en": "trafficDirection"
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie.  Ook noodzakelijk om aan te geven in welke richting de Voertuigen rijden waarvan men bvb de gemiddelde snelheid meet.",
@@ -404,15 +404,15 @@
       }
     },
     {
-      "EA-Guid": "{FBFE7D6C-FCF0-4cc9-827B-BD1EDE11DB2E}",
       "name": "netwerkReferentie",
-      "label": {
-        "nl": "netwerkReferentie",
-        "en": "networkReference"
-      },
+      "EA-Guid": "{FBFE7D6C-FCF0-4cc9-827B-BD1EDE11DB2E}",
       "definition": {
         "nl": "Referentie naar het Netwerkelement waarlangs het Verkeersmeettraject loopt of dat door dat traject bemonsterd wordt.",
         "en": "Reference to the NetworkElement on or along which the TrafficMeasurementPoint is located on or that is sampled by that point."
+      },
+      "label": {
+        "nl": "netwerkReferentie",
+        "en": "networkReference"
       },
       "usage": {
         "nl": "Nuttig als men weet langs welk Wegsegment het traject loopt en aan welke kant van de weg en op welke afstand van het beginpunt. Alternatief voor of aanvulling op coördinaten. Ook noodzakelijk om aan te geven over welk Wegsegment en aan welke kant ervan de Voertuigen rijden waarvan men bvb de snelheid meet.\n",
@@ -420,15 +420,15 @@
       }
     },
     {
-      "EA-Guid": "{10462306-BBFF-4c5b-820D-9A28AC37E33C}",
       "name": "wegdeel",
-      "label": {
-        "nl": "wegdeel",
-        "en": "roadSection"
-      },
+      "EA-Guid": "{10462306-BBFF-4c5b-820D-9A28AC37E33C}",
       "definition": {
         "nl": "Geeft aan welke op welk Wegdeel het Verkeersmeetpunt gelegen is of betrekking heeft.",
         "en": "Indicates on which road section the TrafficMeasurementPoint is located on or relates to."
+      },
+      "label": {
+        "nl": "wegdeel",
+        "en": "roadSection"
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven op welk deel van de weg de Voertuigen of Verkeersdeelnemers waarvan men een kenmerk meet zich bevinden, bvb op een bepaalde Rijstrook of op het Fietspad of het Voetpad.",
@@ -436,15 +436,15 @@
       }
     },
     {
-      "EA-Guid": "{CA4E24BA-A047-4b09-9F1A-2064CEA980D1}",
       "name": "rijrichting",
-      "label": {
-        "nl": "rijrichting",
-        "en": "trafficDirection"
-      },
+      "EA-Guid": "{CA4E24BA-A047-4b09-9F1A-2064CEA980D1}",
       "definition": {
         "nl": "Geeft aan welke op welke Rijrichting het Verkeersmeetpunt gelegen is of betrekking heeft.",
         "en": "Indicates which TrafficDirection the TrafficMeasurementPoint is located on or relates to."
+      },
+      "label": {
+        "nl": "rijrichting",
+        "en": "trafficDirection"
       },
       "usage": {
         "nl": "Alternatief voor of aanvulling op geometrie of netwerkreferentie. Ook noodzakelijk om aan te geven in welke richting de Voertuigen rijden waarvan men bvb de snelheid meet.",
@@ -452,15 +452,15 @@
       }
     },
     {
-      "EA-Guid": "{B61FC9A0-0BD3-4e09-8513-CC72AF0D5D56}",
       "name": "netwerkreferentie",
-      "label": {
-        "nl": "netwerkreferentie",
-        "en": "networkReference"
-      },
+      "EA-Guid": "{B61FC9A0-0BD3-4e09-8513-CC72AF0D5D56}",
       "definition": {
         "nl": "Referentie naar het Netwerkelement waarop of waarlangs het Verkeersmeetpunt ligt of dat door dat punt bemonsterd wordt.",
         "en": "Reference to the NetworkElement on or along which the TrafficMeasurementPoint is located on or that is sampled by that point."
+      },
+      "label": {
+        "nl": "netwerkreferentie",
+        "en": "networkReference"
       },
       "usage": {
         "nl": "Nuttig als men weet langs welk Wegsegment het punt ligt en aan welke kant van de weg en op welke afstand van het beginpunt. Alternatief voor of aanvulling op coördinaten. Ook noodzakelijk om aan te geven over welk Wegsegment en aan welke kant ervan de Voertuigen rijden waarvan men bvb de snelheid meet.\r\n",
@@ -470,15 +470,15 @@
   ],
   "externals": [
     {
-      "EA-Guid": "{32477EB9-C446-428f-BCBC-EC0B95A0A53E}",
       "name": "Any",
-      "label": {
-        "nl": "Any",
-        "en": "Any"
-      },
+      "EA-Guid": "{32477EB9-C446-428f-BCBC-EC0B95A0A53E}",
       "definition": {
         "nl": "Instanties van  om het even welk type.",
         "en": "Instance of any type."
+      },
+      "label": {
+        "nl": "Any",
+        "en": "Any"
       },
       "usage": {
         "nl": "Te substitueren door een geschikte klasse of datatype of door de klasse Observatie te specialiseren met een resultaat van een opgelegd datatype. Dit kunnen eigen subklassen zijn of standaard specialisaties van de klasse Observatie zoals Meting (waarbij het resultaat een KwantitatieveWaarde is, ttz een waarde en een eenheid), Classificatie (met een kwalitatieve waarde als resultaat),Telling (met een resultaat vh type Integer) of zelfs Observaties met als resultaat een Tijdreeks of RuimtelijkeBereik. OPMERKING: Meer info over deze standaard subklassen van Observatie in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/\">OSLO Observaties en Metingen</a> .",
@@ -486,27 +486,27 @@
       }
     },
     {
-      "EA-Guid": "{117BB863-5BF5-4019-AA23-D591C462BA66}",
       "name": "Lengte",
-      "label": {
-        "nl": "Lengte",
-        "en": "Distance"
-      },
+      "EA-Guid": "{117BB863-5BF5-4019-AA23-D591C462BA66}",
       "definition": {
         "nl": "Afstand tussen twee punten.",
         "en": "Distance between two points."
+      },
+      "label": {
+        "nl": "Lengte",
+        "en": "Distance"
       }
     },
     {
-      "EA-Guid": "{DA9B66EB-5FC9-4291-A0B1-ADA4492CE3D2}",
       "name": "Moment",
-      "label": {
-        "nl": "Moment",
-        "en": "Instant"
-      },
+      "EA-Guid": "{DA9B66EB-5FC9-4291-A0B1-ADA4492CE3D2}",
       "definition": {
         "nl": "Een 0-dimensionele geometrische primitieve in de tijd.",
         "en": "A 0-dimensional geometric primitive in time."
+      },
+      "label": {
+        "nl": "Moment",
+        "en": "Instant"
       },
       "usage": {
         "nl": "Vergelijkbaar met een Punt in de ruimte, maar ipv een positie in een ruimtelijk referentiesysteem gaat het hier over een punt op de tijdsas. OPMERKING: Meer info in de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a>.",
@@ -514,15 +514,15 @@
       }
     },
     {
-      "EA-Guid": "{F022C314-DEEA-42d8-B925-2483D532D825}",
       "name": "TemporeleEntiteit",
-      "label": {
-        "nl": "TemporeleEntiteit",
-        "en": "TemporalEntity"
-      },
+      "EA-Guid": "{F022C314-DEEA-42d8-B925-2483D532D825}",
       "definition": {
         "nl": "Abstracte klasse voor temporele objecten.",
         "en": "Abstract class for temporal objects."
+      },
+      "label": {
+        "nl": "TemporeleEntiteit",
+        "en": "TemporalEntity"
       },
       "usage": {
         "nl": "Die temporele objecten zijn temporele geometrische primitieven zoals Moment of Periode. Of het zijn composieten van temporele primitieven, bv om de geschiedenis van een fenomeen weer te geven (bv de opeenvolgende Periodes dat het fenomeen zich voordeed). Te gebruiken wanneer de uiteindelijke temporele primitieve nog niet gekend is. OPMERKING: Meer info in <a href=\"https://iso.org/standard/26013.html\">ISO 19108 Geographic Information - Temporal schema</a>. Substitutie door een eenvoudiger equivalent bv time:TemporalEntity uit de <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> is aanbevolen.",
@@ -530,15 +530,15 @@
       }
     },
     {
-      "EA-Guid": "{0BB84823-23FC-4650-9ED8-1980E6711C03}",
       "name": "Kenmerktype",
-      "label": {
-        "nl": "Kenmerktype",
-        "en": "FeatureType"
-      },
+      "EA-Guid": "{0BB84823-23FC-4650-9ED8-1980E6711C03}",
       "definition": {
         "nl": "Klasse die kenmerken van instanties van om het even welk type vertegenwoordigt.",
         "en": "Class representing features of instances of any type."
+      },
+      "label": {
+        "nl": "Kenmerktype",
+        "en": "FeatureType"
       },
       "usage": {
         "nl": "Dit is een kenmerk van het geobseveerdObject (ttz van het DomeinObject of van een proxy daarvan, het Bemonsteringsobject) en in principe van alle instanties van dat type geobserveerdObject. In de context van Verkeersmetingen gaat het om kenmerken zoals Snelheid (van een Voertuig - het geobserveerd Domeinobject) of AantalVoertuigen (dat passeert aan een Meetpunt - het geobserveerd Bemonsteringsobject - langs een Wegsegment - het bemonsterd Domeinobject).",
@@ -546,15 +546,15 @@
       }
     },
     {
-      "EA-Guid": "{138D5EF9-E10D-4907-A069-731E704F7FA9}",
       "name": "Kwaliteitselement",
-      "label": {
-        "nl": "Kwaliteitselement",
-        "en": "QualityElement"
-      },
+      "EA-Guid": "{138D5EF9-E10D-4907-A069-731E704F7FA9}",
       "definition": {
         "nl": "Component van datakwaliteit.",
         "en": "Component of data quality"
+      },
+      "label": {
+        "nl": "Kwaliteitselement",
+        "en": "QualityElement"
       },
       "usage": {
         "nl": "Beschrijft een bepaald aspect van de  datakwaliteit, bvb PositioneleNauwkeurigheid, LogischeConsistentie, Volledigheid etc. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/datakwaliteit/\">OSLO Datakwaliteit</a>.",
@@ -562,15 +562,15 @@
       }
     },
     {
-      "EA-Guid": "{D9FEDBE8-5979-4762-AB0F-EE5DDC6AE19A}",
       "name": "Metadata",
-      "label": {
-        "nl": "Metadata",
-        "en": "Metadata"
-      },
+      "EA-Guid": "{D9FEDBE8-5979-4762-AB0F-EE5DDC6AE19A}",
       "definition": {
         "nl": "Data over data.",
         "en": "Data about data."
+      },
+      "label": {
+        "nl": "Metadata",
+        "en": "Metadata"
       },
       "usage": {
         "nl": "Observaties kunnen beschouwd worden als gegevens en dus zijn data over Observaties wel degelijk metadata. We beperken ons hier tot beschrijvende metadata, ttz informatie zoals titel, samenvatting, auteur en sleutelwoorden. Dergelijke metadata is in hoofdzaak bedoeld voor identificatie en datacatalogen.",
@@ -578,15 +578,15 @@
       }
     },
     {
-      "EA-Guid": "{BB8A7BBA-E7AF-4881-82CE-723EED46C045}",
       "name": "Object",
-      "label": {
-        "nl": "Object",
-        "en": "Object"
-      },
+      "EA-Guid": "{BB8A7BBA-E7AF-4881-82CE-723EED46C045}",
       "definition": {
         "nl": "Klasse die instanties van om het even welk type vertegenwoordigt.",
         "en": "Class representing instances of any type."
+      },
+      "label": {
+        "nl": "Object",
+        "en": "Object"
       },
       "usage": {
         "nl": "In de context van Verkeersmetingen is dit het Object waarvan een kenmerk wordt geobserveerd. Dat kan een real-world Domeinobject zijn of een benadering daarvan door een Bemonsteringsobject. OPGELET: deze klasse is abstract, gebruik de subklassen.",
@@ -594,15 +594,15 @@
       }
     },
     {
-      "EA-Guid": "{F4E10B03-9767-4b06-BA92-535E21122838}",
       "name": "BenoemdeWaarde",
-      "label": {
-        "nl": "BenoemdeWaarde",
-        "en": "NamedValue"
-      },
+      "EA-Guid": "{F4E10B03-9767-4b06-BA92-535E21122838}",
       "definition": {
         "nl": "Generieke, zwak getypeerde waarde.",
         "en": "A generic weakly-typed parameter value"
+      },
+      "label": {
+        "nl": "BenoemdeWaarde",
+        "en": "NamedValue"
       },
       "usage": {
         "nl": "In essentie een waarde en de naam vh type van de waarde. Bv een temperatuur van 21graden Celcius (waarde = 21 graden Celcius, naam = temperatuur).",
@@ -610,15 +610,15 @@
       }
     },
     {
-      "EA-Guid": "{BDC753B9-A752-4ee4-B381-3E37F6A17266}",
       "name": "Observatie",
-      "label": {
-        "nl": "Observatie",
-        "en": "Observation"
-      },
+      "EA-Guid": "{BDC753B9-A752-4ee4-B381-3E37F6A17266}",
       "definition": {
         "nl": "Het vaststellen van de waarde van een bepaald kenmerk van een Object op een bepaald tijdstip of tussen twee tijdstippen.",
         "en": "Determining the value of a certain characteristic of an Object at a certain point in time or between two points in time."
+      },
+      "label": {
+        "nl": "Observatie",
+        "en": "Observation"
       },
       "usage": {
         "nl": "Het gaat om schattingen van de waarde, maw op de waarde zit een zekere foutmarge. Voorbeelden zijn temperatuur, klasse, kleur. Dit is verschillend van waarden die zijn toegekend en dus geen schattingen zijn zoals naam of prijs. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
@@ -626,15 +626,15 @@
       }
     },
     {
-      "EA-Guid": "{6E83163F-BC3B-4df8-B728-961211A38188}",
       "name": "Bemonsteringscurve",
-      "label": {
-        "nl": "Bemonsteringscurve",
-        "en": "SamplingCurve"
-      },
+      "EA-Guid": "{6E83163F-BC3B-4df8-B728-961211A38188}",
       "definition": {
         "nl": "Een RuimtelijkBemonsteringsobject dat de vorm aanneemt van een Curve.",
         "en": "A Spatial SamplingObject that takes the shape of a Curve."
+      },
+      "label": {
+        "nl": "Bemonsteringscurve",
+        "en": "SamplingCurve"
       },
       "usage": {
         "nl": "Van het Object dat men wil observeren wordt in dat geval een representatief lijnvormig deel beschouwd. Voorbeelden zijn trajecten, boorgaten, profielen, intervallen etc. Dikwijls specialiseert de Curve zich tot Lijnstring. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/\">OSLO Observaties en Metingen</a> .",
@@ -642,15 +642,15 @@
       }
     },
     {
-      "EA-Guid": "{44270BA8-F67E-4f98-A688-EBEC932F9F3A}",
       "name": "Bemonsteringsobject",
-      "label": {
-        "nl": "Bemonsteringsobject",
-        "en": "SamplingObject"
-      },
+      "EA-Guid": "{44270BA8-F67E-4f98-A688-EBEC932F9F3A}",
       "definition": {
         "nl": "Deel van het Object dat men wil observeren en dat representatief is voor dat Object.",
         "en": "Part of the Object that one wants to observe and that is representative of that Object."
+      },
+      "label": {
+        "nl": "Bemonsteringsobject",
+        "en": "SamplingObject"
       },
       "usage": {
         "nl": "Het deel waarvan sprake kan fysiek zijn (een Monster) of ruimtelijk (een RuimtelijkBemonsteringsobject). Men observeert een Bemonsteringsobject ipv het werkelijk Object als dat laatste niet in zijn geheel geobserveerd kan worden (bv omdat exhaustieve observatie onpraktisch zou zijn). Het Bemonsteringsobject vormt samen met het Proces dat voor observatie is gebruikt het zgn observatieprotocol. OPGELET: deze klasse is abstract, ze moet gespecialiseerd worden in functie van het applicatiedomein.",
@@ -658,15 +658,15 @@
       }
     },
     {
-      "EA-Guid": "{FBF513BF-2F4D-4b18-B975-CB503B91AEE8}",
       "name": "Bemonsteringspunt",
-      "label": {
-        "nl": "Bemonsteringspunt",
-        "en": "SamplingPoint"
-      },
+      "EA-Guid": "{FBF513BF-2F4D-4b18-B975-CB503B91AEE8}",
       "definition": {
         "nl": "Een RuimtelijkBemonsteringsobject dat de vorm aanneemt van een Punt.",
         "en": "A SpatialSamplingObject that takes the shape of a Point."
+      },
+      "label": {
+        "nl": "Bemonsteringspunt",
+        "en": "SamplingPoint"
       },
       "usage": {
         "nl": "Van het Object dat men wil observeren wordt in dat geval een representatief puntvormig deel beschouwd. Voorbeeld is een (Meet)Station. OPMERKING: Meer info over deze klasse in het applicatieprofiel <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/observaties-en-metingen/\">OSLO Observaties en Metingen</a> .",
@@ -674,15 +674,15 @@
       }
     },
     {
-      "EA-Guid": "{F007BE83-E1B0-4bcb-A0F6-C0DCD1211ABF}",
       "name": "Domeinobject",
-      "label": {
-        "nl": "Domeinobject",
-        "en": "DomainObject"
-      },
+      "EA-Guid": "{F007BE83-E1B0-4bcb-A0F6-C0DCD1211ABF}",
       "definition": {
         "nl": "Object uit de reële wereld dat geen Bemonsteringsobject is.",
         "en": "Real world object that is not a SamplingObject."
+      },
+      "label": {
+        "nl": "Domeinobject",
+        "en": "DomainObject"
       },
       "usage": {
         "nl": "Dit is het werkelijk geobserveerdObject. Als rechtstreeks observeren niet kan observeren we een representatief staal, het zgn Bemonsteringsobject. In dat geval is het Domeinobject het bemonsterdObject. OPMERKING: Deze klasse is louter informatief, in praktijk moet ze gesubstitueerd worden door een klasse uit het domein. Bv in het domein Verkeersmetingen zou het domeinobject een instantie van een Wegsegment of een Voertuig kunnen zijn.",
@@ -690,15 +690,15 @@
       }
     },
     {
-      "EA-Guid": "{98CAEFA1-623F-4bae-AA47-92B5EFD72359}",
       "name": "Agent",
-      "label": {
-        "nl": "Agent",
-        "en": "Agent"
-      },
+      "EA-Guid": "{98CAEFA1-623F-4bae-AA47-92B5EFD72359}",
       "definition": {
         "nl": "Iemand die of iets dat kan handelen of een effect kan teweeg brengen.",
         "en": "Someone or something that can act or produce an effect."
+      },
+      "label": {
+        "nl": "Agent",
+        "en": "Agent"
       },
       "usage": {
         "nl": "In het kader van verkeersmetingen is dit bv het bedrijf dat de metingen uitvoert, of de persoon die manuele tellingen doet etc.",
@@ -706,27 +706,27 @@
       }
     },
     {
-      "EA-Guid": "{A083E18A-1BB4-4555-8AA0-B27AA892BCE2}",
       "name": "Bestandsformaat",
-      "label": {
-        "nl": "Bestandsformaat",
-        "en": "FileFormat"
-      },
+      "EA-Guid": "{A083E18A-1BB4-4555-8AA0-B27AA892BCE2}",
       "definition": {
         "nl": "Standaard manier waarop informatie wordt gecodeerd voor opslag in een computerbestand.",
         "en": "Standard way in which information is encoded for storage in a computer file."
+      },
+      "label": {
+        "nl": "Bestandsformaat",
+        "en": "FileFormat"
       }
     },
     {
-      "EA-Guid": "{C99FA90E-19E3-4abd-94FE-FF4AA66AE6C2}",
       "name": "Gegevensdrager",
-      "label": {
-        "nl": "Gegevensdrager",
-        "en": "Physical Medium"
-      },
+      "EA-Guid": "{C99FA90E-19E3-4abd-94FE-FF4AA66AE6C2}",
       "definition": {
         "nl": "Fysiek opslagmedium waarop gegevens staan of waarop deze kunnen worden opgeslagen.",
         "en": "Physical storage medium on which data is or can be stored"
+      },
+      "label": {
+        "nl": "Gegevensdrager",
+        "en": "Physical Medium"
       },
       "usage": {
         "nl": "Bv papier, canvas, dvd etc.",
@@ -734,15 +734,15 @@
       }
     },
     {
-      "EA-Guid": "{6C2892CB-C18F-4c88-9D6A-F9C7A7A273D4}",
       "name": "Lijnstring",
-      "label": {
-        "nl": "Lijnstring",
-        "en": "LineString"
-      },
+      "EA-Guid": "{6C2892CB-C18F-4c88-9D6A-F9C7A7A273D4}",
       "definition": {
         "nl": "Curve met lineaire interpolatie tussen de punten. Elk opeenvolgend paar punten vormt een lijnsegment. De lijnstring heeft ten minste twee punten.",
         "en": "A Curve with linear interpolation between Points. Each consecutive pair of Points defines a Line segment. A LineString has at least two points."
+      },
+      "label": {
+        "nl": "Lijnstring",
+        "en": "LineString"
       },
       "usage": {
         "nl": "Een curve is een 1-dimensioneel geometrisch object gedefinieerd als een sequentie van punten. De interpolatie kan op verschillende manieren gebeuren (bv lineair bij een lijnstring).",
@@ -750,51 +750,51 @@
       }
     },
     {
-      "EA-Guid": "{2319C469-3BB7-4eaf-8C14-F375CAD76501}",
       "name": "Punt",
-      "label": {
-        "nl": "Punt",
-        "en": "point"
-      },
+      "EA-Guid": "{2319C469-3BB7-4eaf-8C14-F375CAD76501}",
       "definition": {
         "nl": "Een 0-dimensioneel geometrisch object dat een bepaalde locatie in een coördinaatruimte voorstelt. Heeft een x-coördinaat en een y-coördinaat. Kan ook een z-coördinaat (hoogte) en een m-coördinaat (afstand langs een curve) hebben.",
         "en": "A 0-dimensional geometric object that represents a single location in coordinate space. A Point has an x-coordinate value and a y-coordinate value. Has an x-coordinate and a y-coordinate. Can also have a z-coordinate (height) and an m-coordinate (distance along a curve)."
+      },
+      "label": {
+        "nl": "Punt",
+        "en": "point"
       }
     },
     {
-      "EA-Guid": "{52365078-A78F-4da4-99AE-8F585BB67611}",
       "name": "Informatietype",
-      "label": {
-        "nl": "Informatietype",
-        "en": "InformationType"
-      },
+      "EA-Guid": "{52365078-A78F-4da4-99AE-8F585BB67611}",
       "definition": {
         "nl": "Type van informatie.",
         "en": "Type of information."
+      },
+      "label": {
+        "nl": "Informatietype",
+        "en": "InformationType"
       }
     },
     {
-      "EA-Guid": "{174A6689-CC80-4d25-A097-8715280E43FA}",
       "name": "Observatieproceduretype",
-      "label": {
-        "nl": "Observatieproceduretype",
-        "en": "Observationproceduretype"
-      },
+      "EA-Guid": "{174A6689-CC80-4d25-A097-8715280E43FA}",
       "definition": {
         "nl": "Type Obeservatieprocedure.",
         "en": "Type of Observationprocedure"
+      },
+      "label": {
+        "nl": "Observatieproceduretype",
+        "en": "Observationproceduretype"
       }
     },
     {
-      "EA-Guid": "{4546C09B-B040-4ca4-9FB5-08D06C3454B9}",
       "name": "Verkeerskenmerktype",
-      "label": {
-        "nl": "Verkeerskenmerktype",
-        "en": "TrafficFeatureType"
-      },
+      "EA-Guid": "{4546C09B-B040-4ca4-9FB5-08D06C3454B9}",
       "definition": {
         "nl": "Type van verkeerskenmerk",
         "en": "Type of TrafficFeature."
+      },
+      "label": {
+        "nl": "Verkeerskenmerktype",
+        "en": "TrafficFeatureType"
       },
       "usage": {
         "nl": "Bv aantal, snelheid,",
@@ -802,39 +802,39 @@
       }
     },
     {
-      "EA-Guid": "{5BD45119-9309-4e19-95D9-693396B4A88A}",
       "name": "Taalcode",
-      "label": {
-        "nl": "Taalcode",
-        "en": "LanguageCode"
-      },
+      "EA-Guid": "{5BD45119-9309-4e19-95D9-693396B4A88A}",
       "definition": {
         "nl": "Taal waarin de data zijn gesteld.",
         "en": "Language in which the data is set."
+      },
+      "label": {
+        "nl": "Taalcode",
+        "en": "LanguageCode"
       }
     },
     {
-      "EA-Guid": "{911B46A1-1173-4a21-A924-16A980C5802B}",
       "name": "Teken",
-      "label": {
-        "nl": "Teken",
-        "en": "Sign"
-      },
+      "EA-Guid": "{911B46A1-1173-4a21-A924-16A980C5802B}",
       "definition": {
         "nl": "Aanduiding of een waarde negatief of positief is",
         "en": "Indication if a value is negative or positive."
+      },
+      "label": {
+        "nl": "Teken",
+        "en": "Sign"
       }
     },
     {
-      "EA-Guid": "{EC67803A-1019-4ed6-9C7D-2E42246C1D43}",
       "name": "Linkrichtingtpe",
-      "label": {
-        "nl": "Linkrichtingtpe",
-        "en": "LinkDirectionValue"
-      },
+      "EA-Guid": "{EC67803A-1019-4ed6-9C7D-2E42246C1D43}",
       "definition": {
         "nl": "Type van richting tov de richting van een Link of Linksequentie.",
         "en": "Type of direction relative to the direction of a Link or Link Sequence."
+      },
+      "label": {
+        "nl": "Linkrichtingtpe",
+        "en": "LinkDirectionValue"
       },
       "usage": {
         "nl": "d!\n",
@@ -842,15 +842,15 @@
       }
     },
     {
-      "EA-Guid": "{B132B74A-E38E-447b-A034-9F0D90917230}",
       "name": "Voertuigtype",
-      "label": {
-        "nl": "Voertuigtype",
-        "en": "VehicleType"
-      },
+      "EA-Guid": "{B132B74A-E38E-447b-A034-9F0D90917230}",
       "definition": {
         "nl": "Type van voertuig",
         "en": "Type of Vehicle."
+      },
+      "label": {
+        "nl": "Voertuigtype",
+        "en": "VehicleType"
       },
       "usage": {
         "nl": "Dit kan een voetganger zijn, een wagen, fiets, step etc. of zonderVoertuig (voor bvb Voetgangers).",
@@ -858,39 +858,39 @@
       }
     },
     {
-      "EA-Guid": "{F151595A-76BA-4645-9FDC-D1B0FA637997}",
       "name": "Verkeersdeelnemertype",
-      "label": {
-        "nl": "Verkeersdeelnemertype",
-        "en": "TrafficParticipantType"
-      },
+      "EA-Guid": "{F151595A-76BA-4645-9FDC-D1B0FA637997}",
       "definition": {
         "nl": "Type Verkeersdeelnemer.",
         "en": "Nature of the TrafficParticipant."
+      },
+      "label": {
+        "nl": "Verkeersdeelnemertype",
+        "en": "TrafficParticipantType"
       }
     },
     {
-      "EA-Guid": "{8861891B-E1D1-49a6-961F-0B1BA2218EE7}",
       "name": "Rijstrooktype",
-      "label": {
-        "nl": "Rijstrooktype",
-        "en": "LaneType"
-      },
+      "EA-Guid": "{8861891B-E1D1-49a6-961F-0B1BA2218EE7}",
       "definition": {
         "nl": "Type Rijstrook.",
         "en": "Type of Lane."
+      },
+      "label": {
+        "nl": "Rijstrooktype",
+        "en": "LaneType"
       }
     },
     {
-      "EA-Guid": "{6F5B149A-D5BB-4d04-8DF3-D780AE8124F0}",
       "name": "Identificator",
-      "label": {
-        "nl": "Identificator",
-        "en": "Identifier"
-      },
+      "EA-Guid": "{6F5B149A-D5BB-4d04-8DF3-D780AE8124F0}",
       "definition": {
         "nl": "Informatie gebruikt om een object uniek te identificeren.",
         "en": "Information used to uniquely identify an object."
+      },
+      "label": {
+        "nl": "Identificator",
+        "en": "Identifier"
       },
       "usage": {
         "nl": "Uitgangspunt hier is dat deze string door een organisatie wordt toegekend en dat dit gebeurt volgens een welbepaald systeem.",
@@ -898,15 +898,15 @@
       }
     },
     {
-      "EA-Guid": "{A677E6B4-6D60-4b7d-8420-95BBBCA4C59C}",
       "name": "Geometrie",
-      "label": {
-        "nl": "Geometrie",
-        "en": "Geometry"
-      },
+      "EA-Guid": "{A677E6B4-6D60-4b7d-8420-95BBBCA4C59C}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van een object.",
         "en": "Shape and position characteristics of an object."
+      },
+      "label": {
+        "nl": "Geometrie",
+        "en": "Geometry"
       },
       "usage": {
         "nl": "Beschrijft deze kenmerken dmv punten, lijnen, polygonen en coördinaten",
@@ -914,31 +914,31 @@
       }
     },
     {
-      "EA-Guid": "{E214F098-F563-483c-A095-65A105394C36}",
       "name": "Locatie",
-      "label": {
-        "nl": "Locatie",
-        "en": "Location"
-      },
+      "EA-Guid": "{E214F098-F563-483c-A095-65A105394C36}",
       "definition": {
         "nl": "Aanduiding van een geografische positie, dmv coördinaten, een toponiem, een adreslabel, een verwijzing naar een plaats/regio, een verwijzing naar een adres of een verwijzing naar een geografisch object.",
         "en": "Indication of a geographical position, by using coordinates, a toponym, an address label, a reference to a place/region, a reference to an address or to a geographical object."
       },
+      "label": {
+        "nl": "Locatie",
+        "en": "Location"
+      },
       "usage": {
-        "nl": "Locatie gebruiken als de te gebruiken klasse nog niet gekend is. Anders te substitueren door instanties van Plaats, AdminstratieveEenheid, GeografischeNaam, Adres of een geografisch object zoals een Gebouw, KadastraalPerceel of Weg. Of voor te stellen door Geometrie zoals een punt, Lijnstring of Polygoon. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel OSLO Generiek - basis.",
+        "nl": "Locatie gebruiken als de te gebruiken klasse nog niet gekend is. Anders te substitueren door instanties van Plaats, AdminstratieveEenheid, GeografischeNaam, Adres of een geografisch object zoals een Gebouw, KadastraalPerceel of Weg. Of voor te stellen door Geometrie zoals een punt, Lijnstring of Polygoon. OPMERKING: Meer info over deze klassen/datatypes in het applicatieprofiel OSLO Generiek - basis.",
         "en": "Use location if the applicable Class or datatype is nit yet known. Otherwise t be substituted by an instance of Place, AdministrativeUnit, GeographicalName, Address or other geographical objects like a Building, a Road or a CadastralParcel. Or to be represented by Geometry like Point, LineString, Polygon. REMARK: More info about these classes/datatypes in the application profile <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/\">OSLO-Generics</a>."
       }
     },
     {
-      "EA-Guid": "{A3059FBD-C1E7-4349-8384-8F514B023183}",
       "name": "Observatieprocedure",
-      "label": {
-        "nl": "Observatieprocedure",
-        "en": "ObservationProcedure"
-      },
+      "EA-Guid": "{A3059FBD-C1E7-4349-8384-8F514B023183}",
       "definition": {
         "nl": "Een workflow, protocol, plan, algoritme of berekeningswijze waarin wordt gespecifieerd hoe een Observatie moet worden uitgevoerd.",
         "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation."
+      },
+      "label": {
+        "nl": "Observatieprocedure",
+        "en": "ObservationProcedure"
       },
       "usage": {
         "nl": "De procedure legt uit welke stappen uitgevoerd moeten worden om een reproduceerbaar resultaat te krijgen. Bv de correcte plaatsing van een windmeter (op een welbepaalde hoogte boven het grondoppervlak, bv 10m voor meteorologische waarnemingen). De procedures zijn doorgaans bedoeld om bij meer dan één Bemonstering te worden toegepast.",
@@ -946,15 +946,15 @@
       }
     },
     {
-      "EA-Guid": "{2F7510B1-CBD1-4199-B43C-70BBFF3E3982}",
       "name": "Procedure",
-      "label": {
-        "nl": "Procedure",
-        "en": "Procedure"
-      },
+      "EA-Guid": "{2F7510B1-CBD1-4199-B43C-70BBFF3E3982}",
       "definition": {
         "nl": "Vastgelegde of officiële manier om iets te doen.",
         "en": "A workflow, protocol, plan, algorithm, or computational method specifying how to make an Observation, create a Sample, or make a change to the state of the world (via an Actuator)."
+      },
+      "label": {
+        "nl": "Procedure",
+        "en": "Procedure"
       },
       "usage": {
         "nl": "Slaat op de manier waarop Observaties of Bemonstering worden uitgevoerd of Actuators worden bediend. Neemt in praktijk de vorm aan van een workflow, protocol, plan, algoritme,berekeningswijze etc. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
@@ -962,39 +962,39 @@
       }
     },
     {
-      "EA-Guid": "{FB83108B-BC83-4522-81BB-F464E8BB14F2}",
       "name": "Input",
-      "label": {
-        "nl": "Input",
-        "en": "Input"
-      },
+      "EA-Guid": "{FB83108B-BC83-4522-81BB-F464E8BB14F2}",
       "definition": {
         "nl": "Informatie die door een Procedure wordt gebruikt.",
         "en": "Any information that is provided to a procedure for its use."
+      },
+      "label": {
+        "nl": "Input",
+        "en": "Input"
       }
     },
     {
-      "EA-Guid": "{A1B15787-239E-436b-9E40-FEE9C77B7A78}",
       "name": "Output",
-      "label": {
-        "nl": "Output",
-        "en": "Output"
-      },
+      "EA-Guid": "{A1B15787-239E-436b-9E40-FEE9C77B7A78}",
       "definition": {
         "nl": "Informatie die door een Procedure wordt gegenereerd.",
         "en": "Reference to the Output that the Procedure generates or generated."
+      },
+      "label": {
+        "nl": "Output",
+        "en": "Output"
       }
     },
     {
-      "EA-Guid": "{777CAFBE-1B79-4205-998C-2116BB1DCBAB}",
       "name": "GerichteLink",
-      "label": {
-        "nl": "GerichteLink",
-        "en": "DirectedLink"
-      },
+      "EA-Guid": "{777CAFBE-1B79-4205-998C-2116BB1DCBAB}",
       "definition": {
         "nl": "Link in hetzij zijn positieve, hetzij zijn negatieve richting.",
         "en": "A Link either in its positive or negative direction."
+      },
+      "label": {
+        "nl": "GerichteLink",
+        "en": "DirectedLink"
       },
       "usage": {
         "nl": "Typisch gebruikt in Linksequenties, de Links waaruit de sequentie bestaat worden hiermee allemaal in dezelfde richting gezet.",
@@ -1002,15 +1002,15 @@
       }
     },
     {
-      "EA-Guid": "{36BFB504-3638-4c1e-B329-E4BDF1C541F6}",
       "name": "LineaireReferentie",
-      "label": {
-        "nl": "LineaireReferentie",
-        "en": "LinearReference"
-      },
+      "EA-Guid": "{36BFB504-3638-4c1e-B329-E4BDF1C541F6}",
       "definition": {
         "nl": "Netwerkreferentie beperkt tot een deel van de Link of Linksequentie waarnaar ze verwijst.",
         "en": "A NetworkReference that is restricted to a section of the Link or Linksequence it references."
+      },
+      "label": {
+        "nl": "LineaireReferentie",
+        "en": "LinearReference"
       },
       "usage": {
         "nl": "Het deel waarvan sprake ligt tiussen de vanPositie en de totPositie op de Link of Linksequentie.",
@@ -1018,15 +1018,15 @@
       }
     },
     {
-      "EA-Guid": "{C446C097-AC28-425d-8805-29B819DD805F}",
       "name": "Link",
-      "label": {
-        "nl": "Link",
-        "en": "Link"
-      },
+      "EA-Guid": "{C446C097-AC28-425d-8805-29B819DD805F}",
       "definition": {
         "nl": "Curvilineair netwerkelement dat twee posities verbindt en een homogeen pad in het Netwerk vertegenwoordigt. De verbonden posities worden voorgesteld door Knopen.",
         "en": "Curvilinear network element that connects two positions and represents a homogeneous path in the Network. The connected positions are represented by Nodes."
+      },
+      "label": {
+        "nl": "Link",
+        "en": "Link"
       },
       "usage": {
         "nl": "Onder een homogeen pad verstaan we een route die zich niet vertakt, bvb een weg tussen twee kruispunten (waarbij de kruispunten Knopen in het Netwerk voorstellen).\n",
@@ -1034,39 +1034,39 @@
       }
     },
     {
-      "EA-Guid": "{924F342D-41BC-47f5-B766-52DA2DBC76F8}",
       "name": "Linkreferentie",
-      "label": {
-        "nl": "Linkreferentie",
-        "en": "Enter your translation here"
-      },
+      "EA-Guid": "{924F342D-41BC-47f5-B766-52DA2DBC76F8}",
       "definition": {
         "nl": "Netwerkreferentie waarbij het Netwerkelement waar naar verwezen wordt een Link of Linksequentie is.",
         "en": "A NetworkReference that is restricted to a section of the Link or Linksequence it references."
+      },
+      "label": {
+        "nl": "Linkreferentie",
+        "en": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{17E63ED1-C2E3-4062-BDC7-3B2CF40AA9ED}",
       "name": "Netwerkelement",
-      "label": {
-        "nl": "Netwerkelement",
-        "en": "NetworkElement"
-      },
+      "EA-Guid": "{17E63ED1-C2E3-4062-BDC7-3B2CF40AA9ED}",
       "definition": {
         "nl": "Element in een Netwerk dat daarin een functie van belang vervult.",
         "en": "Element in a Network that performs an important function therein."
+      },
+      "label": {
+        "nl": "Netwerkelement",
+        "en": "NetworkElement"
       }
     },
     {
-      "EA-Guid": "{D77B05FC-5561-4d2e-A613-AFE8679BEFC1}",
       "name": "Netwerkreferentie",
-      "label": {
-        "nl": "Netwerkreferentie",
-        "en": "networkReference"
-      },
+      "EA-Guid": "{D77B05FC-5561-4d2e-A613-AFE8679BEFC1}",
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarvoor de Netwerkeigenschap geldt.",
         "en": "Reference to the NetworkElement to which the NetworkProperty applies."
+      },
+      "label": {
+        "nl": "Netwerkreferentie",
+        "en": "networkReference"
       },
       "usage": {
         "nl": "Bvb het Wegsegment waarlangs er straatverlichting is, de Wegknoop met verkeerslichten etc.",
@@ -1074,27 +1074,27 @@
       }
     },
     {
-      "EA-Guid": "{A3BFE246-F22F-427d-8A16-CC9C40EFE22E}",
       "name": "Puntreferentie",
-      "label": {
-        "nl": "Puntreferentie",
-        "en": "PointReference"
-      },
+      "EA-Guid": "{A3BFE246-F22F-427d-8A16-CC9C40EFE22E}",
       "definition": {
         "nl": "Netwerkreferentie beperkt tot een punt langs de Link of Linksequentie waarnaar ze verwijst.",
         "en": "NetworkReference expressed as a point along the Link or Link Sequence to which it refers."
+      },
+      "label": {
+        "nl": "Puntreferentie",
+        "en": "PointReference"
       }
     },
     {
-      "EA-Guid": "{9003D81E-58D9-4d42-90AA-7B756D38DA57}",
       "name": "Dekking",
-      "label": {
-        "nl": "Dekking",
-        "en": "Coverage"
-      },
+      "EA-Guid": "{9003D81E-58D9-4d42-90AA-7B756D38DA57}",
       "definition": {
         "nl": "Gebied of periode waarop de data betrekking heeft.",
         "en": "The spatial or temporal extent of the datas."
+      },
+      "label": {
+        "nl": "Dekking",
+        "en": "Coverage"
       },
       "usage": {
         "nl": "Een gebied wordt indirect beschreven door te verwijzen naar een Plaats of AdministratieveEenheid of een GeografischeNaam of een geografisch object zoals een Gebouw of een Weg of een Kadastraalperceel of gelijkaardig en direct dmv Geometrie. Een periode kunnen we aanduiden dmv een Interval of als moment dmv een Datum of DateTime. OPMERKING: Te substitueren door Locatie of TemporeleEntiteit of door een meer specifieke klasse of datatype. Voor ruimtelijke dekking zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/generiek-basis/\">OSLO-Generiek</a> ven voor temporele dekking <a href=\"https://www.w3.org/TR/owl-time/\">Time Ontology>. Verwijs naar bestaande datasets bvb voor Plaatsen de <a href=\"https://www.getty.edu/research/tools/vocabularies/tgn/index.html\">Getty Thesaurus of Geographic Names</a>.",
@@ -1102,15 +1102,15 @@
       }
     },
     {
-      "EA-Guid": "{EBC5BFE8-7B77-4e32-80C0-5C7356BAE521}",
       "name": "Dimensie",
-      "label": {
-        "nl": "Dimensie",
-        "en": "Dimension"
-      },
+      "EA-Guid": "{EBC5BFE8-7B77-4e32-80C0-5C7356BAE521}",
       "definition": {
         "nl": "Meetbare omvang van iets.",
         "en": "Measurable extent of something."
+      },
+      "label": {
+        "nl": "Dimensie",
+        "en": "Dimension"
       },
       "usage": {
         "nl": "Bv lengte, breedte etc",
@@ -1118,15 +1118,15 @@
       }
     },
     {
-      "EA-Guid": "{40FCAE8B-CB71-4694-94C9-8727C459F15A}",
       "name": "Formaat",
-      "label": {
-        "nl": "Formaat",
-        "en": "Format"
-      },
+      "EA-Guid": "{40FCAE8B-CB71-4694-94C9-8727C459F15A}",
       "definition": {
         "nl": "Vorm of omvang van iets.",
         "en": "Shape or size of something."
+      },
+      "label": {
+        "nl": "Formaat",
+        "en": "Format"
       },
       "usage": {
         "nl": "Bv de vorm waarin iets wordt aangeboden (bestandsformaat, programmasjabloon etc), de dimensies van een voorwerp (grootte, afmetingen etc).",
@@ -1134,15 +1134,15 @@
       }
     },
     {
-      "EA-Guid": "{D13343A9-B0AC-4897-BA42-6E62715D2457}",
       "name": "Transporteigenschap",
-      "label": {
-        "nl": "Transporteigenschap",
-        "en": "TransportCharacteristic"
-      },
+      "EA-Guid": "{D13343A9-B0AC-4897-BA42-6E62715D2457}",
       "definition": {
         "nl": "Eigenschap van een Transportobject.",
         "en": "Property of a TransportObject."
+      },
+      "label": {
+        "nl": "Transporteigenschap",
+        "en": "TransportCharacteristic"
       },
       "usage": {
         "nl": "Heeft betrekking op objecten zoals Transportllinks, Transportknopen etc of - via LineaireReferentie - op delen ervan.",
@@ -1150,63 +1150,63 @@
       }
     },
     {
-      "EA-Guid": "{3E8C7A20-E02F-41c4-9D1C-4D3E755F45BE}",
       "name": "Transportknoop",
-      "label": {
-        "nl": "Transportknoop",
-        "en": "Transport Node"
-      },
+      "EA-Guid": "{3E8C7A20-E02F-41c4-9D1C-4D3E755F45BE}",
       "definition": {
         "nl": "Significante positie in het Transportetwerk die steeds samenvalt met het begin of het einde van een Transportlink.",
         "en": "Significant position in the TransportNetwork that always coincides with the start or end of a TransportLink."
       },
+      "label": {
+        "nl": "Transportknoop",
+        "en": "Transport Node"
+      },
       "usage": {
         "nl": "OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwerk</a>.",
         "en": "REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwork</a>."
       }
     },
     {
-      "EA-Guid": "{6DB2286D-C90C-4878-8716-3D0FD7F5CDD0}",
       "name": "Transportlink",
-      "label": {
-        "nl": "Transportlink",
-        "en": "Transport Link"
-      },
+      "EA-Guid": "{6DB2286D-C90C-4878-8716-3D0FD7F5CDD0}",
       "definition": {
         "nl": "Lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Transportnetwerk.",
         "en": "Linear spatial object that describes the geometry and connectivity between two points in a TransportNetwork."
       },
+      "label": {
+        "nl": "Transportlink",
+        "en": "Transport Link"
+      },
       "usage": {
         "nl": "OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwerk</a>.",
         "en": "REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwork</a>."
       }
     },
     {
-      "EA-Guid": "{1AD0C74E-D337-474c-9246-CC16ED16B749}",
       "name": "Transportlinksequentie",
-      "label": {
-        "nl": "Transportlinksequentie",
-        "en": "TransportLinkSequence"
-      },
+      "EA-Guid": "{1AD0C74E-D337-474c-9246-CC16ED16B749}",
       "definition": {
         "nl": "Lineair ruimtelijk object, bestaande uit een geordende verzameling van Transportlinks, die een onvertakt doorlopend pad in een Transportnetwerk vertegenwoordigt.",
         "en": "Linear spatial object, consisting of an ordered collection of TransportLinks, representing a branched continuous path in a TransportNetwork."
       },
+      "label": {
+        "nl": "Transportlinksequentie",
+        "en": "TransportLinkSequence"
+      },
       "usage": {
         "nl": "OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwerk</a>.",
         "en": "REMARK: For more details about this class see <a href=\"https://data.vlaanderen.be/ns/transportnetwerk/\">VOC Transportnetwork</a>."
       }
     },
     {
-      "EA-Guid": "{49BDB313-5E07-40eb-A64B-40827FFC648A}",
       "name": "Wegdeel",
-      "label": {
-        "nl": "Wegdeel",
-        "en": "RoadSection"
-      },
+      "EA-Guid": "{49BDB313-5E07-40eb-A64B-40827FFC648A}",
       "definition": {
         "nl": "Deel van de wegbaan.",
         "en": "Section of the road."
+      },
+      "label": {
+        "nl": "Wegdeel",
+        "en": "RoadSection"
       },
       "usage": {
         "nl": "In deze context worden er longitudonale onderverdelingen van de weg mee bedoeld zoals Rijstroken, Fietspaden edm. OPGELET: Deze klasse is abstract,gebruik de subklassen.",
@@ -1214,27 +1214,27 @@
       }
     },
     {
-      "EA-Guid": "{F475BC99-8F8C-42fa-8AFC-97D937475E85}",
       "name": "Rijrichting",
-      "label": {
-        "nl": "Rijrichting",
-        "en": "TrafficDirection"
-      },
+      "EA-Guid": "{F475BC99-8F8C-42fa-8AFC-97D937475E85}",
       "definition": {
         "nl": "Richting waarin het verkeer zich over de weg beweegt.",
         "en": "Direction in which traffic moves on the road."
+      },
+      "label": {
+        "nl": "Rijrichting",
+        "en": "TrafficDirection"
       }
     },
     {
-      "EA-Guid": "{5E144E63-EF37-4a5f-8156-703E8B996ED9}",
       "name": "Wegknoop",
-      "label": {
-        "nl": "Wegknoop",
-        "en": "RoadNode"
-      },
+      "EA-Guid": "{5E144E63-EF37-4a5f-8156-703E8B996ED9}",
       "definition": {
         "nl": "Significante positie in het Tansportnetwerk die steeds samenvalt met het begin of het einde van een Wegsegment.",
         "en": "Significant position in the TransportNetwork that always coincides with the start or end of a RoadSegment."
+      },
+      "label": {
+        "nl": "Wegknoop",
+        "en": "RoadNode"
       },
       "usage": {
         "nl": "Typisch een kruispunt van wegen of het begin of einde van een weg.",
@@ -1242,15 +1242,15 @@
       }
     },
     {
-      "EA-Guid": "{7232738A-0E7A-41ec-917C-CDEF447C195B}",
       "name": "Weglinksequentie",
-      "label": {
-        "nl": "Weglinksequentie",
-        "en": "RoadLinkSequence"
-      },
+      "EA-Guid": "{7232738A-0E7A-41ec-917C-CDEF447C195B}",
       "definition": {
         "nl": "Lineair ruimtelijk object, bestaande uit een geordende verzameling van Wegsegmenten, dat een onvertakt doorlopend pad in een Transportnetwerk vertegenwoordigt.",
         "en": "Linear spatial object consisting of an ordered collection of RoadSegments, representing an unbranched continuous path in a TransportationNetwork."
+      },
+      "label": {
+        "nl": "Weglinksequentie",
+        "en": "RoadLinkSequence"
       },
       "usage": {
         "nl": "Typisch is een route in een Netwerk, b.v. een genummerde weg of een lijn van het openbaar vervoer in een bepaalde richting.",
@@ -1258,15 +1258,15 @@
       }
     },
     {
-      "EA-Guid": "{76494F4F-E122-4dfb-8EA0-84FF3C4EF761}",
       "name": "Wegobject",
-      "label": {
-        "nl": "Wegobject",
-        "en": "RoadObject"
-      },
+      "EA-Guid": "{76494F4F-E122-4dfb-8EA0-84FF3C4EF761}",
       "definition": {
         "nl": "Object dat een onderdeel uit een Wegennetwerk vertegenwoordigt.",
         "en": "Object that represents a part of a RoadNetwork."
+      },
+      "label": {
+        "nl": "Wegobject",
+        "en": "RoadObject"
       },
       "usage": {
         "nl": "Typische voorbeelden zijn Wegsegmenten, Wegknopen, Weglinksequenties etc OPGELET: deze klasse is abstract, enkel de subklassen gebruiken.",
@@ -1274,39 +1274,39 @@
       }
     },
     {
-      "EA-Guid": "{A74FEDDC-177C-430a-80BF-5D15C5278C01}",
       "name": "Wegsegment",
-      "label": {
-        "nl": "Wegsegment",
-        "en": "RoadSegment"
-      },
+      "EA-Guid": "{A74FEDDC-177C-430a-80BF-5D15C5278C01}",
       "definition": {
         "nl": "Lineair ruimtelijk object dat de geometrie en connectiviteit beschrijft tussen twee punten in een Wegennetwerk.",
         "en": "Linear spatial object that describes the geometry and connectivity between two points in a RoadNetwork."
+      },
+      "label": {
+        "nl": "Wegsegment",
+        "en": "RoadSegment"
       }
     },
     {
-      "EA-Guid": "{472968B4-4A56-4f9c-AC18-222684C3B1E1}",
       "name": "Toestel",
-      "label": {
-        "nl": "Toestel",
-        "en": "Device"
-      },
+      "EA-Guid": "{472968B4-4A56-4f9c-AC18-222684C3B1E1}",
       "definition": {
         "nl": "Tastbaar Object ontworpen om een specifieke Taak mee uit te voeren.",
         "en": "A tangible object designed to accomplish a particular task."
+      },
+      "label": {
+        "nl": "Toestel",
+        "en": "Device"
       }
     },
     {
-      "EA-Guid": "{FC957B5D-8BF1-4f69-8D8E-6DA16D203ABA}",
       "name": "Observatieverzameling",
-      "label": {
-        "nl": "Observatieverzameling",
-        "en": "ObservationCollection"
-      },
+      "EA-Guid": "{FC957B5D-8BF1-4f69-8D8E-6DA16D203ABA}",
       "definition": {
         "nl": "Collectie van Observaties met dezelfde kenmerken.",
         "en": "Collection of one or more Observations with the same properties."
+      },
+      "label": {
+        "nl": "Observatieverzameling",
+        "en": "ObservationCollection"
       },
       "usage": {
         "nl": "Bv Observaties die op hetzelfde tijdstip plaatsvonden of hetzelfde Object observeren of door dezelfde Sensor zijn gemaakt.\nOPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.\n",
@@ -1314,15 +1314,15 @@
       }
     },
     {
-      "EA-Guid": "{2F6E375A-20D4-4a18-8731-3E36A1B31B0E}",
       "name": "Systeem",
-      "label": {
-        "nl": "Systeem",
-        "en": "System"
-      },
+      "EA-Guid": "{2F6E375A-20D4-4a18-8731-3E36A1B31B0E}",
       "definition": {
         "nl": "Samenhangend geheel van componenten die samen één of meer functies vervullen.",
         "en": "Cohesive set of components that together perform one or more functions"
+      },
+      "label": {
+        "nl": "Systeem",
+        "en": "System"
       },
       "usage": {
         "nl": "Deze componenten kunnen Systemen op zich zijn. Het zijn Systemen die een Observatieprocedure realiseren (typisch een Sensor) of waarmee een Bemonsteringsprocedure wordt uitgevoerd (bv een boorinstallatie) of het zijn Platformen zoals een Toestel waarop de sensor is gemonteerd. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
@@ -1330,15 +1330,15 @@
       }
     },
     {
-      "EA-Guid": "{1CD74C8C-C59C-4394-88BC-E7D006727775}",
       "name": "Platform",
-      "label": {
-        "nl": "Platform",
-        "en": "Platform"
-      },
+      "EA-Guid": "{1CD74C8C-C59C-4394-88BC-E7D006727775}",
       "definition": {
         "nl": "Entiteit die fungeert als basis voor andere Entiteiten.",
         "en": "An entity that hosts other entities."
+      },
+      "label": {
+        "nl": "Platform",
+        "en": "Platform"
       },
       "usage": {
         "nl": "Deze andere entiteiten zijn typisch Sensoren, Bemonsteraars, Actuators of andere Platformen. In de context van Verkeersmetingen definiëren we de subklasse Toestel als mogelijke basis voor één of meer Sensoren. OPMERKING: Voor meer details over deze klasse zie <a href=\"https://data.vlaanderen.be/doc/applicatieprofiel/sensoren-en-bemonstering/\">AP Sensoren en Bemonstering</a>.",
@@ -1346,15 +1346,15 @@
       }
     },
     {
-      "EA-Guid": "{2A28FF0E-C1B4-4918-B61C-21D7CECE0CED}",
       "name": "Sensor",
-      "label": {
-        "nl": "Sensor",
-        "en": "Sensor"
-      },
+      "EA-Guid": "{2A28FF0E-C1B4-4918-B61C-21D7CECE0CED}",
       "definition": {
         "nl": "Toestel of Agent (incl Personen of software) waarmee Observaties gemaakt worden.",
         "en": "Device or Agent (including Persons or software) with which Observations are made."
+      },
+      "label": {
+        "nl": "Sensor",
+        "en": "Sensor"
       },
       "usage": {
         "nl": "Sensoren genereren een resultaat op basis van een Stimulus, ttz een verandering in de omgeving, of op basis van resultaten van andere Observaties. Ze worden typisch gehost door een Platform. Voorbeelden zijn snelheidsmeters, gyroscopen, barometers, magnetometers gemonteerd op een smart phone. Ook bv het menselijk oog kan beschouwd worden als een sensor.",
@@ -1364,75 +1364,75 @@
   ],
   "externalproperties": [
     {
-      "EA-Guid": "{AEA092EB-E8A5-42eb-AF99-47B0309E84FE}",
       "name": "host van",
-      "label": {
-        "nl": "host van",
-        "en": "hostOf"
-      },
+      "EA-Guid": "{AEA092EB-E8A5-42eb-AF99-47B0309E84FE}",
       "definition": {
         "nl": "Sensor door het Toestel gehost.",
         "en": "Sensor hosted by the Device."
+      },
+      "label": {
+        "nl": "host van",
+        "en": "hostOf"
       }
     },
     {
-      "EA-Guid": "{72F6B4EA-197E-492c-921B-40C9BFAF28ED}",
       "name": "model",
-      "label": {
-        "nl": "model",
-        "en": "model"
-      },
+      "EA-Guid": "{72F6B4EA-197E-492c-921B-40C9BFAF28ED}",
       "definition": {
         "nl": "Naam vh model vh Toestel.",
         "en": "Name of the model of the Device."
+      },
+      "label": {
+        "nl": "model",
+        "en": "model"
       }
     },
     {
-      "EA-Guid": "{CC2BE40E-7788-47f9-A23A-129167594202}",
       "name": "fabrikant",
-      "label": {
-        "nl": "fabrikant",
-        "en": "manufacturer"
-      },
+      "EA-Guid": "{CC2BE40E-7788-47f9-A23A-129167594202}",
       "definition": {
         "nl": "Naam van de fabrikant.",
         "en": "Name of the manufacturer."
+      },
+      "label": {
+        "nl": "fabrikant",
+        "en": "manufacturer"
       }
     },
     {
-      "EA-Guid": "{56B575C8-69A5-4b76-931C-2007D0F070BA}",
       "name": "functie",
-      "label": {
-        "nl": "functie",
-        "en": "function"
-      },
+      "EA-Guid": "{56B575C8-69A5-4b76-931C-2007D0F070BA}",
       "definition": {
         "nl": "Functie die het Toestel kan uitvoeren met het oog op het uitvoeren van een taak.",
         "en": "Function that the Device can perform in order to perform a task."
+      },
+      "label": {
+        "nl": "functie",
+        "en": "function"
       }
     },
     {
-      "EA-Guid": "{64902ED5-8988-4b1c-B4CB-E52A33F5EC12}",
       "name": "taak",
-      "label": {
-        "nl": "taak",
-        "en": "task"
-      },
+      "EA-Guid": "{64902ED5-8988-4b1c-B4CB-E52A33F5EC12}",
       "definition": {
         "nl": "Taak die met het Toestel kan worden uitgevoerd waarvoor het Toestel ontworpen is.",
         "en": "Task that can be performed with the Device for which the Device was designed."
+      },
+      "label": {
+        "nl": "taak",
+        "en": "task"
       }
     },
     {
-      "EA-Guid": "{9DDDE0A0-9ED8-495c-93E1-80122D49DFAC}",
       "name": "fenomeenTijd",
-      "label": {
-        "nl": "fenomeenTijd",
-        "en": "phenomenonTime"
-      },
+      "EA-Guid": "{9DDDE0A0-9ED8-495c-93E1-80122D49DFAC}",
       "definition": {
         "nl": "Het moment waarop het resultaat van de Verkeersmeting van toepassing is.",
         "en": "The moment at which the result of the TrafficMeasurement was applicable."
+      },
+      "label": {
+        "nl": "fenomeenTijd",
+        "en": "phenomenonTime"
       },
       "usage": {
         "nl": "Typisch het moment waarop de observatie of bemonstering plaatsvindt. Is het resultaat een voorspelling dan is de fenomeentijd het moment waarop deze voorspelling van toepassing zou moeten zijn.",
@@ -1440,15 +1440,15 @@
       }
     },
     {
-      "EA-Guid": "{D1EA31DC-25E5-4a83-88C9-24E535CC49F2}",
       "name": "voertuigtype",
-      "label": {
-        "nl": "voertuigtype",
-        "en": "typeOfVehicle"
-      },
+      "EA-Guid": "{D1EA31DC-25E5-4a83-88C9-24E535CC49F2}",
       "definition": {
         "nl": "Soort voertuig.",
         "en": "Type of the Vehicle."
+      },
+      "label": {
+        "nl": "voertuigtype",
+        "en": "typeOfVehicle"
       },
       "usage": {
         "nl": "Niet te verwarren met Aandrijftype (brandstof, elektrisch, spierkracht etc) of Vervoerwijze (wegvervoer, spoorvervoer, scheepvaart, luchtvaart )..",
@@ -1456,39 +1456,39 @@
       }
     },
     {
-      "EA-Guid": "{FCFCB9D9-E66E-4e9f-AB39-7A24DC0C08BF}",
       "name": "vanPositie",
-      "label": {
-        "nl": "vanPositie",
-        "en": "fromPosition"
-      },
+      "EA-Guid": "{FCFCB9D9-E66E-4e9f-AB39-7A24DC0C08BF}",
       "definition": {
         "nl": "Afstand vanaf het begin van de Link of Linksequentie vanaf waar de Netwerkeigenschap geldt.",
         "en": "Distance from the start of the Link or Linksequence until the point from where the Networkproperty applies."
+      },
+      "label": {
+        "nl": "vanPositie",
+        "en": "fromPosition"
       }
     },
     {
-      "EA-Guid": "{EC76D219-D568-4069-BDD5-1F401AD9FFC9}",
       "name": "totPositie",
-      "label": {
-        "nl": "totPositie",
-        "en": "toPosition"
-      },
+      "EA-Guid": "{EC76D219-D568-4069-BDD5-1F401AD9FFC9}",
       "definition": {
         "nl": "Afstand vanaf het begin van de Link of Linksequentie tot waar de Netwerkeigenschap geldt.",
         "en": "Distance from the start of the Link or Linksequence until the point to where the Networkproperty applies."
+      },
+      "label": {
+        "nl": "totPositie",
+        "en": "toPosition"
       }
     },
     {
-      "EA-Guid": "{DF397868-554C-432f-B8E3-338F37528EB8}",
       "name": "rijrichting",
-      "label": {
-        "nl": "rijrichting",
-        "en": "trafficDirection"
-      },
+      "EA-Guid": "{DF397868-554C-432f-B8E3-338F37528EB8}",
       "definition": {
         "nl": "De rijrichting.",
         "en": "The trafficDirection."
+      },
+      "label": {
+        "nl": "rijrichting",
+        "en": "trafficDirection"
       },
       "usage": {
         "nl": "Deze wordt beschreven tov de richting van de geometrie van de weg: gelijklopend met of tegengesteld aan die richting. De richting van de geometrie wordt bepaald door de volgorde waarin de coördinaten op elkaar volgen.",
@@ -1496,99 +1496,99 @@
       }
     },
     {
-      "EA-Guid": "{B3AA2321-DF66-47f1-B798-8ED3CD35A78C}",
       "name": "referentie",
-      "label": {
-        "nl": "referentie",
-        "en": "reference"
-      },
+      "EA-Guid": "{B3AA2321-DF66-47f1-B798-8ED3CD35A78C}",
       "definition": {
         "nl": "Verwijzing naar originele Output.",
         "en": "Reference to original output."
-      }
-    },
-    {
-      "EA-Guid": "{C180CA4C-B422-454f-A0BB-6E0A8FDC2041}",
-      "name": "metadata",
-      "label": {
-        "nl": "metadata",
-        "en": "metadata"
       },
-      "definition": {
-        "nl": "Verwijzing naar de Metadata van de Verkeersmetingen in de verzameling.",
-        "en": "Reference to Metadata of the TrafficMeasurement."
-      }
-    },
-    {
-      "EA-Guid": "{A961E12C-13B7-48b5-A89E-2D7D1185611C}",
-      "name": "specificatie",
-      "label": {
-        "nl": "specificatie",
-        "en": "specification"
-      },
-      "definition": {
-        "nl": "Verwijzing naar een document dat de Observatieprocedure beschrijft.",
-        "en": "Reference to a document that describes the ObservationProcedure."
-      }
-    },
-    {
-      "EA-Guid": "{FCA9C4E3-C84F-49b7-9B7D-010B41CC8C49}",
-      "name": "referentie",
       "label": {
         "nl": "referentie",
         "en": "reference"
+      }
+    },
+    {
+      "name": "metadata",
+      "EA-Guid": "{C180CA4C-B422-454f-A0BB-6E0A8FDC2041}",
+      "definition": {
+        "nl": "Verwijzing naar de Metadata van de Verkeersmetingen in de verzameling.",
+        "en": "Reference to Metadata of the TrafficMeasurement."
       },
+      "label": {
+        "nl": "metadata",
+        "en": "metadata"
+      }
+    },
+    {
+      "name": "specificatie",
+      "EA-Guid": "{A961E12C-13B7-48b5-A89E-2D7D1185611C}",
+      "definition": {
+        "nl": "Verwijzing naar een document dat de Observatieprocedure beschrijft.",
+        "en": "Reference to a document that describes the ObservationProcedure."
+      },
+      "label": {
+        "nl": "specificatie",
+        "en": "specification"
+      }
+    },
+    {
+      "name": "referentie",
+      "EA-Guid": "{FCA9C4E3-C84F-49b7-9B7D-010B41CC8C49}",
       "definition": {
         "nl": "Verwijzing naar originele Input.",
         "en": "Reference to original input."
+      },
+      "label": {
+        "nl": "referentie",
+        "en": "reference"
       }
     },
     {
-      "EA-Guid": "{F84B875A-2520-4847-8915-8B8DC24C026B}",
       "name": "uitgevoerdDoor",
-      "label": {
-        "nl": "uitgevoerdDoor",
-        "en": "performedBy"
-      },
+      "EA-Guid": "{F84B875A-2520-4847-8915-8B8DC24C026B}",
       "definition": {
         "nl": "Agent die de Verkeersmeting heeft uitgevoerd.",
         "en": "Agent who carried out the TrafficMeasurement"
+      },
+      "label": {
+        "nl": "uitgevoerdDoor",
+        "en": "performedBy"
       }
     },
     {
-      "EA-Guid": "{0366713F-C00D-4dd9-A4FA-1E627668457D}",
       "name": "beginknoop",
-      "label": {
-        "nl": "beginknoop",
-        "en": "startNode"
-      },
+      "EA-Guid": "{0366713F-C00D-4dd9-A4FA-1E627668457D}",
       "definition": {
         "nl": "Knoop die het begin is van het Wegsegment.",
         "en": "Node that is the start of the RoadSegment."
+      },
+      "label": {
+        "nl": "beginknoop",
+        "en": "startNode"
       }
     },
     {
-      "EA-Guid": "{29876B35-03E6-4d03-B4F8-5C382AB7C696}",
       "name": "richting",
-      "label": {
-        "nl": "richting",
-        "en": "direction"
-      },
+      "EA-Guid": "{29876B35-03E6-4d03-B4F8-5C382AB7C696}",
       "definition": {
         "nl": "Geeft aan of de GerichteLink de oorspronkelijke richting van de Link volgt of niet (positief indien gelijklopend, negatief indien tegengesteld).",
         "en": "Indicates if the directed link agrees (positive) or disagrees (negative) with the  direction of the link."
+      },
+      "label": {
+        "nl": "richting",
+        "en": "direction"
       }
     },
     {
-      "EA-Guid": "{2C0C4043-021D-4394-AFEC-27CBEA07A5F0}",
       "name": "netwerkreferentie",
-      "label": {
-        "nl": "netwerkreferentie",
-        "en": "networkReference"
-      },
+      "EA-Guid": "{2C0C4043-021D-4394-AFEC-27CBEA07A5F0}",
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarop de Rijrichting betrekking heeft.",
         "en": "Reference to the NetworkElement to which the TrafficDirection relates."
+      },
+      "label": {
+        "nl": "netwerkreferentie",
+        "en": "networkReference"
       },
       "usage": {
         "nl": "In de context van dit applicatieprofiel is het Netwerkelement een Wegsegment of een Weglinksequentie. De Netwerkreferentie laat ook toe om Rijrichtingen te specifiëren voor slechts een stuk van de weg of voor één bepaalde wegkant.",
@@ -1596,15 +1596,15 @@
       }
     },
     {
-      "EA-Guid": "{23D52F6D-9CD2-4e59-8CA1-9F8DE91850A1}",
       "name": "netwerkreferentie",
-      "label": {
-        "nl": "netwerkreferentie",
-        "en": "networkReference"
-      },
+      "EA-Guid": "{23D52F6D-9CD2-4e59-8CA1-9F8DE91850A1}",
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarop de Rijstrook betrekking heeft.",
         "en": "Reference to the NetworkElement to which the Lane relates."
+      },
+      "label": {
+        "nl": "netwerkreferentie",
+        "en": "networkReference"
       },
       "usage": {
         "nl": "In de context van dit applicatieprofiel is het Netwerkelement een Wegsegment of een Weglinksequentie. De Netwerkreferentie laat ook toe om Rijstroken te specifiëren voor slechts een stuk van de weg of voor één bepaalde wegkant.",
@@ -1612,15 +1612,15 @@
       }
     },
     {
-      "EA-Guid": "{C82238A8-5309-448f-A4A6-48919146035A}",
       "name": "netwerkreferentie",
-      "label": {
-        "nl": "netwerkreferentie",
-        "en": "networkReference"
-      },
+      "EA-Guid": "{C82238A8-5309-448f-A4A6-48919146035A}",
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarop het Voetpad betrekking heeft.",
         "en": "Reference to the NetworkElement to which the Sidewalk relates."
+      },
+      "label": {
+        "nl": "netwerkreferentie",
+        "en": "networkReference"
       },
       "usage": {
         "nl": "In de context van dit applicatieprofiel is het Netwerkelement een Wegsegment of een Weglinksequentie. De Netwerkreferentie laat ook toe om een Voetpad te specifiëren voor slechts een stuk van de weg of voor één bepaalde wegkant.\r\n",
@@ -1628,15 +1628,15 @@
       }
     },
     {
-      "EA-Guid": "{56510A42-508C-4a56-B93B-663B19F5E282}",
       "name": "netwerkreferentie",
-      "label": {
-        "nl": "netwerkreferentie",
-        "en": "networkReference"
-      },
+      "EA-Guid": "{56510A42-508C-4a56-B93B-663B19F5E282}",
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement waarop het Fietspad betrekking heeft.",
         "en": "Reference to the NetworkElement to which the BicyclePath relates."
+      },
+      "label": {
+        "nl": "netwerkreferentie",
+        "en": "networkReference"
       },
       "usage": {
         "nl": "In de context van dit applicatieprofiel is het Netwerkelement een Wegsegment of een Weglinksequentie. De Netwerkreferentie laat ook toe om een Fietspad te specifiëren voor slechts een stuk van de weg of voor één bepaalde wegkant.",
@@ -1644,63 +1644,63 @@
       }
     },
     {
-      "EA-Guid": "{0F1BF31F-BE6F-4460-9958-B1FAB3A2825A}",
       "name": "geometriemiddenlijn",
-      "label": {
-        "nl": "geometriemiddenlijn",
-        "en": "geometryCenterline"
-      },
+      "EA-Guid": "{0F1BF31F-BE6F-4460-9958-B1FAB3A2825A}",
       "definition": {
         "nl": "Geometrie van de midellijn van het Wegsegment.",
         "en": "Geometry of the centerline of the RoadSegment."
+      },
+      "label": {
+        "nl": "geometriemiddenlijn",
+        "en": "geometryCenterline"
       }
     },
     {
-      "EA-Guid": "{3D9FF7EF-D7B9-4638-B170-8C6E2224DF15}",
       "name": "eindknoop",
-      "label": {
-        "nl": "eindknoop",
-        "en": "endNode"
-      },
+      "EA-Guid": "{3D9FF7EF-D7B9-4638-B170-8C6E2224DF15}",
       "definition": {
         "nl": "Knoop die het einde is van het Wegsegment.",
         "en": "Node that is the end of the RoadSegment."
+      },
+      "label": {
+        "nl": "eindknoop",
+        "en": "endNode"
       }
     },
     {
-      "EA-Guid": "{1CABF63C-E123-4ef0-9EBA-C418F46DB0E3}",
       "name": "opPositie",
-      "label": {
-        "nl": "opPositie",
-        "en": "onPosition"
-      },
+      "EA-Guid": "{1CABF63C-E123-4ef0-9EBA-C418F46DB0E3}",
       "definition": {
         "nl": "Afstand vanaf het begin van de Link of Linksequentie tot het punt waar de Netwerkeigenschap geldt.",
         "en": "Distance from the start of the Link or Linksequence until the point at where the Networkproperty applies."
+      },
+      "label": {
+        "nl": "opPositie",
+        "en": "onPosition"
       }
     },
     {
-      "EA-Guid": "{E3B91855-4C01-4d6d-9EBD-FDB7962FC9EF}",
       "name": "element",
-      "label": {
-        "nl": "element",
-        "en": "element"
-      },
+      "EA-Guid": "{E3B91855-4C01-4d6d-9EBD-FDB7962FC9EF}",
       "definition": {
         "nl": "Verwijzing naar het Netwerkelement.",
         "en": "Reference to the NetworkElement."
+      },
+      "label": {
+        "nl": "element",
+        "en": "element"
       }
     },
     {
-      "EA-Guid": "{C7D95A66-3B41-4d44-91D7-8E164EF4DFE5}",
       "name": "link",
-      "label": {
-        "nl": "link",
-        "en": "link"
-      },
+      "EA-Guid": "{C7D95A66-3B41-4d44-91D7-8E164EF4DFE5}",
       "definition": {
         "nl": "GerichteLink die deel uitmaakt van de Linksequentie.",
         "en": "DirectedLink that is part of the LinkSequence."
+      },
+      "label": {
+        "nl": "link",
+        "en": "link"
       },
       "usage": {
         "nl": "d!\n",
@@ -1708,15 +1708,15 @@
       }
     },
     {
-      "EA-Guid": "{177F8E42-EFE0-4a68-86DA-149541320602}",
       "name": "toepassingsRichting",
-      "label": {
-        "nl": "toepassingsRichting",
-        "en": "applicableDirection"
-      },
+      "EA-Guid": "{177F8E42-EFE0-4a68-86DA-149541320602}",
       "definition": {
         "nl": "Richting waarvoor de Netwerkeigenschap geldt tov de richting van de geometrie van de Link of Linksequentie.",
         "en": "Direction to which the Network Property applies relative to the direction of the geometry of the Link or Link Sequence."
+      },
+      "label": {
+        "nl": "toepassingsRichting",
+        "en": "applicableDirection"
       },
       "usage": {
         "nl": "Mogelijke richtingen zijn gelijklopend met de geometrie, tegengesteld aan de geometrie of beide. Indien gelijklopend of tegengesteld wordt verondersteld dat de eigenschap voorkomt aan de rechterkant van de Link volgens die richting. Bvb als de toepassingsrichting van de straatverlichting gelijklopend is wil dat zeggen dat rechts van de Link straatverlichting aanwezig is.",
@@ -1724,27 +1724,27 @@
       }
     },
     {
-      "EA-Guid": "{CBB4403F-2482-4a74-8767-C2372DCFF5C8}",
       "name": "element",
-      "label": {
-        "nl": "element",
-        "en": "element"
-      },
+      "EA-Guid": "{CBB4403F-2482-4a74-8767-C2372DCFF5C8}",
       "definition": {
         "nl": "Verwijzing naar de Link of Linksequentie.",
         "en": "Reference to the Link or LinkSequence."
+      },
+      "label": {
+        "nl": "element",
+        "en": "element"
       }
     },
     {
-      "EA-Guid": "{D2F8232A-DDBC-49e9-8776-085C4023B01C}",
       "name": "geometrie",
-      "label": {
-        "nl": "geometrie",
-        "en": "geometry"
-      },
+      "EA-Guid": "{D2F8232A-DDBC-49e9-8776-085C4023B01C}",
       "definition": {
         "nl": "Locatie van de Knoop.",
         "en": "Location of the node."
+      },
+      "label": {
+        "nl": "geometrie",
+        "en": "geometry"
       },
       "usage": {
         "nl": "Weergegeven door een Punt.",
@@ -1752,139 +1752,139 @@
       }
     },
     {
-      "EA-Guid": "{F0F3EC55-C732-4dd2-9FB6-7762CF8C3EBE}",
       "name": "link",
-      "label": {
-        "nl": "link",
-        "en": "link"
-      },
+      "EA-Guid": "{F0F3EC55-C732-4dd2-9FB6-7762CF8C3EBE}",
       "definition": {
         "nl": "Verwijzing naar de oorspronkelijke Link.",
         "en": "Reference to the original Link."
+      },
+      "label": {
+        "nl": "link",
+        "en": "link"
       }
     },
     {
-      "EA-Guid": "{5A65B170-8D73-4426-BE86-B1696B322BF8}",
       "name": "implementeert",
-      "label": {
-        "nl": "implementeert",
-        "en": "implements"
-      },
+      "EA-Guid": "{5A65B170-8D73-4426-BE86-B1696B322BF8}",
       "definition": {
         "nl": "Observatieprocedure die door de Sensor wordt toegepast.",
         "en": "ObservationProcedure applied by the Sensor."
+      },
+      "label": {
+        "nl": "implementeert",
+        "en": "implements"
       }
     },
     {
-      "EA-Guid": "{5A65B170-8D73-4426-BE86-B1696B322BF8}",
       "name": "geïmplementeerdMet",
-      "label": {
-        "nl": "geïmplementeerdMet",
-        "en": "implementedWith"
-      },
+      "EA-Guid": "{5A65B170-8D73-4426-BE86-B1696B322BF8}",
       "definition": {
         "nl": "Sensor waarmee de Observatieprocedure is of moet worden uitgevoerd.",
-        "en": "Sensor with which the ObservationProcedure has been or is to be carried out."
+        "en": "[UPDATED] ObservationProcedure applied by the Sensor."
+      },
+      "label": {
+        "nl": "geïmplementeerdMet",
+        "en": "[UPDATED] implements"
       }
     },
     {
-      "EA-Guid": "{4E0F21DF-0E3B-4613-A7F4-A01A83580F42}",
       "name": "output",
-      "label": {
-        "nl": "output",
-        "en": "output"
-      },
+      "EA-Guid": "{4E0F21DF-0E3B-4613-A7F4-A01A83580F42}",
       "definition": {
         "nl": "Verwijzing naar de Output die de Procedure genereert.",
         "en": "Reference to the Output that the Procedure generates or generated."
+      },
+      "label": {
+        "nl": "output",
+        "en": "output"
       }
     },
     {
-      "EA-Guid": "{08F08E34-6057-40d6-A4DE-8E404E329937}",
       "name": "input",
-      "label": {
-        "nl": "input",
-        "en": "input"
-      },
+      "EA-Guid": "{08F08E34-6057-40d6-A4DE-8E404E329937}",
       "definition": {
         "nl": "Verwijzing naar de Input die de procedure vereist.",
         "en": "Reference to the Input required or used by the procedure."
+      },
+      "label": {
+        "nl": "input",
+        "en": "input"
       }
     },
     {
-      "EA-Guid": "{60C2A520-2887-4fd3-B919-7D2F1FEBA93D}",
       "name": "gebruikteProcedure",
-      "label": {
-        "nl": "gebruikteProcedure",
-        "en": "usedProcedure"
-      },
+      "EA-Guid": "{60C2A520-2887-4fd3-B919-7D2F1FEBA93D}",
       "definition": {
         "nl": "Procedure gebruikt voor de Verkeersmeting.",
         "en": "Procedure followed by the TrafficMeasurement"
+      },
+      "label": {
+        "nl": "gebruikteProcedure",
+        "en": "usedProcedure"
       }
     },
     {
-      "EA-Guid": "{965EC2B5-9ABC-4ed9-8162-C235D8D63860}",
       "name": "fenomeentijd",
-      "label": {
-        "nl": "fenomeentijd",
-        "en": "phenomenonTime"
-      },
+      "EA-Guid": "{965EC2B5-9ABC-4ed9-8162-C235D8D63860}",
       "definition": {
         "nl": "Het moment waarop het resultaat van de Verkeersmetingen in de verzameling van toepassing was.",
         "en": "The moment at which the result of the TrafficMeasurements in the collection was applicable."
+      },
+      "label": {
+        "nl": "fenomeentijd",
+        "en": "phenomenonTime"
       }
     },
     {
-      "EA-Guid": "{69F99DF0-3F3F-4153-983D-0FA0FF116699}",
       "name": "uitgevoerdMet",
+      "EA-Guid": "{69F99DF0-3F3F-4153-983D-0FA0FF116699}",
+      "definition": {
+        "nl": "De Sensor waarmee de Verkeersmeting werd uitgevoerd.",
+        "en": "Enter your translation here"
+      },
       "label": {
         "nl": "uitgevoerdMet",
         "en": "performedWith"
-      },
+      }
+    },
+    {
+      "name": "uitgevoerdMet",
+      "EA-Guid": "{3353402E-362B-4022-BA26-0B84660E88E9}",
       "definition": {
-        "nl": "De Sensor waarmee de Verkeersmeting werd uitgevoerd.",
+        "nl": "Sensor waarmee de Verkeersmetingen in de verzameling werd bekomen.",
+        "en": "Sensor with which the TrafficMeasurements in the collection were obtained."
+      },
+      "label": {
+        "nl": "uitgevoerdMet",
+        "en": "performedWith"
+      }
+    },
+    {
+      "name": "gehostDoor",
+      "EA-Guid": "{AEA092EB-E8A5-42eb-AF99-47B0309E84FE}",
+      "definition": {
+        "nl": "Toestel waarop de Sensor gehost wordt.",
+        "en": "[UPDATED] Sensor hosted by the Device."
+      },
+      "label": {
+        "nl": "gehostDoor",
+        "en": "[UPDATED] hostOf"
+      },
+      "usage": {
+        "nl": "d!\n",
         "en": "Enter your translation here"
       }
     },
     {
-      "EA-Guid": "{3353402E-362B-4022-BA26-0B84660E88E9}",
-      "name": "uitgevoerdMet",
-      "label": {
-        "nl": "uitgevoerdMet",
-        "en": "performedWith"
-      },
-      "definition": {
-        "nl": "Sensor waarmee de Verkeersmetingen in de verzameling werd bekomen.",
-        "en": "Sensor with which the TrafficMeasurements in the collection were obtained."
-      }
-    },
-    {
-      "EA-Guid": "{AEA092EB-E8A5-42eb-AF99-47B0309E84FE}",
-      "name": "gehostDoor",
-      "label": {
-        "nl": "gehostDoor",
-        "en": "hostedBy"
-      },
-      "definition": {
-        "nl": "Toestel waarop de Sensor gehost wordt.",
-        "en": "Device that hosts the Sensor."
-      },
-      "usage": {
-        "nl": "d!\n",
-        "en": "d!\n"
-      }
-    },
-    {
-      "EA-Guid": "{CF70C934-85F2-4a65-B263-62876CFC8B02}",
       "name": "toegekend door (String)",
-      "label": {
-        "nl": "toegekend door (String)",
-        "en": "assignedByString"
-      },
+      "EA-Guid": "{CF70C934-85F2-4a65-B263-62876CFC8B02}",
       "definition": {
         "nl": "Naam vd agent die de identificator heeft toegekend.",
         "en": "Name of the agent who assigned the identifier."
+      },
+      "label": {
+        "nl": "toegekend door (String)",
+        "en": "assignedByString"
       },
       "usage": {
         "nl": " ",
@@ -1892,15 +1892,15 @@
       }
     },
     {
-      "EA-Guid": "{192555C5-D6AD-40b3-85E3-C204EC5A539F}",
       "name": "identificator",
-      "label": {
-        "nl": "identificator",
-        "en": "identifier"
-      },
+      "EA-Guid": "{192555C5-D6AD-40b3-85E3-C204EC5A539F}",
       "definition": {
         "nl": "String gebruikt om het object uniek te identificeren.",
         "en": "String used to uniquely identify the object."
+      },
+      "label": {
+        "nl": "identificator",
+        "en": "identifier"
       },
       "usage": {
         "nl": "Type vd string slaat op het identificatiesysteem (incl de versie ervan), de string zelf op de eigenlijke identificator.",
@@ -1908,15 +1908,15 @@
       }
     },
     {
-      "EA-Guid": "{99D36287-3E7F-4bfb-A75E-CC24E4340B20}",
       "name": "WKT",
-      "label": {
-        "nl": "WKT",
-        "en": "WKT"
-      },
+      "EA-Guid": "{99D36287-3E7F-4bfb-A75E-CC24E4340B20}",
       "definition": {
         "nl": "Geometrie uitgedrukt in wkt-formaat.",
         "en": "The WKT serialization of a geometry"
+      },
+      "label": {
+        "nl": "WKT",
+        "en": "WKT"
       },
       "usage": {
         "nl": "Gebruik http://www.opengis.net/ont/geosparql#wktLiteral als datatype.",
@@ -1924,15 +1924,15 @@
       }
     },
     {
-      "EA-Guid": "{34C72A59-81A4-41af-9554-0923A2DF183F}",
       "name": "GML",
-      "label": {
-        "nl": "GML",
-        "en": "GML"
-      },
+      "EA-Guid": "{34C72A59-81A4-41af-9554-0923A2DF183F}",
       "definition": {
         "nl": "Geometrie uitgedrukt in gml-formaat.",
         "en": "The GML serialization of a geometry"
+      },
+      "label": {
+        "nl": "GML",
+        "en": "GML"
       },
       "usage": {
         "nl": "Gebruik http://www.opengis.net/ont/geosparql#gmlLiteral als datatype.",
@@ -1940,15 +1940,15 @@
       }
     },
     {
-      "EA-Guid": "{8283B31A-433C-4f4b-A972-D0A77D690212}",
       "name": "toegekend op",
-      "label": {
-        "nl": "toegekend op",
-        "en": "assignedOn"
-      },
+      "EA-Guid": "{8283B31A-433C-4f4b-A972-D0A77D690212}",
       "definition": {
         "nl": "Tijdstip waarop de identificator werd uitgegeven.",
         "en": "Instant the identifier was assigned."
+      },
+      "label": {
+        "nl": "toegekend op",
+        "en": "assignedOn"
       },
       "usage": {
         "nl": " ",
@@ -1956,15 +1956,15 @@
       }
     },
     {
-      "EA-Guid": "{9F34F871-88B3-4900-A3DD-37381940B1B7}",
       "name": "toegekend door",
-      "label": {
-        "nl": "toegekend door",
-        "en": "assignedBy"
-      },
+      "EA-Guid": "{9F34F871-88B3-4900-A3DD-37381940B1B7}",
       "definition": {
         "nl": "Link naar de agent die de identificator heeft uitgegeven.",
         "en": "Link to the agent who assigned the identifier."
+      },
+      "label": {
+        "nl": "toegekend door",
+        "en": "assignedBy"
       },
       "usage": {
         "nl": "Te gebruiken als naar de agent kan worden verwezen dmv een uri. Gebruik anders het attribuut \"toegekendDoor(String)\".",
@@ -1972,51 +1972,51 @@
       }
     },
     {
-      "EA-Guid": "{BCA55DC5-98D7-4c7e-8C3B-E0412B0D1674}",
       "name": "verkeersdeelnemertype",
-      "label": {
-        "nl": "verkeersdeelnemertype",
-        "en": "trafficParticipantType"
-      },
+      "EA-Guid": "{BCA55DC5-98D7-4c7e-8C3B-E0412B0D1674}",
       "definition": {
         "nl": "Aard van de Verkeersdeelnemer.",
         "en": "Type of TrafficParticipant."
+      },
+      "label": {
+        "nl": "verkeersdeelnemertype",
+        "en": "trafficParticipantType"
       }
     },
     {
-      "EA-Guid": "{A852CCF8-AFCF-44e7-AE0C-C26E44127C20}",
       "name": "type",
-      "label": {
-        "nl": "type",
-        "en": "type"
-      },
+      "EA-Guid": "{A852CCF8-AFCF-44e7-AE0C-C26E44127C20}",
       "definition": {
         "nl": "Type vh Verkeerskenmerk.",
         "en": "Type of a TrafficFeature."
-      }
-    },
-    {
-      "EA-Guid": "{47D7CB7E-4D8A-4e41-AF2F-168A631CDE03}",
-      "name": "type",
+      },
       "label": {
         "nl": "type",
         "en": "type"
-      },
-      "definition": {
-        "nl": "Aard van de data.",
-        "en": "The nature of the data."
       }
     },
     {
-      "EA-Guid": "{50AB4E80-C612-40a2-AA46-5707D288E028}",
-      "name": "rijstrooktype",
-      "label": {
-        "nl": "rijstrooktype",
-        "en": "laneType"
+      "name": "type",
+      "EA-Guid": "{47D7CB7E-4D8A-4e41-AF2F-168A631CDE03}",
+      "definition": {
+        "nl": "Aard van de data.",
+        "en": "The nature of the data."
       },
+      "label": {
+        "nl": "type",
+        "en": "type"
+      }
+    },
+    {
+      "name": "rijstrooktype",
+      "EA-Guid": "{50AB4E80-C612-40a2-AA46-5707D288E028}",
       "definition": {
         "nl": "Aard vd Rijstrook.",
         "en": "Nature of the Lane."
+      },
+      "label": {
+        "nl": "rijstrooktype",
+        "en": "laneType"
       },
       "usage": {
         "nl": "Bvb of het een afslagstrook is, een fietssuggestiestrook, een middenrijbaan etc.",
@@ -2024,27 +2024,27 @@
       }
     },
     {
-      "EA-Guid": "{2A0AE331-6CF5-4131-87DE-03BCC53909B1}",
       "name": "titel",
-      "label": {
-        "nl": "titel",
-        "en": "title"
-      },
+      "EA-Guid": "{2A0AE331-6CF5-4131-87DE-03BCC53909B1}",
       "definition": {
         "nl": "Naam gegeven aan de data.",
         "en": "Name given to the data."
+      },
+      "label": {
+        "nl": "titel",
+        "en": "title"
       }
     },
     {
-      "EA-Guid": "{BC4BD284-2180-4fb0-A490-C60F8C22F392}",
       "name": "onderwerp",
-      "label": {
-        "nl": "onderwerp",
-        "en": "subject"
-      },
+      "EA-Guid": "{BC4BD284-2180-4fb0-A490-C60F8C22F392}",
       "definition": {
         "nl": "Referentie naar het topic van de data.",
         "en": "Reference to the topic of the data."
+      },
+      "label": {
+        "nl": "onderwerp",
+        "en": "subject"
       },
       "usage": {
         "nl": "d!\n",
@@ -2052,15 +2052,15 @@
       }
     },
     {
-      "EA-Guid": "{229AB110-56FF-471a-B2A0-E3BC1F877819}",
       "name": "bron",
-      "label": {
-        "nl": "bron",
-        "en": "source"
-      },
+      "EA-Guid": "{229AB110-56FF-471a-B2A0-E3BC1F877819}",
       "definition": {
         "nl": "Referentie naar andere data waarvan deze data zijn afgeleid.",
         "en": "Other data from which these data are derived."
+      },
+      "label": {
+        "nl": "bron",
+        "en": "source"
       },
       "usage": {
         "nl": "De volledige data of enkel een subset.",
@@ -2068,15 +2068,15 @@
       }
     },
     {
-      "EA-Guid": "{57F7A31D-44CC-44b1-A8FF-631A3589A206}",
       "name": "rechten",
-      "label": {
-        "nl": "rechten",
-        "en": "rights"
-      },
+      "EA-Guid": "{57F7A31D-44CC-44b1-A8FF-631A3589A206}",
       "definition": {
         "nl": "Referentie naar informatie over de rechten eigen aan of van toepassing op de data.",
         "en": "Reference to nformation about rights held in and over the data."
+      },
+      "label": {
+        "nl": "rechten",
+        "en": "rights"
       },
       "usage": {
         "nl": "Doorgaans een verklaring over verschillende eigendomsrechten die aan de data zijn gekoppeld, inclusief intellectuele eigendomsrechten.",
@@ -2084,15 +2084,15 @@
       }
     },
     {
-      "EA-Guid": "{C612006F-B2BE-4f79-93C8-786779F4B229}",
       "name": "relatie",
-      "label": {
-        "nl": "relatie",
-        "en": "relation"
-      },
+      "EA-Guid": "{C612006F-B2BE-4f79-93C8-786779F4B229}",
       "definition": {
         "nl": "Referentie naar andere data waarmee deze data geassocieerd zijn.",
         "en": "Reference to other data associated with this data."
+      },
+      "label": {
+        "nl": "relatie",
+        "en": "relation"
       },
       "usage": {
         "nl": "d!\n",
@@ -2100,15 +2100,15 @@
       }
     },
     {
-      "EA-Guid": "{16B3CF24-705B-4865-90D7-EA1E22254592}",
       "name": "uitgever",
-      "label": {
-        "nl": "uitgever",
-        "en": "publisher"
-      },
+      "EA-Guid": "{16B3CF24-705B-4865-90D7-EA1E22254592}",
       "definition": {
         "nl": "Referentie naar de entiteit verantwoordelijk voor het publiek maken van de data.",
         "en": "Reference to an entity responsible for making the data available."
+      },
+      "label": {
+        "nl": "uitgever",
+        "en": "publisher"
       },
       "usage": {
         "nl": "Bv een persoon, organisatie of service. Te substitueren door een instantie ve subklasse van Agent, bvb een Persoon of Organisatie zoals resp beschreven door <a href=\"https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-persoon.html\">OSLO-Persoon</a> en <a href=\"https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-organisatie-basis.html\">OSLO-Organisatie</a>.",
@@ -2116,27 +2116,27 @@
       }
     },
     {
-      "EA-Guid": "{97D1588F-D2C6-4411-85CA-C83AC3BF8FB3}",
       "name": "taal",
-      "label": {
-        "nl": "taal",
-        "en": "language"
-      },
+      "EA-Guid": "{97D1588F-D2C6-4411-85CA-C83AC3BF8FB3}",
       "definition": {
         "nl": "Taal waarin de data zijn gesteld.",
         "en": "Language of the data"
+      },
+      "label": {
+        "nl": "taal",
+        "en": "language"
       }
     },
     {
-      "EA-Guid": "{BB992CBE-EB54-4db8-B382-E5C6B9E5D52D}",
       "name": "formaat",
-      "label": {
-        "nl": "formaat",
-        "en": "format"
-      },
+      "EA-Guid": "{BB992CBE-EB54-4db8-B382-E5C6B9E5D52D}",
       "definition": {
         "nl": "Het bestandsformaat, fysiek medium of de dimensies van de data.",
         "en": "The file format, physical medium, or dimensions of the data."
+      },
+      "label": {
+        "nl": "formaat",
+        "en": "format"
       },
       "usage": {
         "nl": "d!\n",
@@ -2144,15 +2144,15 @@
       }
     },
     {
-      "EA-Guid": "{48B4AD4A-CDE5-4d8b-A937-85CE5B306898}",
       "name": "beschrijving",
-      "label": {
-        "nl": "beschrijving",
-        "en": "description"
-      },
+      "EA-Guid": "{48B4AD4A-CDE5-4d8b-A937-85CE5B306898}",
       "definition": {
         "nl": "Verdere uitleg over de data.",
         "en": "Further explanation on the data."
+      },
+      "label": {
+        "nl": "beschrijving",
+        "en": "description"
       },
       "usage": {
         "nl": "Bv een samenvatting, een inhoudstafel, een grafische voorstelling, vrije tekst.",
@@ -2160,15 +2160,15 @@
       }
     },
     {
-      "EA-Guid": "{80D307DC-F834-437f-B15E-9C806D6DAD16}",
       "name": "datum",
-      "label": {
-        "nl": "datum",
-        "en": "date"
-      },
+      "EA-Guid": "{80D307DC-F834-437f-B15E-9C806D6DAD16}",
       "definition": {
         "nl": "Moment of periode geassocieerd met een gebeurtenis in de levensloop vd data.",
         "en": "Moment or period associated with an event in the life cycle of the data."
+      },
+      "label": {
+        "nl": "datum",
+        "en": "date"
       },
       "usage": {
         "nl": "Bijvoorbeeld het moment waarop de gegevens zijn aangemaakt. Te vervangen door een instantie van de juiste klasse/datatype, bvb representaties van een moment zoals Date of DateTime of van een periode zoals time::ProperInterval (zie <a href=\"https://w3.org/TR/owl-time/\">W3C Time Ontology</a> voor meer info ).",
@@ -2176,15 +2176,15 @@
       }
     },
     {
-      "EA-Guid": "{0E8E5DF8-36F9-487e-A4C1-5260B686441A}",
       "name": "auteur",
-      "label": {
-        "nl": "auteur",
-        "en": "creator"
-      },
+      "EA-Guid": "{0E8E5DF8-36F9-487e-A4C1-5260B686441A}",
       "definition": {
         "nl": "Referentie naar de identiteit die in de eerste plaats verantwoordelijk is voor het onstaan van de data.",
         "en": "An entity primarily responsible for the creation of the data."
+      },
+      "label": {
+        "nl": "auteur",
+        "en": "creator"
       },
       "usage": {
         "nl": "Bv een persoon, organisatie of service. Te substitueren door een verwijzing naar een instantie ve subklasse van Agent, bvb een Persoon of Organisatie zoals resp beschreven door <a href=\"https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-persoon.html\">OSLO-Persoon</a> en <a href=\"https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-organisatie-basis.html\">OSLO-Organisatie</a>.",
@@ -2192,15 +2192,15 @@
       }
     },
     {
-      "EA-Guid": "{675EC94C-C48C-4736-84A6-2501501E277B}",
       "name": "dekking",
-      "label": {
-        "nl": "dekking",
-        "en": "coverage"
-      },
+      "EA-Guid": "{675EC94C-C48C-4736-84A6-2501501E277B}",
       "definition": {
         "nl": "De ruimtelijke of temporele omvang van de gegevens.",
         "en": "The spatial or temporal extent of the datas."
+      },
+      "label": {
+        "nl": "dekking",
+        "en": "coverage"
       },
       "usage": {
         "nl": "Resp. het gebied of de periode waarop de data betrekking heeft.",
@@ -2208,15 +2208,15 @@
       }
     },
     {
-      "EA-Guid": "{4928B8FE-7112-4452-8357-4AA1211223F3}",
       "name": "medeAuteur",
-      "label": {
-        "nl": "medeAuteur",
-        "en": "contributor"
-      },
+      "EA-Guid": "{4928B8FE-7112-4452-8357-4AA1211223F3}",
       "definition": {
         "nl": "Referentie naar de entiteit die tot de data heeft bijgedragen.",
         "en": "A reference to an entity responsible for making contributions to the data."
+      },
+      "label": {
+        "nl": "medeAuteur",
+        "en": "contributor"
       },
       "usage": {
         "nl": "Bv een persoon, organisatie of service. Te substitueren door een instantie ve subklasse van Agent, bvb een Persoon of Organisatie zoals resp beschreven door <a href=\"https://data.vlaanderen.be/standaarden/erkende-standaard/vocabularium-persoon.html\">OSLO-Persoon</a> en <a href=\"https://data.vlaanderen.be/standaarden/kandidaat-standaard/applicatieprofiel-organisatie-basis.html\">OSLO-Organisatie</a>.",
@@ -2224,51 +2224,51 @@
       }
     },
     {
-      "EA-Guid": "{994B998D-C69A-4195-9B7A-EBA5ED5AB4D8}",
       "name": "type",
-      "label": {
-        "nl": "type",
-        "en": "type"
-      },
+      "EA-Guid": "{994B998D-C69A-4195-9B7A-EBA5ED5AB4D8}",
       "definition": {
         "nl": "Aard van de Observatieprocedure.",
         "en": "Nature of the Observation Procedure."
-      }
-    },
-    {
-      "EA-Guid": "{3B5FD4E0-D775-4ae9-BC01-3357CCCBE0FF}",
-      "name": "type",
+      },
       "label": {
         "nl": "type",
         "en": "type"
-      },
+      }
+    },
+    {
+      "name": "type",
+      "EA-Guid": "{3B5FD4E0-D775-4ae9-BC01-3357CCCBE0FF}",
       "definition": {
         "nl": "Aard van de input.",
         "en": "Nature of the input."
-      }
-    },
-    {
-      "EA-Guid": "{8978A887-B4BA-436a-98F6-3B7A898FD8F0}",
-      "name": "type",
+      },
       "label": {
         "nl": "type",
         "en": "type"
-      },
-      "definition": {
-        "nl": "Aard van de Output.",
-        "en": "Nature of the Output."
       }
     },
     {
-      "EA-Guid": "{44E5A859-68B9-4e6c-96E8-6C693604090C}",
-      "name": "geometrie",
-      "label": {
-        "nl": "geometrie",
-        "en": "geometry"
+      "name": "type",
+      "EA-Guid": "{8978A887-B4BA-436a-98F6-3B7A898FD8F0}",
+      "definition": {
+        "nl": "Aard van de Output.",
+        "en": "Nature of the Output."
       },
+      "label": {
+        "nl": "type",
+        "en": "type"
+      }
+    },
+    {
+      "name": "geometrie",
+      "EA-Guid": "{44E5A859-68B9-4e6c-96E8-6C693604090C}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van het meetpunt.",
         "en": "Shape and position characteristics of the measuring point."
+      },
+      "label": {
+        "nl": "geometrie",
+        "en": "geometry"
       },
       "usage": {
         "nl": "Datatype vd geometrie is Punt.",
@@ -2276,15 +2276,15 @@
       }
     },
     {
-      "EA-Guid": "{21C2D813-B1BD-44ca-A103-AA5E202D178B}",
       "name": "geometrie",
-      "label": {
-        "nl": "geometrie",
-        "en": "geometry"
-      },
+      "EA-Guid": "{21C2D813-B1BD-44ca-A103-AA5E202D178B}",
       "definition": {
         "nl": "Vorm- en positiekenmerken van het meettraject.",
         "en": "Shape and position characteristics of the measurement trajectory."
+      },
+      "label": {
+        "nl": "geometrie",
+        "en": "geometry"
       },
       "usage": {
         "nl": "Datatype van de geometrie is LijnString.",
@@ -2292,15 +2292,15 @@
       }
     },
     {
-      "EA-Guid": "{1E15DCB8-4C60-46fd-9716-0A0191C53229}",
       "name": "resultaattijd",
-      "label": {
-        "nl": "resultaattijd",
-        "en": "resultTime"
-      },
+      "EA-Guid": "{1E15DCB8-4C60-46fd-9716-0A0191C53229}",
       "definition": {
         "nl": "Tijdstip waarop het resultaat van de Verkeersmeting werd bekomen.",
         "en": "Moment at which the result of the Traffic Measurement was obtained."
+      },
+      "label": {
+        "nl": "resultaattijd",
+        "en": "resultTime"
       },
       "usage": {
         "nl": "Is voor sommige metingen gelijk aan de fenomeentijd maar kan ook verschillen, bv bij het uitvoeren van een analyse op een meting die eerder (en doorgaans dan ook elders) werd genomen of bij sensormetingen die pas later worden verwerkt.",
@@ -2308,15 +2308,15 @@
       }
     },
     {
-      "EA-Guid": "{DB665282-46C8-4e08-BFDF-6DF45B91A98A}",
       "name": "resultaatkwaliteit",
-      "label": {
-        "nl": "resultaatkwaliteit",
-        "en": "resultQuality"
-      },
+      "EA-Guid": "{DB665282-46C8-4e08-BFDF-6DF45B91A98A}",
       "definition": {
         "nl": "Mate waarin het resultaat van de Verkeersmeting voldoet aan de vereisten of verwachtingen.",
         "en": "Extent to which the result of the TrafficMeasurement meets the requirements or expectations."
+      },
+      "label": {
+        "nl": "resultaatkwaliteit",
+        "en": "resultQuality"
       },
       "usage": {
         "nl": "Het gaat hier om gegevens die eigen zijn aan de Verkeersmeting en die complementair zijn aan de beschrijving van de procedure die bij de meting is gevolgd (analysemethode, gebruikte Sensor edm, zie klasse Observatieprocedure).",
@@ -2324,15 +2324,15 @@
       }
     },
     {
-      "EA-Guid": "{A040AB95-DA63-4280-9E03-A70080C60A85}",
       "name": "resultaat",
-      "label": {
-        "nl": "resultaat",
-        "en": "result"
-      },
+      "EA-Guid": "{A040AB95-DA63-4280-9E03-A70080C60A85}",
       "definition": {
         "nl": "De waarde van het geobserveerdKenmerk als resultaat van de Verkeersmeting.",
         "en": "The value of the observed TrafficFeature as a result of the TrafficMeasurement."
+      },
+      "label": {
+        "nl": "resultaat",
+        "en": "result"
       },
       "usage": {
         "nl": "Het resultaat kan van om het even welk type zijn aangezien om het even welk kenmerk van om het even welk type object kan worden geobserveerd. CONSTRAINT: Het type van het resultaat van de Verkeersmeting moet kloppen met het geobserveerd Verkeerskenmerk en de verkregen waarde moet binnen het bereik vallen ervan.",
@@ -2340,39 +2340,39 @@
       }
     },
     {
-      "EA-Guid": "{E63E4148-109E-4a96-9C4B-BB3DCD9426C2}",
       "name": "metadata",
-      "label": {
-        "nl": "metadata",
-        "en": "metadata"
-      },
+      "EA-Guid": "{E63E4148-109E-4a96-9C4B-BB3DCD9426C2}",
       "definition": {
         "nl": "Verwijzing naar Metadata van de Verkeersmeting.",
         "en": "Reference to Metadata of the TrafficMeasurement."
+      },
+      "label": {
+        "nl": "metadata",
+        "en": "metadata"
       }
     },
     {
-      "EA-Guid": "{B75A69D3-462C-4ae1-A531-A31C08F8C1C5}",
       "name": "waarde",
-      "label": {
-        "nl": "waarde",
-        "en": "value"
-      },
+      "EA-Guid": "{B75A69D3-462C-4ae1-A531-A31C08F8C1C5}",
       "definition": {
         "nl": "Kwalitatieve of kwantitatieve invulling van de waarde.",
         "en": "The quantitative or qualitative value of the NamedValue."
+      },
+      "label": {
+        "nl": "waarde",
+        "en": "value"
       }
     },
     {
-      "EA-Guid": "{448C2A93-B68C-4eaa-B46D-233E356337FC}",
       "name": "naam",
-      "label": {
-        "nl": "naam",
-        "en": "name"
-      },
+      "EA-Guid": "{448C2A93-B68C-4eaa-B46D-233E356337FC}",
       "definition": {
         "nl": "Naam vh type van de waarde.",
         "en": "Name of the type of the value."
+      },
+      "label": {
+        "nl": "naam",
+        "en": "name"
       }
     }
   ]
