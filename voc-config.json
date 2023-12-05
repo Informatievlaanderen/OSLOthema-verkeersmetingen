@@ -3,7 +3,7 @@
   "rapport": "",
   "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
   "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "",
+  "publicatiedatum": "01/12/2023",
   "type_toepassing": "Aanbevolen (vrijwillig)",
   "categorie": "Vocabularium ",
   "beschrijving": "voc-Verkeersmetingen.md",
@@ -15,8 +15,8 @@
   ],
   "documentatie": [
     {
-      "naam": "Verkeersmetingen Vocabularium",
-      "waarde": "https://data.vlaanderen.be/ns/Verkeersmetingen"
+      "naam": "Verkeersmetingen Applicatieprofiel",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/"
     }
   ],
   "charter": [
