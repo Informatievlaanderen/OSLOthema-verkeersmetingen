@@ -24,7 +24,7 @@
       },
       {
         "language": "nl",
-        "template": "mijn-application-ap.j2",
+        "template": "mijn-applicatieprofiel-ap.j2",
         "title": "OSLO Verkeersmetingen (applicatieprofiel)",
         "translationjson": "Verkeersmetingen-ap_nl.json",
         "mergefile": "Verkeersmetingen-ap_nl_merged.json"
