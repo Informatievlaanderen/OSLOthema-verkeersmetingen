@@ -11,6 +11,10 @@
     {
       "naam": "Verkeersmetingen Applicatieprofiel",
       "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen"
+    },
+    {
+      "naam": "Verkeersmetingen Applicatieprofiel (English)",
+      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/index_en.html"
     }
   ],
   "documentatie": [
