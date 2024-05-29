@@ -1,93 +1,92 @@
 {
-  "naam": "Applicatieprofiel Verkeersmetingen",
-  "rapport": "",
-  "verantwoordelijke_organisatie": "Agentschap Digitaal Vlaanderen",
-  "identificator_organisatie": "https://data.vlaanderen.be/id/organisatie/OVO002949",
-  "publicatiedatum": "2023-12-01",
-  "type_toepassing": "Aanbevolen (vrijwillig)",
-  "categorie": "Applicatieprofiel",
-  "beschrijving": "ap-Verkeersmetingen.md",
-  "specificatiedocument": [
+  "title": "Applicatieprofiel Verkeersmetingen",
+  "category": "Applicatieprofiel",
+  "usage": "Aanbevolen (vrijwillig)",
+  "status": "erkende-standaard",
+  "descriptionFileName": "ap-Verkeersmetingen.md",
+  "responsibleOrganisation": [
     {
-      "naam": "Verkeersmetingen Applicatieprofiel",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen"
-    },
-    {
-      "naam": "Verkeersmetingen Applicatieprofiel (English)",
-      "waarde": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/index_en.html"
+      "name": "Agentschap Digitaal Vlaanderen",
+      "resourceReference": "https://data.vlaanderen.be/id/organisatie/OVO002949"
     }
   ],
-  "documentatie": [
+  "publicationDate": "2023-12-01",
+  "specificationDocuments": [
     {
-      "naam": "Verkeersmetingen  vocabularium",
-      "waarde": "https://data.vlaanderen.be/ns/verkeersmetingen"
+      "name": "Verkeersmetingen Applicatieprofiel",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen"
+    },
+    {
+      "name": "Verkeersmetingen Applicatieprofiel (English)",
+      "resourceReference": "https://data.vlaanderen.be/doc/applicatieprofiel/verkeersmetingen/index_en.html"
     }
   ],
-  "charter": [
+  "documentation": [
     {
-      "naam": "OSLO Verkeersmetingen Charter",
-      "waarde": "Werkgroep charter OSLO Verkeerssensor.docx"
+      "name": "Verkeersmetingen  vocabularium",
+      "resourceReference": "https://data.vlaanderen.be/ns/verkeersmetingen"
     }
   ],
-  "verslagen": [
+  "reports": [
     {
-      "naam": "Verslag Business Werkgroep - OSLO Verkeersmetingen 28 februari 2023",
-      "waarde": "Verslag Business Werkgroep - OSLO Verkeersmetingen.pdf"
+      "name": "Verslag Business Werkgroep - OSLO Verkeersmetingen 28 februari 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/reports/Verslag Business Werkgroep - OSLO Verkeersmetingen.pdf"
     },
     {
-      "naam": "Verslag thematische werkgroep 1 - OSLO Verkeersmetingen 4 april 2023",
-      "waarde": "230404 - OSLO Verkeersmetingen - Thematische werkgroep 1 - Verslag.pdf"
-    }
-    ,
-    {
-      "naam": "Verslag thematische werkgroep 2 - OSLO Verkeersmetingen 2 mei 2023",
-      "waarde": "Verslag thematische werkgroep 2 - OSLO Verkeersmetingen.pdf"
-    }
-    ,
-    {
-      "naam": "Verslag thematische werkgroep 3 - OSLO Verkeersmetingen 30 mei 2023",
-      "waarde": "Verslag thematische werkgroep 3 - OSLO Verkeersmetingen (1).pdf"
+      "name": "Verslag thematische werkgroep 1 - OSLO Verkeersmetingen 4 april 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/reports/230404 - OSLO Verkeersmetingen - Thematische werkgroep 1 - Verslag.pdf"
     },
     {
-      "naam": "Verslag thematische werkgroep 4 - OSLO Verkeersmetingen 27 juni 2023",
-      "waarde": "Verslag thematische werkgroep 4 - OSLO Verkeersmetingen.pdf"
+      "name": "Verslag thematische werkgroep 2 - OSLO Verkeersmetingen 2 mei 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/reports/Verslag thematische werkgroep 2 - OSLO Verkeersmetingen.pdf"
     },
     {
-      "naam": "Verslag thematische werkgroep 5 - OSLO Verkeersmetingen",
-      "waarde": "Verslag_Thematische_Werkgroep_5_OSLO_Verkeersmetingen.pdf"
+      "name": "Verslag thematische werkgroep 3 - OSLO Verkeersmetingen 30 mei 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/reports/Verslag thematische werkgroep 3 - OSLO Verkeersmetingen (1).pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 4 - OSLO Verkeersmetingen 27 juni 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/reports/Verslag thematische werkgroep 4 - OSLO Verkeersmetingen.pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 5 - OSLO Verkeersmetingen",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/reports/Verslag_Thematische_Werkgroep_5_OSLO_Verkeersmetingen.pdf"
     }
   ],
-  "presentaties": [
+  "charter": {
+    "name": "OSLO Verkeersmetingen Charter",
+    "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/charter/Werkgroep charter OSLO Verkeerssensor.docx"
+  },
+  "presentations": [
     {
-      "naam": "Presentatie Business Werkgroep presentatie Verkeersmetingen 28 februari 2023",
-      "waarde": "Business Werkgroep presentatie Verkeersmetingen.pdf"
+      "name": "Presentatie Business Werkgroep presentatie Verkeersmetingen 28 februari 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/presentations/Business Werkgroep presentatie Verkeersmetingen.pdf"
     },
     {
-      "naam": "Presentatie thematische werkgroep 1 - 4 april 2023",
-      "waarde": "Presentatie thematische werkgroep 1 - Verkeersmetingen.pdf"
-    }
-    ,
-    {
-      "naam": "Presentatie thematische werkgroep 2 - 2 mei 2023",
-      "waarde": "Presentatie tweede thematische werkgroep-Verkeersmetingen-2mei2023.pdf"
-    }
-    ,
-    {
-      "naam": "Presentatie thematische werkgroep 3 - 30 mei 2023",
-      "waarde": "Presentatie derde thematische werkgroep -Verkeersmetingen - 30 mei 2023.pdf"
+      "name": "Presentatie thematische werkgroep 1 - 4 april 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/presentations/Presentatie thematische werkgroep 1 - Verkeersmetingen.pdf"
     },
     {
-      "naam": "Presentatie thematische werkgroep 4 - 27 juni 2023",
-      "waarde": "Presentatie vierde thematische werkgroep -Verkeersmetingen - 27 juni 2023 (1).pdf"
+      "name": "Presentatie thematische werkgroep 2 - 2 mei 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/presentations/Presentatie tweede thematische werkgroep-Verkeersmetingen-2mei2023.pdf"
     },
     {
-      "naam": "Verslag thematische werkgroep 5 - OSLO Verkeersmetingen",
-      "waarde": "Presentatie_vijfde_thematische_werkgroep_Verkeersmetingen.pdf"
+      "name": "Presentatie thematische werkgroep 3 - 30 mei 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/presentations/Presentatie derde thematische werkgroep -Verkeersmetingen - 30 mei 2023.pdf"
+    },
+    {
+      "name": "Presentatie thematische werkgroep 4 - 27 juni 2023",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/presentations/Presentatie vierde thematische werkgroep -Verkeersmetingen - 27 juni 2023 (1).pdf"
+    },
+    {
+      "name": "Verslag thematische werkgroep 5 - OSLO Verkeersmetingen",
+      "resourceReference": "https://raw.githubusercontent.com/Informatievlaanderen/OSLOthema-verkeersmetingen/standaardenregister/presentations/Presentatie_vijfde_thematische_werkgroep_Verkeersmetingen.pdf"
     }
   ],
-  "functioneel_toepassingsgebied": "Semantische standaard voor informatie over Verkeersmetingen",
-  "organisatorisch_werkingsgebied": "alle entiteiten van de Vlaamse overheid",
-  "datum_van_aanmelding": "16/03/2023",
-  "erkenning_werkgroep_datastandaarden": "25/01/2024",
-  "erkenning_stuurgroep": "17/04/2024"
+  "dateOfRegistration": "16/03/2023",
+  "dateOfAcknowledgementByWorkingGroup": "25/01/2024",
+  "dateOfAcknowledgementBySteeringCommittee": "17/04/2024",
+  "repository": "OSLOthema-verkeersmetingen",
+  "datePublicReviewStart": "",
+  "endOfPublicationDate": ""
 }
