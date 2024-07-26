@@ -15,12 +15,12 @@ skos:notation "ped" ;
 skos:prefLabel "voetganger"@nl ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
-<https://data.vlaanderen.be/id/concept/VkmVoertuigType/fietser>  a skos:Concept ;
+<https://data.vlaanderen.be/id/concept/VkmVoertuigType/fiets>  a skos:Concept ;
 <https://www.w3.org/ns/adms#status> <https://wegenenverkeer.data.vlaanderen.be/id/concept/VkmStatus/ingebruik> ;
 skos:definition "een tweewielig voertuig"@nl ;
 skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> ;
 skos:notation "bike" ;
-skos:prefLabel "fietser"@nl ;
+skos:prefLabel "fiets"@nl ;
 skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/VkmVoertuigType> .
 
 <https://data.vlaanderen.be/id/concept/VkmVoertuigType/auto>  a skos:Concept ;
