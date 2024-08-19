@@ -13,7 +13,7 @@
     "contributors-column": "MijnKolom",
     "site": "site-skeleton/Verkeersmetingen-ap",
     "feedbackurl": "https://github.com/Informatievlaanderen/OSLOthema-Verkeersmetingen/issues",
-    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/erkende-standaard/applicatieprofiel-verkeersmetingen.html",
+    "standaardregisterurl": "https://data.vlaanderen.be/standaarden/applicatieprofiel-verkeersmetingen/",
     "translation": [
       {
         "language": "en",
