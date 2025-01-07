@@ -23,3 +23,20 @@
 - Range resetting for (Model:Model:DCTERMS:Metadata:type)
 - Range resetting for (Model:Model:DCTERMS:Metadata:uitgever)
 - Range resetting for (Model:Model:ADMS:Identificator:toegekendDoor)
+
+- Added package tag (SSN/SOSA) to Observatieverzameling due to duplicates in labels with context-generator
+- Added package tag (OSLO-ObservatiesEnMetingen) to Object due to duplicates in labels with context-generator
+- Added package tag (ISO) to Observatie due to duplicates in labels with context-generator
+- Added package tag (OSLO-ObservatiesEnMetingen) to Bemonsteringspunt due to duplicates in labels with context-generator
+- Added package tag (OSLO-ObservatiesEnMetingen) to Bemonsteringsobject due to duplicates in labels with context-generator
+- Added package tag (ISO) to Bemonsteringspunt due to duplicates in labels with context-generator
+- Added package tag (ISO) to Domeinobject due to duplicates in labels with context-generator
+- Added package tag (OSLO-ObservatiesEnMetingen) to Kenmerktype due to duplicates in labels with context-generator
+- Added package tag (OSLO-ObservatiesEnMetingen) to Bemonsteringscurve due to duplicates in labels with context-generator
+- Added package tag (INSPIRE-Transportnetwerk) to Transporteigenschap  due to duplicates in labels with context-generator
+- Deleted Class Wegdeel since it was not being used due to duplicates in labels with context-generator
+- Added package tag (INSPIRE-Transportnetwerk) to Transportknoop due to duplicates in labels with context-generator
+- Added package tag (INSPIRE-Transportnetwerk) to Transportlink due to duplicates in labels with context-generator
+- Deleted Class Procedure since it was not being used due to duplicates in labels with context-generator
+- Deleted Class Systeem since it was not being used due to duplicates in labels with context-generator
+- Deleted Class Platform since it was not being used due to duplicates in labels with context-generator
