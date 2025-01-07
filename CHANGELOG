@@ -1,3 +1,25 @@
-YYYY-MM--DD
-  - Mijn aanpassing1
-  - Mijn aanpassing2
+2025-01-06
+
+- Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeersmetingverzameling:^uitgevoerdMet)
+- Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeersmeting:^resultaat)
+- Range resetting for (Model:Model:INSPIRE-netwerk:GerichteLink:link)
+- Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeerskenmerk:type)
+- Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeerskenmerk:voertuigType)
+- Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeersmeettraject:^geometrie)
+- Range resetting for (Model:Model:INSPIRE-Weg:Wegsegment:^geometriemiddenlijn)
+- Range resetting for (Model:Model:SSN/SOSA:Sensor:ligging)
+- Range resetting for (Model:Model:SSN/SOSA:Input:type)
+- Range resetting for (Model:Model:SSN/SOSA:Output:type)
+- Range resetting for (Model:Model:SSN/SOSA:Observatieprocedure:type)
+- Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeersmeting:^resultaattijd)
+- Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeersmeting:^resultaatkwaliteit)
+- Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeersmeting:^uitgevoerdDoor)
+- Range resetting for (Model:Model:DCTERMS:Metadata:auteur)
+- Range resetting for (Model:Model:DCTERMS:Metadata:datum)
+- Range resetting for (Model:Model:DCTERMS:Metadata:dekking)
+- Range resetting for (Model:Model:DCTERMS:Metadata:formaat)
+- Range resetting for (Model:Model:DCTERMS:Metadata:medeAuteur)
+- Range resetting for (Model:Model:DCTERMS:Metadata:taal)
+- Range resetting for (Model:Model:DCTERMS:Metadata:type)
+- Range resetting for (Model:Model:DCTERMS:Metadata:uitgever)
+- Range resetting for (Model:Model:ADMS:Identificator:toegekendDoor)
