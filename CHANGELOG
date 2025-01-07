@@ -37,6 +37,7 @@
 - Deleted Class Wegdeel since it was not being used due to duplicates in labels with context-generator
 - Added package tag (INSPIRE-Transportnetwerk) to Transportknoop due to duplicates in labels with context-generator
 - Added package tag (INSPIRE-Transportnetwerk) to Transportlink due to duplicates in labels with context-generator
+- Added package tag (INSPIRE-Transportnetwerk) to Transportlinksequentie due to duplicates in labels with context-generator
 - Deleted Class Procedure since it was not being used due to duplicates in labels with context-generator
 - Deleted Class Systeem since it was not being used due to duplicates in labels with context-generator
 - Deleted Class Platform since it was not being used due to duplicates in labels with context-generator
