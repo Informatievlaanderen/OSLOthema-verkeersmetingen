@@ -1,6 +1,6 @@
 [
   {
-    "name": "Verkeersmetingen-ap",
+    "name": "Verkeersmetingen",
     "type": "ap",
     "eap": "Verkeersmetingen.eap",
     "diagram": "OSLO-Verkeersmetingen",
