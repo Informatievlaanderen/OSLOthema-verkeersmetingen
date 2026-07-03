@@ -1,4 +1,22 @@
-2025-01-06
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## Unreleased
+
+### Changed
+
+- AP/VOC: PascalCase and CamelCase
+- AP/VOC: Replace abbreviations
+- AP/VOC: Add missing dot at end of sentences
+- AP/VOC: Replace http://schema.org with https://schema.org
+- AP/VOC: Remove empty `ap-usage-note` values
+- AP/VOC: Capitalise sentences
+
+## 2025-01-06
 
 - Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeersmetingverzameling:^uitgevoerdMet)
 - Range resetting for (Model:Model:OSLO-Verkeersmetingen:Verkeersmeting:^resultaat)
